@@ -1,0 +1,69 @@
+.select-details h6, .select-details p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0;
+}
+.select-details h6, .select-details .h6 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.flight-detail-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    position: fixed;
+    background: #f0f0f0;
+    bottom: 0;
+    z-index: 99;
+    width: inherit;
+}
+.custom-model-wrap {
+    height: 100vh;
+    /* overflow: scroll; */
+    overflow-y: auto;
+    padding: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0);
+}
+.cdk-overlay-pane .mat-dialog-container {
+    position: absolute;
+    width: 45vw;
+    right: 0;
+    top: 0;
+    padding: 0 !important;
+}
+.custom-model-wrap {
+    height: 100vh;
+    /* overflow: scroll; */
+    overflow-y: auto;
+    width: 500px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0);
+}
+.pop-up-content-wrap {
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+    margin-left: 20px;
+}
+button.select-btn {
+    border: none;
+}
+.flight-detail-select .select-details:nth-child(3) {
+    width: 120px;
+    border-right: 1px solid;
+}
+.flight-detail-select .select-details:nth-child(4) h6 {
+    color: #0fa848;
+    font-size: 20px;
+   
+  
+}
+.flight-detail-select .select-details:nth-child(4) p {
+  color:#000;
+}
+
+.flight-start-hrs {
+    width: 50%;
+}

@@ -1,0 +1,34 @@
+// about us page css start
+.bg-image-aboutUs-top {
+	background: url(../../../assets/images/about.jpg) left center no-repeat;
+	height: 130px;
+	background-size: cover;
+	position: relative;
+	padding: 40px 0;
+	.about-banner {
+		h2 {
+			color: #fff;
+		}
+	}
+}
+
+.terms_service_content{
+    padding: 40px 0;
+}
+
+.terms_item h4{
+    font-size: 20px;
+}
+
+.terms_item ul{
+	list-style: circle;
+	padding: 0;
+	margin: 0 0 0 1.2%;
+}
+
+.terms_item ul li{
+	line-height: 18px;
+	font-size: 13px;
+	color: #777777;
+	margin-top: 8px;
+}

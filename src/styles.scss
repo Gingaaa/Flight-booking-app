@@ -1,0 +1,223 @@
+
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '~@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// @import '../node_modules/@syncfusion/ej2-material-theme/styles/material.css';
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+@import '~angular-dropdown/styles';
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$sprucefare-primary: mat.define-palette(mat.$indigo-palette);
+$sprucefare-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$sprucefare-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$sprucefare-theme: mat.define-light-theme((
+  color: (
+    primary: $sprucefare-primary,
+    accent: $sprucefare-accent,
+    warn: $sprucefare-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($sprucefare-theme);
+
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/app.scss';
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.off.ends.available{
+  visibility: hidden !important;
+}
+.daterangepicker.ltr.show-calendar.opensright {
+  z-index: 99;
+}
+th.prev.available {
+  position: absolute;
+  left: 5px;
+  top:10px;
+  transform: rotate(360deg);
+}
+
+th.next.available {
+  position: absolute;
+  right: 5px;
+  transform: rotate(360deg);
+  top: 10px;
+}
+
+//              DATEPICKER
+mat-form-field {
+  margin-right: 12px;
+}
+// .trip_box button{
+//   top: -40px;
+// }
+.mat-input-element{
+  width: 300px;
+  max-width: none;
+  padding: 20px;
+}
+//              DATEPICKER
+
+//             TRAVELER DROPDOWN
+.trip_box button{
+  background-color: white;
+  color: black;
+  font-size: 14px;
+}
+//             TRAVELER DROPDOWN
+
+//             HEADER 
+.new-top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  right: 0;
+}
+
+.depart {
+  position: relative;
+}
+.depart lable {
+  position: absolute;
+  left:50%;
+}
+
+label#mat-form-field-label-3, #mat-form-field-label-5 {
+  position: absolute;
+  left: 35%;
+  font-size: 14px;
+  color: #9d9d9d;
+  padding: 0 !important;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+
+.policy-product .owl-next, .policy-product .owl-prev{
+  background-color: rgb(76 70 70 / 78%) !important;
+  color: #222 !important;
+  height: 60px !important;
+  width: 60px !important;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 50%;
+}
+.policy-product .owl-next{
+  right: -30px;
+  transform: translate(-50%, -50%);
+}
+
+.policy-product .owl-prev{
+
+  left: 26px;
+  transform: translate(-50%, -50%);
+}
+
+.policy-product .owl-next:hover, .policy-product .owl-prev:hover{
+  background-color: #0044ff !important;
+  color: #fff !important;
+}
+
+.policy-product .owl-next i, .policy-product .owl-prev i{
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.popular .owl-next, .popular .owl-prev{
+  background-color: rgba(254, 253, 253, 0.78) !important;
+  color: #222 !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #8F8F8F !important;
+}
+.popular .owl-next{
+  // right: -30px;
+  transform: translate(-56%, -100%);
+}
+
+.popular .owl-prev{
+  // left: 26px;
+  transform: translate(-166%, -100%);
+}
+
+.popular .owl-next:hover, .popular .owl-prev:hover{
+  background-color: #0044ff !important;
+  color: #fff !important;
+}
+
+.popular .owl-next i, .popular .owl-prev i{
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mat-tab-body-content{
+  overflow: hidden !important;
+}
+.itinerary-details-top .mat-tab-labels {
+  display: flex;
+  justify-content: space-between  ;
+}
+
+.itinerary-sec-left .mat-tab-labels{
+  justify-content: space-between;
+}
+.itinerary-sec-left .mat-tab-labels .mat-ripple {
+  padding:0;
+  position: relative;
+}
+.itinerary-sec-left .mat-tab-body-wrapper {
+  padding: 0;
+}
+
+.itinerary-sec-left .mat-tab-labels .mat-ripple:before {
+  background-image: url(./assets/images/checked-black.svg);
+  // background-image: url(./assets/images/correct.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: '';
+  left: 0;
+  margin-right: 3px;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar{
+  background-color: #27d33e;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+//privacy-policy
+
+.bg-image-terms {
+	background: url(../../../assets/images/about.jpg) left center no-repeat;
+	height: 130px;
+	background-size: cover;
+	position: relative;
+	padding: 40px 0;
+	h2 {
+		color: #fff;
+	}
+}
+.section_padding {
+	padding: 60px 0;
+}
+.terms_item {
+	&:first-child {
+		padding-top: 0px;
+	}
+	padding-top: 30px;
+	h4 {
+		// font-weight: 700;
+		font-size: 20px;
+	}
+	p {
+		padding-top: 15px;
+		font-size: 13px;
+	}
+}
+
+.terms_item ul{
+    list-style: disc;
+    padding: 0px;
+    margin: 0px 0 0 14px;
+}
+.terms_item ul li{
+    line-height: 20px;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+

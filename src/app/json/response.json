@@ -1,0 +1,711 @@
+[
+  {
+    "Results": [
+      {
+        "ItemNumber": 0,
+        "Origin": "TRR",
+        "OriginCityName": "LAX",
+        "Destination": "STL",
+        "DestinationCityName": "STL",
+        "DepartureDate": "Sun, Apr 19",
+        "DepartureTime": "2:30 pm",
+        "ReturnDate": "Mon, Feb 3",
+        "ReturnTime": "4:36 pm",
+        "ValidatingCarrier": {
+          "Id": 0,
+          "AirlineCode": "AA",
+          "AirlineName": "Licious Airlines",
+          "IsLCC": false
+        },
+        "FareType": "PUBLISHED",
+        "TripType": "ROUNDTRIP",
+        "Adult": 1,
+        "Child": 0,
+        "Infant": 0,
+        "FareBasisCode": null,
+        "AdultFare": {
+          "PassengerCount": 1,
+          "PaxType": "ADT",
+          "DiscountAmount": 0,
+          "BaseFare": 226.05,
+          "Tax": 56.35,
+          "TotalFare": "282.4",
+          "Markup": 0,
+          "TotalGDSFare": 282.4,
+          "FareCode": null,
+          "CurrencyCode": "USD"
+        },
+        "ChildFare": null,
+        "InfantFare": null,
+        "TotalMarkup": 0,
+        "TotalSupplierFee": 0,
+        "TotalBaseFare": 226.05,
+        "TotalTax": 56.35,
+        "TotalGDSFare": 300,
+        "Priority": 2,
+        "NoOfStops": 0,
+        "IsNearByAirport": true,
+        "FlightDuration": "00:00:00",
+        "TotalOutBoundFlightDuration": "5h 26m",
+        "TotalInBoundFlightDuration": "3h 22m",
+        "CompleteTimeDuration": 100,
+        "TotalFare": 3000,
+        "FlightSegmentDetails": {
+          "OutBoundSegment": [
+            {
+              "Id": 1,
+              "IsReturn": false,
+              "DepartureDate": "Sun, Apr 19",
+              "ArrivalDate": "Sun, Apr 19",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "2:30 pm",
+              "Departuremin": 30,
+              "ArrivalTime": "4:33 pm",
+              "LayoverTime": "1h 30m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A321neo",
+              "FlightNumber": "2971",
+              "FareBasis": "OVAIKSB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "SAE",
+              "OriginCity": "SAE",
+              "Destination": "DFW",
+              "DestinationCity": "ASP",
+              "AirlineLocator": null,
+              "FlightDuration": "3h 3m",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            },
+            {
+              "Id": 2,
+              "IsReturn": false,
+              "DepartureDate": "Mon, Feb 3",
+              "ArrivalDate": "Mon, Feb 3",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "Safari Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "8:55 pm",
+              "ArrivalTime": "4:36 pm",
+              "LayoverTime": "3h 22m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A320",
+              "FlightNumber": "1010",
+              "FareBasis": "OVAIKSB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "DFW",
+              "OriginCity": "DFW",
+              "Destination": "STL",
+              "DestinationCity": "TRR",
+              "AirlineLocator": null,
+              "FlightDuration": "1h 41m",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            }
+          ],
+          "InBoundSegment": [
+            {
+              "Id": 1,
+              "IsReturn": false,
+              "DepartureDate": "Wed, Jun 11",
+              "ArrivalDate": "Tue, Apr 22",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "4:15 pm",
+              "Departuremin": 30,
+              "ArrivalTime": "3:35 pm",
+              "LayoverTime": "3h 55m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A319",
+              "FlightNumber": "1362",
+              "FareBasis": "QVAZZNB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "STL",
+              "OriginCity": "WER",
+              "Destination": "DFW",
+              "DestinationCity": "DFW",
+              "AirlineLocator": null,
+              "FlightDuration": "1h 57m",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            },
+            {
+              "Id": 2,
+              "IsReturn": false,
+              "DepartureDate": "Tue, Apr 22",
+              "ArrivalDate": "Tue, Apr 22",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "6:00 pm",
+              "ArrivalTime": "6:30 pm",
+              "LayoverTime": "2h 25m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Boeing 737-800",
+              "FlightNumber": "1227",
+              "FareBasis": "QVAZZNB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "DFW",
+              "OriginCity": "DFW",
+              "Destination": "SNA",
+              "DestinationCity": "DEL",
+              "AirlineLocator": null,
+              "FlightDuration": "03:18:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            }
+          ]
+        }
+      },
+      {
+        "ItemNumber": 0,
+        "Origin": "MAP",
+        "OriginCityName": "SAX",
+        "Destination": "PTL",
+        "DestinationCityName": "PPL",
+        "DepartureDate": "Sun, Mar 10",
+        "DepartureTime": "6:30 pm",
+        "ReturnDate": "Sun, Apr 6",
+        "ReturnTime": "12:30 pm",
+        "ValidatingCarrier": {
+          "Id": 0,
+          "AirlineCode": "AA",
+          "AirlineName": "American Airlines",
+          "IsLCC": false
+        },
+        "FareType": "PUBLISHED",
+        "TripType": "ROUNDTRIP",
+        "Adult": 1,
+        "Child": 0,
+        "Infant": 0,
+        "FareBasisCode": null,
+        "AdultFare": {
+          "PassengerCount": 1,
+          "PaxType": "ADT",
+          "DiscountAmount": 0,
+          "BaseFare": 226.05,
+          "Tax": 56.35,
+          "TotalFare": "282.4",
+          "Markup": 0,
+          "TotalGDSFare": 282.4,
+          "FareCode": null,
+          "CurrencyCode": "USD"
+        },
+        "ChildFare": null,
+        "InfantFare": null,
+        "TotalMarkup": 0,
+        "TotalSupplierFee": 0,
+        "TotalBaseFare": 226.05,
+        "TotalTax": 56.35,
+        "TotalGDSFare": 282.4,
+        "Priority": 2,
+        "NoOfStops": 1,
+        "IsNearByAirport": true,
+        "FlightDuration": "00:00:00",
+        "TotalOutBoundFlightDuration": "8h 6m",
+        "TotalInBoundFlightDuration": "7h 40m",
+        "CompleteTimeDuration": 400,
+        "TotalFare": 5000,
+        "FlightSegmentDetails": {
+          "OutBoundSegment": [
+            {
+              "Id": 1,
+              "IsReturn": false,
+              "DepartureDate": "Sun, Feb 2",
+              "ArrivalDate": "Sun, Feb 2",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "5:30 pm",
+              "Departuremin": 50,
+              "ArrivalTime": "8:33 pm",
+              "LayoverTime": "1h 10m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A321neo",
+              "FlightNumber": "2971",
+              "FareBasis": "OVAIKSB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "ASL",
+              "OriginCity": "ASL",
+              "Destination": "WER",
+              "DestinationCity": "WER",
+              "AirlineLocator": null,
+              "FlightDuration": "02:03:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            },
+            {
+              "Id": 2,
+              "IsReturn": false,
+              "DepartureDate": "Mon, Feb 3",
+              "ArrivalDate": "Mon, Feb 3",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "6:55 pm",
+              "ArrivalTime": "7:36 pm",
+              "LayoverTime": "3h 22m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A320",
+              "FlightNumber": "1010",
+              "FareBasis": "OVAIKSB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "WER",
+              "OriginCity": "WER",
+              "Destination": "CFG",
+              "DestinationCity": "CFG",
+              "AirlineLocator": null,
+              "FlightDuration": "04:41:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            }
+          ],
+          "InBoundSegment": [
+            {
+              "Id": 1,
+              "IsReturn": false,
+              "DepartureDate": "Tue, Apr 22",
+              "ArrivalDate": "Tue, Apr 22",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "4:38 pm",
+              "Departuremin": 50,
+              "ArrivalTime": "6:35 pm",
+              "LayoverTime": "1h 19m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A319",
+              "FlightNumber": "1362",
+              "FareBasis": "QVAZZNB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "STL",
+              "OriginCity": "STL",
+              "Destination": "DFW",
+              "DestinationCity": "DFW",
+              "AirlineLocator": null,
+              "FlightDuration": "02:57:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            },
+            {
+              "Id": 2,
+              "IsReturn": false,
+              "DepartureDate": "Tue, Apr 22",
+              "ArrivalDate": "Tue, Apr 22",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "9:00 pm",
+              "ArrivalTime": "12:18 pm",
+              "LayoverTime": "2h 25m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Boeing 737-800",
+              "FlightNumber": "1227",
+              "FareBasis": "QVAZZNB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "DFW",
+              "OriginCity": "DFW",
+              "Destination": "SNA",
+              "DestinationCity": "SNA",
+              "AirlineLocator": null,
+              "FlightDuration": "05:18:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            }
+          ]
+        }
+      },
+      {
+        "ItemNumber": 0,
+        "Origin": "DEL",
+        "OriginCityName": "SAX",
+        "Destination": "ASD",
+        "DestinationCityName": "PPL",
+        "DepartureDate": "Sun, Mar 10",
+        "DepartureTime": "6:30 pm",
+        "ReturnDate": "Sun, Apr 6",
+        "ReturnTime": "12:30 pm",
+        "ValidatingCarrier": {
+          "Id": 0,
+          "AirlineCode": "AA",
+          "AirlineName": "Pasta Airlines",
+          "IsLCC": false
+        },
+        "FareType": "PUBLISHED",
+        "TripType": "ROUNDTRIP",
+        "Adult": 1,
+        "Child": 0,
+        "Infant": 0,
+        "FareBasisCode": null,
+        "AdultFare": {
+          "PassengerCount": 1,
+          "PaxType": "ADT",
+          "DiscountAmount": 0,
+          "BaseFare": 226.05,
+          "Tax": 56.35,
+          "TotalFare": "282.4",
+          "Markup": 0,
+          "TotalGDSFare": 282.4,
+          "FareCode": null,
+          "CurrencyCode": "USD"
+        },
+        "ChildFare": null,
+        "InfantFare": null,
+        "TotalMarkup": 0,
+        "TotalSupplierFee": 0,
+        "TotalBaseFare": 226.05,
+        "TotalTax": 56.35,
+        "TotalGDSFare": 282.4,
+        "Priority": 2,
+        "NoOfStops": 2,
+        "IsNearByAirport": true,
+        "FlightDuration": "00:00:00",
+        "TotalOutBoundFlightDuration": "8h 6m",
+        "TotalInBoundFlightDuration": "7h 40m",
+        "CompleteTimeDuration": 100,
+        "TotalFare": 7000,
+        "FlightSegmentDetails": {
+          "OutBoundSegment": [
+            {
+              "Id": 1,
+              "IsReturn": false,
+              "DepartureDate": "Sun, Feb 2",
+              "ArrivalDate": "Sun, Feb 2",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "12:30 pm",
+              "Departuremin": 70,
+              "ArrivalTime": "5:33 pm",
+              "LayoverTime": "2h 12m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A321neo",
+              "FlightNumber": "2971",
+              "FareBasis": "OVAIKSB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "LAX",
+              "OriginCity": "LAX",
+              "Destination": "DFW",
+              "DestinationCity": "DFW",
+              "AirlineLocator": null,
+              "FlightDuration": "03:03:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            },
+            {
+              "Id": 2,
+              "IsReturn": false,
+              "DepartureDate": "Mon, Feb 3",
+              "ArrivalDate": "Mon, Feb 3",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "8:55 pm",
+              "ArrivalTime": "10:36 pm",
+              "LayoverTime": "3h 22m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A320",
+              "FlightNumber": "1010",
+              "FareBasis": "OVAIKSB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "DFW",
+              "OriginCity": "DFW",
+              "Destination": "STL",
+              "DestinationCity": "STL",
+              "AirlineLocator": null,
+              "FlightDuration": "01:41:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            }
+          ],
+          "InBoundSegment": [
+            {
+              "Id": 1,
+              "IsReturn": false,
+              "DepartureDate": "Tue, Apr 22",
+              "ArrivalDate": "Tue, Apr 22",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "1:38 pm",
+              "Departuremin": 70,
+              "ArrivalTime": "3:35 pm",
+              "LayoverTime": "33m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Airbus A319",
+              "FlightNumber": "1362",
+              "FareBasis": "QVAZZNB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "STL",
+              "OriginCity": "STL",
+              "Destination": "DFW",
+              "DestinationCity": "DFW",
+              "AirlineLocator": null,
+              "FlightDuration": "01:57:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            },
+            {
+              "Id": 2,
+              "IsReturn": false,
+              "DepartureDate": "Tue, Apr 22",
+              "ArrivalDate": "Tue, Apr 22",
+              "MarketingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "OperatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "ValidatingCarrier": {
+                "Id": 0,
+                "AirlineCode": "AA",
+                "AirlineName": "American Airlines",
+                "IsLCC": false
+              },
+              "DepartureTime": "6:00 pm",
+              "ArrivalTime": "7:18 pm",
+              "LayoverTime": "2h 25m",
+              "OutTerminal": null,
+              "InTerminal": null,
+              "EquipmentType": "Boeing 737-800",
+              "FlightNumber": "1227",
+              "FareBasis": "QVAZZNB3",
+              "Class": "B",
+              "Cabin": "E",
+              "Origin": "DFW",
+              "OriginCity": "DFW",
+              "Destination": "SNA",
+              "DestinationCity": "SNA",
+              "AirlineLocator": null,
+              "FlightDuration": "03:18:00",
+              "AvailableSeats": 0,
+              "NoOfStops": 1,
+              "SegmentID": 0,
+              "TechnicalStop": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
+
+  
+

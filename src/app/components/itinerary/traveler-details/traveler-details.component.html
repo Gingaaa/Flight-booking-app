@@ -1,0 +1,165 @@
+<div id="travelers-detsil" class="travelers-detsil-form">
+  <div class="row">
+    <div class="travel-list-details mt-4">
+        <table>
+          <tbody>
+            <tr *ngFor="let data of formData; let i = index">
+              <td>Traveler {{ i + 1 }} -</td>
+
+              <td>{{ data.age?data.age:'Age'}} {{ data.age?'yrs':''}} / {{ data.gender?data.gender:'Gender' }}</td>
+
+              <td>{{ data.firstname }}</td>
+
+              <td *ngIf="i==0">{{ data.email }}</td>
+
+              <td (click)="edit(data, i)">
+                <img src="../../../../assets/images/edit.svg"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <form [formGroup]="addtraveler" #formRef="ngForm" (ngSubmit)="onSubmit()">
+      <div class="pop-up-content-wrap">
+        <div id="inc" *ngIf="!travelercheckb">Traveler {{travelercot <= travelertt?travelercot:'' }}</div>
+        <div id="inc" *ngIf="travelercheckb">Traveler {{travelercheck}}</div>
+
+        <p>
+          Please be careful - Passenger details must match your passport or
+          government-issued photo ID
+        </p>
+        
+
+        <p [ngClass]="{hide: this.check}" style="color: red; font-size: 11px;">* required feild</p>
+        <p *ngIf="this.check" style="color: red;">* You can not add more travelers</p>
+      </div>
+
+      <fieldset class="travelers-d" [disabled]="this.check">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="form-group">
+            <label>Select Gender <span class="error">*</span></label>
+            <select formControlName="gender" class="date disbb" [ngClass]="{disbb: this.check}">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            <span class="error" *ngIf="addtraveler.get('gender').invalid && addtraveler.get('gender').touched">* Gender is required.</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" *ngIf="emailcount == 1">
+          <div class="form-group">
+            <label for="last name">Email Id <span class="error">*</span></label>
+
+            <input
+              type="text"
+              class="form-control"
+              formControlName="email"
+              id="email"
+            />
+            <span class="error" *ngIf="addtraveler.get('email').invalid ">* Email is not correct.</span>
+             <p class="mail">* Email is required</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" *ngIf="emailcount == 1">
+          <div class="subsc">
+            <input type="checkbox" value="" formControlName="offers" />
+
+            <p>
+              Send me the latest travel deals, <br />special offers, coupons.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="form-group">
+            <label for="name">First Name <span class="error">*</span></label>
+
+            <input
+              type="text"
+              class="form-control"
+              formControlName="firstname"
+            />
+            <span class="error" *ngIf="addtraveler.get('firstname').invalid && addtraveler.get('firstname').touched">* Firstname is required.</span>
+          
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="form-group">
+            <label for="last name">Middle name</label>
+
+            <input
+              type="text"
+              class="form-control"
+              formControlName="middlename"
+            />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6"> 
+          <div class="form-group">
+            <label for="last name">Last name</label>
+
+            <input
+              type="text"
+              class="form-control"
+              formControlName="lastname"
+            />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="form-group">
+            <label for="last name">Date of birth <span class="error">*</span></label>
+            <div class="dob">
+
+            <div class="day">
+              <select formControlName="day" placeholder="Day*" class="date" [ngClass]="{disbb: this.check}">
+                <option *ngFor="let day of days">{{ day }}</option>
+              </select>
+              <span class="error errf " *ngIf="addtraveler.get('day').invalid && addtraveler.get('day').touched">* Day is required.</span>
+            </div>
+
+            <div class="day">
+
+              <select formControlName="month" placeholder="Month*" class="date" [ngClass]="{disbb: this.check}">
+                <option *ngFor="let month of months">{{ month }}</option>
+              </select>
+              <span class="error errf" *ngIf="addtraveler.get('month').invalid && addtraveler.get('month').touched">* Month is required.</span>
+            
+            </div>
+
+            <div class="day">
+
+              <select formControlName="year" placeholder="Year*" class="date" [ngClass]="{disbb: this.check}">
+                <option *ngFor="let year of years">{{ year }}</option>
+              </select>
+              <span class="error errf" *ngIf="addtraveler.get('year').invalid && addtraveler.get('year').touched">* Year is required.</span>
+            
+            </div>
+           </div>
+          </div>
+        </div>
+      </fieldset>
+      <hr class="mt-5"/>
+      <button type="submit" (click)="checkf()" [disabled]="this.check" [ngClass]="{disb: this.check}" *ngIf="editbutton == 1" class="cta-btn travelers-btn">
+        Add Traveler
+      </button>
+      <button type="submit" *ngIf="editbutton == 2" (click)="edittravelers()" class="cta-btn travelers-btn">
+        Update Traveler
+      </button>
+    </form>
+    <div class="travel-dtls">
+      <button type="button" (click)="change('back')" class="cta-btn" style="margin-right: 12px;">
+        Back
+      </button>
+      <button type="button" (click)="change('continue')" class="cta-btn" *ngIf="formData.length == travelertt">
+        Continue
+      </button>
+    </div>
+  </div>
+</div>

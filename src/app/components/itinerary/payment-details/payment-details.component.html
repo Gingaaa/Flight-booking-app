@@ -1,0 +1,275 @@
+<div class="pop-up-content-wrap mt-4">
+  Payment Method
+
+  <p>All card information is fully encrypted, secure and protected.</p>
+
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-11">
+    <form [formGroup]="payment" (ngSubmit)="onSubmit()">
+      <div class="card border-0">
+        <div class="row travelers-d">
+          <div class="form-group">
+            <p class="text-muted text-sm">Card Number</p>
+
+            <div class="abss">
+              <input
+                type="number"
+                name="card-num"
+                placeholder="0000 0000 0000 0000"
+                size="18"
+                id="cr_no"
+                formControlName="cardnumber"
+                minlength="19"
+                maxlength="19"
+              />
+
+              <!-- <p class="mb-0 ml-3">/</p> -->
+
+              <img class="image ml-1" src="https://i.imgur.com/WIAP9Ku.jpg" />
+
+              <div class="card-pay">
+                <p>Available payment methods</p>
+
+                <ul>
+                  <li><img src="assets/images/Visa@2x.png" /></li>
+
+                  <li><img src="assets/images/Master-Card@2x.png" /></li>
+                  <li><img src="assets/images/Paypal@2x.png" /></li>
+                  <li><img src="assets/images/Discover@2x.png" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <p class="text-muted text-sm">Name on the card</p>
+
+            <input
+              type="text"
+              name="name"
+              formControlName="cardname"
+              placeholder="Name"
+              size="15"
+            />
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="form-group card-exp">
+              <p class="text-muted text-sm">Expiry date</p>
+
+              <input
+                type="text"
+                name="exp"
+                placeholder="MM/YY"
+                size="6"
+                id="exp"
+                minlength="5"
+                formControlName="expirydate"
+                maxlength="5"
+              />
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2">
+            <div class="form-group card-exp">
+              <p class="text-muted text-sm">CVV/CVC</p>
+
+              <input
+                type="number"
+                name="cvv"
+                placeholder="000"
+                formControlName="cvv"
+                size="1"
+                minlength="3"
+                maxlength="3"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-6">
+            <div class="form-group card-exp">
+              <p class="cvv-img">
+                <img src="assets/images/grp-cvv.png" />3 Digit number from your
+                card
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="payment-bg"></div>
+
+        <div class="travelers-detsil-form mt-5">
+          <div class="row d-flex justify-content-center">
+            <div class="pop-up-content-wrap">
+              Billing Details
+
+              <p>As per Bank records or credit card company</p>
+
+              <div
+                class="col-xl-12 col-lg-12 col-md-12 col-sm-11"
+                formGroupName="billdetails"
+              >
+                <div class="card border-0">
+                  <div class="row travelers-d">
+                    <div class="form-group">
+                      <p class="text-muted text-sm">Select Country</p>
+
+                      <div class="abss">
+                        <select placeholder="Date" class="country" formControlName="country">
+                          <option name="" value="" style="display: none">
+                            Select Country
+                          </option>
+
+                          <option name="" value="1">India</option>
+
+                          <option name="" value="2">India</option>
+
+                          <option name="" value="3">India</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <p class="text-muted text-sm">Address</p>
+
+                      <textarea
+                        class="form-control"
+                        rows="1"
+                        id="comment"
+                        formControlName="address"
+                      ></textarea>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <div class="form-group city_town">
+                        <p class="text-muted text-sm">City Town</p>
+
+                        <input
+                          type="text"
+                          name="exp"
+                          placeholder="New Jersey"
+                          formControlName="city"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <div class="form-group state-province">
+                        <p class="text-muted text-sm">State/Province</p>
+
+                        <select placeholder="Date" class="country" formControlName="state">
+                          <option name="" value="" style="display: none">
+                            Select Country
+                          </option>
+
+                          <option name="" value="1">India</option>
+
+                          <option name="" value="2">India</option>
+
+                          <option name="" value="3">India</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <div class="form-group postal-code">
+                        <p class="text-muted text-sm">Postal Code</p>
+
+                        <input
+                          type="number"
+                          name="name"
+                          placeholder="85002"
+                          size="15"
+                          formControlName="postcode"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="payment-bg"></div>
+
+        <div class="pop-up-content-wrap mt-5">
+          Contact Information
+
+          <p>
+            Please be careful - Passenger details must match your passport or
+            photo ID
+          </p>
+
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-11">
+            <div class="card border-0">
+              <div class="row travelers-d">
+                <div formGroupName="contactdetails">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="name">Billing Phone Number</label>
+
+                      <input type="number" class="form-control" formControlName="phoneno" />
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="name">Mobile Number</label>
+
+                      <input type="number" class="form-control" formControlName="phonealt" />
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="name">Email Address</label>
+
+                      <input type="email" class="form-control" formControlName="email" />
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-12 col-lg-12 pb-3">
+                    <div class="term-conditions">
+                      <div class="check-box"><input type="checkbox" formControlName="check"/></div>
+
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries,
+                      </p>
+                    </div>
+
+                    <div class="term-conditions d-block">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                      </p>
+
+                      <p class="privacy-policy">
+                        <a href="">Terms &amp; Conditions</a> and
+                        <a href="">Privacy Policy</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <button id="more" class="btn-continue">
+                  <a href="booking-confirmation.html">Pay</a>
+                </button> -->
+                <button id="more" type="submit" class="btn-continue">
+                  Pay
+                </button>
+                <div class="">
+                  <button type="button" (click)="change('back')" class="cta-btn" style="margin-top: -90px;">
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

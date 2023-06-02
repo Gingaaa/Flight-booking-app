@@ -1,0 +1,44 @@
+ul.sidebar-menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.scrolled {
+//   background-color: rgb(0, 68, 255);
+    background-image: linear-gradient(to right, #a400ff, #ff7800);
+}
+.cd {
+  border: 4px solid rgb(7, 249, 23);
+}
+
+.active {
+  color: red;
+}
+
+header.spruce-header.header-white .collapse.navbar-collapse a {
+  color: #000000;
+}
+.white-logo {
+  display: none;
+}
+.black-logo {
+  display: block;
+}
+
+.fixed-top .white-logo {
+  display: block;
+}
+.fixed-top .black-logo {
+  display: none;
+}
+.disp{
+    display: flex;
+    margin-bottom: -21px;
+}
+.headr {
+  color: white;
+}
+.sethed{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,68 @@
+<header id="header" class="spruce-header py-0 fixed-top scrollhead">
+  <nav class="navbar navbar-expand-lg px-0">
+    <div class="container-xl ">
+      <!-- Logo -->
+
+      <a class="navbar-brand disp" href="index.html">
+        <!-- <img src="src/assets/images/logo.png" class="h-8" alt="sprucefare"> -->
+        <!-- <h2 style="color: white; font-size: 27px;margin-top: 15px;">Flight Book</h2> -->
+
+        <!-- <img class="blur-up lazyloaded white-logo" [src]="logoImage" alt="sprucefare" />
+        <img class="blur-up lazyloaded black-logo" [src]="logoblack" alt="sprucefare" /> -->
+
+        <img class="blur-up lazyloaded white-logo sethed" [src]="logoHead" alt="sprucefare" />
+        <h2 class="headr">SpaceHook</h2>
+      </a>
+
+      <!-- Collapse -->
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Nav -->
+
+        <div class="navbar-nav mx-lg-auto">
+          <!-- <a class="nav-item nav-link active" href="#" aria-current="page">Flights</a>
+
+                  <a class="nav-item nav-link" href="#">About Us</a>
+
+                  <a class="nav-item nav-link" href="#">Blog</a>
+
+                  <a class="nav-item nav-link" href="#"> Check my booking</a>
+
+                  <a class="nav-item nav-link" href="#">Support</a> -->
+
+          <ul class="sidebar-menu">
+            <li
+              *ngFor="let menuItem of menuItems"
+              [ngClass]="{ active: menuItem.active }"
+            >
+              <!-- 1st Level Menu -->
+              <!-- Sub menu -->
+              <a href="javascript:void(0)" class="nav-item nav-link" *ngIf="menuItem.type === 'menu'">
+                <span>{{ menuItem.title }} </span>
+              </a>
+
+              <a class="sidebar-header" *ngIf="menuItem.type === 'link'" [routerLink]="menuItem.path"
+              routerLinkActive="active">
+               <span> {{menuItem.title}} </span>
+          </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right navigation -->
+
+        <div class="navbar-nav ms-lg-4">
+          <div class="nav-support">
+            <p class="text-white">Call 24 X 7 for support</p>
+
+            <h4>
+              <a href="tel:+1-888-316-7360" style="margin: 0; padding: 0"
+                >+1-444-316-3456</a
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

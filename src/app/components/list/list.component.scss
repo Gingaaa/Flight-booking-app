@@ -1,0 +1,112 @@
+.p{
+    margin: 30px;
+}
+.model.show{
+    display: block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    color: #96999d;
+    font-size: 14px;
+}
+
+.custom-model-inner .flight-detail-select {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0;
+    align-items: center;
+    padding: 8px 25px;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    box-shadow: -3px -3px 3px rgb(0 0 0 / 6%);
+}
+
+.custom-model-inner .flight-detail-select .select-details {
+    text-align: left;
+    width: 120px;
+}
+.mat-slider-horizontal {
+    height: 48px;
+    min-width: 234px;
+}
+
+//    TRAVELERS DROPDOWN 
+
+
+
+.dropdown-menu {
+    position: relative;
+  }
+  
+  .dropdown-option {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown-option:hover {
+    background-color: lightgray;
+  }
+  
+  .dropdown-option:not(:last-child) {
+    border-bottom: none;
+  }
+  .radio-trip .active{
+    background-color: #2196f3;
+    color: #fff;
+  }
+  .radio-trip .activeadd{
+    background-color: #2196f3;
+    color: #fff;
+  }
+
+  .mat-form-field-label-wrapper {
+    top: -23px !important;
+    padding-top: 0.84375em;
+    left: -27px !important;
+}
+
+.error{
+  color: red;
+  }
+.w-list .owl-carousel .owl-item img {
+  display: block;
+  width: 24%;
+}
+
+.radio-trip .active{
+  background-color: #2196f3;
+  color: #fff;
+  border-top-left-radius: 4px;
+}
+.radio-trip .activeadd{
+  background-color: #2196f3;
+  color: #fff;
+  border-top-right-radius: 4px;
+}
+
+.actives{
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+
+.labl{
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+::ng-deep .custom-slider .ngx-slider .ngx-slider-bubble {
+  font-size: 13px;
+}
+::ng-deep .custom-slider .ngx-slider .ngx-slider-bar-wrapper {
+  margin-top: -20px;
+}

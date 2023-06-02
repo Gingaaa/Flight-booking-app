@@ -1,0 +1,9126 @@
+﻿[
+  {
+    "code": "ATW",
+    "name": "ATW-Outagamie Cty Airport, Appleton-ATW"
+  },
+  {
+    "code": "ACV",
+    "name": "ACV-Arcata Eureka Airport, Arcata-ACV"
+  },
+  {
+    "code": "AVL",
+    "name": "AVL-Asheville Regional Airport, Asheville-AVL"
+  },
+  {
+    "code": "ASE",
+    "name": "ASE-Aspen Airport, Aspen-ASE"
+  },
+  {
+    "code": "AST",
+    "name": "AST-Astoria Regional Airport, Astoria-AST"
+  },
+  {
+    "code": "AHN",
+    "name": "AHN-Athens Ben Epps Airport, Athens-AHN"
+  },
+  {
+    "code": "ATL",
+    "name": "ATL-Hartsfield Jackson International Airport, Atlanta-ATL"
+  },
+  {
+    "code": "ACY",
+    "name": "ACY-Atlantic City International Airport, Atlantic City-AIY"
+  },
+  {
+    "code": "AIY",
+    "name": "AIY-Atlantic City Municipal Airport, Atlantic City-AIY"
+  },
+  {
+    "code": "AIY",
+    "name": "AIY-All Airports, Atlantic City-AIY"
+  },
+  {
+    "code": "ATK",
+    "name": "ATK-Atqasuk Edward Burnell Sr Memorial Airport, Atqasuk-ATK"
+  },
+  {
+    "code": "AGS",
+    "name": "AGS-Augusta Regional Airport, Augusta-AGS"
+  },
+  {
+    "code": "AUG",
+    "name": "AUG-Augusta State Airport, Augusta-AUG"
+  },
+  {
+    "code": "AUS",
+    "name": "AUS-Bergstrom International Airport, Austin-AUS"
+  },
+  {
+    "code": "BFL",
+    "name": "BFL-Meadows Field Airport, Bakersfield-BFL"
+  },
+  {
+    "code": "BWI",
+    "name": "BWI-Baltimore Airport, Baltimore-WAS"
+  },
+  {
+    "code": "BGR",
+    "name": "BGR-Bangor International Airport, Bangor-BGR"
+  },
+  {
+    "code": "BHB",
+    "name": "BHB-Hancock County Bar Harbor Airport, Bar Harbor-BHB"
+  },
+  {
+    "code": "MPV",
+    "name": "MPV-Edward F. Knapp State Airport, Barre/Montpelier-MPV"
+  },
+  {
+    "code": "BRW",
+    "name": "BRW-Will Rogers Memorial Airport, Barrow-BRW"
+  },
+  {
+    "code": "BTR",
+    "name": "BTR-Ryan Airport, Baton Rouge-BTR"
+  },
+  {
+    "code": "BTL",
+    "name": "BTL-W K Kellogg Airport, Battle Creek-BTL"
+  },
+  {
+    "code": "BDE",
+    "name": "BDE-Baudette International Airport, Baudette-BDE"
+  },
+  {
+    "code": "BPT",
+    "name": "BPT-Jefferson City Airport, Beaumont-BPT"
+  },
+  {
+    "code": "BKW",
+    "name": "BKW-Raleigh County Memorial Airport, Beckley-BKW"
+  },
+  {
+    "code": "BED",
+    "name": "BED-Hanscom Field Airport, Bedford Hanscom-BED"
+  },
+  {
+    "code": "ACB",
+    "name": "ACB-Antrim County Airport, Bellaire-ACB"
+  },
+  {
+    "code": "BLV",
+    "name": "BLV-MidAmerica St. Louis Airport, Belleville-BLV"
+  },
+  {
+    "code": "BLI",
+    "name": "BLI-Bellingham International Airport, Bellingham-BLI"
+  },
+  {
+    "code": "BLM",
+    "name": "BLM-Monmouth Executive Airport, Belmar/Farmingdale-BLM"
+  },
+  {
+    "code": "BJI",
+    "name": "BJI-Bemidji Airport, Bemidji-BJI"
+  },
+  {
+    "code": "DDH",
+    "name": "DDH-William H. Morse State Airport, Bennington-DDH"
+  },
+  {
+    "code": "BEH",
+    "name": "BEH-Southwest Michigan Regional Airport, Benton Harbor-BEH"
+  },
+  {
+    "code": "BET",
+    "name": "BET-Bethel Airport, Bethel-BET"
+  },
+  {
+    "code": "BIL",
+    "name": "BIL-Billings Airport, Billings-BIL"
+  },
+  {
+    "code": "BGM",
+    "name": "BGM-Greater Binghamton Airport, Binghamton-BGM"
+  },
+  {
+    "code": "BHM",
+    "name": "BHM-Birmingham Shuttlesworth International Airport, Birmingham-BHM"
+  },
+  {
+    "code": "BIS",
+    "name": "BIS-Bismarck Airport, Bismarck-BIS"
+  },
+  {
+    "code": "BID",
+    "name": "BID-Block Island State Airport, Block Island-BID"
+  },
+  {
+    "code": "BMI",
+    "name": "BMI-Normal Airport, Bloomington-BMI"
+  },
+  {
+    "code": "BMG",
+    "name": "BMG-Monroe County Airport, Bloomington-BMG"
+  },
+  {
+    "code": "BOI",
+    "name": "BOI-Boise Airport, Boise-BOI"
+  },
+  {
+    "code": "BOS",
+    "name": "BOS-Logan International Airport, Boston-BOS"
+  },
+  {
+    "code": "BVU",
+    "name": "BVU-Boulder City Municipal Airport, Boulder City-BVU"
+  },
+  {
+    "code": "BWG",
+    "name": "BWG-Warren County Regional Airport, Bowling Green-BWG"
+  },
+  {
+    "code": "BZN",
+    "name": "BZN-Bozeman Yellowstone International Airport, Bozeman-BZN"
+  },
+  {
+    "code": "BFD",
+    "name": "BFD-Bradford Regional Airport, Bradford-BFD"
+  },
+  {
+    "code": "BRD",
+    "name": "BRD-Brainerd Lakes Regional Airport, Brainerd-BRD"
+  },
+  {
+    "code": "BKG",
+    "name": "BKG-Branson Airport, Branson-BKG"
+  },
+  {
+    "code": "PWT",
+    "name": "PWT-Bremerton National Airport, Bremerton-PWT"
+  },
+  {
+    "code": "BDR",
+    "name": "BDR-Sikorsky Memorial Airport, Bridgeport-BDR"
+  },
+  {
+    "code": "TRI",
+    "name": "TRI-Tri City Regional Airport, Bristol Johnson-TRI"
+  },
+  {
+    "code": "BKX",
+    "name": "BKX-Brookings Airport, Brookings-BKX"
+  },
+  {
+    "code": "BRO",
+    "name": "BRO-South Padre International Airport, Brownsville-BRO"
+  },
+  {
+    "code": "BWD",
+    "name": "BWD-Brownwood Airport, Brownwood-BWD"
+  },
+  {
+    "code": "BQK",
+    "name": "BQK-Brunswick Golden Isles Airport, Brunswick-SSI"
+  },
+  {
+    "code": "BCE",
+    "name": "BCE-Bryce Canyon Airport, Bryce Canyon-BCE"
+  },
+  {
+    "code": "BKC",
+    "name": "BKC-Buckland Airport, Buckland-BKC"
+  },
+  {
+    "code": "BUF",
+    "name": "BUF-Buffalo International Airport, Buffalo-BUF"
+  },
+  {
+    "code": "IFP",
+    "name": "IFP-Bullhead International Airport, Bullhead City-IFP"
+  },
+  {
+    "code": "BUR",
+    "name": "BUR-Bob Hope Airport, Burbank-BUR"
+  },
+  {
+    "code": "BTV",
+    "name": "BTV-Burlington International Airport, Burlington-BTV"
+  },
+  {
+    "code": "BRL",
+    "name": "BRL-Southeast Iowa Regional Airport, Burlington-BRL"
+  },
+  {
+    "code": "BTM",
+    "name": "BTM-Butt Airport, Butte-BTM"
+  },
+  {
+    "code": "CDW",
+    "name": "CDW-Essex County Airport, Caldwell-CDW"
+  },
+  {
+    "code": "CGI",
+    "name": "CGI-Cape Girardeau Regional Airport, Cape Girardeau-CGI"
+  },
+  {
+    "code": "MDH",
+    "name": "MDH-Southern Illinois Airport, Carbondale/Murphysboro-MDH"
+  },
+  {
+    "code": "CLD",
+    "name": "CLD-McClellan Palomar Airport, Carlsbad-SAN"
+  },
+  {
+    "code": "CNM",
+    "name": "CNM-Carlsbad Airport, Carlsbad-CNM"
+  },
+  {
+    "code": "CPR",
+    "name": "CPR-Casper Airport, Casper-CPR"
+  },
+  {
+    "code": "CDC",
+    "name": "CDC-Cedar City Regional Airport, Cedar City-CDC"
+  },
+  {
+    "code": "CID",
+    "name": "CID-Cedar Rapids Airport, Cedar Rapids-CID"
+  },
+  {
+    "code": "NRR",
+    "name": "NRR-José Aponte de la Torre Airport, Ceiba-NRR"
+  },
+  {
+    "code": "CDR",
+    "name": "CDR-Chadron Airport, Chadron-CDR"
+  },
+  {
+    "code": "CMI",
+    "name": "CMI-Univ Willard Airport, Champaign-CMI"
+  },
+  {
+    "code": "CRW",
+    "name": "CRW-Yeager Airport, Charleston-CRW"
+  },
+  {
+    "code": "CHS",
+    "name": "CHS-Charleston International Airport, Charleston-CHS"
+  },
+  {
+    "code": "CVX",
+    "name": "CVX-Charlevoix Municipal Airport, Charlevoix-CVX"
+  },
+  {
+    "code": "CLT",
+    "name": "CLT-Charlotte Douglas International Airport, Charlotte-CLT"
+  },
+  {
+    "code": "STT",
+    "name": "STT-Cyril E. King Airport, Charlotte Amalie-STT"
+  },
+  {
+    "code": "CHO",
+    "name": "CHO-Albemarle Airport, Charlottesville-CHO"
+  },
+  {
+    "code": "CHA",
+    "name": "CHA-Chattanooga Metropolitan Airport, Chattanooga-CHA"
+  },
+  {
+    "code": "CYF",
+    "name": "CYF-Chefornak Airport, Chefornak-CYF"
+  },
+  {
+    "code": "VAK",
+    "name": "VAK-Chevak Airport, Chevak-VAK"
+  },
+  {
+    "code": "CYS",
+    "name": "CYS-Cheyenne Airport, Cheyenne-CYS"
+  },
+  {
+    "code": "MDW",
+    "name": "MDW-Chicago Midway International Airport, Chicago-CHI"
+  },
+  {
+    "code": "GYY",
+    "name": "GYY-Gary International Airport, Chicago-CHI"
+  },
+  {
+    "code": "PWK",
+    "name": "PWK-Pal Waukee Airport, Chicago-CHI"
+  },
+  {
+    "code": "ORD",
+    "name": "ORD-OHare International Airport, Chicago-CHI"
+  },
+  {
+    "code": "CHI",
+    "name": "CHI-All Airports, Chicago-CHI"
+  },
+  {
+    "code": "CGX",
+    "name": "CGX-Merrill C Meigs Airport, Chicago-CGX"
+  },
+  {
+    "code": "CIC",
+    "name": "CIC-Chico Airport, Chico-CIC"
+  },
+  {
+    "code": "KCL",
+    "name": "KCL-Chignik Lagoon Airport, Chignik-KCL"
+  },
+  {
+    "code": "KCQ",
+    "name": "KCQ-Chignik Airport, Chignik-KCL"
+  },
+  {
+    "code": "KCG",
+    "name": "KCG-Chignik Fisheries Airport, Chignik-KCL"
+  },
+  {
+    "code": "KCL",
+    "name": "KCL-All Airports, Chignik-KCL"
+  },
+  {
+    "code": "STX",
+    "name": "STX-Henry E. Rohlsen Airport, Christiansted-STX"
+  },
+  {
+    "code": "CVG",
+    "name": "CVG-Cincinnati No Kentucky International Airport, Cincinnati-CVG"
+  },
+  {
+    "code": "LUK",
+    "name": "LUK-Cincinnati Municipal Lunken Airport, Cincinnati-LUK"
+  },
+  {
+    "code": "CKB",
+    "name": "CKB-Benedum Airport, Clarksburg-CKB"
+  },
+  {
+    "code": "CLE",
+    "name": "CLE-Hopkins International Airport, Cleveland-CLE"
+  },
+  {
+    "code": "BKL",
+    "name": "BKL-Burke Lakefront Airport, Cleveland-CLE"
+  },
+  {
+    "code": "CGF",
+    "name": "CGF-Cuyahoga County Airport, Cleveland-CGF"
+  },
+  {
+    "code": "CWI",
+    "name": "CWI-Clinton Municipal Airport, Clinton-CWI"
+  },
+  {
+    "code": "CVN",
+    "name": "CVN-Clovis Airport, Clovis-CVN"
+  },
+  {
+    "code": "COD",
+    "name": "COD-Yellowstone Regional Airport, Cody-COD"
+  },
+  {
+    "code": "COE",
+    "name": "COE-Coeur Dalene Airport, Coeur Dalene-COE"
+  },
+  {
+    "code": "CDB",
+    "name": "CDB-Cold Bay Airport, Cold Bay-CDB"
+  },
+  {
+    "code": "CLL",
+    "name": "CLL-Easterwood Airport, College Station-CLL"
+  },
+  {
+    "code": "COS",
+    "name": "COS-Colorado Springs Municipal Airport, Colorado Springs-COS"
+  },
+  {
+    "code": "COU",
+    "name": "COU-Columbia Regional Airport, Columbia-COU"
+  },
+  {
+    "code": "CAE",
+    "name": "CAE-Columbia Metro Airport, Columbia-CAE"
+  },
+  {
+    "code": "GTR",
+    "name": "GTR-Golden Triangle Airport, Columbus-UBS"
+  },
+  {
+    "code": "CSG",
+    "name": "CSG-Columbus Metro Airport, Columbus-CSG"
+  },
+  {
+    "code": "LCK",
+    "name": "LCK-Rickenbacker International Airport, Columbus-CMH"
+  },
+  {
+    "code": "CMH",
+    "name": "CMH-Port Columbus International Airport, Columbus-CMH"
+  },
+  {
+    "code": "OSU",
+    "name": "OSU-Ohio State University Airport, Columbus-OSU"
+  },
+  {
+    "code": "BAK",
+    "name": "BAK-Columbus Municipal Airport, Columbus-BAK"
+  },
+  {
+    "code": "CCR",
+    "name": "CCR-Buchanan Field Airport, Concord-CCR"
+  },
+  {
+    "code": "CDV",
+    "name": "CDV-Mudhole Smith Airport, Cordova-CDV"
+  },
+  {
+    "code": "CRP",
+    "name": "CRP-Corpus Christi International Airport, Corpus Christi-CRP"
+  },
+  {
+    "code": "CEZ",
+    "name": "CEZ-Cortez Municipal Airport, Cortez-CEZ"
+  },
+  {
+    "code": "CVO",
+    "name": "CVO-Corvallis Municipal Airport, Corvallis-CVO"
+  },
+  {
+    "code": "CEC",
+    "name": "CEC-Crescent City Airport, Crescent City-CEC"
+  },
+  {
+    "code": "DAL",
+    "name": "DAL-Love Field Airport, Dallas-DFW"
+  },
+  {
+    "code": "DFW",
+    "name": "DFW-Fort Worth International Airport, Dallas-DFW"
+  },
+  {
+    "code": "DFW",
+    "name": "DFW-All Airports, Dallas-DFW"
+  },
+  {
+    "code": "DXR",
+    "name": "DXR-Danbury Municipal Airport, Danbury-DXR"
+  },
+  {
+    "code": "DAN",
+    "name": "DAN-Danville Regional Airport, Danville-DAN"
+  },
+  {
+    "code": "DNV",
+    "name": "DNV-Vermilion County Airport, Danville-DNV"
+  },
+  {
+    "code": "DAY",
+    "name": "DAY-James Cox Dayton Airport, Dayton-DAY"
+  },
+  {
+    "code": "DAB",
+    "name": "DAB-Daytona Beach Regional Airport, Daytona Beach-DAB"
+  },
+  {
+    "code": "SCC",
+    "name": "SCC-Deadhorse Airport, Deadhorse-SCC"
+  },
+  {
+    "code": "DEC",
+    "name": "DEC-Decatur Airport, Decatur-DEC"
+  },
+  {
+    "code": "DRT",
+    "name": "DRT-Del Rio International Airport, Del Rio-DRT"
+  },
+  {
+    "code": "BIG",
+    "name": "BIG-Allen Army Airfield, Delta Junction Ft Greely-BIG"
+  },
+  {
+    "code": "DEN",
+    "name": "DEN-Denver International Airport, Denver-DEN"
+  },
+  {
+    "code": "APA",
+    "name": "APA-Centennial Airport, Denver-DEN"
+  },
+  {
+    "code": "DSM",
+    "name": "DSM-Des Moines Airport, Des Moines-DSM"
+  },
+  {
+    "code": "DTW",
+    "name": "DTW-Detroit Metro Wayne Cnty Airport, Detroit-DTT"
+  },
+  {
+    "code": "DVL",
+    "name": "DVL-Devils Lake Municipal Airport, Devils Lake-DVL"
+  },
+  {
+    "code": "DIK",
+    "name": "DIK-Dickinson Theodore Roosevelt Regional Airport, Dickinson-DIK"
+  },
+  {
+    "code": "DLG",
+    "name": "DLG-Dillingham Airport, Dillingham-DLG"
+  },
+  {
+    "code": "DDC",
+    "name": "DDC-Dodge City Municipal Airport, Dodge City-DDC"
+  },
+  {
+    "code": "DHN",
+    "name": "DHN-Dothan Regional Airport, Dothan-DHN"
+  },
+  {
+    "code": "DUJ",
+    "name": "DUJ-Dubois Jefferson Cty Airport, Du Bois-DUJ"
+  },
+  {
+    "code": "DBQ",
+    "name": "DBQ-Dubuque Municipal Airport, Dubuque-DBQ"
+  },
+  {
+    "code": "DLH",
+    "name": "DLH-Duluth International Airport, Duluth-DLH"
+  },
+  {
+    "code": "DRO",
+    "name": "DRO-Durango La Plata City Airport, Durango-DRO"
+  },
+  {
+    "code": "ESD",
+    "name": "ESD-Orcas Island Airport, Eastsound-ESD"
+  },
+  {
+    "code": "EAU",
+    "name": "EAU-Chippewa Valley Regional Airport, Eau Claire-EAU"
+  },
+  {
+    "code": "EEK",
+    "name": "EEK-Eek Airport, Eek-EEK"
+  },
+  {
+    "code": "ELP",
+    "name": "ELP-El Paso International Airport, El Paso-ELP"
+  },
+  {
+    "code": "ELI",
+    "name": "ELI-Elim Airport, Elim-ELI"
+  },
+  {
+    "code": "EKI",
+    "name": "EKI-Elkhart Municipal Airport, Elkhart-EKI"
+  },
+  {
+    "code": "EKO",
+    "name": "EKO-Elko Regional Airport, Elko-EKO"
+  },
+  {
+    "code": "ELM",
+    "name": "ELM-Elmira Airport, Elmira-NYC"
+  },
+  {
+    "code": "LYU",
+    "name": "LYU-Ely Municipal Airport, Ely-LYU"
+  },
+  {
+    "code": "ELY",
+    "name": "ELY-Ely Airport, Ely-ELY"
+  },
+  {
+    "code": "EMK",
+    "name": "EMK-Emmonak Airport, Emmonak-EMK"
+  },
+  {
+    "code": "KEB",
+    "name": "KEB-English Bay Airport, English Bay-KEB"
+  },
+  {
+    "code": "WDG",
+    "name": "WDG-Woodring Regional Airport, Enid-WDG"
+  },
+  {
+    "code": "ERI",
+    "name": "ERI-Erie International Airport, Erie-ERI"
+  },
+  {
+    "code": "ESC",
+    "name": "ESC-Delta County Airport, Escanaba-ESC"
+  },
+  {
+    "code": "EUG",
+    "name": "EUG-Eugene Airport, Eugene-EUG"
+  },
+  {
+    "code": "EVV",
+    "name": "EVV-Dress Regional Airport, Evansville-EVV"
+  },
+  {
+    "code": "PAE",
+    "name": "PAE-Paine Field, Everett-PAE"
+  },
+  {
+    "code": "FAI",
+    "name": "FAI-Fairbanks International Airport, Fairbanks-FAI"
+  },
+  {
+    "code": "FRM",
+    "name": "FRM-Fairmont Municipal Airport, Fairmont-FRM"
+  },
+  {
+    "code": "FAJ",
+    "name": "FAJ-Diego Jimenez Torres Airport, Fajardo-FAJ"
+  },
+  {
+    "code": "FAR",
+    "name": "FAR-Hector Airport, Fargo-FAR"
+  },
+  {
+    "code": "FRG",
+    "name": "FRG-Republic Airport, Farmingdale-FRG"
+  },
+  {
+    "code": "FMN",
+    "name": "FMN-Farmington Municipal Airport, Farmington-FMN"
+  },
+  {
+    "code": "FYV",
+    "name": "FYV-Fayetteville Municipal Airport, Fayetteville-FYV"
+  },
+  {
+    "code": "XNA",
+    "name": "XNA-Northwest Arkansas Regional Airport, Fayetteville-FYV"
+  },
+  {
+    "code": "FAY",
+    "name": "FAY-Fayetteville Regional Airport, Fayetteville-FAY"
+  },
+  {
+    "code": "FTI",
+    "name": "FTI-Fitiuta Airport, Fitiuta-FTI"
+  },
+  {
+    "code": "FLG",
+    "name": "FLG-Flagstaff Pulliam Airport, Flagstaff-FLG"
+  },
+  {
+    "code": "FNT",
+    "name": "FNT-Bishop International Airport, Flint-FNT"
+  },
+  {
+    "code": "DET",
+    "name": "DET-Detroit City Airport, Flint-DET"
+  },
+  {
+    "code": "FLO",
+    "name": "FLO-Florence Airport, Florence-FLO"
+  },
+  {
+    "code": "FNL",
+    "name": "FNL-Municipal Airport, Fort Collins Loveland-FNL"
+  },
+  {
+    "code": "FOD",
+    "name": "FOD-Fort Dodge Regional Airport, Fort Dodge-FOD"
+  },
+  {
+    "code": "FHU",
+    "name": "FHU-Sierra Vista Municipal Airport, Fort Huachuca/Sierra Vista-FHU"
+  },
+  {
+    "code": "FLL",
+    "name": "FLL-Ft Lauderdale International Airport, Fort Lauderdale-FLL"
+  },
+  {
+    "code": "TBN",
+    "name": "TBN-Waynesville St. Robert Regional Airport, Fort Leonard Wood-TBN"
+  },
+  {
+    "code": "FMY",
+    "name": "FMY-Page Field Airport, Fort Myers-FMY"
+  },
+  {
+    "code": "RSW",
+    "name": "RSW-Southwest Florida Airport, Fort Myers-FMY"
+  },
+  {
+    "code": "FMY",
+    "name": "FMY-All Airports, Fort Myers-FMY"
+  },
+  {
+    "code": "FSM",
+    "name": "FSM-Fort Smith Regional Airport, Fort Smith-FSM"
+  },
+  {
+    "code": "FWA",
+    "name": "FWA-Fort Wayne International Airport, Fort Wayne-FWA"
+  },
+  {
+    "code": "FTW",
+    "name": "FTW-Fort Worth Meacham International Airport, Fort Worth-FTW"
+  },
+  {
+    "code": "FYU",
+    "name": "FYU-Fort Yukon Airport, Fort Yukon-FYU"
+  },
+  {
+    "code": "FKL",
+    "name": "FKL-Chess Lamberton Airport, Franklin-FKL"
+  },
+  {
+    "code": "FAT",
+    "name": "FAT-Fresno Yosemite International Airport, Fresno-FAT"
+  },
+  {
+    "code": "FRD",
+    "name": "FRD-Friday Harbor Airport, Friday Harbor-FRD"
+  },
+  {
+    "code": "GNV",
+    "name": "GNV-Gainesville Regional Airport, Gainesville-GNV"
+  },
+  {
+    "code": "GBH",
+    "name": "GBH-Galbraith Lake Airport, Galbraith Lake-GBH"
+  },
+  {
+    "code": "GAL",
+    "name": "GAL-Edward G. Pitka Sr. Airport, Galena-GAL"
+  },
+  {
+    "code": "GUP",
+    "name": "GUP-Gallup Municipal Airport, Gallup-GUP"
+  },
+  {
+    "code": "GLS",
+    "name": "GLS-Scholes International Airport, Galveston-GLS"
+  },
+  {
+    "code": "GAM",
+    "name": "GAM-Gambell Airport, Gambell-GAM"
+  },
+  {
+    "code": "GCK",
+    "name": "GCK-Garden City Regional Airport, Garden City-GCK"
+  },
+  {
+    "code": "GLR",
+    "name": "GLR-Gaylord Regional Airport, Gaylord-GLR"
+  },
+  {
+    "code": "GED",
+    "name": "GED-Sussex County Airport, Georgetown-GED"
+  },
+  {
+    "code": "GCC",
+    "name": "GCC-Campbell Cty Airport, Gillette-GCC"
+  },
+  {
+    "code": "GGW",
+    "name": "GGW-Glasgow International Airport, Glasgow-GGW"
+  },
+  {
+    "code": "GFL",
+    "name": "GFL-Floyd Bennett Memorial Airport, Glens Falls-GFL"
+  },
+  {
+    "code": "GLV",
+    "name": "GLV-Golovin Airport, Golovin-GLV"
+  },
+  {
+    "code": "GLD",
+    "name": "GLD-Goodland Municipal Airport, Goodland-GLD"
+  },
+  {
+    "code": "GYR",
+    "name": "GYR-Phoenix Goodyear Airport, Goodyear-GYR"
+  },
+  {
+    "code": "JGC",
+    "name": "JGC-Grand Canyon Heliport, Grand Canyon-GCN"
+  },
+  {
+    "code": "GCN",
+    "name": "GCN-Grand Canyon National Park Airport, Grand Canyon-GCN"
+  },
+  {
+    "code": "GFK",
+    "name": "GFK-Grand Forks International Airport, Grand Forks-GFK"
+  },
+  {
+    "code": "GRI",
+    "name": "GRI-Central Nebraska Regional Airport, Grand Island-GRI"
+  },
+  {
+    "code": "GJT",
+    "name": "GJT-Walker Field Airport, Grand Junction-GJT"
+  },
+  {
+    "code": "GPZ",
+    "name": "GPZ-Grand Rapids Airport, Grand Rapids-GPZ"
+  },
+  {
+    "code": "GRR",
+    "name": "GRR-Gerald R. Ford International Airport, Grand Rapids-GRR"
+  },
+  {
+    "code": "GBD",
+    "name": "GBD-Great Bend Municipal Airport, Great Bend-GBD"
+  },
+  {
+    "code": "GTF",
+    "name": "GTF-Great Falls International Airport, Great Falls-GTF"
+  },
+  {
+    "code": "GRB",
+    "name": "GRB-Austin Straubel International Airport, Green Bay-GRB"
+  },
+  {
+    "code": "GSO",
+    "name": "GSO-Piedmont Triad International Airport, Greensboro-GSO"
+  },
+  {
+    "code": "GSP",
+    "name": "GSP-Spartanburg Airport, Greenville-GSP"
+  },
+  {
+    "code": "PGV",
+    "name": "PGV-Pitt Greenville Airport, Greenville-PGV"
+  },
+  {
+    "code": "GLH",
+    "name": "GLH-Mid Delta Regional Airport, Greenville-GLH"
+  },
+  {
+    "code": "GDC",
+    "name": "GDC-Donaldson Center Airport, Greenville-GDC"
+  },
+  {
+    "code": "GON",
+    "name": "GON-Groton-New London Airport, Groton (New London)-GON"
+  },
+  {
+    "code": "GPT",
+    "name": "GPT-Biloxi Regional Airport, Gulfport-GPT"
+  },
+  {
+    "code": "GKN",
+    "name": "GKN-Gulkana Airport, Gulkana-GKN"
+  },
+  {
+    "code": "GUC",
+    "name": "GUC-Crested Butte Regional Airport, Gunnison-GUC"
+  },
+  {
+    "code": "GST",
+    "name": "GST-Gustavus Airport, Gustavus-GST"
+  },
+  {
+    "code": "HGR",
+    "name": "HGR-Hagerstown Regional Airport, Hagerstown-HGR"
+  },
+  {
+    "code": "MVD",
+    "name": "MVD-Carrasco Airport, Montevideo-MVD"
+  },
+  {
+    "code": "PDP",
+    "name": "PDP-Punta Del Este Airport, Punta Del Este-PDP"
+  },
+  {
+    "code": "MMH",
+    "name": "MMH-Mammoth Yosemite Airport, Mammoth Lakes-MMH"
+  },
+  {
+    "code": "MDY",
+    "name": "MDY-Henderson Field, Midway Island-MDY"
+  },
+  {
+    "code": "BHK",
+    "name": "BHK-Bukhara Airport, Bukhara-BHK"
+  },
+  {
+    "code": "KSQ",
+    "name": "KSQ-Karshi Airport, Karshi-KSQ"
+  },
+  {
+    "code": "SKD",
+    "name": "SKD-Samarkand Airport, Samarkand-SKD"
+  },
+  {
+    "code": "TAS",
+    "name": "TAS-Vostochny Airport, Tashkent-TAS"
+  },
+  {
+    "code": "UGC",
+    "name": "UGC-Urgench Airport, Urgench-UGC"
+  },
+  {
+    "code": "SON",
+    "name": "SON-Pekoa Airport, Espiritu Santo-SON"
+  },
+  {
+    "code": "VLI",
+    "name": "VLI-Bauerfield Airport, Port Vila-VLI"
+  },
+  {
+    "code": "TAH",
+    "name": "TAH-Tanna Airport, Tanna-TAH"
+  },
+  {
+    "code": "BLA",
+    "name": "BLA-Gen JA Anzoategui Airport, Barcelona-BLA"
+  },
+  {
+    "code": "BRM",
+    "name": "BRM-Barquisimeto Airport, Barquisimeto-BRM"
+  },
+  {
+    "code": "CCS",
+    "name": "CCS-Simon Bolivar Airport, Caracas-CCS"
+  },
+  {
+    "code": "MAR",
+    "name": "MAR-La Chinita Airport, Maracaibo-MAR"
+  },
+  {
+    "code": "PMV",
+    "name": "PMV-Delcaribe Gen S Marino Airport, Porlamar-PMV"
+  },
+  {
+    "code": "PZO",
+    "name": "PZO-Puerto Ordaz Airport, Puerto Ordaz-PZO"
+  },
+  {
+    "code": "SVZ",
+    "name": "SVZ-San Antonio Airport, San Antonio-SVZ"
+  },
+  {
+    "code": "VLN",
+    "name": "VLN-Valenica Airport, Valencia-VLN"
+  },
+  {
+    "code": "BMV",
+    "name": "BMV-Phung Duc Airport, Banmethuot-BMV"
+  },
+  {
+    "code": "DAD",
+    "name": "DAD-Da Nang Airport, Da Nang-DAD"
+  },
+  {
+    "code": "DLI",
+    "name": "DLI-Lien Khuong Airport, Dalat-DLI"
+  },
+  {
+    "code": "HAN",
+    "name": "HAN-Noibai Airport, Hanoi-HAN"
+  },
+  {
+    "code": "SGN",
+    "name": "SGN-Tan Son Nhut Airport, Ho Chi Minh City-SGN"
+  },
+  {
+    "code": "HUI",
+    "name": "HUI-Phu Bai Airport, Hue-HUI"
+  },
+  {
+    "code": "CXR",
+    "name": "CXR-Cam Ranh Airport, Nha Trang-NHA"
+  },
+  {
+    "code": "NHA",
+    "name": "NHA-Nhatrang Airport, Nha Trang-NHA"
+  },
+  {
+    "code": "NHA",
+    "name": "NHA-All Airports, Nha Trang-NHA"
+  },
+  {
+    "code": "PQC",
+    "name": "PQC-Duong Dang Airport, Phu Quoc-PQC"
+  },
+  {
+    "code": "EIS",
+    "name": "EIS-Beef Island Airport, Beef Island-EIS"
+  },
+  {
+    "code": "ADE",
+    "name": "ADE-Aden International Airport, Aden-ADE"
+  },
+  {
+    "code": "SAH",
+    "name": "SAH-Sanaa International Airport, Sanaa-SAH"
+  },
+  {
+    "code": "LVI",
+    "name": "LVI-Livingstone Airport, Livingstone-LVI"
+  },
+  {
+    "code": "LUN",
+    "name": "LUN-Lusaka Airport, Lusaka-LUN"
+  },
+  {
+    "code": "NLA",
+    "name": "NLA-Ndola Airport, Ndola-NLA"
+  },
+  {
+    "code": "BUQ",
+    "name": "BUQ-Bulawayo Airport, Bulawayo-BUQ"
+  },
+  {
+    "code": "HRE",
+    "name": "HRE-Harare Airport, Harare-HRE"
+  },
+  {
+    "code": "KAB",
+    "name": "KAB-Kariba Airport, Kariba-KAB"
+  },
+  {
+    "code": "VFA",
+    "name": "VFA-Victoria Falls Airport, Victoria Falls-VFA"
+  },
+  {
+    "code": "IAH",
+    "name": "IAH-George Bush Intercontinental Airport, Houston-HOU"
+  },
+  {
+    "code": "HOU",
+    "name": "HOU-Houston Hobby Airport, Houston-HOU"
+  },
+  {
+    "code": "EFD",
+    "name": "EFD-Ellington Airport, Houston-HOU"
+  },
+  {
+    "code": "HOU",
+    "name": "HOU-All Airports, Houston-HOU"
+  },
+  {
+    "code": "HTS",
+    "name": "HTS-Tri State Airport, Huntington-HTS"
+  },
+  {
+    "code": "HSV",
+    "name": "HSV-Huntsville International Airport, Huntsville-HSV"
+  },
+  {
+    "code": "HON",
+    "name": "HON-Howes Airport, Huron-HON"
+  },
+  {
+    "code": "HSL",
+    "name": "HSL-Huslia Airport, Huslia-HSL"
+  },
+  {
+    "code": "HUT",
+    "name": "HUT-Hutchinson Municipal Airport, Hutchinson-HUT"
+  },
+  {
+    "code": "HYA",
+    "name": "HYA-Barnstable Municipal Airport, Hyannis-HYA"
+  },
+  {
+    "code": "IDA",
+    "name": "IDA-Idaho Falls Regional Airport, Idaho Falls-IDA"
+  },
+  {
+    "code": "ILI",
+    "name": "ILI-Iliamna Airport, Iliamna-ILI"
+  },
+  {
+    "code": "IPL",
+    "name": "IPL-Imperial County Airport, Imperial-IPL"
+  },
+  {
+    "code": "IND",
+    "name": "IND-Indianapolis International Airport, Indianapolis-IND"
+  },
+  {
+    "code": "MQJ",
+    "name": "MQJ-Mount Comfort Airport, Indianapolis-MQJ"
+  },
+  {
+    "code": "INL",
+    "name": "INL-International Falls Airport, International Falls-INL"
+  },
+  {
+    "code": "IYK",
+    "name": "IYK-Kern City Airport, Inyokern-IYK"
+  },
+  {
+    "code": "IMT",
+    "name": "IMT-Ford Airport, Iron Mountain-IMT"
+  },
+  {
+    "code": "IWD",
+    "name": "IWD-Iron County Airport, Ironwood-IWD"
+  },
+  {
+    "code": "CPX",
+    "name": "CPX-Culebra Airport, Isla De Culebra-CPX"
+  },
+  {
+    "code": "ISP",
+    "name": "ISP-Long Island Macarthur Airport, Islip-ISP"
+  },
+  {
+    "code": "ITH",
+    "name": "ITH-Ithaca Tompkins Regional Airport, Ithaca-ITH"
+  },
+  {
+    "code": "JAC",
+    "name": "JAC-Jackson Hole Airport, Jackson-JAC"
+  },
+  {
+    "code": "JAN",
+    "name": "JAN-Jackson Evers International Airport, Jackson-JAN"
+  },
+  {
+    "code": "HKS",
+    "name": "HKS-Hawkins Field Airport, Jackson-HKS"
+  },
+  {
+    "code": "MKL",
+    "name": "MKL-Mc Kellar-Sipes Regional Airport, Jackson-MKL"
+  },
+  {
+    "code": "JAX",
+    "name": "JAX-Jacksonville International Airport, Jacksonville-JAX"
+  },
+  {
+    "code": "CRG",
+    "name": "CRG-Craig Municipal Airport, Jacksonville-JAX"
+  },
+  {
+    "code": "NIP",
+    "name": "NIP-Jacksonville Nas Airport, Jacksonville-JAX"
+  },
+  {
+    "code": "JAX",
+    "name": "JAX-All Airports, Jacksonville-JAX"
+  },
+  {
+    "code": "OAJ",
+    "name": "OAJ-Albert J. Ellis Airport, Jacksonville-OAJ"
+  },
+  {
+    "code": "VQQ",
+    "name": "VQQ-Cecil Field Airport, Jacksonville-VQQ"
+  },
+  {
+    "code": "JMS",
+    "name": "JMS-Jamestown Airport, Jamestown-JMS"
+  },
+  {
+    "code": "JHW",
+    "name": "JHW-Chautauqua County Airport, Jamestown-JHW"
+  },
+  {
+    "code": "JVL",
+    "name": "JVL-Southern Wisconsin Regional Airport, Janesville-JVL"
+  },
+  {
+    "code": "JEF",
+    "name": "JEF-Jefferson City Memorial Airport, Jefferson City-JEF"
+  },
+  {
+    "code": "JST",
+    "name": "JST-Johnstown-Cambria County Airport, Johnstown-JST"
+  },
+  {
+    "code": "JBR",
+    "name": "JBR-Jonesboro Municipal Airport, Jonesboro-JBR"
+  },
+  {
+    "code": "JLN",
+    "name": "JLN-Joplin Airport, Joplin-JLN"
+  },
+  {
+    "code": "JNU",
+    "name": "JNU-Juneau Airport, Juneau-JNU"
+  },
+  {
+    "code": "OGG",
+    "name": "OGG-Kahului Airport, Kahului-OGG"
+  },
+  {
+    "code": "AIZ",
+    "name": "AIZ-Lee C Fine Memorial Airport, Kaiser Lake Ozark-AIZ"
+  },
+  {
+    "code": "AFE",
+    "name": "AFE-Kake Airport, Kake-AFE"
+  },
+  {
+    "code": "BTI",
+    "name": "BTI-Barter Island LRRS Airport, Kaktovik-BTI"
+  },
+  {
+    "code": "AZO",
+    "name": "AZO-Battle Creek International Airport, Kalamazoo-AZO"
+  },
+  {
+    "code": "FCA",
+    "name": "FCA-Glacier National Airport, Kalispell-FCA"
+  },
+  {
+    "code": "KLG",
+    "name": "KLG-Kalskag Airport, Kalskag-KLG"
+  },
+  {
+    "code": "KAL",
+    "name": "KAL-Kaltag Airport, Kaltag-KAL"
+  },
+  {
+    "code": "MUE",
+    "name": "MUE-Waimea Kohala Airport, Kamuela-MUE"
+  },
+  {
+    "code": "MCI",
+    "name": "MCI-Kansas City International Airport, Kansas City-MKC"
+  },
+  {
+    "code": "MKC",
+    "name": "MKC-Charles B. Wheeler Downtown Airport, Kansas City-MKC"
+  },
+  {
+    "code": "MKC",
+    "name": "MKC-All Airports, Kansas City-MKC"
+  },
+  {
+    "code": "JHM",
+    "name": "JHM-Kapalua Airport, Kapalua-JHM"
+  },
+  {
+    "code": "KUK",
+    "name": "KUK-Kasigluk Airport, Kasigluk-KUK"
+  },
+  {
+    "code": "LIH",
+    "name": "LIH-Lihue Airport, Kauai Island-LIH"
+  },
+  {
+    "code": "EAR",
+    "name": "EAR-Kearney Airport, Kearney-EAR"
+  },
+  {
+    "code": "EEN",
+    "name": "EEN-Dillant Hopkins Airport, Keene-EEN"
+  },
+  {
+    "code": "ENA",
+    "name": "ENA-Kenai Municipal Airport, Kenai-ENA"
+  },
+  {
+    "code": "ENW",
+    "name": "ENW-Kenosha Regional Airport, Kenosha-ENW"
+  },
+  {
+    "code": "KTN",
+    "name": "KTN-Ketchikan International Airport, Ketchikan-KTN"
+  },
+  {
+    "code": "EYW",
+    "name": "EYW-Key West International Airport, Key West-EYW"
+  },
+  {
+    "code": "IAN",
+    "name": "IAN-Bob Baker Memorial Airport, Kiana-IAN"
+  },
+  {
+    "code": "GRK",
+    "name": "GRK-Fort Hood Regional Airport, Killeen-ILE"
+  },
+  {
+    "code": "ILE",
+    "name": "ILE-Skylark Field, Killeen-ILE"
+  },
+  {
+    "code": "ILE",
+    "name": "ILE-All Airports, Killeen-ILE"
+  },
+  {
+    "code": "KVC",
+    "name": "KVC-King Cove Airport, King Cove-KVC"
+  },
+  {
+    "code": "AKN",
+    "name": "AKN-King Salmon Airport, King Salmon-AKN"
+  },
+  {
+    "code": "IGM",
+    "name": "IGM-Kingman Airport, Kingman-IGM"
+  },
+  {
+    "code": "ISO",
+    "name": "ISO-Kinston Regional Jetport, Kinston-ISO"
+  },
+  {
+    "code": "KNP",
+    "name": "KNP-Kipnuk Airport, Kipnuk-KNP"
+  },
+  {
+    "code": "IRK",
+    "name": "IRK-Kirksville Regional Airport, Kirksville-IRK"
+  },
+  {
+    "code": "KVL",
+    "name": "KVL-Kivalina Airport, Kivalina-KVL"
+  },
+  {
+    "code": "LMT",
+    "name": "LMT-Klamath Falls Airport, Klamath Falls-LMT"
+  },
+  {
+    "code": "KLW",
+    "name": "KLW-Klawock Airport, Klawock-KLW"
+  },
+  {
+    "code": "TYS",
+    "name": "TYS-McGhee Tyson Airport, Knoxville-TYS"
+  },
+  {
+    "code": "ADQ",
+    "name": "ADQ-Kodiak Airport, Kodiak-ADQ"
+  },
+  {
+    "code": "KDK",
+    "name": "KDK-Kodiak Municipal Airport, Kodiak-KDK"
+  },
+  {
+    "code": "T44",
+    "name": "T44-Trident Basin Seaplane Base, Kodiak-T44"
+  },
+  {
+    "code": "KOA",
+    "name": "KOA-Keahole Airport, Kona-KOA"
+  },
+  {
+    "code": "DUY",
+    "name": "DUY-Kongiganak Airport, Kongiganak-DUY"
+  },
+  {
+    "code": "KOT",
+    "name": "KOT-Kotlik Airport, Kotlik-KOT"
+  },
+  {
+    "code": "OTZ",
+    "name": "OTZ-Ralph Wien Memorial Airport, Kotzebue-OTZ"
+  },
+  {
+    "code": "KKA",
+    "name": "KKA-Koyuk Airport, Koyuk-KKA"
+  },
+  {
+    "code": "KWT",
+    "name": "KWT-Kwethluk Airport, Kwethluk-KWT"
+  },
+  {
+    "code": "GGV",
+    "name": "GGV-Kwigillingok Airport, Kwigillingok-GGV"
+  },
+  {
+    "code": "LSE",
+    "name": "LSE-La Crosse Regional Airport, La Crosse-LSE"
+  },
+  {
+    "code": "LFT",
+    "name": "LFT-Lafayette Regional Airport, Lafayette-LFT"
+  },
+  {
+    "code": "LCH",
+    "name": "LCH-Lake Charles Regional Airport, Lake Charles-LCH"
+  },
+  {
+    "code": "HII",
+    "name": "HII-Lake Havasu City Municipal Airport, Lake Havasu City-HII"
+  },
+  {
+    "code": "LAL",
+    "name": "LAL-Lakeland Linder Regional Airport, Lakeland-LAL"
+  },
+  {
+    "code": "LAA",
+    "name": "LAA-Lamar Municipal Airport, Lamar-LAA"
+  },
+  {
+    "code": "LNY",
+    "name": "LNY-Lanai Airport, Lanai City-LNY"
+  },
+  {
+    "code": "LNS",
+    "name": "LNS-Lancaster Airport, Lancaster-LNS"
+  },
+  {
+    "code": "LAN",
+    "name": "LAN-Lansing Airport, Lansing-LAN"
+  },
+  {
+    "code": "LAR",
+    "name": "LAR-Laramie Regional Airport, Laramie-LAR"
+  },
+  {
+    "code": "LRD",
+    "name": "LRD-Laredo International Airport, Laredo-LRD"
+  },
+  {
+    "code": "KLN",
+    "name": "KLN-Larsen Bay Airport, Larsen Bay-KLN"
+  },
+  {
+    "code": "LRU",
+    "name": "LRU-Las Cruces International Airport, Las Cruces-LRU"
+  },
+  {
+    "code": "LAS",
+    "name": "LAS-McCarran International Airport, Las Vegas-LAS"
+  },
+  {
+    "code": "VGT",
+    "name": "VGT-North Las Vegas Airport, Las Vegas-VGT"
+  },
+  {
+    "code": "HSH",
+    "name": "HSH-Henderson Executive Airport, Las Vegas-HSH"
+  },
+  {
+    "code": "LBE",
+    "name": "LBE-Arnold Palmer Regional Airport, Latrobe-LBE"
+  },
+  {
+    "code": "PIB",
+    "name": "PIB-Hattiesburg Laurel Regional Airport, Laurel-LUL"
+  },
+  {
+    "code": "LAW",
+    "name": "LAW-Fort Sill Regional Airport, Lawton-LAW"
+  },
+  {
+    "code": "LEB",
+    "name": "LEB-Lebanon Municipal Airport, Lebanon-LEB"
+  },
+  {
+    "code": "LWB",
+    "name": "LWB-Greenbrier Valley Airport, Lewisburg-LWB"
+  },
+  {
+    "code": "LWS",
+    "name": "LWS-Lewiston-Nez Perce County Airport, Lewiston-LWS"
+  },
+  {
+    "code": "LEX",
+    "name": "LEX-Blue Grass Airport, Lexington-LEX"
+  },
+  {
+    "code": "LBL",
+    "name": "LBL-Liberal Municipal Airport, Liberal-LBL"
+  },
+  {
+    "code": "LNK",
+    "name": "LNK-Lincoln Airport, Lincoln-LNK"
+  },
+  {
+    "code": "LIT",
+    "name": "LIT-Clinton National Airport, Little Rock-LIT"
+  },
+  {
+    "code": "LGB",
+    "name": "LGB-Long Beach Airport, Long Beach-LGB"
+  },
+  {
+    "code": "GGG",
+    "name": "GGG-East Texas Regional Airport, Longview-GGG"
+  },
+  {
+    "code": "LPR",
+    "name": "LPR-Lorain County Regional Airport, Lorain/Elyria-LPR"
+  },
+  {
+    "code": "LAX",
+    "name": "LAX-Los Angeles International Airport, Los Angeles-LAX"
+  },
+  {
+    "code": "WHP",
+    "name": "WHP-Whiteman Airport, Los Angeles-LAX"
+  },
+  {
+    "code": "LAX",
+    "name": "LAX-All Airports, Los Angeles-LAX"
+  },
+  {
+    "code": "LOU",
+    "name": "LOU-Bowman Field Airport, Louisville-SDF"
+  },
+  {
+    "code": "SDF",
+    "name": "SDF-Louisville International Airport, Louisville-SDF"
+  },
+  {
+    "code": "LBB",
+    "name": "LBB-Lubbock Preston Smith International Airport, Lubbock-LBB"
+  },
+  {
+    "code": "LYH",
+    "name": "LYH-Lynchburg Regional Airport, Lynchburg-LYH"
+  },
+  {
+    "code": "MCN",
+    "name": "MCN-Middle Georgia Regional Airport, Macon-MCN"
+  },
+  {
+    "code": "MSN",
+    "name": "MSN-Dane County Regional Airport, Madison-MSN"
+  },
+  {
+    "code": "MHT",
+    "name": "MHT-Boston Regional Airport, Manchester-MHT"
+  },
+  {
+    "code": "MHK",
+    "name": "MHK-Manchester–Boston Regional Airport, Manhattan-MHK"
+  },
+  {
+    "code": "MBL",
+    "name": "MBL-Manistee Airport, Manistee-MBL"
+  },
+  {
+    "code": "MKT",
+    "name": "MKT-Mankato Regional Airport, Mankato-MKT"
+  },
+  {
+    "code": "KMO",
+    "name": "KMO-Manokotak Airport, Manokotak-KMO"
+  },
+  {
+    "code": "MFD",
+    "name": "MFD-Mansfield Lahm Regional Airport, Mansfield-MFD"
+  },
+  {
+    "code": "MEO",
+    "name": "MEO-Dare County Regional Airport, Manteo-MEO"
+  },
+  {
+    "code": "MZJ",
+    "name": "MZJ-Pinal Airpark, Marana-MZJ"
+  },
+  {
+    "code": "MTH",
+    "name": "MTH-Florida Keys Marathon Airport, Marathon-MTH"
+  },
+  {
+    "code": "MWA",
+    "name": "MWA-Williamson County Regional Airport, Marion-MWA"
+  },
+  {
+    "code": "MQT",
+    "name": "MQT-Sawyer International Airport, Marquette-MQT"
+  },
+  {
+    "code": "MLL",
+    "name": "MLL-Marshall Don Hunter Sr. Airport, Marshall-MLL"
+  },
+  {
+    "code": "MVY",
+    "name": "MVY-Marthas Vineyard Airport, Marthas Vineyard-MVY"
+  },
+  {
+    "code": "MCW",
+    "name": "MCW-Mason City Municipal Airport, Mason City-MCW"
+  },
+  {
+    "code": "MSS",
+    "name": "MSS-Massena International Airport, Massena-MSS"
+  },
+  {
+    "code": "MTO",
+    "name": "MTO-Coles County Memorial Airport, Mattoon/Charleston-MTO"
+  },
+  {
+    "code": "MAZ",
+    "name": "MAZ-Mayaquez Airport, Mayaguez-MAZ"
+  },
+  {
+    "code": "MFE",
+    "name": "MFE-McAllen Miller International Airport, Mc Allen-MFE"
+  },
+  {
+    "code": "MCK",
+    "name": "MCK-Mc Cook Regional Airport, Mc Cook-MCK"
+  },
+  {
+    "code": "MMV",
+    "name": "MMV-Mc Minnville Municipal Airport, Mc Minnville-MMV"
+  },
+  {
+    "code": "MCG",
+    "name": "MCG-McGrath Airport, McGrath-MCG"
+  },
+  {
+    "code": "MFR",
+    "name": "MFR-Medford Airport, Medford-MFR"
+  },
+  {
+    "code": "MLB",
+    "name": "MLB-Melbourne International Airport, Melbourne-MLB"
+  },
+  {
+    "code": "MEM",
+    "name": "MEM-Memphis International Airport, Memphis-MEM"
+  },
+  {
+    "code": "MNM",
+    "name": "MNM-Marinette Twin County Airport, Menominee-MNM"
+  },
+  {
+    "code": "MCE",
+    "name": "MCE-Merced Regional Airport, Merced-MCE"
+  },
+  {
+    "code": "MEI",
+    "name": "MEI-Meridian Regional Airport, Meridian-MEI"
+  },
+  {
+    "code": "AZA",
+    "name": "AZA-Phoenix Mesa Gateway Airport, Mesa-AZA"
+  },
+  {
+    "code": "IWA",
+    "name": "IWA-Williams Gateway Airport, Mesa-IWA"
+  },
+  {
+    "code": "MTM",
+    "name": "MTM-Metlakatla Airport, Metlakatla-MTM"
+  },
+  {
+    "code": "MIA",
+    "name": "MIA-Miami International Airport, Miami-MIA"
+  },
+  {
+    "code": "OPF",
+    "name": "OPF-Opa Locka Airport, Miami-MIA"
+  },
+  {
+    "code": "MIA",
+    "name": "MIA-All Airports, Miami-MIA"
+  },
+  {
+    "code": "3T7",
+    "name": "3T7-Middle Bass Island Airport, Middle Bass-3T7"
+  },
+  {
+    "code": "MAF",
+    "name": "MAF-Midland International Airport, Midland-MAF"
+  },
+  {
+    "code": "NQA",
+    "name": "NQA-Millington Regional Jetport, Millington-NQA"
+  },
+  {
+    "code": "MIV",
+    "name": "MIV-Millville Municipal Airport, Millville-MIV"
+  },
+  {
+    "code": "MKE",
+    "name": "MKE-General Mitchell International Airport, Milwaukee-MKE"
+  },
+  {
+    "code": "MSP",
+    "name": "MSP-Minneapolis Saint Paul International Airport, Minneapolis-MSP"
+  },
+  {
+    "code": "MOT",
+    "name": "MOT-Minot International Airport, Minot-MOT"
+  },
+  {
+    "code": "SIG",
+    "name": "SIG-Fernando Luis Ribas Dominicci Airport, Miramar-SIG"
+  },
+  {
+    "code": "MSO",
+    "name": "MSO-Missoula International Airport, Missoula-MSO"
+  },
+  {
+    "code": "MHE",
+    "name": "MHE-Mitchell Municipal Airport, Mitchell-MHE"
+  },
+  {
+    "code": "CNY",
+    "name": "CNY-Canyonlands Field, Moab-CNY"
+  },
+  {
+    "code": "MOB",
+    "name": "MOB-Mobile Regional Airport, Mobile-MOB"
+  },
+  {
+    "code": "BFM",
+    "name": "BFM-Mobile Downtown Airport, Mobile-MOB"
+  },
+  {
+    "code": "MOD",
+    "name": "MOD-Modesto City County Airport, Modesto-MOD"
+  },
+  {
+    "code": "MLI",
+    "name": "MLI-Quad City Airport, Moline-MLI"
+  },
+  {
+    "code": "MLU",
+    "name": "MLU-Monroe Regional Airport, Monroe-MLU"
+  },
+  {
+    "code": "MRY",
+    "name": "MRY-Monterey Regional Airport, Monterey-MRY"
+  },
+  {
+    "code": "MGM",
+    "name": "MGM-Montgomery Regional Airport, Montgomery-MGM"
+  },
+  {
+    "code": "MSV",
+    "name": "MSV-Sullivan County International Airport, Monticello-MSV"
+  },
+  {
+    "code": "MTJ",
+    "name": "MTJ-Montrose Regional Airport, Montrose-MTJ"
+  },
+  {
+    "code": "MGW",
+    "name": "MGW-Morgantown Municipal Airport, Morgantown-MGW"
+  },
+  {
+    "code": "MMU",
+    "name": "MMU-Morristown Municipal Airport, Morristown-MMU"
+  },
+  {
+    "code": "MVL",
+    "name": "MVL-Morrisville-Stowe State Airport, Morrisville-MVL"
+  },
+  {
+    "code": "MWH",
+    "name": "MWH-Grant County International Airport, Moses Lake-MWH"
+  },
+  {
+    "code": "MVN",
+    "name": "MVN-Mount Vernon Airport, Mount Vernon-MVN"
+  },
+  {
+    "code": "BPK",
+    "name": "BPK-Baxter County Regional Airport, Mountain Home-BPK"
+  },
+  {
+    "code": "MOU",
+    "name": "MOU-Mountain Village Airport, Mountain Village-MOU"
+  },
+  {
+    "code": "MIE",
+    "name": "MIE-Delaware County Airport, Muncie-MIE"
+  },
+  {
+    "code": "MSL",
+    "name": "MSL-Northwest Alabama Regional Airport, Muscle Shoals-MSL"
+  },
+  {
+    "code": "MKG",
+    "name": "MKG-Muskegon County Airport, Muskegon-MKG"
+  },
+  {
+    "code": "MYR",
+    "name": "MYR-Myrtle Beach Airport, Myrtle Beach-MYR"
+  },
+  {
+    "code": "ACK",
+    "name": "ACK-Nantucket Memorial Airport, Nantucket-ACK"
+  },
+  {
+    "code": "WNA",
+    "name": "WNA-Napakiak Airport, Napakiak-WNA"
+  },
+  {
+    "code": "APF",
+    "name": "APF-Naples Municipal Airport, Naples-APF"
+  },
+  {
+    "code": "BNA",
+    "name": "BNA-Nashville International Airport, Nashville-BNA"
+  },
+  {
+    "code": "EWB",
+    "name": "EWB-New Bedford Regional Airport, New Bedford-EWB"
+  },
+  {
+    "code": "EWN",
+    "name": "EWN-Craven County Regional Airport, New Bern-EWN"
+  },
+  {
+    "code": "HVN",
+    "name": "HVN-New Haven Airport, New Haven-HVN"
+  },
+  {
+    "code": "MSY",
+    "name": "MSY-Louis Armstrong International Airport, New Orleans-MSY"
+  },
+  {
+    "code": "MSY",
+    "name": "MSY-Lakefront Airport, New Orleans-MSY"
+  },
+  {
+    "code": "LGA",
+    "name": "LGA-LaGuardia Airport, New York-NYC"
+  },
+  {
+    "code": "JFK",
+    "name": "JFK-John F Kennedy International Airport, New York-NYC"
+  },
+  {
+    "code": "EWR",
+    "name": "EWR-Newark Liberty International Airport, New York-NYC"
+  },
+  {
+    "code": "NYC",
+    "name": "NYC-All Airports, New York-NYC"
+  },
+  {
+    "code": "JRB",
+    "name": "JRB-Downtown Manhattan Heliport, New York-NYC"
+  },
+  {
+    "code": "SWF",
+    "name": "SWF-Newburgh Stewart Airport, Newburgh-SWF"
+  },
+  {
+    "code": "ONP",
+    "name": "ONP-Newport Municipal Airport, Newport-ONP"
+  },
+  {
+    "code": "NPT",
+    "name": "NPT-Newport State Airport, Newport-NPT"
+  },
+  {
+    "code": "PHF",
+    "name": "PHF-Newport News Hampton Airport, Newport News Hampton-PHF"
+  },
+  {
+    "code": "EWU",
+    "name": "EWU-Newtok Airport, Newtok-EWU"
+  },
+  {
+    "code": "IAG",
+    "name": "IAG-Niagara Falls International Airport, Niagara Falls-IAG"
+  },
+  {
+    "code": "WTK",
+    "name": "WTK-Noatak Airport, Noatak-WTK"
+  },
+  {
+    "code": "OME",
+    "name": "OME-Nome Airport, Nome-OME"
+  },
+  {
+    "code": "ORV",
+    "name": "ORV-Curtis Memorial Airport, Noorvik-ORV"
+  },
+  {
+    "code": "NGU",
+    "name": "NGU-NAS Chambers Airport, Norfolk-ORF"
+  },
+  {
+    "code": "ORF",
+    "name": "ORF-Norfolk International Airport, Norfolk-ORF"
+  },
+  {
+    "code": "OFK",
+    "name": "OFK-Norfolk Regional Airport, Norfolk-OFK"
+  },
+  {
+    "code": "OTH",
+    "name": "OTH-Southwest Oregon Regional Airport, North Bend-OTH"
+  },
+  {
+    "code": "OQU",
+    "name": "OQU-Quonset State Airport, North Kingstown-OQU"
+  },
+  {
+    "code": "LBF",
+    "name": "LBF-North Platte Regional Airport, North Platte-LBF"
+  },
+  {
+    "code": "NUI",
+    "name": "NUI-Nuiqsut Airport, Nuiqsut-NUI"
+  },
+  {
+    "code": "NUL",
+    "name": "NUL-Nulato Airport, Nulato-NUL"
+  },
+  {
+    "code": "NUP",
+    "name": "NUP-Nunapitchuk Airport, Nunapitchuk-NUP"
+  },
+  {
+    "code": "OAK",
+    "name": "OAK-Oakland International Airport, Oakland-OAK"
+  },
+  {
+    "code": "OCF",
+    "name": "OCF-Ocala International Airport, Ocala-OCF"
+  },
+  {
+    "code": "OFU",
+    "name": "OFU-Ofu Airport, Ofu Village-OFU"
+  },
+  {
+    "code": "OGD",
+    "name": "OGD-Ogden Hinckley Airport, Ogden-OGD"
+  },
+  {
+    "code": "OGS",
+    "name": "OGS-Ogdensburg International Airport, Ogdensburg-OGS"
+  },
+  {
+    "code": "OKC",
+    "name": "OKC-Will Rogers World Airport, Oklahoma City-OKC"
+  },
+  {
+    "code": "JCI",
+    "name": "JCI-New Century Aircenter, Olathe-JCI"
+  },
+  {
+    "code": "OLH",
+    "name": "OLH-Old Harbor Airport, Old Harbor-OLH"
+  },
+  {
+    "code": "OLM",
+    "name": "OLM-Olympia Airport, Olympia-OLM"
+  },
+  {
+    "code": "OMA",
+    "name": "OMA-Eppley Airfield, Omaha-OMA"
+  },
+  {
+    "code": "ONT",
+    "name": "ONT-Ontario International Airport, Ontario-ONT"
+  },
+  {
+    "code": "MCO",
+    "name": "MCO-Orlando International Airport, Orlando-ORL"
+  },
+  {
+    "code": "OSH",
+    "name": "OSH-Wittman Regional Airport, Oshkosh-OSH"
+  },
+  {
+    "code": "OTM",
+    "name": "OTM-Ottumwa Industrial Airport, Ottumwa-OTM"
+  },
+  {
+    "code": "OWB",
+    "name": "OWB-Daviess County Airport, Owensboro-OWB"
+  },
+  {
+    "code": "UOX",
+    "name": "UOX-University Oxford Airport, Oxford-UOX"
+  },
+  {
+    "code": "OXC",
+    "name": "OXC-Waterbury Oxford Airport, Oxford-OXC"
+  },
+  {
+    "code": "OXR",
+    "name": "OXR-Oxnard Ventura Airport, Oxnard-OXR"
+  },
+  {
+    "code": "PAH",
+    "name": "PAH-Barkley Regional Airport, Paducah-PAH"
+  },
+  {
+    "code": "PGA",
+    "name": "PGA-Page Airport, Page-PGA"
+  },
+  {
+    "code": "PSP",
+    "name": "PSP-Palm Springs International Airport, Palm Springs-PSP"
+  },
+  {
+    "code": "PMD",
+    "name": "PMD-Palmdale Regional Airport, Palmdale-PMD"
+  },
+  {
+    "code": "PFN",
+    "name": "PFN-Bay County Airport, Panama City-PFN"
+  },
+  {
+    "code": "ECP",
+    "name": "ECP-Northwest Florida Beaches International Airport, Panama City Beach-ECP"
+  },
+  {
+    "code": "PKB",
+    "name": "PKB-Mid Ohio Valley Airport, Parkersburg-PKB"
+  },
+  {
+    "code": "PGL",
+    "name": "PGL-Trent Lott International Airport, Pascagoula-PGL"
+  },
+  {
+    "code": "PSC",
+    "name": "PSC-Tri Cities Airport, Pasco-PSC"
+  },
+  {
+    "code": "PRB",
+    "name": "PRB-Paso Robles Municipal Airport, Paso Robles-PRB"
+  },
+  {
+    "code": "SFZ",
+    "name": "SFZ-North Central State Airport, Pawtucket-SFZ"
+  },
+  {
+    "code": "GCW",
+    "name": "GCW-Grand Canyon West Airport, Peach Springs-GCW"
+  },
+  {
+    "code": "PLN",
+    "name": "PLN-Emmet Cty Airport, Pellston-PLN"
+  },
+  {
+    "code": "PDT",
+    "name": "PDT-Eastern Oregon Regional Airport, Pendleton-PDT"
+  },
+  {
+    "code": "PNS",
+    "name": "PNS-Pensacola International Airport, Pensacola-PNS"
+  },
+  {
+    "code": "PIA",
+    "name": "PIA-Greater Peoria Airport, Peoria-PIA"
+  },
+  {
+    "code": "PSG",
+    "name": "PSG-Petersburg James A. Johnson Airport, Petersburg-PSG"
+  },
+  {
+    "code": "PHL",
+    "name": "PHL-Philadelphia International Airport, Philadelphia-PHL"
+  },
+  {
+    "code": "SCF",
+    "name": "SCF-Scottsdale Municipal Airport, Phoenix-PHX"
+  },
+  {
+    "code": "PHX",
+    "name": "PHX-Sky Harbor International Airport, Phoenix-PHX"
+  },
+  {
+    "code": "PHX",
+    "name": "PHX-All Airports, Phoenix-PHX"
+  },
+  {
+    "code": "DVT",
+    "name": "DVT-Deer Valley Municipal Airport, Phoenix-DVT"
+  },
+  {
+    "code": "PIR",
+    "name": "PIR-Pierre Regional Airport, Pierre-PIR"
+  },
+  {
+    "code": "UGB",
+    "name": "UGB-Ugashik Bay Airport, Pilot Point-PIP"
+  },
+  {
+    "code": "PIP",
+    "name": "PIP-Pilot Point Airport, Pilot Point-PIP"
+  },
+  {
+    "code": "PIP",
+    "name": "PIP-All Airports, Pilot Point-PIP"
+  },
+  {
+    "code": "PQS",
+    "name": "PQS-Pilot Station Airport, Pilot Station-PQS"
+  },
+  {
+    "code": "SOP",
+    "name": "SOP-Moore County Airport, Pinehurst/Southern Pines-SOP"
+  },
+  {
+    "code": "PIT",
+    "name": "PIT-Pittsburgh International Airport, Pittsburgh-PIT"
+  },
+  {
+    "code": "AGC",
+    "name": "AGC-Allegheny County Airport, Pittsburgh-AGC"
+  },
+  {
+    "code": "PBG",
+    "name": "PBG-Plattsburgh International Airport, Plattsburgh-PBG"
+  },
+  {
+    "code": "PLB",
+    "name": "PLB-Clinton County Airport, Plattsburgh-PLB"
+  },
+  {
+    "code": "PIH",
+    "name": "PIH-Pocatello Regional Airport, Pocatello-PIH"
+  },
+  {
+    "code": "PHO",
+    "name": "PHO-Point Hope Airport, Point Hope-PHO"
+  },
+  {
+    "code": "PLK",
+    "name": "PLK-M Graham Clark Downtown Airport, Point Lookout-PLK"
+  },
+  {
+    "code": "PNC",
+    "name": "PNC-Ponca City Regional Airport, Ponca City-PNC"
+  },
+  {
+    "code": "PSE",
+    "name": "PSE-Mercedita International Airport, Ponce-PSE"
+  },
+  {
+    "code": "PTK",
+    "name": "PTK-Oakland County International Airport, Pontiac-PTK"
+  },
+  {
+    "code": "CLM",
+    "name": "CLM-William R. Fairchild International Airport, Port Angeles-CLM"
+  },
+  {
+    "code": "PCW",
+    "name": "PCW-Erie Ottawa International Airport, Port Clinton-PCW"
+  },
+  {
+    "code": "PGM",
+    "name": "PGM-Port Graham Airport, Port Graham-PGM"
+  },
+  {
+    "code": "PTH",
+    "name": "PTH-Port Heiden Airport, Port Heiden-PTH"
+  },
+  {
+    "code": "ORI",
+    "name": "ORI-Port Lions Airport, Port Lions-ORI"
+  },
+  {
+    "code": "PDX",
+    "name": "PDX-Portland International Airport, Portland-PDX"
+  },
+  {
+    "code": "PWM",
+    "name": "PWM-Portland International Jetport, Portland-PWM"
+  },
+  {
+    "code": "PSM",
+    "name": "PSM-Portsmouth International Airport at Pease, Portsmouth-PSM"
+  },
+  {
+    "code": "POU",
+    "name": "POU-Dutchess County Airport, Poughkeepsie-POU"
+  },
+  {
+    "code": "PRC",
+    "name": "PRC-Ernest A. Love Field Airport, Prescott-PRC"
+  },
+  {
+    "code": "PQI",
+    "name": "PQI-Northern Maine Regional Airport at Presque Isle, Presque Isle-PQI"
+  },
+  {
+    "code": "PPC",
+    "name": "PPC-Prospect Creek Airport, Prospect Creek-PPC"
+  },
+  {
+    "code": "PVD",
+    "name": "PVD-T F Green St Airport, Providence-PVD"
+  },
+  {
+    "code": "PVC",
+    "name": "PVC-Provincetown Municipal Airport, Provincetown-PVC"
+  },
+  {
+    "code": "PVU",
+    "name": "PVU-Provo Municipal Airport, Provo-PVU"
+  },
+  {
+    "code": "PUB",
+    "name": "PUB-Pueblo Airport, Pueblo-PUB"
+  },
+  {
+    "code": "PUW",
+    "name": "PUW-Pullman Moscow Regional Airport, Pullman-PUW"
+  },
+  {
+    "code": "PGD",
+    "name": "PGD-Punta Gorda Airport, Punta Gorda-PGD"
+  },
+  {
+    "code": "3W2",
+    "name": "3W2-Put in Bay Airport, Put - in - Bay-3W2"
+  },
+  {
+    "code": "UIN",
+    "name": "UIN-Quincy Municipal Airport, Quincy-UIN"
+  },
+  {
+    "code": "KWN",
+    "name": "KWN-Quinhagak Airport, Quinhagak-KWN"
+  },
+  {
+    "code": "RDU",
+    "name": "RDU-Raleigh Durham International Airport, Raleigh Durham-RDU"
+  },
+  {
+    "code": "RAP",
+    "name": "RAP-Rapid City Regional Airport, Rapid City-RAP"
+  },
+  {
+    "code": "RDG",
+    "name": "RDG-Reading Regional Airport, Reading-RDG"
+  },
+  {
+    "code": "RDD",
+    "name": "RDD-Redding Municipal Airport, Redding-RDD"
+  },
+  {
+    "code": "RDM",
+    "name": "RDM-Roberts Field, Redmond-RDM"
+  },
+  {
+    "code": "RNO",
+    "name": "RNO-Reno Tahoe International Airport, Reno-RNO"
+  },
+  {
+    "code": "RHI",
+    "name": "RHI-Rhinelander Oneida County Airport, Rhinelander-RHI"
+  },
+  {
+    "code": "RIC",
+    "name": "RIC-Richmond International Airport, Richmond-RIC"
+  },
+  {
+    "code": "RIW",
+    "name": "RIW-Riverton Regional Airport, Riverton-RIW"
+  },
+  {
+    "code": "ROA",
+    "name": "ROA-Roanoke Regional Airport, Roanoke-ROA"
+  },
+  {
+    "code": "ROC",
+    "name": "ROC-Monroe Cty Airport, Rochester-ROC"
+  },
+  {
+    "code": "RST",
+    "name": "RST-Rochester International Airport, Rochester-RST"
+  },
+  {
+    "code": "RKS",
+    "name": "RKS-Sweetwater County Airport, Rock Springs-RKS"
+  },
+  {
+    "code": "RFD",
+    "name": "RFD-Rockford Airport, Rockford-CHI"
+  },
+  {
+    "code": "RKD",
+    "name": "RKD-Knox County Regional Airport, Rockland-RKD"
+  },
+  {
+    "code": "RWI",
+    "name": "RWI-Wilson Regional Airport, Rocky Mount-RWI"
+  },
+  {
+    "code": "RME",
+    "name": "RME-Griffiss International Airport, Rome-RME"
+  },
+  {
+    "code": "RMG",
+    "name": "RMG-Richard B Russell Airport, Rome-RMG"
+  },
+  {
+    "code": "ROW",
+    "name": "ROW-Roswell International Air Center, Roswell-ROW"
+  },
+  {
+    "code": "ROP",
+    "name": "ROP-Rota International Airport, Rota Island-ROP"
+  },
+  {
+    "code": "SRR",
+    "name": "SRR-Sierra Blanca Regional Airport, Ruidoso-SRR"
+  },
+  {
+    "code": "RSH",
+    "name": "RSH-Russian Mission Airport, Russian Mission-RSH"
+  },
+  {
+    "code": "RUT",
+    "name": "RUT-Rutland Airport, Rutland-RUT"
+  },
+  {
+    "code": "MHR",
+    "name": "MHR-Mather Air Force Base, Sacramento-SAC"
+  },
+  {
+    "code": "SMF",
+    "name": "SMF-Sacramento International Airport, Sacramento-SAC"
+  },
+  {
+    "code": "SAC",
+    "name": "SAC-All Airports, Sacramento-SAC"
+  },
+  {
+    "code": "MCC",
+    "name": "MCC-Mc Clellan Airfield, Sacramento-MCC"
+  },
+  {
+    "code": "MBS",
+    "name": "MBS-Saginaw Airport, Saginaw-MBS"
+  },
+  {
+    "code": "STC",
+    "name": "STC-St. Cloud Regional Airport, Saint Cloud-STC"
+  },
+  {
+    "code": "SLE",
+    "name": "SLE-McNary Field, Salem-SLE"
+  },
+  {
+    "code": "SLN",
+    "name": "SLN-Salina Municipal Airport, Salina-SLN"
+  },
+  {
+    "code": "SBY",
+    "name": "SBY-Wicomico Regional Airport, Salisbury-SBY"
+  },
+  {
+    "code": "SLC",
+    "name": "SLC-Salt Lake City International Airport, Salt Lake City-SLC"
+  },
+  {
+    "code": "SJT",
+    "name": "SJT-San Angelo Regional Airport, San Angelo-SJT"
+  },
+  {
+    "code": "SAT",
+    "name": "SAT-San Antonio International Airport, San Antonio-SAT"
+  },
+  {
+    "code": "SBD",
+    "name": "SBD-San Bernardino International Airport, San Bernardino-SBD"
+  },
+  {
+    "code": "SAN",
+    "name": "SAN-Lindbergh International Airport, San Diego-SAN"
+  },
+  {
+    "code": "SFO",
+    "name": "SFO-San Francisco International Airport, San Francisco-SFO"
+  },
+  {
+    "code": "SJC",
+    "name": "SJC-San Jose International Airport, San Jose-SJC"
+  },
+  {
+    "code": "SBP",
+    "name": "SBP-San Luis Obispo County Airport, San Luis Obispo-CSL"
+  },
+  {
+    "code": "SDP",
+    "name": "SDP-Sand Point Airport, Sand Point-SDP"
+  },
+  {
+    "code": "SFB",
+    "name": "SFB-Orlando Sanford Airport, Sanford-ORL"
+  },
+  {
+    "code": "SNA",
+    "name": "SNA-John Wayne Airport, Santa Ana-SNA"
+  },
+  {
+    "code": "SBA",
+    "name": "SBA-Santa Barbara Airport, Santa Barbara-SBA"
+  },
+  {
+    "code": "SAF",
+    "name": "SAF-Santa Fe Municipal Airport, Santa Fe-SAF"
+  },
+  {
+    "code": "SMX",
+    "name": "SMX-Santa Maria Public Airport, Santa Maria-SMX"
+  },
+  {
+    "code": "STS",
+    "name": "STS-Sonoma County Airport, Santa Rosa-STS"
+  },
+  {
+    "code": "SLK",
+    "name": "SLK-Adirondack Regional Airport, Saranac Lake-SLK"
+  },
+  {
+    "code": "SRQ",
+    "name": "SRQ-Bradenton Airport, Sarasota-SRQ"
+  },
+  {
+    "code": "CIU",
+    "name": "CIU-Chippewa County International Airport, Sault Ste Marie-CIU"
+  },
+  {
+    "code": "SAV",
+    "name": "SAV-Savannah International Airport, Savannah-SAV"
+  },
+  {
+    "code": "SVA",
+    "name": "SVA-Savoonga Airport, Savoonga-SVA"
+  },
+  {
+    "code": "SCM",
+    "name": "SCM-Scammon Bay Airport, Scammon Bay-SCM"
+  },
+  {
+    "code": "BFF",
+    "name": "BFF-Western Nebraska Regional Airport, Scottsbluff-BFF"
+  },
+  {
+    "code": "AVP",
+    "name": "AVP-Scranton International Airport, Scranton-AVP"
+  },
+  {
+    "code": "BFI",
+    "name": "BFI-Boeing Field International Airport, Seattle-SEA"
+  },
+  {
+    "code": "SEA",
+    "name": "SEA-Tacoma International Airport, Seattle-SEA"
+  },
+  {
+    "code": "WLK",
+    "name": "WLK-Selawik Airport, Selawik-WLK"
+  },
+  {
+    "code": "SOV",
+    "name": "SOV-Seldovia Airport, Seldovia-SOV"
+  },
+  {
+    "code": "SHR",
+    "name": "SHR-Sheridan Cty Airport, Sheridan-SHR"
+  },
+  {
+    "code": "SHH",
+    "name": "SHH-Shishmaref Airport, Shishmaref-SHH"
+  },
+  {
+    "code": "SOW",
+    "name": "SOW-Show Low Regional Airport, Show Low-SOW"
+  },
+  {
+    "code": "SHV",
+    "name": "SHV-Shreveport Regional Airport, Shreveport-SHV"
+  },
+  {
+    "code": "SHG",
+    "name": "SHG-Shungnak Airport, Shungnak-SHG"
+  },
+  {
+    "code": "SDY",
+    "name": "SDY-Richland Municipal Airport, Sidney-SDY"
+  },
+  {
+    "code": "SVC",
+    "name": "SVC-Grant County Airport, Silver City-SVC"
+  },
+  {
+    "code": "SUX",
+    "name": "SUX-Sioux Gateway Airport, Sioux City-SUX"
+  },
+  {
+    "code": "FSD",
+    "name": "FSD-Sioux Falls Regional Airport, Sioux Falls-FSD"
+  },
+  {
+    "code": "SIT",
+    "name": "SIT-Sitka Airport, Sitka-SIT"
+  },
+  {
+    "code": "SGY",
+    "name": "SGY-Skagway Airport, Skagway-SGY"
+  },
+  {
+    "code": "MQY",
+    "name": "MQY-Smyrna Airport, Smyrna-MQY"
+  },
+  {
+    "code": "SBN",
+    "name": "SBN-Southbend Regional Airport, South Bend-SBN"
+  },
+  {
+    "code": "TVL",
+    "name": "TVL-Lake Tahoe Airport, South Lake Tahoe-TVL"
+  },
+  {
+    "code": "GEG",
+    "name": "GEG-Spokane International Airport, Spokane-GEG"
+  },
+  {
+    "code": "SPI",
+    "name": "SPI-Capital Airport, Springfield-SPI"
+  },
+  {
+    "code": "SGF",
+    "name": "SGF-Springfield Branson Regional Airport, Springfield-SGF"
+  },
+  {
+    "code": "SGH",
+    "name": "SGH-Springfield Beckley Municipal Airport, Springfield-SGH"
+  },
+  {
+    "code": "CEF",
+    "name": "CEF-Westover Metropolitan Airport, Springfield/Chicopee-CEF"
+  },
+  {
+    "code": "STJ",
+    "name": "STJ-Rosecrans Memorial Airport, St Joseph-STJ"
+  },
+  {
+    "code": "SUS",
+    "name": "SUS-Spirit Of St Louis Airport, St Louis-SUS"
+  },
+  {
+    "code": "STP",
+    "name": "STP-St. Paul Downtown Airport, St Paul-STP"
+  },
+  {
+    "code": "SNP",
+    "name": "SNP-Saint Paul Island Airport, St Paul Island-SNP"
+  },
+  {
+    "code": "UST",
+    "name": "UST-Northeast Florida Regional Airport, St. Augustine-UST"
+  },
+  {
+    "code": "SGU",
+    "name": "SGU-St. George Regional Airport, St. George-SGU"
+  },
+  {
+    "code": "STL",
+    "name": "STL-Lambert St. Louis International Airport, St. Louis-STL"
+  },
+  {
+    "code": "KSM",
+    "name": "KSM-St. Marys Airport, St. Marys-KSM"
+  },
+  {
+    "code": "SCE",
+    "name": "SCE-University Park Airport, State College-SCE"
+  },
+  {
+    "code": "SHD",
+    "name": "SHD-Shenandoah Valley Regional Airport, Staunton-SHD"
+  },
+  {
+    "code": "SBS",
+    "name": "SBS-Steamboat Airport, Steamboat Springs-SBS"
+  },
+  {
+    "code": "WBB",
+    "name": "WBB-Stebbins Airport, Stebbins-WBB"
+  },
+  {
+    "code": "SQI",
+    "name": "SQI-Whiteside County Airport, Sterling/Rockfalls-SQI"
+  },
+  {
+    "code": "SWO",
+    "name": "SWO-Stillwater Regional Airport, Stillwater-SWO"
+  },
+  {
+    "code": "SCK",
+    "name": "SCK-Stockton Metropolitan Airport, Stockton-SCK"
+  },
+  {
+    "code": "SYR",
+    "name": "SYR-Hancock International Airport, Syracuse-SYR"
+  },
+  {
+    "code": "ASN",
+    "name": "ASN-Talladega Municipal Airport, Talladega-ASN"
+  },
+  {
+    "code": "TLH",
+    "name": "TLH-Tallahassee International Airport, Tallahassee-TLH"
+  },
+  {
+    "code": "TVR",
+    "name": "TVR-Vicksburg Tallulah Regional Airport, Tallulah/Vicksburg, Ms-TVR"
+  },
+  {
+    "code": "TPA",
+    "name": "TPA-Tampa International Airport, Tampa-TPA"
+  },
+  {
+    "code": "PIE",
+    "name": "PIE-St Petersburg Clearwater Airport, Tampa-TPA"
+  },
+  {
+    "code": "TPA",
+    "name": "TPA-All Airports, Tampa-TPA"
+  },
+  {
+    "code": "TAL",
+    "name": "TAL-Ralph M Calhoun Memorial Airport, Tanana-TAL"
+  },
+  {
+    "code": "TSM",
+    "name": "TSM-Taos Regional Airport, Taos-TSM"
+  },
+  {
+    "code": "TEX",
+    "name": "TEX-Telluride Municipal Airport, Telluride-TEX"
+  },
+  {
+    "code": "TPL",
+    "name": "TPL-Draughon Miller Central Texas Regional Airport, Temple-TPL"
+  },
+  {
+    "code": "HUF",
+    "name": "HUF-Terre Haute International Airport, Terre Haute-HUF"
+  },
+  {
+    "code": "TEB",
+    "name": "TEB-Teterboro Airport, Teterboro-TEB"
+  },
+  {
+    "code": "TXK",
+    "name": "TXK-Texarkana Regional Airport, Texarkana-TXK"
+  },
+  {
+    "code": "TVF",
+    "name": "TVF-Thief River Falls Regional Airport, Thief River Falls-TVF"
+  },
+  {
+    "code": "KTB",
+    "name": "KTB-Thorne Bay Airport, Thorne Bay-KTB"
+  },
+  {
+    "code": "TIX",
+    "name": "TIX-Space Coast Regional Airport, Titusville-TIX"
+  },
+  {
+    "code": "TOG",
+    "name": "TOG-Togiak Airport, Togiak Village-TOG"
+  },
+  {
+    "code": "OOK",
+    "name": "OOK-Toksook Bay Airport, Toksook Bay-OOK"
+  },
+  {
+    "code": "TOL",
+    "name": "TOL-Toledo Express Airport, Toledo-TOL"
+  },
+  {
+    "code": "MJX",
+    "name": "MJX-Robert J Miller Air Park, Toms River-MJX"
+  },
+  {
+    "code": "FOE",
+    "name": "FOE-Forbes Field Airport, Topeka-FOE"
+  },
+  {
+    "code": "TVC",
+    "name": "TVC-Traverse City Airport, Traverse City-TVC"
+  },
+  {
+    "code": "TTN",
+    "name": "TTN-Trenton Mercer Airport, Trenton-TTN"
+  },
+  {
+    "code": "TUS",
+    "name": "TUS-Tucson International Airport, Tucson-TUS"
+  },
+  {
+    "code": "TUL",
+    "name": "TUL-Tulsa International Airport, Tulsa-TUL"
+  },
+  {
+    "code": "TLT",
+    "name": "TLT-Tuluksak Airport, Tuluksak-TLT"
+  },
+  {
+    "code": "WTL",
+    "name": "WTL-Tuntutuliak Airport, Tuntutuliak-WTL"
+  },
+  {
+    "code": "TUP",
+    "name": "TUP-Tupelo Regional Airport, Tupelo-TUP"
+  },
+  {
+    "code": "TCL",
+    "name": "TCL-Tuscaloosa Regional Airport, Tuscaloosa-TCL"
+  },
+  {
+    "code": "TWF",
+    "name": "TWF-Magic Valley City Country Airport, Twin Falls-TWF"
+  },
+  {
+    "code": "TYR",
+    "name": "TYR-Pounds Regional Airport, Tyler-TYR"
+  },
+  {
+    "code": "UNK",
+    "name": "UNK-Unalakleet Airport, Unalakleet-UNK"
+  },
+  {
+    "code": "DUT",
+    "name": "DUT-Unalaska Airport, Unalaska-DUT"
+  },
+  {
+    "code": "UCA",
+    "name": "UCA-Oneida County Airport, Utica-UCA"
+  },
+  {
+    "code": "EGE",
+    "name": "EGE-Eagle County Airport, Vail Eagle-EGE"
+  },
+  {
+    "code": "VDZ",
+    "name": "VDZ-Valdez Airport, Valdez-VDZ"
+  },
+  {
+    "code": "VLD",
+    "name": "VLD-Valdosta Regional Airport, Valdosta-VLD"
+  },
+  {
+    "code": "VPS",
+    "name": "VPS-Fort Walton Beach Airport, Valparaiso-VPS"
+  },
+  {
+    "code": "VPZ",
+    "name": "VPZ-Porter County Municipal Airport, Valparaiso-VPZ"
+  },
+  {
+    "code": "VRB",
+    "name": "VRB-Vero Beach Municipal Airport, Vero Beach-VRB"
+  },
+  {
+    "code": "VCT",
+    "name": "VCT-Victoria Regional Airport, Victoria-VCT"
+  },
+  {
+    "code": "VCV",
+    "name": "VCV-Southern California Logistics Airport, Victorville-VCV"
+  },
+  {
+    "code": "VQS",
+    "name": "VQS-Antonio Rivera Rodríguez Airport, Vieques-VQS"
+  },
+  {
+    "code": "VIS",
+    "name": "VIS-Visalia Municipal Airport, Visalia-VIS"
+  },
+  {
+    "code": "CNW",
+    "name": "CNW-James Connall Airport, Waco-ACT"
+  },
+  {
+    "code": "ACT",
+    "name": "ACT-Waco Regional Airport, Waco-ACT"
+  },
+  {
+    "code": "AIN",
+    "name": "AIN-Wainwright Municipal Airport, Wainwright-AIN"
+  },
+  {
+    "code": "ALW",
+    "name": "ALW-Walla Walla Regional Airport, Walla Walla-ALW"
+  },
+  {
+    "code": "IAD",
+    "name": "IAD-Washington Dulles International Airport, Washington-WAS"
+  },
+  {
+    "code": "DCA",
+    "name": "DCA-R Reagan National Airport, Washington-WAS"
+  },
+  {
+    "code": "WAS",
+    "name": "WAS-All Airports, Washington-WAS"
+  },
+  {
+    "code": "ALO",
+    "name": "ALO-Waterloo Regional Airport, Waterloo-ALO"
+  },
+  {
+    "code": "ATY",
+    "name": "ATY-Watertown Municipal Airport, Watertown-ATY"
+  },
+  {
+    "code": "ART",
+    "name": "ART-Watertown International Airport, Watertown-ART"
+  },
+  {
+    "code": "CWA",
+    "name": "CWA-Central Wisconsin Airport, Wausau-AUW"
+  },
+  {
+    "code": "EAT",
+    "name": "EAT-Pangborn Fld Airport, Wenatchee-EAT"
+  },
+  {
+    "code": "ENV",
+    "name": "ENV-Wendover Airport, Wendover-ENV"
+  },
+  {
+    "code": "PBI",
+    "name": "PBI-Palm Beach International Airport, West Palm Beach-PBI"
+  },
+  {
+    "code": "WYS",
+    "name": "WYS-West Yellowstone Airport, West Yellowstone-WYS"
+  },
+  {
+    "code": "HPN",
+    "name": "HPN-Westchester County Airport, Westchester Country-HPN"
+  },
+  {
+    "code": "WST",
+    "name": "WST-Westerly State Airport, Westerly-WST"
+  },
+  {
+    "code": "BAF",
+    "name": "BAF-Barnes Municipal Airport, Westfield/Springfield-BAF"
+  },
+  {
+    "code": "ICT",
+    "name": "ICT-Mid Continent Airport, Wichita-ICT"
+  },
+  {
+    "code": "SPS",
+    "name": "SPS-Sheppard International Airport, Wichita Falls-SPS"
+  },
+  {
+    "code": "WWD",
+    "name": "WWD-Cape May County Airport, Wildwood-WWD"
+  },
+  {
+    "code": "IPT",
+    "name": "IPT-Williamsport Regional Airport, Williamsport-IPT"
+  },
+  {
+    "code": "ISN",
+    "name": "ISN-Sloulin Field International Airport, Williston-ISN"
+  },
+  {
+    "code": "ILL",
+    "name": "ILL-Willmar Municipal Airport, Willmar-ILL"
+  },
+  {
+    "code": "ILM",
+    "name": "ILM-New Hanover Cty Airport, Wilmington-ILM"
+  },
+  {
+    "code": "ILG",
+    "name": "ILG-New Castle Airport, Wilmington-ILG"
+  },
+  {
+    "code": "INT",
+    "name": "INT-Smith Reynolds Airport, Winston Salem-INT"
+  },
+  {
+    "code": "ORH",
+    "name": "ORH-Worcester Regional Airport, Worcester-ORH"
+  },
+  {
+    "code": "WRL",
+    "name": "WRL-Worland Municipal Airport, Worland-WRL"
+  },
+  {
+    "code": "OTG",
+    "name": "OTG-Worthington Municipal Airport, Worthington-OTG"
+  },
+  {
+    "code": "WRG",
+    "name": "WRG-Wrangell Airport, Wrangell-WRG"
+  },
+  {
+    "code": "YKM",
+    "name": "YKM-Yakima Terminal Airport, Yakima-YKM"
+  },
+  {
+    "code": "YAK",
+    "name": "YAK-Yakutat Airport, Yakutat-YAK"
+  },
+  {
+    "code": "YKN",
+    "name": "YKN-Chan Gurney Municipal Airport, Yankton-YKN"
+  },
+  {
+    "code": "YNG",
+    "name": "YNG-Youngstown-Warren Regional Airport, Youngstown-Warren-YNG"
+  },
+  {
+    "code": "YUM",
+    "name": "YUM-Yuma International Airport, Yuma-YUM"
+  },
+  {
+    "code": "ABR",
+    "name": "ABR-Aberdeen Muncipal Airport, Aberdeen-ABR"
+  },
+  {
+    "code": "ABI",
+    "name": "ABI-Regional Airport, Abilene-ABI"
+  },
+  {
+    "code": "ADK",
+    "name": "ADK-Adak Airport, Adak Island-ADK"
+  },
+  {
+    "code": "BQN",
+    "name": "BQN-Rafael Hernandez International Airport, Aguadilla-BQN"
+  },
+  {
+    "code": "CAK",
+    "name": "CAK-Akron Airport, Akron/Canton-CAK"
+  },
+  {
+    "code": "AUK",
+    "name": "AUK-Alakanuk Airport, Alakanuk-AUK"
+  },
+  {
+    "code": "ALM",
+    "name": "ALM-White Sands Regional Airport, Alamogordo-ALM"
+  },
+  {
+    "code": "ALS",
+    "name": "ALS-San Luis Valley Regional Airport, Alamosa-ALS"
+  },
+  {
+    "code": "ALB",
+    "name": "ALB-Albany International Airport, Albany-ALB"
+  },
+  {
+    "code": "ABY",
+    "name": "ABY-Dougherty Cty Airport, Albany-ABY"
+  },
+  {
+    "code": "ABQ",
+    "name": "ABQ-Albuquerque International Airport, Albuquerque-ABQ"
+  },
+  {
+    "code": "AEX",
+    "name": "AEX-Alexandria International Airport, Alexandria-AEX"
+  },
+  {
+    "code": "ESF",
+    "name": "ESF-Esler Regional Airport, Alexandria-ESF"
+  },
+  {
+    "code": "AXN",
+    "name": "AXN-Chandler Field Airport, Alexandria-AXN"
+  },
+  {
+    "code": "ABE",
+    "name": "ABE-Allentown Bthlehm  International Airport, Allentown-ABE"
+  },
+  {
+    "code": "AIA",
+    "name": "AIA-Alliance Municipal Airport, Alliance-AIA"
+  },
+  {
+    "code": "APN",
+    "name": "APN-Alpena County Regional Airport, Alpena-APN"
+  },
+  {
+    "code": "ALN",
+    "name": "ALN-St Louis Regional Airport, Alton/St Louis-ALN"
+  },
+  {
+    "code": "AOO",
+    "name": "AOO-Blair County Airport, Altoona-AOO"
+  },
+  {
+    "code": "AMA",
+    "name": "AMA-Amarillo International Airport, Amarillo-AMA"
+  },
+  {
+    "code": "ABL",
+    "name": "ABL-Ambler Airport, Ambler-ABL"
+  },
+  {
+    "code": "OST",
+    "name": "OST-Anacortes Airport, Anacortes-OST"
+  },
+  {
+    "code": "AKP",
+    "name": "AKP-Anaktuvuk Pass Airport, Anaktuvuk Pass-AKP"
+  },
+  {
+    "code": "MRI",
+    "name": "MRI-Merrill Field Airport, Anchorage-MRI"
+  },
+  {
+    "code": "ANC",
+    "name": "ANC-Anchorage International Airport, Anchorage-ANC"
+  },
+  {
+    "code": "LHD",
+    "name": "LHD-Lake Hood Airport, Anchorage-LHD"
+  },
+  {
+    "code": "AND",
+    "name": "AND-Anderson Regional Airport, Anderson-AND"
+  },
+  {
+    "code": "AID",
+    "name": "AID-Anderson Municipal Airport, Anderson-AID"
+  },
+  {
+    "code": "LJN",
+    "name": "LJN-Brazoria County Airport, Angleton/Lake Jackson-LJN"
+  },
+  {
+    "code": "AGN",
+    "name": "AGN-Angoon Seaplane Base Airport, Angoon-AGN"
+  },
+  {
+    "code": "ANI",
+    "name": "ANI-Aniak Airport, Aniak-ANI"
+  },
+  {
+    "code": "ANB",
+    "name": "ANB-Anniston Municipal Airport, Anniston-ANB"
+  },
+  {
+    "code": "GIS",
+    "name": "GIS-Gisborne Airport, Gisborne-GIS"
+  },
+  {
+    "code": "IVC",
+    "name": "IVC-Invercargill Airport, Invercargill-IVC"
+  },
+  {
+    "code": "KKE",
+    "name": "KKE-Kerikeri Airport, Kerikeri-KKE"
+  },
+  {
+    "code": "MON",
+    "name": "MON-Mt Cook Airport, Mount Cook-MON"
+  },
+  {
+    "code": "NPE",
+    "name": "NPE-Hawkes Bay Airport, Napier-NPE"
+  },
+  {
+    "code": "NSN",
+    "name": "NSN-Nelson Airport, Nelson-NSN"
+  },
+  {
+    "code": "NPL",
+    "name": "NPL-New Plymouth Airport, New Plymouth-NPL"
+  },
+  {
+    "code": "PMR",
+    "name": "PMR-Palmerston North Airport, Palmerston North-PMR"
+  },
+  {
+    "code": "ZQN",
+    "name": "ZQN-Frankton Airport, Queenstown-ZQN"
+  },
+  {
+    "code": "ROT",
+    "name": "ROT-Rotorua Airport, Rotorua-ROT"
+  },
+  {
+    "code": "TRG",
+    "name": "TRG-Tauranga Airport, Tauranga-TRG"
+  },
+  {
+    "code": "WLG",
+    "name": "WLG-Wellington Airport, Wellington-WLG"
+  },
+  {
+    "code": "NIM",
+    "name": "NIM-Niamey Airport, Niamey-NIM"
+  },
+  {
+    "code": "ABV",
+    "name": "ABV-Nnamdi Azikiwe International Airport, Abuja-ABV"
+  },
+  {
+    "code": "BNI",
+    "name": "BNI-Benin Airport, Benin City-BNI"
+  },
+  {
+    "code": "CBQ",
+    "name": "CBQ-Margaret Ekpo International Airport, Calabar-CBQ"
+  },
+  {
+    "code": "KAN",
+    "name": "KAN-Mallam Aminu Kano International Airport, Kano-KAN"
+  },
+  {
+    "code": "LOS",
+    "name": "LOS-Murtala Muhammed Airport, Lagos-LOS"
+  },
+  {
+    "code": "PHC",
+    "name": "PHC-Port Harcourt Airport, Port Harcourt-PHC"
+  },
+  {
+    "code": "QRW",
+    "name": "QRW-Warri Airport, Warri-QRW"
+  },
+  {
+    "code": "IUE",
+    "name": "IUE-Hanan Airport, Niue Island-IUE"
+  },
+  {
+    "code": "NLK",
+    "name": "NLK-Norfolk Island International Airport, Norfolk Island-NLK"
+  },
+  {
+    "code": "SPN",
+    "name": "SPN-Saipan International Airport, Obyan-SPN"
+  },
+  {
+    "code": "AES",
+    "name": "AES-Vigra Airport, Aalesund-AES"
+  },
+  {
+    "code": "ALF",
+    "name": "ALF-Alta Airport, Alta-ALF"
+  },
+  {
+    "code": "ANX",
+    "name": "ANX-Andoya Airport, Andenes-ANX"
+  },
+  {
+    "code": "BDU",
+    "name": "BDU-Bardufoss Airport, Bardufoss-BDU"
+  },
+  {
+    "code": "BGO",
+    "name": "BGO-Flesland Airport, Bergen-BGO"
+  },
+  {
+    "code": "BOO",
+    "name": "BOO-Bodo Airport, Bodo-BOO"
+  },
+  {
+    "code": "BNN",
+    "name": "BNN-Bronnoy Airport, Bronnoysund-BNN"
+  },
+  {
+    "code": "VDB",
+    "name": "VDB-Leirin Valdres Airport, Fagernes-VDB"
+  },
+  {
+    "code": "FRO",
+    "name": "FRO-Floro Airport, Floro-FRO"
+  },
+  {
+    "code": "FDE",
+    "name": "FDE-Bringeland Airport, Forde-FDE"
+  },
+  {
+    "code": "HFT",
+    "name": "HFT-Hammerfest Airport, Hammerfest-HFT"
+  },
+  {
+    "code": "EVE",
+    "name": "EVE-Evenes Airport, Harstad-narvik-EVE"
+  },
+  {
+    "code": "HAU",
+    "name": "HAU-Karmoy Airport, Haugesund-HAU"
+  },
+  {
+    "code": "HVG",
+    "name": "HVG-Valan Airport, Honningsvag-HVG"
+  },
+  {
+    "code": "KKN",
+    "name": "KKN-Hoeybuktmoen Airport, Kirkenes-KKN"
+  },
+  {
+    "code": "KRS",
+    "name": "KRS-Kjevik Airport, Kristiansand-KRS"
+  },
+  {
+    "code": "KSU",
+    "name": "KSU-Kvernberget Airport, Kristiansund-KSU"
+  },
+  {
+    "code": "LKL",
+    "name": "LKL-Banak Airport, Lakselv-LKL"
+  },
+  {
+    "code": "LKN",
+    "name": "LKN-Leknes Airport, Leknes-LKN"
+  },
+  {
+    "code": "LYR",
+    "name": "LYR-Svalbard Airport, Longyearbyen-LYR"
+  },
+  {
+    "code": "MQN",
+    "name": "MQN-Mo i Rana Airport, Mo I Rana-MQN"
+  },
+  {
+    "code": "MOL",
+    "name": "MOL-Aro Airport, Molde-MOL"
+  },
+  {
+    "code": "MJF",
+    "name": "MJF-Kjaerstad Airport, Mosjoen-MJF"
+  },
+  {
+    "code": "OSY",
+    "name": "OSY-Namsos Airport, Namsos-OSY"
+  },
+  {
+    "code": "NVK",
+    "name": "NVK-Framnes Airport, Narvik-NVK"
+  },
+  {
+    "code": "HOV",
+    "name": "HOV-Hovden Airport, Orsta Volda-HOV"
+  },
+  {
+    "code": "OSL",
+    "name": "OSL-Oslo Gardermoen Airport, Oslo-OSL"
+  },
+  {
+    "code": "RVK",
+    "name": "RVK-Ryumsjoen Airport, Roervik-RVK"
+  },
+  {
+    "code": "RRS",
+    "name": "RRS-Roros Airport, Roros-RRS"
+  },
+  {
+    "code": "RYG",
+    "name": "RYG-Moss Rygge Airport, Rygge-OSL"
+  },
+  {
+    "code": "SDN",
+    "name": "SDN-Anda Airport, Sandane-SDN"
+  },
+  {
+    "code": "SSJ",
+    "name": "SSJ-Stokka Airport, Sandnessjoen-SSJ"
+  },
+  {
+    "code": "SOG",
+    "name": "SOG-Haukasen Airport, Sogndal-SOG"
+  },
+  {
+    "code": "SVG",
+    "name": "SVG-Sola Airport, Stavanger-SVG"
+  },
+  {
+    "code": "SKN",
+    "name": "SKN-Skagen Airport, Stokmarknes-SKN"
+  },
+  {
+    "code": "SRP",
+    "name": "SRP-Sorstokken Airport, Stord-SRP"
+  },
+  {
+    "code": "SVJ",
+    "name": "SVJ-Svolvaer Airport, Svolvaer-SVJ"
+  },
+  {
+    "code": "TRF",
+    "name": "TRF-Sandefjord Airport, Torp-OSL"
+  },
+  {
+    "code": "TOS",
+    "name": "TOS-Tromso Langnes Airport, Tromso-TOS"
+  },
+  {
+    "code": "VAW",
+    "name": "VAW-Svartnes Airport, Vardoe-VAW"
+  },
+  {
+    "code": "MCT",
+    "name": "MCT-Muscat International Airport, Muscat-MCT"
+  },
+  {
+    "code": "SLL",
+    "name": "SLL-Salalah Airport, Salalah-SLL"
+  },
+  {
+    "code": "ISB",
+    "name": "ISB-Benazir Bhutto International Airport, Islamabad-ISB"
+  },
+  {
+    "code": "KHI",
+    "name": "KHI-Jinnah International Airport, Karachi-KHI"
+  },
+  {
+    "code": "LHE",
+    "name": "LHE-Lahore Airport, Lahore-LHE"
+  },
+  {
+    "code": "PEW",
+    "name": "PEW-Peshawar Airport, Peshawar-PEW"
+  },
+  {
+    "code": "SKT",
+    "name": "SKT-Sialkot Airport, Sialkot-SKT"
+  },
+  {
+    "code": "ROR",
+    "name": "ROR-Airai Airport, Koror-ROR"
+  },
+  {
+    "code": "PTY",
+    "name": "PTY-Tocumen International Airport, Panama City-PTY"
+  },
+  {
+    "code": "PAC",
+    "name": "PAC-Marcos A. Gelabert International Airport, Panama City-PTY"
+  },
+  {
+    "code": "PTY",
+    "name": "PTY-All Airports, Panama City-PTY"
+  },
+  {
+    "code": "GKA",
+    "name": "GKA-Goroka Airport, Goroka-GKA"
+  },
+  {
+    "code": "LAE",
+    "name": "LAE-Nadzab Airport, Lae-LAE"
+  },
+  {
+    "code": "HGU",
+    "name": "HGU-Kagamuga Airport, Mount Hagen-HGU"
+  },
+  {
+    "code": "POM",
+    "name": "POM-Jackson International Airport, Port Moresby-POM"
+  },
+  {
+    "code": "ASU",
+    "name": "ASU-Salvio Pettirosse Airport, Asuncion-ASU"
+  },
+  {
+    "code": "AGT",
+    "name": "AGT-Alejo Garci Airport, Ciudad Del Este-AGT"
+  },
+  {
+    "code": "AQP",
+    "name": "AQP-Rodriguez Ballon Airport, Arequipa-AQP"
+  },
+  {
+    "code": "CIX",
+    "name": "CIX-Cornel Ruiz Airport, Chiclayo-CIX"
+  },
+  {
+    "code": "CUZ",
+    "name": "CUZ-Velazco Astete Airport, Cuzco-CUZ"
+  },
+  {
+    "code": "IQT",
+    "name": "IQT-C F Secada Airport, Iquitos-IQT"
+  },
+  {
+    "code": "JUL",
+    "name": "JUL-Juliaca Airport, Juliaca-JUL"
+  },
+  {
+    "code": "LIM",
+    "name": "LIM-Jorge Chavez International Airport, Lima-LIM"
+  },
+  {
+    "code": "PEM",
+    "name": "PEM-Puerto Maldonado Airport, Puerto Maldonado-PEM"
+  },
+  {
+    "code": "TRU",
+    "name": "TRU-Trujillo Airport, Trujillo-TRU"
+  },
+  {
+    "code": "TBP",
+    "name": "TBP-Tumbes Airport, Tumbes-TBP"
+  },
+  {
+    "code": "BCD",
+    "name": "BCD-Silay International Airport, Bacolod-BCD"
+  },
+  {
+    "code": "USU",
+    "name": "USU-Busuanga Airport, Busuanga-USU"
+  },
+  {
+    "code": "BXU",
+    "name": "BXU-Butuan Airport, Butuan-BXU"
+  },
+  {
+    "code": "CGY",
+    "name": "CGY-Lumbia Airport, Cagayan De Oro-CGY"
+  },
+  {
+    "code": "MPH",
+    "name": "MPH-Malay Airport, Caticlan-MPH"
+  },
+  {
+    "code": "CEB",
+    "name": "CEB-Mactan International Airport, Cebu-CEB"
+  },
+  {
+    "code": "CRK",
+    "name": "CRK-Clark International Airport, Clark-CRK"
+  },
+  {
+    "code": "DVO",
+    "name": "DVO-Francisco Bangoy International Airport, Davao-DVO"
+  },
+  {
+    "code": "DPL",
+    "name": "DPL-Dipolog Airport, Dipolog-DPL"
+  },
+  {
+    "code": "DGT",
+    "name": "DGT-Dumaguete Airport, Dumaguete-DGT"
+  },
+  {
+    "code": "GES",
+    "name": "GES-General Santos International Airport, General Santos-GES"
+  },
+  {
+    "code": "ILO",
+    "name": "ILO-Ilo Ilo International Airport, Ilo ilo-ILO"
+  },
+  {
+    "code": "KLO",
+    "name": "KLO-Kalibo Airport, Kalibo-KLO"
+  },
+  {
+    "code": "MNL",
+    "name": "MNL-Ninoy Aquino International Airport, Manila-MNL"
+  },
+  {
+    "code": "PPS",
+    "name": "PPS-Puerto Princesa Airport, Puerto Princesa-PPS"
+  },
+  {
+    "code": "TAC",
+    "name": "TAC-D Z Romualdez Airport, Tacloban-TAC"
+  },
+  {
+    "code": "TAG",
+    "name": "TAG-Tagbilaran Airport, Tagbilaran-TAG"
+  },
+  {
+    "code": "TUG",
+    "name": "TUG-Tuguegarao Airport, Tuguegarao-TUG"
+  },
+  {
+    "code": "BZG",
+    "name": "BZG-Ignacy Jan Paderewski Airport, Bydgoszcz-BZG"
+  },
+  {
+    "code": "GDN",
+    "name": "GDN-Lech Walesa Airport, Gdansk-GDN"
+  },
+  {
+    "code": "KTW",
+    "name": "KTW-Katowice International Airport, Katowice-KTW"
+  },
+  {
+    "code": "KRK",
+    "name": "KRK-John Paul II International Airport, Krakow-KRK"
+  },
+  {
+    "code": "LCJ",
+    "name": "LCJ-Lodz Lublinek Airport, Lodz-LCJ"
+  },
+  {
+    "code": "POZ",
+    "name": "POZ-Lawica Airport, Poznan-POZ"
+  },
+  {
+    "code": "RZE",
+    "name": "RZE-Jasionka Airport, Rzeszow-RZE"
+  },
+  {
+    "code": "SZZ",
+    "name": "SZZ-Goleniow Airport, Szczecin-SZZ"
+  },
+  {
+    "code": "WAW",
+    "name": "WAW-F Chopin International Airport, Warsaw-WAW"
+  },
+  {
+    "code": "WMI",
+    "name": "WMI-Warsaw Modlin Airport, Warsaw Modlin-WMI"
+  },
+  {
+    "code": "WRO",
+    "name": "WRO-Copernicus Airport Wroc?aw, Wroclaw-WRO"
+  },
+  {
+    "code": "CVU",
+    "name": "CVU-Corvo Airport, Corvo Island-CVU"
+  },
+  {
+    "code": "FAO",
+    "name": "FAO-Faro Airport, Faro-FAO"
+  },
+  {
+    "code": "FLW",
+    "name": "FLW-Flores Island Airport, Flores Island-FLW"
+  },
+  {
+    "code": "FNC",
+    "name": "FNC-Madeira Airport, Funchal-FNC"
+  },
+  {
+    "code": "HOR",
+    "name": "HOR-Horta Airport, Horta-HOR"
+  },
+  {
+    "code": "LIS",
+    "name": "LIS-Lisbon Airport, Lisbon-LIS"
+  },
+  {
+    "code": "PIX",
+    "name": "PIX-Pico Airport, Pico Island-PIX"
+  },
+  {
+    "code": "PDL",
+    "name": "PDL-Joao Paulo II Airport, Ponta Delgada Azores-PDL"
+  },
+  {
+    "code": "OPO",
+    "name": "OPO-Porto Airport, Porto-OPO"
+  },
+  {
+    "code": "PXO",
+    "name": "PXO-Porto Santo Airport, Porto Santo-PXO"
+  },
+  {
+    "code": "SMA",
+    "name": "SMA-Santa Maria Airport, Santa Maria-SMA"
+  },
+  {
+    "code": "SJZ",
+    "name": "SJZ-Sao Jorge Airport, Sao Jorge Island-SJZ"
+  },
+  {
+    "code": "TER",
+    "name": "TER-Lajes Airport, Terceira Island-TER"
+  },
+  {
+    "code": "SJU",
+    "name": "SJU-Luis Munoz Marin International Airport, SAN JUAN-SJU"
+  },
+  {
+    "code": "DOH",
+    "name": "DOH-Doha International Airport, Doha-DOH"
+  },
+  {
+    "code": "RUN",
+    "name": "RUN-Roland Garros Airport, St Denis de la Reunion-RUN"
+  },
+  {
+    "code": "ZSE",
+    "name": "ZSE-St Pierre Dela Reunion Airport, St Pierre dela Reunion-ZSE"
+  },
+  {
+    "code": "BCM",
+    "name": "BCM-Bacau Airport, Bacau-BCM"
+  },
+  {
+    "code": "BAY",
+    "name": "BAY-Baia Mare Airport, Baia Mare-BAY"
+  },
+  {
+    "code": "BBU",
+    "name": "BBU-Baneasa Aurel Airport, Bucharest-BUH"
+  },
+  {
+    "code": "OTP",
+    "name": "OTP-Henri Coanda International Airport, Bucharest-BUH"
+  },
+  {
+    "code": "BUH",
+    "name": "BUH-Henri Coanda International Airport, Bucharest-BUH"
+  },
+  {
+    "code": "CLJ",
+    "name": "CLJ-Napoca Airport, Cluj Napoca-CLJ"
+  },
+  {
+    "code": "CND",
+    "name": "CND-Mihail Kogalniceanu Airport, Constanta-CND"
+  },
+  {
+    "code": "CRA",
+    "name": "CRA-Craiova Airport, Craiova-CRA"
+  },
+  {
+    "code": "IAS",
+    "name": "IAS-Iasi Airport, Iasi-IAS"
+  },
+  {
+    "code": "OMR",
+    "name": "OMR-Oradea Airport, Oradea-OMR"
+  },
+  {
+    "code": "SUJ",
+    "name": "SUJ-Satu Mare Airport, Satu Mare-SUJ"
+  },
+  {
+    "code": "SBZ",
+    "name": "SBZ-Sibiu Airport, Sibiu-SBZ"
+  },
+  {
+    "code": "SCV",
+    "name": "SCV-Stefan Cel Mare Airport, Suceava-SCV"
+  },
+  {
+    "code": "TSR",
+    "name": "TSR-Traian Vuia Airport, Timisoara-TSR"
+  },
+  {
+    "code": "TGM",
+    "name": "TGM-Targu Mures International Airport, Tirgu Mures-TGM"
+  },
+  {
+    "code": "AAQ",
+    "name": "AAQ-Anapa Airport, Anapa-AAQ"
+  },
+  {
+    "code": "ARH",
+    "name": "ARH-Arkhangelsk Airport, Arkhangelsk-ARH"
+  },
+  {
+    "code": "ASF",
+    "name": "ASF-Astrakhan Airport, Astrakhan-ASF"
+  },
+  {
+    "code": "BAX",
+    "name": "BAX-Barnaul Airport, Barnaul-BAX"
+  },
+  {
+    "code": "EGO",
+    "name": "EGO-Belgorod Airport, Belgorod-EGO"
+  },
+  {
+    "code": "CEK",
+    "name": "CEK-Chelyabinsk Airport, Chelyabinsk-CEK"
+  },
+  {
+    "code": "HTA",
+    "name": "HTA-Chita Airport, Chita-HTA"
+  },
+  {
+    "code": "IKT",
+    "name": "IKT-Irkutsk Airport, Irkutsk-IKT"
+  },
+  {
+    "code": "KGD",
+    "name": "KGD-Kaliningrad Airport, Kaliningrad-KGD"
+  },
+  {
+    "code": "KZN",
+    "name": "KZN-Kazan Airport, Kazan-KZN"
+  },
+  {
+    "code": "KEJ",
+    "name": "KEJ-Kemerovo Airport, Kemerovo-KEJ"
+  },
+  {
+    "code": "KHV",
+    "name": "KHV-Novyy Airport, Khabarovsk-KHV"
+  },
+  {
+    "code": "KRR",
+    "name": "KRR-Krasnodar Airport, Krasnodar-KRR"
+  },
+  {
+    "code": "KJA",
+    "name": "KJA-Krasnojarsk Airport, Krasnojarsk-KJA"
+  },
+  {
+    "code": "MRV",
+    "name": "MRV-Mineralnye Vody Airport, Mineralnye Vody-MRV"
+  },
+  {
+    "code": "SVO",
+    "name": "SVO-Sheremetyevo Airport, Moscow-MOW"
+  },
+  {
+    "code": "VKO",
+    "name": "VKO-Vnukovo Airport, Moscow-MOW"
+  },
+  {
+    "code": "BKA",
+    "name": "BKA-Bykovo Airport, Moscow-MOW"
+  },
+  {
+    "code": "DME",
+    "name": "DME-Domodedovo Airport, Moscow-MOW"
+  },
+  {
+    "code": "MOW",
+    "name": "MOW-All Airports, Moscow-MOW"
+  },
+  {
+    "code": "MMK",
+    "name": "MMK-Murmansk Airport, Murmansk-MMK"
+  },
+  {
+    "code": "NJC",
+    "name": "NJC-Nizhnevartovsk Airport, Nizhnevartovsk-NJC"
+  },
+  {
+    "code": "GOJ",
+    "name": "GOJ-Strigino Nizhniy Novgorod Airport, Nizhniy Novgorod-GOJ"
+  },
+  {
+    "code": "NOZ",
+    "name": "NOZ-Novokuznetsk Airport, Novokuznetsk-NOZ"
+  },
+  {
+    "code": "OVB",
+    "name": "OVB-Tolmachevo Airport, Novosibirsk-OVB"
+  },
+  {
+    "code": "OMS",
+    "name": "OMS-Omsk Airport, Omsk-OMS"
+  },
+  {
+    "code": "PEE",
+    "name": "PEE-Perm Airport, Perm-PEE"
+  },
+  {
+    "code": "PES",
+    "name": "PES-Petrozavodsk Airport, Petrozavodsk-PES"
+  },
+  {
+    "code": "ROV",
+    "name": "ROV-Rostov Airport, Rostov-ROV"
+  },
+  {
+    "code": "KUF",
+    "name": "KUF-Samara Airport, Samara-KUF"
+  },
+  {
+    "code": "AER",
+    "name": "AER-Alder Sochi Airport, Sochi-AER"
+  },
+  {
+    "code": "LED",
+    "name": "LED-Pulkovo Airport, St Petersburg-LED"
+  },
+  {
+    "code": "SGC",
+    "name": "SGC-Surgut Airport, Surgut-SGC"
+  },
+  {
+    "code": "SCW",
+    "name": "SCW-Syktyvkar Airport, Syktyvkar-SCW"
+  },
+  {
+    "code": "UFA",
+    "name": "UFA-Ufa Airport, Ufa-UFA"
+  },
+  {
+    "code": "UUD",
+    "name": "UUD-Mukhino Ulan Ude Airport, Ulan ude-UUD"
+  },
+  {
+    "code": "VVO",
+    "name": "VVO-Vladivostok Airport, Vladivostok-VVO"
+  },
+  {
+    "code": "VOZ",
+    "name": "VOZ-Voronezh Airport, Voronezh-VOZ"
+  },
+  {
+    "code": "YKS",
+    "name": "YKS-Yakutsk Airport, Yakutsk-YKS"
+  },
+  {
+    "code": "SVX",
+    "name": "SVX-Koltsovo Airport, Yekaterinburg-SVX"
+  },
+  {
+    "code": "KGL",
+    "name": "KGL-Kigali International Airport, Kigali-KGL"
+  },
+  {
+    "code": "SLU",
+    "name": "SLU-George F. L. Charles Airport, Saint Lucia-SLU"
+  },
+  {
+    "code": "UVF",
+    "name": "UVF-Hewanorra Airport, St Lucia-SLU"
+  },
+  {
+    "code": "SVD",
+    "name": "SVD-St Vincent Airport, St Vincent-SVD"
+  },
+  {
+    "code": "UNI",
+    "name": "UNI-Union Island Airport, Union Island-UNI"
+  },
+  {
+    "code": "FGI",
+    "name": "FGI-Fagali Airport, Apia-APW"
+  },
+  {
+    "code": "APW",
+    "name": "APW-Faleolo Airport, Apia-APW"
+  },
+  {
+    "code": "TMS",
+    "name": "TMS-Sao Tome International Airport, Sao Tome Is-TMS"
+  },
+  {
+    "code": "AHB",
+    "name": "AHB-Abha Airport, Abha-AHB"
+  },
+  {
+    "code": "DMM",
+    "name": "DMM-King Fahad Airport, Dammam-DMM"
+  },
+  {
+    "code": "JED",
+    "name": "JED-King Abdulaziz International Airport, Jeddah-JED"
+  },
+  {
+    "code": "MED",
+    "name": "MED-Madinah Airport, Madinah-MED"
+  },
+  {
+    "code": "RUH",
+    "name": "RUH-King Khalid International Airport, Riyadh-RUH"
+  },
+  {
+    "code": "TIF",
+    "name": "TIF-Taif Airport, Taif-TIF"
+  },
+  {
+    "code": "YNB",
+    "name": "YNB-Yanbo Al Bahr Airport, Yanbu-YNB"
+  },
+  {
+    "code": "DKR",
+    "name": "DKR-Leopold Sedar Senghor Airport, Dakar-DKR"
+  },
+  {
+    "code": "ZIG",
+    "name": "ZIG-Ziguinchor Airport, Ziguinchor-ZIG"
+  },
+  {
+    "code": "BEG",
+    "name": "BEG-Nikola Tesla Airport, Belgrade-BEG"
+  },
+  {
+    "code": "INI",
+    "name": "INI-Constantine the Great Airport, Nis-INI"
+  },
+  {
+    "code": "SEZ",
+    "name": "SEZ-Seychelles International Airport, Mahe Island-SEZ"
+  },
+  {
+    "code": "PRI",
+    "name": "PRI-Praslin Island Airport, Praslin Island-PRI"
+  },
+  {
+    "code": "FNA",
+    "name": "FNA-Lungi International Airport, Freetown-FNA"
+  },
+  {
+    "code": "XSP",
+    "name": "XSP-Seletar Airport, Singapore-SIN"
+  },
+  {
+    "code": "SIN",
+    "name": "SIN-Changi International Airport, Singapore-SIN"
+  },
+  {
+    "code": "BTS",
+    "name": "BTS-Bratislava Airport, Bratislava-BTS"
+  },
+  {
+    "code": "KSC",
+    "name": "KSC-Kosice Barca Airport, Kosice-KSC"
+  },
+  {
+    "code": "TAT",
+    "name": "TAT-Poprad Tatry Airport, Poprad-TAT"
+  },
+  {
+    "code": "LJU",
+    "name": "LJU-Joze Pucnik Airport, Ljubljana-LJU"
+  },
+  {
+    "code": "HIR",
+    "name": "HIR-Henderson International Airport, Honiara-HIR"
+  },
+  {
+    "code": "HGA",
+    "name": "HGA-Hargeisa Airport, Hargeisa-HGA"
+  },
+  {
+    "code": "MGQ",
+    "name": "MGQ-Aden Adde International Airport, Mogadishu-MGQ"
+  },
+  {
+    "code": "BFN",
+    "name": "BFN-Bloemfontein Airport, Bloemfontein-BFN"
+  },
+  {
+    "code": "CPT",
+    "name": "CPT-Cape Town International Airport, Cape Town-CPT"
+  },
+  {
+    "code": "DUR",
+    "name": "DUR-King Shaka International Airport, Durban-DUR"
+  },
+  {
+    "code": "ELS",
+    "name": "ELS-East London Airport, East London-ELS"
+  },
+  {
+    "code": "GRJ",
+    "name": "GRJ-George Airport, George-GRJ"
+  },
+  {
+    "code": "HDS",
+    "name": "HDS-Hoedspruit Airport, Hoedspruit-HDS"
+  },
+  {
+    "code": "JNB",
+    "name": "JNB-O R Tambo International Airport, Johannesburg-JNB"
+  },
+  {
+    "code": "KIM",
+    "name": "KIM-Kimberley Airport, Kimberley-KIM"
+  },
+  {
+    "code": "HLA",
+    "name": "HLA-Lanseria International Airport, Lanseria-HLA"
+  },
+  {
+    "code": "AAM",
+    "name": "AAM-Mala Mala Airport, Mala Mala-AAM"
+  },
+  {
+    "code": "MGH",
+    "name": "MGH-Margate Airport, Margate-MGH"
+  },
+  {
+    "code": "MQP",
+    "name": "MQP-Kruger Mpumalanga International Airport, Nelspruit-MQP"
+  },
+  {
+    "code": "NLP",
+    "name": "NLP-Nelspruit Airport, Nelspruit-NLP"
+  },
+  {
+    "code": "PHW",
+    "name": "PHW-Phalaborwa Airport, Phalaborwa-PHW"
+  },
+  {
+    "code": "PZB",
+    "name": "PZB-Pietermaritzburg Airport, Pietermaritzburg-PZB"
+  },
+  {
+    "code": "PBZ",
+    "name": "PBZ-Plettenberg Bay Airport, Plettenberg Bay-PBZ"
+  },
+  {
+    "code": "PTG",
+    "name": "PTG-Pietersburg Airport, Polokwane-PTG"
+  },
+  {
+    "code": "PLZ",
+    "name": "PLZ-Port Elizabeth Airport, Port Elizabeth-PLZ"
+  },
+  {
+    "code": "RCB",
+    "name": "RCB-Richards Bay Airport, Richards Bay-RCB"
+  },
+  {
+    "code": "SZK",
+    "name": "SZK-Skukuza Airport, Skukuza-SZK"
+  },
+  {
+    "code": "NTY",
+    "name": "NTY-Pilansberg Airport, Sun City-NTY"
+  },
+  {
+    "code": "UTT",
+    "name": "UTT-Umtata Airport, Umtata-UTT"
+  },
+  {
+    "code": "UTN",
+    "name": "UTN-Upington Airport, Upington-UTN"
+  },
+  {
+    "code": "PUS",
+    "name": "PUS-Gimhae Airport, Busan-PUS"
+  },
+  {
+    "code": "CJJ",
+    "name": "CJJ-Cheongju Airport, Cheongju-CJJ"
+  },
+  {
+    "code": "TAE",
+    "name": "TAE-Daegu Airport, Daegu-TAE"
+  },
+  {
+    "code": "KUV",
+    "name": "KUV-Gunsan Airport, Gunsan-KUV"
+  },
+  {
+    "code": "KWJ",
+    "name": "KWJ-Gwangju Airport, Gwangju-KWJ"
+  },
+  {
+    "code": "CJU",
+    "name": "CJU-Jeju International Airport, Jeju-CJU"
+  },
+  {
+    "code": "HIN",
+    "name": "HIN-Sacheon Airport, Jinju-HIN"
+  },
+  {
+    "code": "KPO",
+    "name": "KPO-Pohang Airport, Pohang-KPO"
+  },
+  {
+    "code": "GMP",
+    "name": "GMP-Gimpo International Airport, Seoul-SEL"
+  },
+  {
+    "code": "ICN",
+    "name": "ICN-Incheon International Airport, Seoul-SEL"
+  },
+  {
+    "code": "SEL",
+    "name": "SEL-All Airports, Seoul-SEL"
+  },
+  {
+    "code": "SWU",
+    "name": "SWU-Suwon Airport, Suwon-SWU"
+  },
+  {
+    "code": "USN",
+    "name": "USN-Ulsan Airport, Ulsan-USN"
+  },
+  {
+    "code": "RSU",
+    "name": "RSU-Yeosu Airport, Yeosu-RSU"
+  },
+  {
+    "code": "ALC",
+    "name": "ALC-Alicante Airport, Alicante-ALC"
+  },
+  {
+    "code": "LEI",
+    "name": "LEI-Almeria Airport, Almeria-LEI"
+  },
+  {
+    "code": "BJZ",
+    "name": "BJZ-Badajoz Talaveral La Real Airport, Badajoz-BJZ"
+  },
+  {
+    "code": "BCN",
+    "name": "BCN-Barcelona Airport, Barcelona-BCN"
+  },
+  {
+    "code": "BIO",
+    "name": "BIO-Bilbao Airport, Bilbao-BIO"
+  },
+  {
+    "code": "FUE",
+    "name": "FUE-Fuerteventura Airport, Fuerteventura-FUE"
+  },
+  {
+    "code": "GRX",
+    "name": "GRX-Federico Garcia Lorca Airport, Granada-GRX"
+  },
+  {
+    "code": "IBZ",
+    "name": "IBZ-Ibiza Airport, Ibiza-IBZ"
+  },
+  {
+    "code": "XRY",
+    "name": "XRY-Jerez La Parra Airport, Jerez-XRY"
+  },
+  {
+    "code": "LCG",
+    "name": "LCG-La Coruna Airport, La Coruna-LCG"
+  },
+  {
+    "code": "ACE",
+    "name": "ACE-Lanzarote Airport, Lanzarote-ACE"
+  },
+  {
+    "code": "LPA",
+    "name": "LPA-Gran Canaria Airport, Las Palmas-LPA"
+  },
+  {
+    "code": "LEN",
+    "name": "LEN-Leon Airport, Leon-LEN"
+  },
+  {
+    "code": "MAD",
+    "name": "MAD-Barajas Airport, Madrid-MAD"
+  },
+  {
+    "code": "AGP",
+    "name": "AGP-Malaga Airport, Malaga-AGP"
+  },
+  {
+    "code": "MLN",
+    "name": "MLN-Melilla Airport, Melilla-MLN"
+  },
+  {
+    "code": "MAH",
+    "name": "MAH-Menorca Airport, Menorca-MAH"
+  },
+  {
+    "code": "MJV",
+    "name": "MJV-San Javier Airport, Murcia-MJV"
+  },
+  {
+    "code": "OVD",
+    "name": "OVD-Asturias Airport, Oviedo-OVD"
+  },
+  {
+    "code": "NDO",
+    "name": "NDO-La Palma Del Condado Airport, Palma-NDO"
+  },
+  {
+    "code": "PMI",
+    "name": "PMI-Palma Mallorca Airport, Palma Mallorca-PMI"
+  },
+  {
+    "code": "PNA",
+    "name": "PNA-Pamplona Noain Airport, Pamplona-PNA"
+  },
+  {
+    "code": "REU",
+    "name": "REU-Reus Airport, Reus-REU"
+  },
+  {
+    "code": "EAS",
+    "name": "EAS-San Sebastian Airport, San Sebastian-EAS"
+  },
+  {
+    "code": "SPC",
+    "name": "SPC-La Palma Airport, Santa Cruz De La Palma-SPC"
+  },
+  {
+    "code": "SDR",
+    "name": "SDR-Santander Airport, Santander-SDR"
+  },
+  {
+    "code": "SCQ",
+    "name": "SCQ-Santiago Airport, Santiago De Compostela-SCQ"
+  },
+  {
+    "code": "SVQ",
+    "name": "SVQ-San Pablo Airport, Sevilla-SVQ"
+  },
+  {
+    "code": "TFN",
+    "name": "TFN-Tenerife Norte Los Rodeos Airport, Tenerife-TFN"
+  },
+  {
+    "code": "TFS",
+    "name": "TFS-Tenerife Sur Airport, Tenerife-TFS"
+  },
+  {
+    "code": "VLC",
+    "name": "VLC-Valencia Airport, Valencia-VLC"
+  },
+  {
+    "code": "VLL",
+    "name": "VLL-Valladolid Airport, Valladolid-VLL"
+  },
+  {
+    "code": "VDE",
+    "name": "VDE-El Hierro Airport, Valverde-VDE"
+  },
+  {
+    "code": "VGO",
+    "name": "VGO-Vigo Airport, Vigo-VGO"
+  },
+  {
+    "code": "ZAZ",
+    "name": "ZAZ-Zaragoza Airport, Zaragoza-ZAZ"
+  },
+  {
+    "code": "CMB",
+    "name": "CMB-Bandaranaike International Airport, Colombo-CMB"
+  },
+  {
+    "code": "RML",
+    "name": "RML-Ratmalana Airport, Colombo-CMB"
+  },
+  {
+    "code": "KRT",
+    "name": "KRT-Khartoum International Airport, Khartoum-KRT"
+  },
+  {
+    "code": "PZU",
+    "name": "PZU-Port Sudan New International Airport, Port Sudan-PZU"
+  },
+  {
+    "code": "ORG",
+    "name": "ORG-Zorg En Hoop Airport, Paramaribo-PBM"
+  },
+  {
+    "code": "PBM",
+    "name": "PBM-Zanderij International Airport, Paramaribo-PBM"
+  },
+  {
+    "code": "MTS",
+    "name": "MTS-Matsapha International Airport, Manzini-MTS"
+  },
+  {
+    "code": "AGH",
+    "name": "AGH-Angelholm Helsingborg Airport, Angelholm Helsingborg-AGH"
+  },
+  {
+    "code": "OSD",
+    "name": "OSD-Are Ostersund Froesoe Airport, Are Ostersund-OSD"
+  },
+  {
+    "code": "BLE",
+    "name": "BLE-Dala Airport, Borlange-BLE"
+  },
+  {
+    "code": "GOT",
+    "name": "GOT-Landvetter Airport, Gothenburg-GOT"
+  },
+  {
+    "code": "HAD",
+    "name": "HAD-Halmstad Airport, Halmstad-HAD"
+  },
+  {
+    "code": "JKG",
+    "name": "JKG-Jonkoping Axamo Airport, Jonkoping-JKG"
+  },
+  {
+    "code": "KSD",
+    "name": "KSD-Karlstad Airport, Karlstad-KSD"
+  },
+  {
+    "code": "KRN",
+    "name": "KRN-Kiruna Airport, Kiruna-KRN"
+  },
+  {
+    "code": "LPI",
+    "name": "LPI-City Airport, Linkoping-LPI"
+  },
+  {
+    "code": "LLA",
+    "name": "LLA-Kallax Airport, Lulea-LLA"
+  },
+  {
+    "code": "MMA",
+    "name": "MMA-Malmo Metropolitan Area Airport, Malmo-MMA"
+  },
+  {
+    "code": "MMX",
+    "name": "MMX-Malmo Sturup Airport, Malmo-MMX"
+  },
+  {
+    "code": "JMM",
+    "name": "JMM-Malmo Harbour Heliport, Malmo-JMM"
+  },
+  {
+    "code": "NRK",
+    "name": "NRK-Kungsangen Airport, Norrkoping-NRK"
+  },
+  {
+    "code": "XWZ",
+    "name": "XWZ-Stockholm South Airport, Nykoping-XWZ"
+  },
+  {
+    "code": "OER",
+    "name": "OER-Ornskoldsvik Airport, Ornskoldsvik-OER"
+  },
+  {
+    "code": "RNB",
+    "name": "RNB-Kallinge Airport, Ronneby-RNB"
+  },
+  {
+    "code": "SFT",
+    "name": "SFT-Skelleftea Airport, Skelleftea-SFT"
+  },
+  {
+    "code": "ARN",
+    "name": "ARN-Arlanda Airport, Stockholm-STO"
+  },
+  {
+    "code": "BMA",
+    "name": "BMA-Bromma Airport, Stockholm-STO"
+  },
+  {
+    "code": "STO",
+    "name": "STO-All Airports, Stockholm-STO"
+  },
+  {
+    "code": "SDL",
+    "name": "SDL-Sundsvall Airport, Sundsvall-SDL"
+  },
+  {
+    "code": "UME",
+    "name": "UME-Umea Airport, Umea-UME"
+  },
+  {
+    "code": "VBY",
+    "name": "VBY-Visby Airport, Visby-VBY"
+  },
+  {
+    "code": "ACH",
+    "name": "ACH-Altenrhein Airport, Altenrhein-ACH"
+  },
+  {
+    "code": "BSL",
+    "name": "BSL-EuroAirport Basel Mulhouse Freiburg, Basel Mulhouse-BSL"
+  },
+  {
+    "code": "BRN",
+    "name": "BRN-Belp Airport, Berne-BRN"
+  },
+  {
+    "code": "GVA",
+    "name": "GVA-Geneve International Airport, Geneva-GVA"
+  },
+  {
+    "code": "LUG",
+    "name": "LUG-Agno Airport, Lugano-LUG"
+  },
+  {
+    "code": "SIR",
+    "name": "SIR-Sion Airport, Sion-SIR"
+  },
+  {
+    "code": "ZRH",
+    "name": "ZRH-Zurich Airport, Zurich-ZRH"
+  },
+  {
+    "code": "ALP",
+    "name": "ALP-Aleppo International Nejrab Airport, Aleppo-ALP"
+  },
+  {
+    "code": "DAM",
+    "name": "DAM-Damascus International Airport, Damascus-DAM"
+  },
+  {
+    "code": "DEZ",
+    "name": "DEZ-Al Jafrah Airport, Deirezzor-DEZ"
+  },
+  {
+    "code": "KHH",
+    "name": "KHH-Kaohsiung International Airport, Kaohsiung-KHH"
+  },
+  {
+    "code": "KNH",
+    "name": "KNH-Shang Yi Airport, Kinmen-KNH"
+  },
+  {
+    "code": "TPE",
+    "name": "TPE-Taiwan Taoyuan International Airport, Taipei-TPE"
+  },
+  {
+    "code": "TSA",
+    "name": "TSA-Sung Shan Airport, Taipei-TPE"
+  },
+  {
+    "code": "TPE",
+    "name": "TPE-All Airports, Taipei-TPE"
+  },
+  {
+    "code": "DYU",
+    "name": "DYU-Dushanbe Airport, Dushanbe-DYU"
+  },
+  {
+    "code": "ARK",
+    "name": "ARK-Arusha Airport, Arusha-ARK"
+  },
+  {
+    "code": "DAR",
+    "name": "DAR-Julius Nyerere International Airport, Dar Es Salaam-DAR"
+  },
+  {
+    "code": "JRO",
+    "name": "JRO-Kilimanjaro Airport, Kilimanjaro-JRO"
+  },
+  {
+    "code": "MYW",
+    "name": "MYW-Mtwara Airport, Mtwara-MYW"
+  },
+  {
+    "code": "ZNZ",
+    "name": "ZNZ-Zanzibar International Airport, Zanzibar-ZNZ"
+  },
+  {
+    "code": "BKK",
+    "name": "BKK-Suvarnabhumi International Airport, Bangkok-BKK"
+  },
+  {
+    "code": "BFV",
+    "name": "BFV-Buri Ram Airport, Buri Ram-BFV"
+  },
+  {
+    "code": "CNX",
+    "name": "CNX-Chiang Mai International Airport, Chiang Mai-CNX"
+  },
+  {
+    "code": "CEI",
+    "name": "CEI-Chaing Rai Airport, Chiang Rai-CEI"
+  },
+  {
+    "code": "HDY",
+    "name": "HDY-Hat Yai Airport, Hat Yai-HDY"
+  },
+  {
+    "code": "KKC",
+    "name": "KKC-Khon Kaen Airport, Khon Kaen-KKC"
+  },
+  {
+    "code": "USM",
+    "name": "USM-Koh Samui Airport, Koh Samui-USM"
+  },
+  {
+    "code": "KBV",
+    "name": "KBV-Krabi Airport, Krabi-KBV"
+  },
+  {
+    "code": "LPT",
+    "name": "LPT-Lampang Airport, Lampang-LPT"
+  },
+  {
+    "code": "HGN",
+    "name": "HGN-Mae Hong Son Airport, Mae Hong Son-HGN"
+  },
+  {
+    "code": "KOP",
+    "name": "KOP-Nakhon Phanom Airport, Nakhon Phanom-KOP"
+  },
+  {
+    "code": "NST",
+    "name": "NST-Nakhon Si Thammarat Airport, Nakhon Si Thammarat-NST"
+  },
+  {
+    "code": "NNT",
+    "name": "NNT-Nan Airport, Nan-NNT"
+  },
+  {
+    "code": "PRH",
+    "name": "PRH-Phrae Airport, Phrae-PRH"
+  },
+  {
+    "code": "HKT",
+    "name": "HKT-Phuket International Airport, Phuket-HKT"
+  },
+  {
+    "code": "UNN",
+    "name": "UNN-Ranong Airport, Ranong-UNN"
+  },
+  {
+    "code": "THS",
+    "name": "THS-Sukhothai Airport, Sukhothai-THS"
+  },
+  {
+    "code": "URT",
+    "name": "URT-Surat Thani Airport, Surat Thani-URT"
+  },
+  {
+    "code": "TST",
+    "name": "TST-Trang Airport, Trang-TST"
+  },
+  {
+    "code": "UBP",
+    "name": "UBP-Ubon Ratchathni Airport, Ubon Ratchathni-UBP"
+  },
+  {
+    "code": "UTH",
+    "name": "UTH-Udon Thani Airport, Udon Thani-UTH"
+  },
+  {
+    "code": "UTP",
+    "name": "UTP-Utapao Airport, Utapao-UTP"
+  },
+  {
+    "code": "LFW",
+    "name": "LFW-Lome Airport, Lome-LFW"
+  },
+  {
+    "code": "TBU",
+    "name": "TBU-Fua?amotu International Airport, Tongatapu-TBU"
+  },
+  {
+    "code": "POS",
+    "name": "POS-Piarco Airport, Port Of Spain-POS"
+  },
+  {
+    "code": "TAB",
+    "name": "TAB-ANR Robinson International Airport, Tobago-TAB"
+  },
+  {
+    "code": "DJE",
+    "name": "DJE-Zarsis Melita Airport, Djerba-DJE"
+  },
+  {
+    "code": "NBE",
+    "name": "NBE-Hammamet Airport, Enfidha-NBE"
+  },
+  {
+    "code": "MIR",
+    "name": "MIR-Habib Bourguiba International Airport, Monastir-MIR"
+  },
+  {
+    "code": "SFA",
+    "name": "SFA-Thyna El Maou Airport, Sfax-SFA"
+  },
+  {
+    "code": "TBJ",
+    "name": "TBJ-Ain Draham Airport, Tabarka-TBJ"
+  },
+  {
+    "code": "TOE",
+    "name": "TOE-Tozeur Airport, Tozeur-TOE"
+  },
+  {
+    "code": "TUN",
+    "name": "TUN-Carthage Airport, Tunis-TUN"
+  },
+  {
+    "code": "ADA",
+    "name": "ADA-Sakirpasa Airport, Adana-ADA"
+  },
+  {
+    "code": "ESB",
+    "name": "ESB-Esenboga Airport, Ankara-ANK"
+  },
+  {
+    "code": "AYT",
+    "name": "AYT-Antalya Airport, Antalya-AYT"
+  },
+  {
+    "code": "BJV",
+    "name": "BJV-Milas Airport, Bodrum-BXN"
+  },
+  {
+    "code": "YEI",
+    "name": "YEI-Yenisehir Airport, Bursa-YEI"
+  },
+  {
+    "code": "DLM",
+    "name": "DLM-Dalman Airport, Dalaman-DLM"
+  },
+  {
+    "code": "DNZ",
+    "name": "DNZ-Cardak Airport, Denizli-DNZ"
+  },
+  {
+    "code": "DIY",
+    "name": "DIY-Diyarbakir Airport, Diyarbakir-DIY"
+  },
+  {
+    "code": "EZS",
+    "name": "EZS-Elazig Airport, Elazig-EZS"
+  },
+  {
+    "code": "GZT",
+    "name": "GZT-Gaziantep Airport, Gaziantep-GZT"
+  },
+  {
+    "code": "IST",
+    "name": "IST-Ataturk Airport, Istanbul-IST"
+  },
+  {
+    "code": "SAW",
+    "name": "SAW-Sabiha Gokcen International Airport, Istanbul-SAW"
+  },
+  {
+    "code": "ADB",
+    "name": "ADB-Adnan Menderes Airport, Izmir-IZM"
+  },
+  {
+    "code": "KSY",
+    "name": "KSY-Kars Airport, Kars-KSY"
+  },
+  {
+    "code": "ASR",
+    "name": "ASR-Kayseri Airport, Kayseri-ASR"
+  },
+  {
+    "code": "MLX",
+    "name": "MLX-Malatya Airport, Malatya-MLX"
+  },
+  {
+    "code": "MQM",
+    "name": "MQM-Mardin Airport, Mardin-MQM"
+  },
+  {
+    "code": "SZF",
+    "name": "SZF-Carsamba Airport, Samsun-SZF"
+  },
+  {
+    "code": "TZX",
+    "name": "TZX-Trabzon Airport, Trabzon-TZX"
+  },
+  {
+    "code": "VAN",
+    "name": "VAN-Van Airport, Van-VAN"
+  },
+  {
+    "code": "ASB",
+    "name": "ASB-Ashgabad Airport, Ashgabat-ASB"
+  },
+  {
+    "code": "PLS",
+    "name": "PLS-Providenciales International Airport, Providenciales-PLS"
+  },
+  {
+    "code": "FUN",
+    "name": "FUN-Funafuti International Airport, Funafuti Atol-FUN"
+  },
+  {
+    "code": "EBB",
+    "name": "EBB-Entebbe International Airport, Entebbe-EBB"
+  },
+  {
+    "code": "CWC",
+    "name": "CWC-Chernivtsi International Airport, Chernivtsyi-CWC"
+  },
+  {
+    "code": "DNK",
+    "name": "DNK-Dnipropetrovsk International Airport, Dnipropetrovsk-DNK"
+  },
+  {
+    "code": "DOK",
+    "name": "DOK-Donetsk Airport, Donetsk-DOK"
+  },
+  {
+    "code": "IFO",
+    "name": "IFO-Ivano Frankovsk Airport, Ivano Frankovsk-IFO"
+  },
+  {
+    "code": "HRK",
+    "name": "HRK-Osnova International Airport, Kharkov-HRK"
+  },
+  {
+    "code": "IEV",
+    "name": "IEV-Zhulhany Airport, Kiev-IEV"
+  },
+  {
+    "code": "KBP",
+    "name": "KBP-Borispol Airport, Kiev-IEV"
+  },
+  {
+    "code": "IEV",
+    "name": "IEV-All Airports, Kiev-IEV"
+  },
+  {
+    "code": "VSG",
+    "name": "VSG-Lugansk International Airport, Lugansk-VSG"
+  },
+  {
+    "code": "LWO",
+    "name": "LWO-Lviv International Airport, Lviv-LWO"
+  },
+  {
+    "code": "ODS",
+    "name": "ODS-Odesa International Airport, Odessa-ODS"
+  },
+  {
+    "code": "SIP",
+    "name": "SIP-Simferopol Airport, Simferopol-SIP"
+  },
+  {
+    "code": "OZH",
+    "name": "OZH-Mokraya International Airport, Zaporizhzhia-OZH"
+  },
+  {
+    "code": "AUH",
+    "name": "AUH-Abu Dhabi International Airport, Abu Dhabi-AUH"
+  },
+  {
+    "code": "XMB",
+    "name": "XMB-Marina Mall EY Bus Station, Abu Dhabi-AUH"
+  },
+  {
+    "code": "DWC",
+    "name": "DWC-Al Maktoum International Airport, Dubai-DXB"
+  },
+  {
+    "code": "XNB",
+    "name": "XNB-Dubai Ey Bus Station Airport, Dubai-DXB"
+  },
+  {
+    "code": "DXB",
+    "name": "DXB-Dubai International Airport, Dubai-DXB"
+  },
+  {
+    "code": "DXB",
+    "name": "DXB-All Airports, Dubai-DXB"
+  },
+  {
+    "code": "RKT",
+    "name": "RKT-Ras Al Khaimah International Airport, Ras Al Khaimah-RKT"
+  },
+  {
+    "code": "SHJ",
+    "name": "SHJ-Sharjah Airport, Sharjah-SHJ"
+  },
+  {
+    "code": "ABZ",
+    "name": "ABZ-Dyce Airport, Aberdeen-ABZ"
+  },
+  {
+    "code": "ACI",
+    "name": "ACI-Alderney Airport, Alderney-ACI"
+  },
+  {
+    "code": "BRR",
+    "name": "BRR-Barra Airport, Barra-BRR"
+  },
+  {
+    "code": "BHD",
+    "name": "BHD-George Best City Airport, Belfast-BFS"
+  },
+  {
+    "code": "BFS",
+    "name": "BFS-Belfast International Airport, Belfast-BFS"
+  },
+  {
+    "code": "BFS",
+    "name": "BFS-All Airports, Belfast-BFS"
+  },
+  {
+    "code": "BEB",
+    "name": "BEB-Benbecula Airport, Benbecula-BEB"
+  },
+  {
+    "code": "BHX",
+    "name": "BHX-Birmingham International Airport, Birmingham-BHX"
+  },
+  {
+    "code": "BLK",
+    "name": "BLK-Blackpool Airport, Blackpool-BLK"
+  },
+  {
+    "code": "BOH",
+    "name": "BOH-Bournemouth International Airport, Bournemouth-BOH"
+  },
+  {
+    "code": "BRS",
+    "name": "BRS-Bristol International Airport, Bristol-BRS"
+  },
+  {
+    "code": "CAL",
+    "name": "CAL-Campbeltown Airport, Campbeltown-CAL"
+  },
+  {
+    "code": "CWL",
+    "name": "CWL-Cardiff Wales Airport, Cardiff-CWL"
+  },
+  {
+    "code": "DSA",
+    "name": "DSA-Robin Hood Airport, Doncaster/Sheffield-DSA"
+  },
+  {
+    "code": "DND",
+    "name": "DND-Dundee Riverside Park Airport, Dundee-DND"
+  },
+  {
+    "code": "MME",
+    "name": "MME-Tees Valley Airport, Durham-MME"
+  },
+  {
+    "code": "EDI",
+    "name": "EDI-Edinburgh Airport, Edinburgh-EDI"
+  },
+  {
+    "code": "EXT",
+    "name": "EXT-Exeter Airport, Exeter-EXT"
+  },
+  {
+    "code": "GLA",
+    "name": "GLA-Glasgow Airport, Glasgow-GLA"
+  },
+  {
+    "code": "PIK",
+    "name": "PIK-Prestwick Airport, Glasgow-GLA"
+  },
+  {
+    "code": "GLA",
+    "name": "GLA-All Airports, Glasgow-GLA"
+  },
+  {
+    "code": "GCI",
+    "name": "GCI-Guernsey Airport, Guernsey-GCI"
+  },
+  {
+    "code": "HUY",
+    "name": "HUY-Humberside Airport, Humberside-HUY"
+  },
+  {
+    "code": "INV",
+    "name": "INV-Inverness Airport, Inverness-INV"
+  },
+  {
+    "code": "ILY",
+    "name": "ILY-Islay Airport, Islay-ILY"
+  },
+  {
+    "code": "IOM",
+    "name": "IOM-Ronaldsway Airport, Isle Of Man-IOM"
+  },
+  {
+    "code": "ISC",
+    "name": "ISC-St Marys Airport, Isles Of Scilly-ISC"
+  },
+  {
+    "code": "TSO",
+    "name": "TSO-Tresco Airport, Isles Of Scilly-ISC"
+  },
+  {
+    "code": "JER",
+    "name": "JER-States Airport, Jersey-JER"
+  },
+  {
+    "code": "KOI",
+    "name": "KOI-Kirkwall Airport, Kirkwall-KOI"
+  },
+  {
+    "code": "LBA",
+    "name": "LBA-Leeds Bradford Airport, Leeds-LBA"
+  },
+  {
+    "code": "LPL",
+    "name": "LPL-John Lennon Airport, Liverpool-LPL"
+  },
+  {
+    "code": "LCY",
+    "name": "LCY-London City Airport, London-LON"
+  },
+  {
+    "code": "LGW",
+    "name": "LGW-Gatwick Airport, London-LON"
+  },
+  {
+    "code": "LHR",
+    "name": "LHR-Heathrow Airport, London-LON"
+  },
+  {
+    "code": "LTN",
+    "name": "LTN-Luton Airport, London-LON"
+  },
+  {
+    "code": "QQS",
+    "name": "QQS-St Pancras Airport, London-LON"
+  },
+  {
+    "code": "STN",
+    "name": "STN-Stansted Airport, London-LON"
+  },
+  {
+    "code": "LON",
+    "name": "LON-All Airports, London-LON"
+  },
+  {
+    "code": "MAN",
+    "name": "MAN-Manchester International Airport, Manchester-MAN"
+  },
+  {
+    "code": "NCL",
+    "name": "NCL-Newcastle International Airport, Newcastle-NCL"
+  },
+  {
+    "code": "NQY",
+    "name": "NQY-Newquay Civil Airport, Newquay-NQY"
+  },
+  {
+    "code": "NWI",
+    "name": "NWI-Norwich International Airport, Norwich-NWI"
+  },
+  {
+    "code": "EMA",
+    "name": "EMA-East Midlands Airport, Nottingham-NQT"
+  },
+  {
+    "code": "PLH",
+    "name": "PLH-Plymouth City Airport, Plymouth-PLH"
+  },
+  {
+    "code": "LWK",
+    "name": "LWK-Lerwick Airport, Shetland Islands-SDZ"
+  },
+  {
+    "code": "LSI",
+    "name": "LSI-Sumburgh Airport, Shetland Islands-LSI"
+  },
+  {
+    "code": "SOU",
+    "name": "SOU-Southampton International Airport, Southampton-SOU"
+  },
+  {
+    "code": "SEN",
+    "name": "SEN-Southend  Airport, Southend-SEN"
+  },
+  {
+    "code": "SYY",
+    "name": "SYY-Stornoway Airport, Stornoway-SYY"
+  },
+  {
+    "code": "TRE",
+    "name": "TRE-Tiree Airport, Tiree-TRE"
+  },
+  {
+    "code": "WIC",
+    "name": "WIC-Wick Airport, Wick-WIC"
+  },
+  {
+    "code": "SUN",
+    "name": "SUN-Friedman Memorial Airport, Hailey-SUN"
+  },
+  {
+    "code": "HNS",
+    "name": "HNS-Haines Airport, Haines-HNS"
+  },
+  {
+    "code": "HNM",
+    "name": "HNM-Hana Airport, Hana-HNM"
+  },
+  {
+    "code": "CMX",
+    "name": "CMX-Houghton Cty Airport, Hancock-CMX"
+  },
+  {
+    "code": "HRL",
+    "name": "HRL-Valley International Airport, Harlingen-HRL"
+  },
+  {
+    "code": "MDT",
+    "name": "MDT-Harrisburg International Airport, Harrisburg-HAR"
+  },
+  {
+    "code": "HAR",
+    "name": "HAR-Harrisburg Skyport Airport, Harrisburg-HAR"
+  },
+  {
+    "code": "HAR",
+    "name": "HAR-All Airports, Harrisburg-HAR"
+  },
+  {
+    "code": "HRO",
+    "name": "HRO-Boone County Airport, Harrison-HRO"
+  },
+  {
+    "code": "BDL",
+    "name": "BDL-Bradley International Airport, Hartford-HFD"
+  },
+  {
+    "code": "HFD",
+    "name": "HFD-Hartford-Brainard Airport, Hartford-HFD"
+  },
+  {
+    "code": "HFD",
+    "name": "HFD-All Airports, Hartford-HFD"
+  },
+  {
+    "code": "HDN",
+    "name": "HDN-Yampa Valley Airport, Hayden-HDN"
+  },
+  {
+    "code": "HYS",
+    "name": "HYS-Hays Regional Airport, Hays-HYS"
+  },
+  {
+    "code": "HLN",
+    "name": "HLN-Helena Regional Airport, Helena-HLN"
+  },
+  {
+    "code": "HIB",
+    "name": "HIB-Range Regional Airport, Hibbing-HIB"
+  },
+  {
+    "code": "HKY",
+    "name": "HKY-Hickory Regional Airport, Hickory-HKY"
+  },
+  {
+    "code": "ITO",
+    "name": "ITO-Hilo International Airport, Hilo-ITO"
+  },
+  {
+    "code": "HHH",
+    "name": "HHH-Hilton Head Airport, Hilton Head-HHH"
+  },
+  {
+    "code": "HOB",
+    "name": "HOB-Lea County Regional Airport, Hobbs-HOB"
+  },
+  {
+    "code": "HYL",
+    "name": "HYL-Hollis Seaplane Base, Hollis-HYL"
+  },
+  {
+    "code": "HOM",
+    "name": "HOM-Homer Municipal Airport, Homer-HOM"
+  },
+  {
+    "code": "HNL",
+    "name": "HNL-Honolulu International Airport, Honolulu-HNL"
+  },
+  {
+    "code": "MKK",
+    "name": "MKK-Molokai Airport, Hoolehua-MKK"
+  },
+  {
+    "code": "HNH",
+    "name": "HNH-Hoonah Airport, Hoonah-HNH"
+  },
+  {
+    "code": "HPB",
+    "name": "HPB-Hooper Bay Airport, Hooper Bay-HPB"
+  },
+  {
+    "code": "HOT",
+    "name": "HOT-Memorial Field Airport, Hot Springs-HOT"
+  },
+  {
+    "code": "JCA",
+    "name": "JCA-Palm Beach Croisette Heliport, Cannes-CEQ"
+  },
+  {
+    "code": "CCF",
+    "name": "CCF-Carcassonne Airport, Carcassonne-CCF"
+  },
+  {
+    "code": "DCM",
+    "name": "DCM-Mazamet Airport, Castres-DCM"
+  },
+  {
+    "code": "CMF",
+    "name": "CMF-Chambery Aix Les Bains Airport, Chambery-CMF"
+  },
+  {
+    "code": "CER",
+    "name": "CER-Maupertius Airport, Cherbourg-CER"
+  },
+  {
+    "code": "CFE",
+    "name": "CFE-Auvergne Airport, Clermont Ferrand-CFE"
+  },
+  {
+    "code": "DOL",
+    "name": "DOL-Saint Gatien Airport, Deauville-DOL"
+  },
+  {
+    "code": "DIJ",
+    "name": "DIJ-Longvic Airport, Dijon-DIJ"
+  },
+  {
+    "code": "DNR",
+    "name": "DNR-Pleurtuit Airport, Dinard St Malo-DNR"
+  },
+  {
+    "code": "DLE",
+    "name": "DLE-Tavaux Airport, Dole-DLE"
+  },
+  {
+    "code": "FSC",
+    "name": "FSC-Sud Corse Airport, Figari-FSC"
+  },
+  {
+    "code": "LRH",
+    "name": "LRH-Ilse De Re Laleu Airport, La Rochelle-LRH"
+  },
+  {
+    "code": "LAI",
+    "name": "LAI-Lannion Servel Airport, Lannion-LAI"
+  },
+  {
+    "code": "LEH",
+    "name": "LEH-Octeville Airport, Le Havre-LEH"
+  },
+  {
+    "code": "LPY",
+    "name": "LPY-Loudes Airport, Le Puy-LPY"
+  },
+  {
+    "code": "LIL",
+    "name": "LIL-Lesquin Airport, Lille-LIL"
+  },
+  {
+    "code": "LIG",
+    "name": "LIG-Bellegarde Airport, Limoges-LIG"
+  },
+  {
+    "code": "LRT",
+    "name": "LRT-Lann Bihoue Airport, Lorient-LRT"
+  },
+  {
+    "code": "ETZ",
+    "name": "ETZ-Metz Nancy Lorraine Airport, Lorraine-ETZ"
+  },
+  {
+    "code": "LDE",
+    "name": "LDE-Pyrenees International Airport, Lourdes Tarbes-LDE"
+  },
+  {
+    "code": "GNB",
+    "name": "GNB-Grenoble St Geoirs Airport, Lyon-LYS"
+  },
+  {
+    "code": "LYS",
+    "name": "LYS-Lyon Saint Exupery Airport, Lyon-LYS"
+  },
+  {
+    "code": "LYS",
+    "name": "LYS-All Airports, Lyon-LYS"
+  },
+  {
+    "code": "MRS",
+    "name": "MRS-Marseille Provence Airport, Marseille-MRS"
+  },
+  {
+    "code": "MPL",
+    "name": "MPL-Mediterranee Frejorgues Airport, Montpellier-MPL"
+  },
+  {
+    "code": "MLH",
+    "name": "MLH-EuroAirport Basel Mulhouse Freiburg, Mulhouse Basel-EAP"
+  },
+  {
+    "code": "NTE",
+    "name": "NTE-Nantes Atlantique Airport, Nantes-NTE"
+  },
+  {
+    "code": "NCE",
+    "name": "NCE-Cote D Azur Airport, Nice-NCE"
+  },
+  {
+    "code": "FNI",
+    "name": "FNI-Nimes Airport, Nimes-FNI"
+  },
+  {
+    "code": "BVA",
+    "name": "BVA-Beauvais Tille Airport, Paris-PAR"
+  },
+  {
+    "code": "LBG",
+    "name": "LBG-Le Bourget Airport, Paris-PAR"
+  },
+  {
+    "code": "ORY",
+    "name": "ORY-Orly Airport, Paris-PAR"
+  },
+  {
+    "code": "CDG",
+    "name": "CDG-Charles De Gaulle International Airport, Paris-PAR"
+  },
+  {
+    "code": "PAR",
+    "name": "PAR-All Airports, Paris-PAR"
+  },
+  {
+    "code": "PUF",
+    "name": "PUF-Pyrenees Uzein Airport, Pau-PUF"
+  },
+  {
+    "code": "PGX",
+    "name": "PGX-Perigueux Airport, Perigueux-PGX"
+  },
+  {
+    "code": "PGF",
+    "name": "PGF-Rivesaltes Llabanere Airport, Perpignan-PGF"
+  },
+  {
+    "code": "PIS",
+    "name": "PIS-Biard Airport, Poitiers-PIS"
+  },
+  {
+    "code": "UIP",
+    "name": "UIP-Pluguffan Airport, Quimper-UIP"
+  },
+  {
+    "code": "RNS",
+    "name": "RNS-St Jacques Airport, Rennes-RNS"
+  },
+  {
+    "code": "RDZ",
+    "name": "RDZ-Marcillac Airport, Rodez-RDZ"
+  },
+  {
+    "code": "URO",
+    "name": "URO-Rouen Airport, Rouen-URO"
+  },
+  {
+    "code": "EBU",
+    "name": "EBU-Boutheon Airport, St Etienne-EBU"
+  },
+  {
+    "code": "SXB",
+    "name": "SXB-Enzheim Airport, Strasbourg-SXB"
+  },
+  {
+    "code": "TLN",
+    "name": "TLN-Hyeres Airport, Toulon-TLN"
+  },
+  {
+    "code": "TLS",
+    "name": "TLS-Blagnac Airport, Toulouse-TLS"
+  },
+  {
+    "code": "TUF",
+    "name": "TUF-Val De Loire Airport, Tours-TUF"
+  },
+  {
+    "code": "CAY",
+    "name": "CAY-Rochambeau Airport, Cayenne-CAY"
+  },
+  {
+    "code": "BOB",
+    "name": "BOB-Motu Mute Airport, Bora Bora-BOB"
+  },
+  {
+    "code": "HUH",
+    "name": "HUH-Huahine Airport, Huahine-HUH"
+  },
+  {
+    "code": "MOZ",
+    "name": "MOZ-Temae Airport, Moorea-MOZ"
+  },
+  {
+    "code": "PPT",
+    "name": "PPT-Tahiti Faaa International Airport, Papeete-PPT"
+  },
+  {
+    "code": "RFP",
+    "name": "RFP-Raiatea Airport, Raiatea-RFP"
+  },
+  {
+    "code": "RGI",
+    "name": "RGI-Rangiroa Airport, Rangiroa-RGI"
+  },
+  {
+    "code": "LBV",
+    "name": "LBV-Leon MBA International Airport, Libreville-LBV"
+  },
+  {
+    "code": "BJL",
+    "name": "BJL-Banjul International Airport, Banjul-BJL"
+  },
+  {
+    "code": "BUS",
+    "name": "BUS-Batumi International Airport, Batumi-BUS"
+  },
+  {
+    "code": "TBS",
+    "name": "TBS-Tbilisi International Airport, Tbilisi-TBS"
+  },
+  {
+    "code": "AOC",
+    "name": "AOC-Altenburg Nobitz Airport, Altenburg-AOC"
+  },
+  {
+    "code": "TXL",
+    "name": "TXL-Tegel Airport, Berlin-BER"
+  },
+  {
+    "code": "SXF",
+    "name": "SXF-Schoenefeld Airport, Berlin-BER"
+  },
+  {
+    "code": "BER",
+    "name": "BER-Berlin Brandenburg Airport, Berlin-BER"
+  },
+  {
+    "code": "BER",
+    "name": "BER-All Airports, Berlin-BER"
+  },
+  {
+    "code": "BRE",
+    "name": "BRE-Bremen Airport, Bremen-BRE"
+  },
+  {
+    "code": "CGN",
+    "name": "CGN-Bonn Airport, Cologne-CGN"
+  },
+  {
+    "code": "DTM",
+    "name": "DTM-Dortmund Airport, Dortmund-DTM"
+  },
+  {
+    "code": "DRS",
+    "name": "DRS-Dresden Airport, Dresden-DRS"
+  },
+  {
+    "code": "MGL",
+    "name": "MGL-Dusseldorf Monchengladbach Airport, Duesseldorf-DUS"
+  },
+  {
+    "code": "NRN",
+    "name": "NRN-Weeze Dus Airport, Duesseldorf-DUS"
+  },
+  {
+    "code": "QDU",
+    "name": "QDU-Dusseldorf Hauptbahnhof Airport, Duesseldorf-DUS"
+  },
+  {
+    "code": "DUS",
+    "name": "DUS-Dusseldorf Airport, Duesseldorf-DUS"
+  },
+  {
+    "code": "DUS",
+    "name": "DUS-All Airports, Duesseldorf-DUS"
+  },
+  {
+    "code": "ERF",
+    "name": "ERF-Erfurt Airport, Erfurt-ERF"
+  },
+  {
+    "code": "HHN",
+    "name": "HHN-Hahn Airport, Frankfurt-FRA"
+  },
+  {
+    "code": "FRA",
+    "name": "FRA-Frankfurt Airport, Frankfurt-FRA"
+  },
+  {
+    "code": "FRA",
+    "name": "FRA-All Airports, Frankfurt-FRA"
+  },
+  {
+    "code": "FDH",
+    "name": "FDH-Friedrichshafen Airport, Friedrichshafen-FDH"
+  },
+  {
+    "code": "LBC",
+    "name": "LBC-Luebeck Blankensee Airport, Hamburg-HAM"
+  },
+  {
+    "code": "HAM",
+    "name": "HAM-Hamburg Airport, Hamburg-HAM"
+  },
+  {
+    "code": "HAM",
+    "name": "HAM-All Airports, Hamburg-HAM"
+  },
+  {
+    "code": "HAJ",
+    "name": "HAJ-Hanover Airport, Hanover-HAJ"
+  },
+  {
+    "code": "HDB",
+    "name": "HDB-Heidelberg Airport, Heidelberg-HDB"
+  },
+  {
+    "code": "HDF",
+    "name": "HDF-Heringsdorf Airport, Heringsdorf-HDF"
+  },
+  {
+    "code": "HOQ",
+    "name": "HOQ-Plauen Airport, Hof-HOQ"
+  },
+  {
+    "code": "FKB",
+    "name": "FKB-Baden Airpark  Airport, Karlsruhe/Baden-Baden-FKB"
+  },
+  {
+    "code": "KEL",
+    "name": "KEL-Holtenau Airport, Kiel-KEL"
+  },
+  {
+    "code": "LEJ",
+    "name": "LEJ-Leipzig Airport, Leipzig-Halle-LEJ"
+  },
+  {
+    "code": "MHG",
+    "name": "MHG-Mannheim City Airport, Mannheim-MHG"
+  },
+  {
+    "code": "FMM",
+    "name": "FMM-Allgaeu Airport, Memmingen-FMM"
+  },
+  {
+    "code": "FMO",
+    "name": "FMO-Muenster Airport, Muenster-FMO"
+  },
+  {
+    "code": "AGB",
+    "name": "AGB-Augsburg Airport, Munich-MUC"
+  },
+  {
+    "code": "MUC",
+    "name": "MUC-Munich International Airport, Munich-MUC"
+  },
+  {
+    "code": "NUE",
+    "name": "NUE-Nuremberg Airport, Nuremberg-NUE"
+  },
+  {
+    "code": "PAD",
+    "name": "PAD-Paderborn Airport, Paderborn-PAD"
+  },
+  {
+    "code": "RLG",
+    "name": "RLG-Laage Airport, Rostock-RLG"
+  },
+  {
+    "code": "SCN",
+    "name": "SCN-Saarbruecken Airport, Saarbruecken-SCN"
+  },
+  {
+    "code": "STR",
+    "name": "STR-Stuttgart Airport, Stuttgart-STR"
+  },
+  {
+    "code": "GWT",
+    "name": "GWT-Sylt Airport, Westerland-GWT"
+  },
+  {
+    "code": "ACC",
+    "name": "ACC-Kotoka Airport, Accra-ACC"
+  },
+  {
+    "code": "GIB",
+    "name": "GIB-Gibraltar North Front Airport, Gibraltar-GIB"
+  },
+  {
+    "code": "AXD",
+    "name": "AXD-Dhmokritos Airport, Alexandroupolis-AXD"
+  },
+  {
+    "code": "JTY",
+    "name": "JTY-Astypalaia Airport, Astypalaia Island-JTY"
+  },
+  {
+    "code": "ATH",
+    "name": "ATH-Athens Venizelos International Airport, Athens-ATH"
+  },
+  {
+    "code": "CHQ",
+    "name": "CHQ-Chania International Airport, Chania-CHQ"
+  },
+  {
+    "code": "JKH",
+    "name": "JKH-Omiros Airport, Chios-JKH"
+  },
+  {
+    "code": "HER",
+    "name": "HER-N Kazantzakis Airport, Heraklion-HER"
+  },
+  {
+    "code": "JIK",
+    "name": "JIK-Ikaria Airport, Ikaria Island-JIK"
+  },
+  {
+    "code": "IOA",
+    "name": "IOA-Ioannina Airport, Ioannina-IOA"
+  },
+  {
+    "code": "KLX",
+    "name": "KLX-Kalamata Airport, Kalamata-KLX"
+  },
+  {
+    "code": "JKL",
+    "name": "JKL-Kalymnos Airport, Kalymnos Island-JKL"
+  },
+  {
+    "code": "AOK",
+    "name": "AOK-Karpathos Airport, Karpathos-AOK"
+  },
+  {
+    "code": "KVA",
+    "name": "KVA-Kavala International Airport, Kavala-KVA"
+  },
+  {
+    "code": "EFL",
+    "name": "EFL-Kefallinia Airport, Kefallinia-EFL"
+  },
+  {
+    "code": "CFU",
+    "name": "CFU-I Kapodistrias Airport, Kerkyra-CFU"
+  },
+  {
+    "code": "KIT",
+    "name": "KIT-Kithira Airport, Kithira-KIT"
+  },
+  {
+    "code": "KGS",
+    "name": "KGS-Kos Ippokratis Airport, Kos-KGS"
+  },
+  {
+    "code": "LRS",
+    "name": "LRS-Leros Airport, Leros-LRS"
+  },
+  {
+    "code": "LXS",
+    "name": "LXS-Limnos Airport, Limnos-LXS"
+  },
+  {
+    "code": "JMK",
+    "name": "JMK-Mykonos Greece Airport, Mikonos-JMK"
+  },
+  {
+    "code": "MLO",
+    "name": "MLO-Milos Airport, Milos-MLO"
+  },
+  {
+    "code": "MJT",
+    "name": "MJT-Mytilene International Airport, Mytilini-MJT"
+  },
+  {
+    "code": "JNX",
+    "name": "JNX-Naxos Airport, Naxos-JNX"
+  },
+  {
+    "code": "PAS",
+    "name": "PAS-Paros Airport, Paros-PAS"
+  },
+  {
+    "code": "GPA",
+    "name": "GPA-Araxos Airport, Patrai-GPA"
+  },
+  {
+    "code": "PVK",
+    "name": "PVK-Aktion Airport, Preveza Lefkada-PVK"
+  },
+  {
+    "code": "RHO",
+    "name": "RHO-Diagoras Airport, Rhodes-RHO"
+  },
+  {
+    "code": "SMI",
+    "name": "SMI-Samos International Airport, Samos-SMI"
+  },
+  {
+    "code": "JSH",
+    "name": "JSH-Siteia Airport, Siteia-JSH"
+  },
+  {
+    "code": "JSI",
+    "name": "JSI-Alex Papadiamantis Airport, Skiathos-JSI"
+  },
+  {
+    "code": "SKU",
+    "name": "SKU-Skiros Airport, Skiros-SKU"
+  },
+  {
+    "code": "JSY",
+    "name": "JSY-Dimitrios Vikelas Airport, Syros Island-JSY"
+  },
+  {
+    "code": "SKG",
+    "name": "SKG-Makedonia Airport, Thessaloniki-SKG"
+  },
+  {
+    "code": "JTR",
+    "name": "JTR-Santorini Airport, Thira-JTR"
+  },
+  {
+    "code": "VOL",
+    "name": "VOL-Nea Anchialos Airport, Volos-VOL"
+  },
+  {
+    "code": "ZTH",
+    "name": "ZTH-Zakinthos Airport, Zakinthos-ZTH"
+  },
+  {
+    "code": "JEG",
+    "name": "JEG-Aasiaat Airport, Aasiaat-JEG"
+  },
+  {
+    "code": "JAV",
+    "name": "JAV-Ilulissat Airport, Ilulissat-JAV"
+  },
+  {
+    "code": "SFJ",
+    "name": "SFJ-Kangerlussuaq Airport, Kangerlussuaq-SFJ"
+  },
+  {
+    "code": "UAK",
+    "name": "UAK-Narsarsuaq Airport, Narsarsuaq-UAK"
+  },
+  {
+    "code": "GND",
+    "name": "GND-Maurice Bishop International Airport, Grenada-GND"
+  },
+  {
+    "code": "PTP",
+    "name": "PTP-Pole Caraibes Airport, Pointe-a-pitre-PTP"
+  },
+  {
+    "code": "SBH",
+    "name": "SBH-Saint Barthelemy Airport, Saint Barthelemy-SBH"
+  },
+  {
+    "code": "GUM",
+    "name": "GUM-Antonio B. Won Pat International Airport, Guam-GUM"
+  },
+  {
+    "code": "FRS",
+    "name": "FRS-Flores Airport, Flores-FRS"
+  },
+  {
+    "code": "GUA",
+    "name": "GUA-La Aurora Airport, Guatemala City-GUA"
+  },
+  {
+    "code": "CKY",
+    "name": "CKY-Conakry Airport, Conakry-CKY"
+  },
+  {
+    "code": "OXB",
+    "name": "OXB-Osvaldo Viera International Airport, Bissau-OXB"
+  },
+  {
+    "code": "GEO",
+    "name": "GEO-Cheddi Jagan International, Georgetown-GEO"
+  },
+  {
+    "code": "OGL",
+    "name": "OGL-Ogle Airport, Georgetown-OGL"
+  },
+  {
+    "code": "PAP",
+    "name": "PAP-Toussaint Loverture Airport, Port Au Prince-PAP"
+  },
+  {
+    "code": "LCE",
+    "name": "LCE-Goloson International Airport, La Ceiba-LCE"
+  },
+  {
+    "code": "RTB",
+    "name": "RTB-Roatan Airport, Roatan-RTB"
+  },
+  {
+    "code": "SAP",
+    "name": "SAP-Ramon Villeda Morales Airport, San Pedro Sula-SAP"
+  },
+  {
+    "code": "TGU",
+    "name": "TGU-Toncontin Airport, Tegucigalpa-TGU"
+  },
+  {
+    "code": "HKG",
+    "name": "HKG-Hong Kong International Airport, Hong Kong-HKG"
+  },
+  {
+    "code": "BUD",
+    "name": "BUD-Liszt Ferenc International Airport, Budapest-BUD"
+  },
+  {
+    "code": "DEB",
+    "name": "DEB-Debrecen International Airport, Debrecen-DEB"
+  },
+  {
+    "code": "KEF",
+    "name": "KEF-Keflavik International Airport, Reykjavik-REK"
+  },
+  {
+    "code": "RKV",
+    "name": "RKV-Reykjavik Airport, Reykjavik-REK"
+  },
+  {
+    "code": "REX",
+    "name": "REX-All Airports, Reykjavik-REK"
+  },
+  {
+    "code": "AGR",
+    "name": "AGR-Kheria Airport, Agra-AGR"
+  },
+  {
+    "code": "AMD",
+    "name": "AMD-Ahmedabad International Airport, Ahmedabad-AMD"
+  },
+  {
+    "code": "ATQ",
+    "name": "ATQ-Raja Sansi Airport, Amritsar-ATQ"
+  },
+  {
+    "code": "IXU",
+    "name": "IXU-Chikkalthana Airport, Aurangabad-IXU"
+  },
+  {
+    "code": "IXB",
+    "name": "IXB-Bagdogra Airport, Bagdogra-IXB"
+  },
+  {
+    "code": "BLR",
+    "name": "BLR-Bengaluru International Airport, Bangalore-BLR"
+  },
+  {
+    "code": "BHU",
+    "name": "BHU-Bhavnagar Airport, Bhavnagar-BHU"
+  },
+  {
+    "code": "BHO",
+    "name": "BHO-Raja Bhoj Airport, Bhopal-BHO"
+  },
+  {
+    "code": "BBI",
+    "name": "BBI-Biju Patnaik Airport, Bhubaneswar-BBI"
+  },
+  {
+    "code": "BHJ",
+    "name": "BHJ-Rudra Mata Airport, Bhuj-BHJ"
+  },
+  {
+    "code": "IXC",
+    "name": "IXC-Chandigarh Airport, Chandigarh-IXC"
+  },
+  {
+    "code": "MAA",
+    "name": "MAA-Chennai Airport, Chennai-MAA"
+  },
+  {
+    "code": "CJB",
+    "name": "CJB-Peelamedu Airport, Coimbatore-CJB"
+  },
+  {
+    "code": "DEL",
+    "name": "DEL-Indira Gandhi International Airport, Delhi-DEL"
+  },
+  {
+    "code": "GOI",
+    "name": "GOI-Dabolim Airport, Goa-GOI"
+  },
+  {
+    "code": "GAU",
+    "name": "GAU-Bordoloi International Airport, Guwahati-GAU"
+  },
+  {
+    "code": "HYD",
+    "name": "HYD-Shamshabad Rajiv Gandhi International Airport, Hyderabad-HYD"
+  },
+  {
+    "code": "IDR",
+    "name": "IDR-Devi Ahilya Bai Holkar Airport, Indore-IDR"
+  },
+  {
+    "code": "JAI",
+    "name": "JAI-Sanganeer Airport, Jaipur-JAI"
+  },
+  {
+    "code": "IXJ",
+    "name": "IXJ-Satwari Airport, Jammu-IXJ"
+  },
+  {
+    "code": "JDH",
+    "name": "JDH-Jodhpur Airport, Jodhpur-JDH"
+  },
+  {
+    "code": "HJR",
+    "name": "HJR-Khajuraho Airport, Khajuraho-HJR"
+  },
+  {
+    "code": "COK",
+    "name": "COK-Kochi International Airport, Kochi-COK"
+  },
+  {
+    "code": "CCU",
+    "name": "CCU-Netaji Subhas Chandra Bose International Airport, Kolkata-CCU"
+  },
+  {
+    "code": "CCJ",
+    "name": "CCJ-Kozhikode Airport, Kozhikode-CCJ"
+  },
+  {
+    "code": "IXL",
+    "name": "IXL-Leh Kushok Bakula Rimpochee Airport, Leh-IXL"
+  },
+  {
+    "code": "LKO",
+    "name": "LKO-Amausi Airport, Lucknow-LKO"
+  },
+  {
+    "code": "IXM",
+    "name": "IXM-Madurai Airport, Madurai-IXM"
+  },
+  {
+    "code": "BOM",
+    "name": "BOM-Chhatrapati Shivaji International Airport, Mumbai-BOM"
+  },
+  {
+    "code": "NAG",
+    "name": "NAG-Dr Ambedkar International Airport, Nagpur-NAG"
+  },
+  {
+    "code": "PAT",
+    "name": "PAT-Jai Prakash Narayan Airport, Patna-PAT"
+  },
+  {
+    "code": "PBD",
+    "name": "PBD-Porbandar Airport, Porbandar-PBD"
+  },
+  {
+    "code": "IXZ",
+    "name": "IXZ-Veer Savarkar Airport, Port Blair-IXZ"
+  },
+  {
+    "code": "PNQ",
+    "name": "PNQ-Lohegaon Airport, Pune-PNQ"
+  },
+  {
+    "code": "RAJ",
+    "name": "RAJ-Rajkot Civil Airport, Rajkot-RAJ"
+  },
+  {
+    "code": "SXR",
+    "name": "SXR-Srinagar International Airport, Srinagar-SXR"
+  },
+  {
+    "code": "TRZ",
+    "name": "TRZ-Tiruchirapally Civil Airport, Tiruchirapally-TRZ"
+  },
+  {
+    "code": "TIR",
+    "name": "TIR-Tirupati Airport, Tirupati-TIR"
+  },
+  {
+    "code": "TRV",
+    "name": "TRV-Thiruvananthapuram Airport, Trivandrum-TRV"
+  },
+  {
+    "code": "UDR",
+    "name": "UDR-Maharana Pratap Airport, Udaipur-UDR"
+  },
+  {
+    "code": "BDQ",
+    "name": "BDQ-Vadodara Airport, Vadodara-BDQ"
+  },
+  {
+    "code": "VNS",
+    "name": "VNS-Lal Bahadur Shastri Airport, Varanasi-VNS"
+  },
+  {
+    "code": "BPN",
+    "name": "BPN-Sepingan Airport, Balikpapan-BPN"
+  },
+  {
+    "code": "BTH",
+    "name": "BTH-Batam Hang Nadim International Airport, Batu Besar-BTH"
+  },
+  {
+    "code": "DPS",
+    "name": "DPS-Ngurah Rai Airport, Denpasar-DPS"
+  },
+  {
+    "code": "CGK",
+    "name": "CGK-Soekarno Hatta International Airport, Jakarta-JKT"
+  },
+  {
+    "code": "AMI",
+    "name": "AMI-Selaparang Airport, Mataram-AMI"
+  },
+  {
+    "code": "MES",
+    "name": "MES-Polonia Airport, Medan-MES"
+  },
+  {
+    "code": "KNO",
+    "name": "KNO-Kuala Namu International Airport, Medan-MES"
+  },
+  {
+    "code": "MES",
+    "name": "MES-All Airports, Medan-MES"
+  },
+  {
+    "code": "PDG",
+    "name": "PDG-Tabing Airport, Padang-PDG"
+  },
+  {
+    "code": "SOC",
+    "name": "SOC-Adi Sumarno Airport, Solo City-SOC"
+  },
+  {
+    "code": "SUB",
+    "name": "SUB-Juanda Airport, Surabaya-SUB"
+  },
+  {
+    "code": "UPG",
+    "name": "UPG-Hasanudin Airport, Ujung Pandang-UPG"
+  },
+  {
+    "code": "JOG",
+    "name": "JOG-Adisutjipto Airport, Yogyakarta-JOG"
+  },
+  {
+    "code": "IFN",
+    "name": "IFN-Shahid Beheshti International Airport, Isfahan-IFN"
+  },
+  {
+    "code": "KER",
+    "name": "KER-Kerman Airport, Kerman-KER"
+  },
+  {
+    "code": "MHD",
+    "name": "MHD-Mashad Airport, Mashad-MHD"
+  },
+  {
+    "code": "CQD",
+    "name": "CQD-Shahre Kord Airport, Shahre-kord-CQD"
+  },
+  {
+    "code": "SYZ",
+    "name": "SYZ-Shiraz Airport, Shiraz-SYZ"
+  },
+  {
+    "code": "TBZ",
+    "name": "TBZ-Tabriz International Airport, Tabriz-TBZ"
+  },
+  {
+    "code": "THR",
+    "name": "THR-Mehrabad Airport, Tehran-THR"
+  },
+  {
+    "code": "IKA",
+    "name": "IKA-Imam Khomeini Airport, Tehran-THR"
+  },
+  {
+    "code": "OSM",
+    "name": "OSM-Mosul International Airport, Mosul-OSM"
+  },
+  {
+    "code": "ISU",
+    "name": "ISU-Sulaimaniyah International Airport, Sulaymaniyah-ISU"
+  },
+  {
+    "code": "NJF",
+    "name": "NJF-Al Ashraf International Airport, Al Najaf-NJF"
+  },
+  {
+    "code": "BGW",
+    "name": "BGW-Baghdad International Airport, Baghdad-BGW"
+  },
+  {
+    "code": "BSR",
+    "name": "BSR-Basra International Airport, Basra-BSR"
+  },
+  {
+    "code": "EBL",
+    "name": "EBL-Erbil Airport, Erbil-EBL"
+  },
+  {
+    "code": "ORK",
+    "name": "ORK-Cork International Airport, Cork-ORK"
+  },
+  {
+    "code": "LDY",
+    "name": "LDY-City of Derry Airport, Derry-LDY"
+  },
+  {
+    "code": "CFN",
+    "name": "CFN-Donegal Airport, Donegal-CFN"
+  },
+  {
+    "code": "DUB",
+    "name": "DUB-Dublin Airport, Dublin-DUB"
+  },
+  {
+    "code": "GWY",
+    "name": "GWY-Galway Carnmore Airport, Galway-GWY"
+  },
+  {
+    "code": "KIR",
+    "name": "KIR-Kerry County Airport, Kerry Country-KIR"
+  },
+  {
+    "code": "NOC",
+    "name": "NOC-Ireland West Airport Knock, Knock-NOC"
+  },
+  {
+    "code": "SNN",
+    "name": "SNN-Shannon Airport, Shannon-SNN"
+  },
+  {
+    "code": "SXL",
+    "name": "SXL-Sligo Collooney Airport, Sligo-SXL"
+  },
+  {
+    "code": "WAT",
+    "name": "WAT-Waterford Airport, Waterford-WAT"
+  },
+  {
+    "code": "ETH",
+    "name": "ETH-Eilat Airport, Eilat-ETH"
+  },
+  {
+    "code": "SDV",
+    "name": "SDV-Dov Airport, Tel Aviv Yafo-TLV"
+  },
+  {
+    "code": "TLV",
+    "name": "TLV-Ben Gurion International Airport, Tel Aviv Yafo-TLV"
+  },
+  {
+    "code": "TLV",
+    "name": "TLV-All Airports, Tel Aviv Yafo-TLV"
+  },
+  {
+    "code": "AHO",
+    "name": "AHO-Fertilia Airport, Alghero-AHO"
+  },
+  {
+    "code": "AOI",
+    "name": "AOI-Falconara Airport, Ancona-AOI"
+  },
+  {
+    "code": "BRI",
+    "name": "BRI-Palese Airport, Bari-BRI"
+  },
+  {
+    "code": "BGY",
+    "name": "BGY-Orio Al Serio Airport, Bergamo-BGY"
+  },
+  {
+    "code": "BLQ",
+    "name": "BLQ-Guglielmo Marconi Airport, Bologna-BLQ"
+  },
+  {
+    "code": "BZO",
+    "name": "BZO-Dolomiti Airport, Bolzano-BZO"
+  },
+  {
+    "code": "BDS",
+    "name": "BDS-Casale Airport, Brindisi-BDS"
+  },
+  {
+    "code": "CAG",
+    "name": "CAG-Elmas Airport, Cagliari-CAG"
+  },
+  {
+    "code": "CTA",
+    "name": "CTA-Fontanarossa Airport, Catania-CTA"
+  },
+  {
+    "code": "CRV",
+    "name": "CRV-Crotone Airport, Crotone-CRV"
+  },
+  {
+    "code": "CUF",
+    "name": "CUF-Levaldigi Airport, Cuneo-CUF"
+  },
+  {
+    "code": "EBA",
+    "name": "EBA-Marina Di Campo Airport, Elba Island-EBA"
+  },
+  {
+    "code": "FLR",
+    "name": "FLR-Peretola Amerigo Vespucci Airport, Florence-FLR"
+  },
+  {
+    "code": "FRL",
+    "name": "FRL-Luigi Ridolfi Airport, Forli-FRL"
+  },
+  {
+    "code": "GOA",
+    "name": "GOA-Cristoforo Colombo Airport, Genova-GOA"
+  },
+  {
+    "code": "SUF",
+    "name": "SUF-Lamezia Terme Airport, Lamezia Terme-SUF"
+  },
+  {
+    "code": "LIN",
+    "name": "LIN-Linate Airport, Milan-MIL"
+  },
+  {
+    "code": "MXP",
+    "name": "MXP-Malpensa Airport, Milan-MIL"
+  },
+  {
+    "code": "MIL",
+    "name": "MIL-Malpensa Airport, Milan-MIL"
+  },
+  {
+    "code": "NAP",
+    "name": "NAP-Capodichino Airport, Naples-NAP"
+  },
+  {
+    "code": "OLB",
+    "name": "OLB-Costa Smeralda Airport, Olbia-OLB"
+  },
+  {
+    "code": "PMO",
+    "name": "PMO-Punta Raisi Airport, Palermo-PMO"
+  },
+  {
+    "code": "PNL",
+    "name": "PNL-Pantelleria Airport, Pantelleria-PNL"
+  },
+  {
+    "code": "PMF",
+    "name": "PMF-Parma Airport, Parma-PMF"
+  },
+  {
+    "code": "PEG",
+    "name": "PEG-Sant Egidio Airport, Perugia-PEG"
+  },
+  {
+    "code": "PSR",
+    "name": "PSR-Abruzzo Airport, Pescara-PSR"
+  },
+  {
+    "code": "PSA",
+    "name": "PSA-Gal Galilei Airport, Pisa-PSA"
+  },
+  {
+    "code": "REG",
+    "name": "REG-Reggio Di Calabria Airport, Reggio Di Calabria-REG"
+  },
+  {
+    "code": "RMI",
+    "name": "RMI-Miramare Airport, Rimini-RMI"
+  },
+  {
+    "code": "FCO",
+    "name": "FCO-Fiumicino Airport, Rome-ROM"
+  },
+  {
+    "code": "CIA",
+    "name": "CIA-Ciampino Airport, Rome-ROM"
+  },
+  {
+    "code": "ROM",
+    "name": "ROM-All Airports, Rome-ROM"
+  },
+  {
+    "code": "QSR",
+    "name": "QSR-Costa dAmalfi Airport, Salerno-QSR"
+  },
+  {
+    "code": "TPS",
+    "name": "TPS-Birgi Airport, Trapani-TPS"
+  },
+  {
+    "code": "TSF",
+    "name": "TSF-Treviso Airport, Treviso-TSF"
+  },
+  {
+    "code": "TRS",
+    "name": "TRS-Ronchi Dei Legionari Airport, Trieste-TRS"
+  },
+  {
+    "code": "TRN",
+    "name": "TRN-Torino Caselle Airport, Turin-TRN"
+  },
+  {
+    "code": "VCE",
+    "name": "VCE-Marco Polo Airport, Venice-VCE"
+  },
+  {
+    "code": "VBS",
+    "name": "VBS-Brescia Montichiari Airport, Verona-VRN"
+  },
+  {
+    "code": "VRN",
+    "name": "VRN-Verona Airport, Verona-VRN"
+  },
+  {
+    "code": "VRN",
+    "name": "VRN-All Airports, Verona-VRN"
+  },
+  {
+    "code": "KIN",
+    "name": "KIN-Norman Manly Airport, Kingston-KIN"
+  },
+  {
+    "code": "KTP",
+    "name": "KTP-Tinson Airport, Kingston-KIN"
+  },
+  {
+    "code": "MBJ",
+    "name": "MBJ-Sangster Airport, Montego Bay-MBJ"
+  },
+  {
+    "code": "NEG",
+    "name": "NEG-Negril Airport, Negril-NEG"
+  },
+  {
+    "code": "OCJ",
+    "name": "OCJ-Boscobel Airport, Ocho Rios-OCJ"
+  },
+  {
+    "code": "AXT",
+    "name": "AXT-Akita Airport, Akita-AXT"
+  },
+  {
+    "code": "AKJ",
+    "name": "AKJ-Asahikawa Airport, Asahikawa-AKJ"
+  },
+  {
+    "code": "FUK",
+    "name": "FUK-Fukuoka Airport, Fukuoka-FUK"
+  },
+  {
+    "code": "FKS",
+    "name": "FKS-Fukushima Airport, Fukushima-FKS"
+  },
+  {
+    "code": "HKD",
+    "name": "HKD-Hakodate Airport, Hakodate-HKD"
+  },
+  {
+    "code": "HIJ",
+    "name": "HIJ-Hiroshima Airport, Hiroshima-HIJ"
+  },
+  {
+    "code": "HIW",
+    "name": "HIW-Hiroshima West Airport, Hiroshima-HIJ"
+  },
+  {
+    "code": "KOJ",
+    "name": "KOJ-Kagoshima Airport, Kagoshima-KOJ"
+  },
+  {
+    "code": "KKJ",
+    "name": "KKJ-Kokura Airport, Kita Kyushu-KKJ"
+  },
+  {
+    "code": "UKB",
+    "name": "UKB-Kobe Airport, Kobe-UKB"
+  },
+  {
+    "code": "KCZ",
+    "name": "KCZ-Kochi Airport, Kochi-KCZ"
+  },
+  {
+    "code": "KMQ",
+    "name": "KMQ-Komatsu Airport, Komatsu-KMQ"
+  },
+  {
+    "code": "KMJ",
+    "name": "KMJ-Kumamoto Airport, Kumamoto-KMJ"
+  },
+  {
+    "code": "UKY",
+    "name": "UKY-Kansai Airport, Kyoto-UKY"
+  },
+  {
+    "code": "MMJ",
+    "name": "MMJ-Matsumoto Airport, Matsumoto-MMJ"
+  },
+  {
+    "code": "MYJ",
+    "name": "MYJ-Matsuyama Airport, Matsuyama-MYJ"
+  },
+  {
+    "code": "MMB",
+    "name": "MMB-Memanbetsu Airport, Memanbetsu-MMB"
+  },
+  {
+    "code": "KMI",
+    "name": "KMI-Miyazaki Airport, Miyazaki-KMI"
+  },
+  {
+    "code": "HNA",
+    "name": "HNA-Hanamaki Airport, Moroioka-HNA"
+  },
+  {
+    "code": "NGS",
+    "name": "NGS-Nagasaki Airport, Nagasaki-NGS"
+  },
+  {
+    "code": "NGO",
+    "name": "NGO-Chubu Centrair International Airport, Nagoya-NGO"
+  },
+  {
+    "code": "SHB",
+    "name": "SHB-Nakashibetsu Airport, Nakashibetsu-SHB"
+  },
+  {
+    "code": "KIJ",
+    "name": "KIJ-Niigata Airport, Niigata-KIJ"
+  },
+  {
+    "code": "OBO",
+    "name": "OBO-Obihiro Airport, Obihiro-OBO"
+  },
+  {
+    "code": "OKJ",
+    "name": "OKJ-Okayama Airport, Okayama-OKJ"
+  },
+  {
+    "code": "OKA",
+    "name": "OKA-Naha Field Airport, Okinawa-OKA"
+  },
+  {
+    "code": "ITM",
+    "name": "ITM-Osaka Itami Airport, Osaka-OSA"
+  },
+  {
+    "code": "KIX",
+    "name": "KIX-Kansai International Airport, Osaka-OSA"
+  },
+  {
+    "code": "OSA",
+    "name": "OSA-All Airports, Osaka-OSA"
+  },
+  {
+    "code": "SPK",
+    "name": "SPK-New Chitose Airport, Sapporo-SPK"
+  },
+  {
+    "code": "CTS",
+    "name": "CTS-Chitose Airport, Sapporo-SPK"
+  },
+  {
+    "code": "OKD",
+    "name": "OKD-Okadama Airport, Sapporo-SPK"
+  },
+  {
+    "code": "SPK",
+    "name": "SPK-All Airports, Sapporo-SPK"
+  },
+  {
+    "code": "SDJ",
+    "name": "SDJ-Sendai Airport, Sendai-SDJ"
+  },
+  {
+    "code": "SYO",
+    "name": "SYO-Shonai Airport, Shonai-SYO"
+  },
+  {
+    "code": "TAK",
+    "name": "TAK-Takamatsu Airport, Takamatsu-TAK"
+  },
+  {
+    "code": "TKS",
+    "name": "TKS-Tokushima Airport, Tokushima-TKS"
+  },
+  {
+    "code": "HND",
+    "name": "HND-Haneda Airport, Tokyo-TYO"
+  },
+  {
+    "code": "NRT",
+    "name": "NRT-Narita International Airport, Tokyo-TYO"
+  },
+  {
+    "code": "TYO",
+    "name": "TYO-All Airports, Tokyo-TYO"
+  },
+  {
+    "code": "TTJ",
+    "name": "TTJ-Tottori Airport, Tottori-TTJ"
+  },
+  {
+    "code": "UBJ",
+    "name": "UBJ-Ube Airport, Ube-UBJ"
+  },
+  {
+    "code": "WKJ",
+    "name": "WKJ-Hokkaido Airport, Wakkanai-WKJ"
+  },
+  {
+    "code": "ADJ",
+    "name": "ADJ-Amman Marka Airport, Amman-AMM"
+  },
+  {
+    "code": "AMM",
+    "name": "AMM-Amman Queen Alia International Airport, Amman-AMM"
+  },
+  {
+    "code": "AQJ",
+    "name": "AQJ-King Hussein Airport, Aqaba-AQJ"
+  },
+  {
+    "code": "SCO",
+    "name": "SCO-Aktau Airport, Aktau-SCO"
+  },
+  {
+    "code": "ALA",
+    "name": "ALA-Almaty Airport, Almaty-ALA"
+  },
+  {
+    "code": "TSE",
+    "name": "TSE-Astana Airport, Astana-TSE"
+  },
+  {
+    "code": "GUW",
+    "name": "GUW-Atyrau Airport, Atyrau-GUW"
+  },
+  {
+    "code": "KGF",
+    "name": "KGF-Karaganda Airport, Karaganda-KGF"
+  },
+  {
+    "code": "KSN",
+    "name": "KSN-Kostanay Airport, Kostanay-KSN"
+  },
+  {
+    "code": "CIT",
+    "name": "CIT-Shimkent Airport, Shimkent-CIT"
+  },
+  {
+    "code": "URA",
+    "name": "URA-Uralsk Airport, Uralsk-URA"
+  },
+  {
+    "code": "KIS",
+    "name": "KIS-Kisumu Airport, Kisumu-KIS"
+  },
+  {
+    "code": "LAU",
+    "name": "LAU-Lamu Airport, Lamu-LAU"
+  },
+  {
+    "code": "MYD",
+    "name": "MYD-Malindi Airport, Malindi-MYD"
+  },
+  {
+    "code": "MBA",
+    "name": "MBA-Moi International Airport, Mombasa-MBA"
+  },
+  {
+    "code": "NBO",
+    "name": "NBO-Jomo Kenyatta International Airport, Nairobi-NBO"
+  },
+  {
+    "code": "WIL",
+    "name": "WIL-Wilson Airport, Nairobi-NBO"
+  },
+  {
+    "code": "NBO",
+    "name": "NBO-All Airports, Nairobi-NBO"
+  },
+  {
+    "code": "BEZ",
+    "name": "BEZ-Beru Airport, Beru-BEZ"
+  },
+  {
+    "code": "TRW",
+    "name": "TRW-Bonriki Airport, Tarawa-TRW"
+  },
+  {
+    "code": "PRN",
+    "name": "PRN-Pristina International Airport, Pristina-PRN"
+  },
+  {
+    "code": "KWI",
+    "name": "KWI-Kuwait International Airport, Kuwait City-KWI"
+  },
+  {
+    "code": "FRU",
+    "name": "FRU-Bishkek Airport, Bishkek-FRU"
+  },
+  {
+    "code": "LPQ",
+    "name": "LPQ-Luang Prabang Airport, Luang Prabang-LPQ"
+  },
+  {
+    "code": "PKZ",
+    "name": "PKZ-Pakse Airport, Pakse-PKZ"
+  },
+  {
+    "code": "VTE",
+    "name": "VTE-Wattay Airport, Vientiane-VTE"
+  },
+  {
+    "code": "XKH",
+    "name": "XKH-Xieng Khouang Airport, Xieng Khouang-XKH"
+  },
+  {
+    "code": "RIX",
+    "name": "RIX-Riga Airport, Riga-RIX"
+  },
+  {
+    "code": "BEY",
+    "name": "BEY-Beirut Rafic Hariri International Airport, Beirut-BEY"
+  },
+  {
+    "code": "MSU",
+    "name": "MSU-Moshoeshoe International Airport, Maseru-MSU"
+  },
+  {
+    "code": "ROB",
+    "name": "ROB-Roberts International Airport, Monrovia-MLW"
+  },
+  {
+    "code": "BEN",
+    "name": "BEN-Benina International Airport, Benghazi-BEN"
+  },
+  {
+    "code": "TIP",
+    "name": "TIP-Tripoli International Airport, Tripoli-TIP"
+  },
+  {
+    "code": "KUN",
+    "name": "KUN-Kaunas Airport, Kaunas-KUN"
+  },
+  {
+    "code": "PLQ",
+    "name": "PLQ-Palanga International Airport, Klaipeda Palanga-PLQ"
+  },
+  {
+    "code": "VNO",
+    "name": "VNO-Vilnius Airport, Vilnius-VNO"
+  },
+  {
+    "code": "LUX",
+    "name": "LUX-Luxembourg Airport, Luxembourg-LUX"
+  },
+  {
+    "code": "OHD",
+    "name": "OHD-Ohrid Airport, Ohrid-OHD"
+  },
+  {
+    "code": "SKP",
+    "name": "SKP-Alexendar the Great Airport, Skopje-SKP"
+  },
+  {
+    "code": "TNR",
+    "name": "TNR-Ivato Airport, Antananarivo-TNR"
+  },
+  {
+    "code": "DIE",
+    "name": "DIE-Antsiranana Arrachart Airport, Antsiranana-DIE"
+  },
+  {
+    "code": "MJN",
+    "name": "MJN-Philibert Tsiranana Airport, Majunga-MJN"
+  },
+  {
+    "code": "MOQ",
+    "name": "MOQ-Morondava Airport, Morondava-MOQ"
+  },
+  {
+    "code": "NOS",
+    "name": "NOS-Fascene Airport, Nossy Be-NOS"
+  },
+  {
+    "code": "SMS",
+    "name": "SMS-St Marie Airport, Sainte Marie-SMS"
+  },
+  {
+    "code": "SVB",
+    "name": "SVB-Sambava Airport, Sambava-SVB"
+  },
+  {
+    "code": "TMM",
+    "name": "TMM-Tamatave Airport, Tamatave-TMM"
+  },
+  {
+    "code": "FTU",
+    "name": "FTU-Marillac Airport, Tolanaro-FTU"
+  },
+  {
+    "code": "TLE",
+    "name": "TLE-Tulear Airport, Tulear-TLE"
+  },
+  {
+    "code": "BLZ",
+    "name": "BLZ-Chileka Airport, Blantyre-BLZ"
+  },
+  {
+    "code": "LLW",
+    "name": "LLW-Kamuzu International Airport, Lilongwe-LLW"
+  },
+  {
+    "code": "IPH",
+    "name": "IPH-Ipoh Airport, Ipoh-IPH"
+  },
+  {
+    "code": "JHB",
+    "name": "JHB-Sultan Ismail International Airport, Johor Bahru-JHB"
+  },
+  {
+    "code": "KBR",
+    "name": "KBR-Sultan Ismail Petra Airport, Kota Bharu-KBR"
+  },
+  {
+    "code": "BKI",
+    "name": "BKI-Kota Kinabalu Airport, Kota Kinabalu-BKI"
+  },
+  {
+    "code": "KUL",
+    "name": "KUL-Kuala Lumpur International Airport, Kuala Lumpur-KUL"
+  },
+  {
+    "code": "SZB",
+    "name": "SZB-Sultan Abdul Aziz Shah Airport, Kuala Lumpur-KUL"
+  },
+  {
+    "code": "KUL",
+    "name": "KUL-All Airports, Kuala Lumpur-KUL"
+  },
+  {
+    "code": "TGG",
+    "name": "TGG-Sultan Mahmood Airport, Kuala Terengganu-TGG"
+  },
+  {
+    "code": "KUA",
+    "name": "KUA-Kuantan Airport, Kuantan-KUA"
+  },
+  {
+    "code": "KCH",
+    "name": "KCH-Kuching Airport, Kuching-KCH"
+  },
+  {
+    "code": "LBU",
+    "name": "LBU-Labuan Airport, Labuan-LBU"
+  },
+  {
+    "code": "LDU",
+    "name": "LDU-Lahad Datu Airport, Lahad Datu-LDU"
+  },
+  {
+    "code": "LGK",
+    "name": "LGK-Langkawi Airport, Langkawi-LGK"
+  },
+  {
+    "code": "LWY",
+    "name": "LWY-Lawas Airport, Lawas-LWY"
+  },
+  {
+    "code": "LMN",
+    "name": "LMN-Limbang Airport, Limbang-LMN"
+  },
+  {
+    "code": "MYY",
+    "name": "MYY-Miri Airport, Miri-MYY"
+  },
+  {
+    "code": "PKG",
+    "name": "PKG-Pangkor Perak Airport, Pangkor-PKG"
+  },
+  {
+    "code": "PEN",
+    "name": "PEN-Penang International Airport, Penang-PEN"
+  },
+  {
+    "code": "SDK",
+    "name": "SDK-Sandakan Airport, Sandakan-SDK"
+  },
+  {
+    "code": "SBW",
+    "name": "SBW-Sibu Airport, Sibu-SBW"
+  },
+  {
+    "code": "TWU",
+    "name": "TWU-Tawau Airport, Tawau-TWU"
+  },
+  {
+    "code": "TOD",
+    "name": "TOD-Tioman Airport, Tioman-TOD"
+  },
+  {
+    "code": "MLE",
+    "name": "MLE-Ibrahim Nasir International Airport, Male-MLE"
+  },
+  {
+    "code": "BKO",
+    "name": "BKO-Senou Airport, Bamako-BKO"
+  },
+  {
+    "code": "MLA",
+    "name": "MLA-Luqa Airport, Malta-MLA"
+  },
+  {
+    "code": "BII",
+    "name": "BII-Bikini Atoll Airport, Bikini Atoll-BII"
+  },
+  {
+    "code": "FDF",
+    "name": "FDF-Lamentin Airport, Fort De France-FDF"
+  },
+  {
+    "code": "NDB",
+    "name": "NDB-Nouadhibou Airport, Nouadhibou-NDB"
+  },
+  {
+    "code": "NKC",
+    "name": "NKC-Nouakchott Airport, Nouakchott-NKC"
+  },
+  {
+    "code": "MRU",
+    "name": "MRU-Sir S Ramgoolam International Airport, Mauritius-MRU"
+  },
+  {
+    "code": "ACA",
+    "name": "ACA-Alvarez International Airport, Acapulco-ACA"
+  },
+  {
+    "code": "AGU",
+    "name": "AGU-Aguascalientes Municipal Airport, Aguascalientes-AGU"
+  },
+  {
+    "code": "CPE",
+    "name": "CPE-Campeche International Airport, Campeche-CPE"
+  },
+  {
+    "code": "CUN",
+    "name": "CUN-Cancun International Airport, Cancun-CUN"
+  },
+  {
+    "code": "CTM",
+    "name": "CTM-Chetumal International Airport, Chetumal-CTM"
+  },
+  {
+    "code": "CUU",
+    "name": "CUU-General Fierro Villa Chihuahua Airport, Chihuahua-CUU"
+  },
+  {
+    "code": "CJS",
+    "name": "CJS-Ciudad Juarez International Airport, Ciudad Juarez-CJS"
+  },
+  {
+    "code": "CEN",
+    "name": "CEN-Ciudad Obregon Airport, Ciudad Obregon-CEN"
+  },
+  {
+    "code": "CVM",
+    "name": "CVM-Ciudad Victoria Airport, Ciudad Victoria-CVM"
+  },
+  {
+    "code": "CLQ",
+    "name": "CLQ-Colima Airport, Colima-CLQ"
+  },
+  {
+    "code": "CZM",
+    "name": "CZM-Cozumel International Airport, Cozumel-CZM"
+  },
+  {
+    "code": "DGO",
+    "name": "DGO-Guadalupe Victoria Airport, Durango-DGO"
+  },
+  {
+    "code": "GDL",
+    "name": "GDL-Miguel Hidalgo Airport, Guadalajara-GDL"
+  },
+  {
+    "code": "GYM",
+    "name": "GYM-Gen Jose M Yanez Airport, Guaymas-GYM"
+  },
+  {
+    "code": "HMO",
+    "name": "HMO-Gen Pesqueira Garcia Airport, Hermosillo-HMO"
+  },
+  {
+    "code": "HUX",
+    "name": "HUX-Bahia De Huatulco Airport, Huatulco-HUX"
+  },
+  {
+    "code": "ZIH",
+    "name": "ZIH-Zihuatanejo International Airport, Ixtapa Zihuatanejo-ZIH"
+  },
+  {
+    "code": "LAP",
+    "name": "LAP-Gen Marquez De Leon Airport, La Paz-LAP"
+  },
+  {
+    "code": "BJX",
+    "name": "BJX-Del Bajio Airport, León-BJX"
+  },
+  {
+    "code": "LTO",
+    "name": "LTO-Loreto International Airport, Loreto-LTO"
+  },
+  {
+    "code": "LMM",
+    "name": "LMM-Federal Los Mochis Airport, Los Mochis-LMM"
+  },
+  {
+    "code": "ZLO",
+    "name": "ZLO-Manzanillo Airport, Manzanillo-ZLO"
+  },
+  {
+    "code": "MAM",
+    "name": "MAM-Matamoros Airport, Matamoros-MAM"
+  },
+  {
+    "code": "MZT",
+    "name": "MZT-General Rafael Buelina Airport, Mazatlan-MZT"
+  },
+  {
+    "code": "MID",
+    "name": "MID-Merida International Airport, Merida-MID"
+  },
+  {
+    "code": "MEX",
+    "name": "MEX-Benito Juarez International Airport, Mexico City-MEX"
+  },
+  {
+    "code": "MTT",
+    "name": "MTT-Minatitlan Municipal Airport, Minatitlan-MTT"
+  },
+  {
+    "code": "LOV",
+    "name": "LOV-Monclova Airport, Monclova-LOV"
+  },
+  {
+    "code": "MTY",
+    "name": "MTY-General M Escobedo Airport, Monterrey-MTY"
+  },
+  {
+    "code": "MLM",
+    "name": "MLM-Morelia Airport, Morelia-MLM"
+  },
+  {
+    "code": "OAX",
+    "name": "OAX-Xoxocotlan Airport, Oaxaca-OAX"
+  },
+  {
+    "code": "PBC",
+    "name": "PBC-Huejostingo Airport, Puebla-PBC"
+  },
+  {
+    "code": "PXM",
+    "name": "PXM-Puerto Escondido International Airport, Puerto Escondido-PXM"
+  },
+  {
+    "code": "PVR",
+    "name": "PVR-Ordaz Airport, Puerto Vallarta-PVR"
+  },
+  {
+    "code": "QRO",
+    "name": "QRO-Queretaro Airport, Queretaro-QRO"
+  },
+  {
+    "code": "SLW",
+    "name": "SLW-Saltillo Airport, Saltillo-SLW"
+  },
+  {
+    "code": "SJD",
+    "name": "SJD-Los Cabos Airport, San Jose Del Cabo-SJD"
+  },
+  {
+    "code": "SLP",
+    "name": "SLP-San Luis Potosi Municipal Airport, San Luis Potosi-SLP"
+  },
+  {
+    "code": "TAM",
+    "name": "TAM-Tampico International Airport, Tampico-TAM"
+  },
+  {
+    "code": "TAP",
+    "name": "TAP-Tapachula Airport, Tapachula-TAP"
+  },
+  {
+    "code": "TIJ",
+    "name": "TIJ-Rodriguez Airport, Tijuana-TIJ"
+  },
+  {
+    "code": "TRC",
+    "name": "TRC-Torreon Airport, Torreon-TRC"
+  },
+  {
+    "code": "TGZ",
+    "name": "TGZ-Llano San Juan Airport, Tuxtla Gutierrez-TGZ"
+  },
+  {
+    "code": "VER",
+    "name": "VER-Veracruz International Airport, Veracruz-VER"
+  },
+  {
+    "code": "VSA",
+    "name": "VSA-Carlos Rovirosa Perez International Airport, Villahermosa-VSA"
+  },
+  {
+    "code": "YAP",
+    "name": "YAP-Yap Airport, Yap-YAP"
+  },
+  {
+    "code": "KIV",
+    "name": "KIV-Chisinau Airport, Chisinau-KIV"
+  },
+  {
+    "code": "MCM",
+    "name": "MCM-Hel De Monte Carlo Airport, Monte Carlo-MCM"
+  },
+  {
+    "code": "ULN",
+    "name": "ULN-Buyant Uhaa Airport, Ulaanbaatar-ULN"
+  },
+  {
+    "code": "TGD",
+    "name": "TGD-Podgorica Golubovci Airport, Podgorica-TGD"
+  },
+  {
+    "code": "TIV",
+    "name": "TIV-Tivat Airport, Tivat-TIV"
+  },
+  {
+    "code": "AGA",
+    "name": "AGA-Agadir Almassira Airport, Agadir-AGA"
+  },
+  {
+    "code": "CMN",
+    "name": "CMN-Mohamed V Airport, Casablanca-CAS"
+  },
+  {
+    "code": "FEZ",
+    "name": "FEZ-Fez Airport, Fez-FEZ"
+  },
+  {
+    "code": "EUN",
+    "name": "EUN-Hassan I Airport, Laayoune-EUN"
+  },
+  {
+    "code": "RAK",
+    "name": "RAK-Menara Airport, Marrakech-RAK"
+  },
+  {
+    "code": "NDR",
+    "name": "NDR-Nador International Airport, Nador-NDR"
+  },
+  {
+    "code": "OZZ",
+    "name": "OZZ-Ourzazate Airport, Ouarzazate-OZZ"
+  },
+  {
+    "code": "OUD",
+    "name": "OUD-Les Angades Airport, Oujda-OUD"
+  },
+  {
+    "code": "RBA",
+    "name": "RBA-Sale Airport, Rabat-RBA"
+  },
+  {
+    "code": "TNG",
+    "name": "TNG-Ibn Batouta Boukhalef Airport, Tangier-TNG"
+  },
+  {
+    "code": "BEW",
+    "name": "BEW-Beira Airport, Beira-BEW"
+  },
+  {
+    "code": "MPM",
+    "name": "MPM-Maputo International Airport, Maputo-MPM"
+  },
+  {
+    "code": "APL",
+    "name": "APL-Nampula Airport, Nampula-APL"
+  },
+  {
+    "code": "POL",
+    "name": "POL-Pemba Airport, Pemba-POL"
+  },
+  {
+    "code": "TET",
+    "name": "TET-Chingozi Airport, Tete-TET"
+  },
+  {
+    "code": "VNX",
+    "name": "VNX-Vilanculos Airport, Vilanculos-VNX"
+  },
+  {
+    "code": "RGN",
+    "name": "RGN-Yangon International Airport, Yangon-RGN"
+  },
+  {
+    "code": "SWP",
+    "name": "SWP-Swakopmund Airport, Swakopmund-SWP"
+  },
+  {
+    "code": "WVB",
+    "name": "WVB-Rooikop Airport, Walvis Bay-WVB"
+  },
+  {
+    "code": "ERS",
+    "name": "ERS-Eros Airport, Windhoek-WDH"
+  },
+  {
+    "code": "WDH",
+    "name": "WDH-Hosea Kutako International Airport, Windhoek-WDH"
+  },
+  {
+    "code": "WDH",
+    "name": "WDH-All Airports, Windhoek-WDH"
+  },
+  {
+    "code": "INU",
+    "name": "INU-Nauru International Airport, Nauru Island-INU"
+  },
+  {
+    "code": "KTM",
+    "name": "KTM-Tribuvan Airport, Kathmandu-KTM"
+  },
+  {
+    "code": "PKR",
+    "name": "PKR-Pokhara Airport, Pokhara-PKR"
+  },
+  {
+    "code": "AMS",
+    "name": "AMS-Schiphol Airport, Amsterdam-AMS"
+  },
+  {
+    "code": "EIN",
+    "name": "EIN-Eindhoven Airport, Eindhoven-EIN"
+  },
+  {
+    "code": "GRQ",
+    "name": "GRQ-Eelde Airport, Groningen-GRQ"
+  },
+  {
+    "code": "MST",
+    "name": "MST-Maastricht Aachen Airport, Maastricht-MST"
+  },
+  {
+    "code": "RTM",
+    "name": "RTM-Rotterdam Airport, Rotterdam-RTM"
+  },
+  {
+    "code": "SFG",
+    "name": "SFG-LEsperance Airport, St Martin-SFG"
+  },
+  {
+    "code": "GEA",
+    "name": "GEA-Magenta Airport, Noumea-NOU"
+  },
+  {
+    "code": "NOU",
+    "name": "NOU-Tontouta Airport, Noumea-NOU"
+  },
+  {
+    "code": "NOU",
+    "name": "NOU-All Airports, Noumea-NOU"
+  },
+  {
+    "code": "AKL",
+    "name": "AKL-Auckland Airport, Auckland-AKL"
+  },
+  {
+    "code": "BHE",
+    "name": "BHE-Blenheim Airport, Blenheim-BHE"
+  },
+  {
+    "code": "CHC",
+    "name": "CHC-Christchurch Airport, Christchurch-CHC"
+  },
+  {
+    "code": "DUD",
+    "name": "DUD-Momona Airport, Dunedin-DUD"
+  },
+  {
+    "code": "KBL",
+    "name": "KBL-Khwaja Rawash Airport, Kabul-KBL"
+  },
+  {
+    "code": "TIA",
+    "name": "TIA-Nene Tereza Rinas Airport, Tirana-TIA"
+  },
+  {
+    "code": "ALG",
+    "name": "ALG-Houari Boumedienne Airport, Algiers-ALG"
+  },
+  {
+    "code": "AAE",
+    "name": "AAE-Rabah Bitat Airport, Annaba-AAE"
+  },
+  {
+    "code": "BLJ",
+    "name": "BLJ-Mostepha Ben Boulaid Airport, Batna-BLJ"
+  },
+  {
+    "code": "BJA",
+    "name": "BJA-Abane Ramdane Airport, Bejaia-BJA"
+  },
+  {
+    "code": "BSK",
+    "name": "BSK-Biskra Mohamed Khider Airport, Biskra-BSK"
+  },
+  {
+    "code": "CFK",
+    "name": "CFK-Chlef International Airport, Chlef-CFK"
+  },
+  {
+    "code": "CZL",
+    "name": "CZL-Mohamed Boudiaf Airport, Constantine-CZL"
+  },
+  {
+    "code": "GHA",
+    "name": "GHA-Noumerate Airport, Ghardaia-GHA"
+  },
+  {
+    "code": "HME",
+    "name": "HME-Oued Irara Airport, Hassi Messaoud-HME"
+  },
+  {
+    "code": "TAF",
+    "name": "TAF-Tafaraoui Airport, Oran-ORN"
+  },
+  {
+    "code": "ORN",
+    "name": "ORN-Oran Es Senia Airport, Oran-ORN"
+  },
+  {
+    "code": "QSF",
+    "name": "QSF-Setif Airport, Setif-QSF"
+  },
+  {
+    "code": "TLM",
+    "name": "TLM-Zenata Messali El Hadj Airport, Tlemcen-TLM"
+  },
+  {
+    "code": "PPG",
+    "name": "PPG-Pago Pago Airport, Pago Pago-PPG"
+  },
+  {
+    "code": "LAD",
+    "name": "LAD-Four De Fevereiro Airport, Luanda-LAD"
+  },
+  {
+    "code": "ANU",
+    "name": "ANU-V C Bird International Airport, St. Johns-ANU"
+  },
+  {
+    "code": "BHI",
+    "name": "BHI-Commandante Airport, Bahia Blanca-BHI"
+  },
+  {
+    "code": "EZE",
+    "name": "EZE-Ministro Pistarini International Airport, Buenos Aires-BUE"
+  },
+  {
+    "code": "AEP",
+    "name": "AEP-Jorge Newberry Airport, Buenos Aires-BUE"
+  },
+  {
+    "code": "BUE",
+    "name": "BUE-All Airports, Buenos Aires-BUE"
+  },
+  {
+    "code": "CRD",
+    "name": "CRD-Comodoro Rivadavia Airport, Comodoro Rivadavia-CRD"
+  },
+  {
+    "code": "COR",
+    "name": "COR-Pajas Blancas Airport, Cordoba-COR"
+  },
+  {
+    "code": "FTE",
+    "name": "FTE-El Calafate Airport, El Calafate-FTE"
+  },
+  {
+    "code": "FMA",
+    "name": "FMA-El Pucu Airport, Formosa-FMA"
+  },
+  {
+    "code": "IGR",
+    "name": "IGR-Cataratas del Iguazu International Airport, Iguazu-IGR"
+  },
+  {
+    "code": "MDQ",
+    "name": "MDQ-Mar Del Plata Airport, Mar Del Plata-MDQ"
+  },
+  {
+    "code": "MDZ",
+    "name": "MDZ-El Plumerillo Airport, Mendoza-MDZ"
+  },
+  {
+    "code": "NQN",
+    "name": "NQN-Neuquen Airport, Neuquen-NQN"
+  },
+  {
+    "code": "PSS",
+    "name": "PSS-Posadas Airport, Posadas-PSS"
+  },
+  {
+    "code": "RES",
+    "name": "RES-Resistencia Airport, Resistencia-RES"
+  },
+  {
+    "code": "RGL",
+    "name": "RGL-Rio Gallegos International Airport, Rio Gallegos-RGL"
+  },
+  {
+    "code": "SLA",
+    "name": "SLA-Martin Miguel de Guemes International Airport, Salta-SLA"
+  },
+  {
+    "code": "BRC",
+    "name": "BRC-Bariloche International Airport, San Carlos DeBariloche-BRC"
+  },
+  {
+    "code": "SFN",
+    "name": "SFN-Santa Fe Airport, Santa Fe-SFN"
+  },
+  {
+    "code": "REL",
+    "name": "REL-Trelew Airport, Trelew-REL"
+  },
+  {
+    "code": "TUC",
+    "name": "TUC-Benjamin Matienzo Airport, Tucuman-TUC"
+  },
+  {
+    "code": "USH",
+    "name": "USH-Islas Malvinas Airport, Ushuaia, Tierra del Fuego-USH"
+  },
+  {
+    "code": "EVN",
+    "name": "EVN-Zvartnots International Airport, Yerevan-EVN"
+  },
+  {
+    "code": "AUA",
+    "name": "AUA-Reina Beatrix Airport, Aruba-AUA"
+  },
+  {
+    "code": "ADL",
+    "name": "ADL-Adelaide Airport, Adelaide-ADL"
+  },
+  {
+    "code": "ALH",
+    "name": "ALH-Albany Airport, Albany-ALH"
+  },
+  {
+    "code": "ABX",
+    "name": "ABX-Albury Airport, Albury-ABX"
+  },
+  {
+    "code": "ASP",
+    "name": "ASP-Alice Springs Airport, Alice Springs-ASP"
+  },
+  {
+    "code": "AVV",
+    "name": "AVV-Avalon Airport, Avalon-MEL"
+  },
+  {
+    "code": "AYQ",
+    "name": "AYQ-Connellan Airport, Ayers Rock-AYQ"
+  },
+  {
+    "code": "BNK",
+    "name": "BNK-Ballina Byron Airport, Ballina-BNK"
+  },
+  {
+    "code": "BHS",
+    "name": "BHS-Raglan Airport, Bathurst-BHS"
+  },
+  {
+    "code": "BNE",
+    "name": "BNE-Brisbane Airport, Brisbane-BNE"
+  },
+  {
+    "code": "BHQ",
+    "name": "BHQ-Broken Hill Airport, Broken Hill-BHQ"
+  },
+  {
+    "code": "BME",
+    "name": "BME-Broome Airport, Broome-BME"
+  },
+  {
+    "code": "BDB",
+    "name": "BDB-Bundaberg Airport, Bundaberg-BDB"
+  },
+  {
+    "code": "CNS",
+    "name": "CNS-Cairns Airport, Cairns-CNS"
+  },
+  {
+    "code": "CBR",
+    "name": "CBR-Canberra Airport, Canberra-CBR"
+  },
+  {
+    "code": "CFS",
+    "name": "CFS-Coffs Harbour Airport, Coffs Harbour-CFS"
+  },
+  {
+    "code": "DRW",
+    "name": "DRW-Darwin Airport, Darwin-DRW"
+  },
+  {
+    "code": "DPO",
+    "name": "DPO-Devonport Airport, Devonport-DPO"
+  },
+  {
+    "code": "DBO",
+    "name": "DBO-Dubbo Airport, Dubbo-DBO"
+  },
+  {
+    "code": "EMD",
+    "name": "EMD-Emerald Airport, Emerald-EMD"
+  },
+  {
+    "code": "EPR",
+    "name": "EPR-Esperance Airport, Esperance-EPR"
+  },
+  {
+    "code": "GET",
+    "name": "GET-Geraldton Airport, Geraldton-GET"
+  },
+  {
+    "code": "GLT",
+    "name": "GLT-Gladstone Airport, Gladstone-GLT"
+  },
+  {
+    "code": "OOL",
+    "name": "OOL-Gold Coast Airport, Gold Coast-OOL"
+  },
+  {
+    "code": "GOV",
+    "name": "GOV-Gove Airport, Gove-GOV"
+  },
+  {
+    "code": "GFN",
+    "name": "GFN-Grafton Airport, Grafton-GFN"
+  },
+  {
+    "code": "GTE",
+    "name": "GTE-Alyangula Airport, Groote Eylandt-GTE"
+  },
+  {
+    "code": "HTI",
+    "name": "HTI-Hamilton Island Airport, Hamilton Island-HTI"
+  },
+  {
+    "code": "HVB",
+    "name": "HVB-Hervey Bay Airport, Hervey Bay-HVB"
+  },
+  {
+    "code": "HBA",
+    "name": "HBA-Hobart International Airport, Hobart-HBA"
+  },
+  {
+    "code": "LST",
+    "name": "LST-Launceston Airport, Launceston-LST"
+  },
+  {
+    "code": "LEA",
+    "name": "LEA-Learmonth Airport, Learmonth-LEA"
+  },
+  {
+    "code": "LZR",
+    "name": "LZR-Lizard Island Airport, Lizard Island-LZR"
+  },
+  {
+    "code": "MEL",
+    "name": "MEL-Tullamarine Airport, Melbourne-MEL"
+  },
+  {
+    "code": "MQL",
+    "name": "MQL-Mildura Airport, Mildura-MQL"
+  },
+  {
+    "code": "MGB",
+    "name": "MGB-Mount Gambier Airport, Mount Gambier-MGB"
+  },
+  {
+    "code": "DGE",
+    "name": "DGE-Mudgee Airport, Mudgee-DGE"
+  },
+  {
+    "code": "BEO",
+    "name": "BEO-Belmont Airport, Newcastle-NTL"
+  },
+  {
+    "code": "NTL",
+    "name": "NTL-Williamtown Airport, Newcastle-NTL"
+  },
+  {
+    "code": "PER",
+    "name": "PER-Perth Airport, Perth-PER"
+  },
+  {
+    "code": "PLO",
+    "name": "PLO-Port Lincoln Airport, Port Lincoln-PLO"
+  },
+  {
+    "code": "PQQ",
+    "name": "PQQ-Port Macquarie Airport, Port Macquarie-PQQ"
+  },
+  {
+    "code": "PPP",
+    "name": "PPP-Whitsunday Coast Airport, Proserpine-PPP"
+  },
+  {
+    "code": "ROK",
+    "name": "ROK-Rockhampton Airport, Rockhampton-ROK"
+  },
+  {
+    "code": "SGO",
+    "name": "SGO-Saint George Airport, St George-SGO"
+  },
+  {
+    "code": "MCY",
+    "name": "MCY-Maroochydore Airport, Sunshine Coast-MCY"
+  },
+  {
+    "code": "SYD",
+    "name": "SYD-Sydney Airport, Sydney-SYD"
+  },
+  {
+    "code": "TMW",
+    "name": "TMW-Tamworth Airport, Tamworth-TMW"
+  },
+  {
+    "code": "TRO",
+    "name": "TRO-Taree Airport, Taree-TRO"
+  },
+  {
+    "code": "TSV",
+    "name": "TSV-Townsville Airport, Townsville-TSV"
+  },
+  {
+    "code": "WGA",
+    "name": "WGA-Forrest Hill Airport, Wagga Wagga-WGA"
+  },
+  {
+    "code": "WYA",
+    "name": "WYA-Whyalla Airport, Whyalla-WYA"
+  },
+  {
+    "code": "GRZ",
+    "name": "GRZ-Graz Thalerhof Airport, Graz-GRZ"
+  },
+  {
+    "code": "INN",
+    "name": "INN-Innsbruck Kranebitten Airport, Innsbruck-INN"
+  },
+  {
+    "code": "KLU",
+    "name": "KLU-Klagenfurt Airport, Klagenfurt-KLU"
+  },
+  {
+    "code": "LNZ",
+    "name": "LNZ-Blue Danube Airport, Linz-LNZ"
+  },
+  {
+    "code": "SZG",
+    "name": "SZG-W A Mozart Airport, Salzburg-SZG"
+  },
+  {
+    "code": "VIE",
+    "name": "VIE-Vienna International Airport, Vienna-VIE"
+  },
+  {
+    "code": "GYD",
+    "name": "GYD-Heydar Aliyev International Airport, Baku-BAK"
+  },
+  {
+    "code": "ASD",
+    "name": "ASD-Andros Town Airport, Andros Town-ASD"
+  },
+  {
+    "code": "ATC",
+    "name": "ATC-Arthurs Town Airport, Arthurs Town-ATC"
+  },
+  {
+    "code": "LGI",
+    "name": "LGI-Deadmans Cay Airport, Deadmans Cay-LGI"
+  },
+  {
+    "code": "FPO",
+    "name": "FPO-Grand Bahama International Airport, Freeport-FPO"
+  },
+  {
+    "code": "GGT",
+    "name": "GGT-George Town Airport, George Town-GGT"
+  },
+  {
+    "code": "GHB",
+    "name": "GHB-Governors Harbour Municipal Airport, Governors Harbour-GHB"
+  },
+  {
+    "code": "MHH",
+    "name": "MHH-Marsh Harbour International Airport, Marsh Harbour-MHH"
+  },
+  {
+    "code": "PID",
+    "name": "PID-Paradise Island Airport, Nassau-NAS"
+  },
+  {
+    "code": "NAS",
+    "name": "NAS-Lynden Pindling International Airport, Nassau-NAS"
+  },
+  {
+    "code": "ELH",
+    "name": "ELH-North Eleuthera Airport, North Eleuthera-ELH"
+  },
+  {
+    "code": "RSD",
+    "name": "RSD-South Eleuthera Airport, Rock Sound-RSD"
+  },
+  {
+    "code": "ZSA",
+    "name": "ZSA-San Salvador Airport, San Salvador-ZSA"
+  },
+  {
+    "code": "SML",
+    "name": "SML-Stella Maris Airport, Stella Maris-SML"
+  },
+  {
+    "code": "TBI",
+    "name": "TBI-New Bight Airport, The Bight-TBI"
+  },
+  {
+    "code": "TCB",
+    "name": "TCB-Treasure Cay Airport, Treasure Cay-TCB"
+  },
+  {
+    "code": "BAH",
+    "name": "BAH-Bahrain International Airport, Bahrain-BAH"
+  },
+  {
+    "code": "CGP",
+    "name": "CGP-Patenga Airport, Chittagong-CGP"
+  },
+  {
+    "code": "DAC",
+    "name": "DAC-Hazrat Shahjalal International Airport, Dhaka-DAC"
+  },
+  {
+    "code": "ZYL",
+    "name": "ZYL-Sylhet Osmany Airport, Sylhet-ZYL"
+  },
+  {
+    "code": "BGI",
+    "name": "BGI-Grantley Adams International Airport, Bridgetown-BGI"
+  },
+  {
+    "code": "MHP",
+    "name": "MHP-MinskNULL Airport, Minsk-MSQ"
+  },
+  {
+    "code": "MSQ",
+    "name": "MSQ-Minsk National Airport, Minsk-MSQ"
+  },
+  {
+    "code": "ANR",
+    "name": "ANR-Antwerp International Airport, Antwerp-ANR"
+  },
+  {
+    "code": "ZYR",
+    "name": "ZYR-Brussels Midi Train Station Airport, Brussels-BRU"
+  },
+  {
+    "code": "CRL",
+    "name": "CRL-Brussels South Charleroi Airport, Brussels-BRU"
+  },
+  {
+    "code": "BRU",
+    "name": "BRU-Brussels National Airport, Brussels-BRU"
+  },
+  {
+    "code": "BRU",
+    "name": "BRU-All Airports, Brussels-BRU"
+  },
+  {
+    "code": "LGG",
+    "name": "LGG-Liege Bierset Airport, Liege-LGG"
+  },
+  {
+    "code": "BZE",
+    "name": "BZE-Belize Goldson International Airport, Belize City-BZE"
+  },
+  {
+    "code": "TZA",
+    "name": "TZA-Belize City Municipal Airport, Belize City-BZE"
+  },
+  {
+    "code": "BZE",
+    "name": "BZE-All Airports, Belize City-BZE"
+  },
+  {
+    "code": "COO",
+    "name": "COO-Cadjehoun Airport, Cotonou-COO"
+  },
+  {
+    "code": "BDA",
+    "name": "BDA-L F Wade International Airport, Bermuda-BDA"
+  },
+  {
+    "code": "PBH",
+    "name": "PBH-Paro Airport, Paro-PBH"
+  },
+  {
+    "code": "CBB",
+    "name": "CBB-J Wilsterman Airport, Cochabamba-CBB"
+  },
+  {
+    "code": "LPB",
+    "name": "LPB-El Alto Airport, La Paz-LPB"
+  },
+  {
+    "code": "VVI",
+    "name": "VVI-Viru Viru International Airport, Santa Cruz-SRZ"
+  },
+  {
+    "code": "SRE",
+    "name": "SRE-Sucre Airport, Sucre-SRE"
+  },
+  {
+    "code": "TJA",
+    "name": "TJA-Tarija Airport, Tarija-TJA"
+  },
+  {
+    "code": "BNX",
+    "name": "BNX-Banja Luka Airport, Banja Luka-BNX"
+  },
+  {
+    "code": "SJJ",
+    "name": "SJJ-Sarajevo International Airport, Sarajevo-SJJ"
+  },
+  {
+    "code": "FRW",
+    "name": "FRW-Francistown Airport, Francistown-FRW"
+  },
+  {
+    "code": "GBE",
+    "name": "GBE-Sir Sereste Khama International Airport, Gaborone-GBE"
+  },
+  {
+    "code": "BBK",
+    "name": "BBK-Kasane Airport, Kasane-BBK"
+  },
+  {
+    "code": "MUB",
+    "name": "MUB-Maun Airport, Maun-MUB"
+  },
+  {
+    "code": "AJU",
+    "name": "AJU-Aracaju Santa Maria Airport, Aracaju-AJU"
+  },
+  {
+    "code": "AUX",
+    "name": "AUX-Araguaina Airport, Araguaina-AUX"
+  },
+  {
+    "code": "BAU",
+    "name": "BAU-Bauru Airport, Bauru-BAU"
+  },
+  {
+    "code": "BEL",
+    "name": "BEL-Val De Cans Airport, Belem-BEL"
+  },
+  {
+    "code": "CNF",
+    "name": "CNF-Tancredo Neves International Airport, Belo Horizonte-BHZ"
+  },
+  {
+    "code": "PLU",
+    "name": "PLU-Pampulha Airport, Belo Horizonte-BHZ"
+  },
+  {
+    "code": "BHZ",
+    "name": "BHZ-All Airports, Belo Horizonte-BHZ"
+  },
+  {
+    "code": "BVB",
+    "name": "BVB-Boa Vista Airport, Boa Vista-BVB"
+  },
+  {
+    "code": "BSB",
+    "name": "BSB-Brasilia International Airport, Brasilia-BSB"
+  },
+  {
+    "code": "CPQ",
+    "name": "CPQ-Campinas International Airport, Campinas-CPQ"
+  },
+  {
+    "code": "CGR",
+    "name": "CGR-Campo Grande International Airport, Campo Grande-CGR"
+  },
+  {
+    "code": "CGB",
+    "name": "CGB-Rondon Airport, Cuiaba-CGB"
+  },
+  {
+    "code": "CWB",
+    "name": "CWB-Afonso Pena Airport, Curitiba-CWB"
+  },
+  {
+    "code": "FEN",
+    "name": "FEN-Fernando De Noronha Airport, Fernando De Noronha-FEN"
+  },
+  {
+    "code": "FLN",
+    "name": "FLN-Hercilio Luz Airport, Florianopolis-FLN"
+  },
+  {
+    "code": "FOR",
+    "name": "FOR-Pinto Martines Airport, Fortaleza-FOR"
+  },
+  {
+    "code": "GYN",
+    "name": "GYN-Santa Genoveva Airport, Goiania-GYN"
+  },
+  {
+    "code": "IGU",
+    "name": "IGU-Cataratas Airport, Iguassu Falls-IGU"
+  },
+  {
+    "code": "IOS",
+    "name": "IOS-Apt De Ilheus Airport, Ilheus-IOS"
+  },
+  {
+    "code": "JPA",
+    "name": "JPA-Castro Pinto Airport, Joao Pessoa-JPA"
+  },
+  {
+    "code": "JOI",
+    "name": "JOI-Lauro Carneiro Loyola Airport, Joinville-JOI"
+  },
+  {
+    "code": "LDB",
+    "name": "LDB-Londrina Airport, Londirna-LDB"
+  },
+  {
+    "code": "MCP",
+    "name": "MCP-Macapa International Airport, Macapa-MCP"
+  },
+  {
+    "code": "MCZ",
+    "name": "MCZ-Palmeres Airport, Maceio-MCZ"
+  },
+  {
+    "code": "MAO",
+    "name": "MAO-Eduardo Gomes International Airport, Manaus-MAO"
+  },
+  {
+    "code": "MGF",
+    "name": "MGF-Maringa Regional Airport, Maringa-MGF"
+  },
+  {
+    "code": "MOC",
+    "name": "MOC-Montes Claros Airport, Montes Claros-MOC"
+  },
+  {
+    "code": "NAT",
+    "name": "NAT-Augusto Severo International Airport, Natal-NAT"
+  },
+  {
+    "code": "NVT",
+    "name": "NVT-Navegantes Airport, Navegantes-NVT"
+  },
+  {
+    "code": "PFB",
+    "name": "PFB-Passo Fundo Airport, Passo Fundo-PFB"
+  },
+  {
+    "code": "POA",
+    "name": "POA-Porto Alegre Airport, Porto Alegre-POA"
+  },
+  {
+    "code": "BPS",
+    "name": "BPS-Porto Seguro Airport, Porto Seguro-BPS"
+  },
+  {
+    "code": "REC",
+    "name": "REC-Guararapes Airport, Recife-REC"
+  },
+  {
+    "code": "RAO",
+    "name": "RAO-Leite Lopes Airport, Ribeirao Preto-RAO"
+  },
+  {
+    "code": "RBR",
+    "name": "RBR-Rio Branco International Airport, Rio Branco-RBR"
+  },
+  {
+    "code": "GIG",
+    "name": "GIG-Rio de Janeiro International Airport, Rio De Janeiro-RIO"
+  },
+  {
+    "code": "SDU",
+    "name": "SDU-Santos Dumont Airport, Rio De Janeiro-RIO"
+  },
+  {
+    "code": "RIO",
+    "name": "RIO-All Airports, Rio De Janeiro-RIO"
+  },
+  {
+    "code": "SSA",
+    "name": "SSA-Luis E Magalhaes Airport, Salvador-SSA"
+  },
+  {
+    "code": "STM",
+    "name": "STM-Maestro Wilson Fonseca Airport, Santarem-STM"
+  },
+  {
+    "code": "SLZ",
+    "name": "SLZ-Marechal Cunha Machado International Airport, Sao Luis-SLZ"
+  },
+  {
+    "code": "GRU",
+    "name": "GRU-Guarulhos Airport, Sao Paulo-SAO"
+  },
+  {
+    "code": "CGH",
+    "name": "CGH-Congonhas Airport, Sao Paulo-SAO"
+  },
+  {
+    "code": "VCP",
+    "name": "VCP-Viracopos Airport, Sao Paulo-SAO"
+  },
+  {
+    "code": "SAO",
+    "name": "SAO-All Airports, Sao Paulo-SAO"
+  },
+  {
+    "code": "THE",
+    "name": "THE-Teresina Airport, Teresina-THE"
+  },
+  {
+    "code": "UDI",
+    "name": "UDI-Eduardo Gomes Airport, Uberlandia-UDI"
+  },
+  {
+    "code": "UNA",
+    "name": "UNA-Una Airport, Una-UNA"
+  },
+  {
+    "code": "VIX",
+    "name": "VIX-Eurico Sales Airport, Vitoria-VIX"
+  },
+  {
+    "code": "BWN",
+    "name": "BWN-Brunei International Airport, Bandar Seri Begawan-BWN"
+  },
+  {
+    "code": "BOJ",
+    "name": "BOJ-Burgas Airport, Burgas-BOJ"
+  },
+  {
+    "code": "PDV",
+    "name": "PDV-Plovdiv Airport, Plovdiv-PDV"
+  },
+  {
+    "code": "SOF",
+    "name": "SOF-Sofia Vrazhdebna Airport, Sofia-SOF"
+  },
+  {
+    "code": "VAR",
+    "name": "VAR-Varna Airport, Varna-VAR"
+  },
+  {
+    "code": "OUA",
+    "name": "OUA-Ouagadougou Airport, Ouagadougou-OUA"
+  },
+  {
+    "code": "BJM",
+    "name": "BJM-Bujumbura International Airport, Bujumbura-BJM"
+  },
+  {
+    "code": "PNH",
+    "name": "PNH-Pochentong Airport, Phnom Penh-PNH"
+  },
+  {
+    "code": "REP",
+    "name": "REP-Siem Reap Airport, Siem Reap-REP"
+  },
+  {
+    "code": "DLA",
+    "name": "DLA-Douala Airport, Douala-DLA"
+  },
+  {
+    "code": "GOU",
+    "name": "GOU-Garoua Airport, Garoua-GOU"
+  },
+  {
+    "code": "YAO",
+    "name": "YAO-Yaounde Ville Airport, Yaounde-YAO"
+  },
+  {
+    "code": "NSI",
+    "name": "NSI-Nsimalen Airport, Yaounde-YAO"
+  },
+  {
+    "code": "YXX",
+    "name": "YXX-Abbotsford Airport, Abbotsford-YXX"
+  },
+  {
+    "code": "YBG",
+    "name": "YBG-Bagotville Airport, Bagotville-YBG"
+  },
+  {
+    "code": "ZBF",
+    "name": "ZBF-Bathurst Airport, Bathurst-ZBF"
+  },
+  {
+    "code": "YYC",
+    "name": "YYC-Calgary International Airport, Calgary-YYC"
+  },
+  {
+    "code": "YBL",
+    "name": "YBL-Campbell River Airport, Campbell River-YBL"
+  },
+  {
+    "code": "YCG",
+    "name": "YCG-Castlegar Ralph West Airport, Castlegar-YCG"
+  },
+  {
+    "code": "YYG",
+    "name": "YYG-Charlottetown Airport, Charlottetown-YYG"
+  },
+  {
+    "code": "YYQ",
+    "name": "YYQ-Churchill Airport, Churchill-YYQ"
+  },
+  {
+    "code": "YQQ",
+    "name": "YQQ-Comox Airport, Comox-YQQ"
+  },
+  {
+    "code": "YXC",
+    "name": "YXC-Cranbrook International Airport, Cranbrook-YXC"
+  },
+  {
+    "code": "YDF",
+    "name": "YDF-Deer Lake Regional Airport, Deer Lake-YDF"
+  },
+  {
+    "code": "YXD",
+    "name": "YXD-Edmonton Municipal Airport, Edmonton-YXD"
+  },
+  {
+    "code": "YEG",
+    "name": "YEG-Edmonton International Airport, Edmonton-YEA"
+  },
+  {
+    "code": "YEA",
+    "name": "YEA-All Airports, Edmonton-YEA"
+  },
+  {
+    "code": "YAG",
+    "name": "YAG-Fort Frances Municipal Airport, Fort Frances-YAG"
+  },
+  {
+    "code": "YMM",
+    "name": "YMM-Ft McMurray Municipal Airport, Fort Mcmurray-YMM"
+  },
+  {
+    "code": "YXJ",
+    "name": "YXJ-Ft St John Municipal Airport, Fort St John-YXJ"
+  },
+  {
+    "code": "YFC",
+    "name": "YFC-Fredericton International Airport, Fredericton-YFC"
+  },
+  {
+    "code": "YQX",
+    "name": "YQX-Gander International Airport, Gander-YQX"
+  },
+  {
+    "code": "YGP",
+    "name": "YGP-Gaspe Municipal Airport, Gaspe-YGP"
+  },
+  {
+    "code": "YHK",
+    "name": "YHK-Gjoa Haven Airport, Gjoa Haven-YHK"
+  },
+  {
+    "code": "YYR",
+    "name": "YYR-CFB Goose Bay, Goose Bay-YYR"
+  },
+  {
+    "code": "YQU",
+    "name": "YQU-Grande Prairie Airport, Grande Prairie-YQU"
+  },
+  {
+    "code": "YHZ",
+    "name": "YHZ-Halifax Stanfield International Airport, Halifax-YHZ"
+  },
+  {
+    "code": "YGR",
+    "name": "YGR-Iles De La Madeleine Airport, Iles De La Madeleine-YGR"
+  },
+  {
+    "code": "YEV",
+    "name": "YEV-Inuvik Mike Zubko Airport, Inuvik-YEV"
+  },
+  {
+    "code": "YFB",
+    "name": "YFB-Iqaluit Airport, Iqaluit-YFB"
+  },
+  {
+    "code": "YKA",
+    "name": "YKA-Kamloops Davie Fulton Airport, Kamloops-YKA"
+  },
+  {
+    "code": "YLW",
+    "name": "YLW-Kelowna International Airport, Kelowna-YLW"
+  },
+  {
+    "code": "YGK",
+    "name": "YGK-Kingston Norman Rodgers Airport, Kingston-YGK"
+  },
+  {
+    "code": "YKF",
+    "name": "YKF-Region of Waterloo International Airport, Kitchener-YKF"
+  },
+  {
+    "code": "YQL",
+    "name": "YQL-Lethbridge Airport, Lethbridge-YQL"
+  },
+  {
+    "code": "YXU",
+    "name": "YXU-London International Airport, London-YXU"
+  },
+  {
+    "code": "YXH",
+    "name": "YXH-Medicine Hat Airport, Medicine Hat-YXH"
+  },
+  {
+    "code": "YQM",
+    "name": "YQM-Greater Moncton International Airport, Moncton-YQM"
+  },
+  {
+    "code": "YYY",
+    "name": "YYY-Mont Joli Airport, Mont Joli-YYY"
+  },
+  {
+    "code": "YMX",
+    "name": "YMX-Mirabel International Airport, Montreal-YMQ"
+  },
+  {
+    "code": "YUL",
+    "name": "YUL-Pierre Elliott Trudeau International Airport, Montreal-YMQ"
+  },
+  {
+    "code": "YMQ",
+    "name": "YMQ-All Airports, Montreal-YMQ"
+  },
+  {
+    "code": "YCD",
+    "name": "YCD-Nanaimo Airport, Nanaimo-YCD"
+  },
+  {
+    "code": "YYB",
+    "name": "YYB-North Bay Airport, North Bay-YYB"
+  },
+  {
+    "code": "YOW",
+    "name": "YOW-Ottawa International Airport, Ottawa-YOW"
+  },
+  {
+    "code": "YYF",
+    "name": "YYF-Penticton Municipal Airport, Penticton-YYF"
+  },
+  {
+    "code": "YZT",
+    "name": "YZT-Port Hardy Airport, Port Hardy-YZT"
+  },
+  {
+    "code": "YXS",
+    "name": "YXS-Prince George Airport, Prince George-YXS"
+  },
+  {
+    "code": "YPR",
+    "name": "YPR-Digby Island Airport, Prince Rupert-YPR"
+  },
+  {
+    "code": "YQB",
+    "name": "YQB-Québec City Jean Lesage International Airport, Québec City-YQB"
+  },
+  {
+    "code": "YQZ",
+    "name": "YQZ-Quesnel Airport, Quesnel-YQZ"
+  },
+  {
+    "code": "YQR",
+    "name": "YQR-Regina International Airport, Regina-YQR"
+  },
+  {
+    "code": "YSJ",
+    "name": "YSJ-Saint John Airport, Saint John-YSJ"
+  },
+  {
+    "code": "YZP",
+    "name": "YZP-Sandspit Federal Airport, Sandspit-YZP"
+  },
+  {
+    "code": "YZR",
+    "name": "YZR-Sarnia Airport, Sarnia-YZR"
+  },
+  {
+    "code": "YXE",
+    "name": "YXE-Saskatoon John G. Diefenbaker International Airport, Saskatoon-YXE"
+  },
+  {
+    "code": "YAM",
+    "name": "YAM-Sault Ste. Marie Airport, Sault Ste Marie-YAM"
+  },
+  {
+    "code": "YXL",
+    "name": "YXL-Sioux Lookout Airport, Sioux Lookout-YXL"
+  },
+  {
+    "code": "YYD",
+    "name": "YYD-Smithers Airport, Smithers-YYD"
+  },
+  {
+    "code": "YYT",
+    "name": "YYT-Saint Johns Airport, St. Johns-YYT"
+  },
+  {
+    "code": "YSB",
+    "name": "YSB-Sudbury Municipal Airport, Sudbury-YSB"
+  },
+  {
+    "code": "YQY",
+    "name": "YQY-J A Douglas McCurdy Airport, Sydney-YQY"
+  },
+  {
+    "code": "YXT",
+    "name": "YXT-Terrace Municipal Airport, Terrace-YXT"
+  },
+  {
+    "code": "YQD",
+    "name": "YQD-The Pas Municipal Airport, The Pas-YQD"
+  },
+  {
+    "code": "YQT",
+    "name": "YQT-Thunder Bay Airport, Thunder Bay-YQT"
+  },
+  {
+    "code": "YTS",
+    "name": "YTS-Timmins Municipal Airport, Timmins-YTS"
+  },
+  {
+    "code": "YAZ",
+    "name": "YAZ-Tofino Airport, Tofino-YAZ"
+  },
+  {
+    "code": "YHM",
+    "name": "YHM-John C. Munro Hamilton International Airport, Toronto-YTO"
+  },
+  {
+    "code": "YKZ",
+    "name": "YKZ-Buttonville Airport, Toronto-YTO"
+  },
+  {
+    "code": "YTZ",
+    "name": "YTZ-Toronto City Centre Airport, Toronto-YTO"
+  },
+  {
+    "code": "YYZ",
+    "name": "YYZ-Toronto Pearson International Airport, Toronto-YTO"
+  },
+  {
+    "code": "YTO",
+    "name": "YTO-All Airports, Toronto-YTO"
+  },
+  {
+    "code": "YVO",
+    "name": "YVO-Val dOr Airport, Val-dor-YVO"
+  },
+  {
+    "code": "YVR",
+    "name": "YVR-Vancouver International Airport, Vancouver-YVR"
+  },
+  {
+    "code": "YWH",
+    "name": "YWH-Inner Harbor Sea Plane Airport, Victoria-YYJ"
+  },
+  {
+    "code": "YYJ",
+    "name": "YYJ-Victoria International Airport, Victoria-YYJ"
+  },
+  {
+    "code": "YWK",
+    "name": "YWK-Wabush Airport, Wabush-YWK"
+  },
+  {
+    "code": "YWS",
+    "name": "YWS-Whistler Airport, Whistler-YWS"
+  },
+  {
+    "code": "YXY",
+    "name": "YXY-Whitehorse Airport, Whitehorse-YXY"
+  },
+  {
+    "code": "YWL",
+    "name": "YWL-Williams Lake Airport, Williams Lake-YWL"
+  },
+  {
+    "code": "YQG",
+    "name": "YQG-Windsor International Airport, Windsor-YQG"
+  },
+  {
+    "code": "YWG",
+    "name": "YWG-Winnipeg International Airport, Winnipeg-YWG"
+  },
+  {
+    "code": "YQI",
+    "name": "YQI-Yarmouth Airport, Yarmouth-YQI"
+  },
+  {
+    "code": "YZF",
+    "name": "YZF-Yellowknife Airport, Yellowknife-YZF"
+  },
+  {
+    "code": "BVC",
+    "name": "BVC-Rabil Airport, Boa Vista-BVC"
+  },
+  {
+    "code": "MMO",
+    "name": "MMO-Maio Island Airport, Maio Island-MMO"
+  },
+  {
+    "code": "RAI",
+    "name": "RAI-Praia International Airport, Praia-RAI"
+  },
+  {
+    "code": "SID",
+    "name": "SID-Amilcar Cabral International Airport, Sal-SID"
+  },
+  {
+    "code": "SFL",
+    "name": "SFL-Sao Filipe Airport, Sao Filipe-SFL"
+  },
+  {
+    "code": "VXE",
+    "name": "VXE-San Pedro Airport, Sao Vicente-VXE"
+  },
+  {
+    "code": "CYB",
+    "name": "CYB-Gerrard Smith Airport, Cayman Brac Is-CYB"
+  },
+  {
+    "code": "GCM",
+    "name": "GCM-Owen Roberts Airport, Georgetown-GCM"
+  },
+  {
+    "code": "LYB",
+    "name": "LYB-Little Cayman Airport, Little Cayman-LYB"
+  },
+  {
+    "code": "BGF",
+    "name": "BGF-Mpoko International Airport, Bangui-BGF"
+  },
+  {
+    "code": "NDJ",
+    "name": "NDJ-NDjamena International Airport, Ndjamena-NDJ"
+  },
+  {
+    "code": "ANF",
+    "name": "ANF-Cerro Moreno Airport, Antofagasta-ANF"
+  },
+  {
+    "code": "ARI",
+    "name": "ARI-Chacalluta Airport, Arica-ARI"
+  },
+  {
+    "code": "BBA",
+    "name": "BBA-Balmaceda Airport, Balmaceda-BBA"
+  },
+  {
+    "code": "CJC",
+    "name": "CJC-El Loa Airport, Calama-CJC"
+  },
+  {
+    "code": "CCP",
+    "name": "CCP-Carriel Sur Airport, Concepcion-CCP"
+  },
+  {
+    "code": "CPO",
+    "name": "CPO-Desierto de Atacama Airport, Copiapo-CPO"
+  },
+  {
+    "code": "IPC",
+    "name": "IPC-Mataveri International Airport, Easter Island-IPC"
+  },
+  {
+    "code": "IQQ",
+    "name": "IQQ-Diego Aracena International Airport, Iquique-IQQ"
+  },
+  {
+    "code": "LSC",
+    "name": "LSC-La Florida Airport, La Serena-LSC"
+  },
+  {
+    "code": "ZOS",
+    "name": "ZOS-Canal Balo Airport, Osorno-ZOS"
+  },
+  {
+    "code": "PMC",
+    "name": "PMC-Tepual Airport, Puerto Montt-PMC"
+  },
+  {
+    "code": "PUQ",
+    "name": "PUQ-Presidente Ibanez Airport, Punta Arenas-PUQ"
+  },
+  {
+    "code": "SCL",
+    "name": "SCL-Comodoro Arturo Merino Benítez International Airport, Santiago-SCL"
+  },
+  {
+    "code": "ZCO",
+    "name": "ZCO-Manquehue Airport, Temuco-ZCO"
+  },
+  {
+    "code": "ZAL",
+    "name": "ZAL-Pichoy Airport, Valdivia-ZAL"
+  },
+  {
+    "code": "BAV",
+    "name": "BAV-Baotou Airport, Baotou-BAV"
+  },
+  {
+    "code": "PEK",
+    "name": "PEK-Beijing Capital Airport, Beijing-BJS"
+  },
+  {
+    "code": "CGQ",
+    "name": "CGQ-Changchun Airport, Changchun-CGQ"
+  },
+  {
+    "code": "CGD",
+    "name": "CGD-Changde Airport, Changde-CGD"
+  },
+  {
+    "code": "CSX",
+    "name": "CSX-Changsha Huanghua Airport, Changsha-CSX"
+  },
+  {
+    "code": "CZX",
+    "name": "CZX-Changzhou Airport, Changzhou-CZX"
+  },
+  {
+    "code": "CTU",
+    "name": "CTU-Chengdu Airport, Chengdu-CTU"
+  },
+  {
+    "code": "CKG",
+    "name": "CKG-Chongqing Airport, Chongqing-CKG"
+  },
+  {
+    "code": "DLU",
+    "name": "DLU-Dali Airport, Dali City-DLU"
+  },
+  {
+    "code": "DLC",
+    "name": "DLC-Dalian Airport, Dalian-DLC"
+  },
+  {
+    "code": "DAT",
+    "name": "DAT-Datong Beijiazao Airport, Datong-DAT"
+  },
+  {
+    "code": "DYG",
+    "name": "DYG-Dayong Airport, Dayong-DYG"
+  },
+  {
+    "code": "DNH",
+    "name": "DNH-Dunhuang Airport, Dunhuang-DNH"
+  },
+  {
+    "code": "FOC",
+    "name": "FOC-Fuzhou Airport, Fuzhou-FOC"
+  },
+  {
+    "code": "CAN",
+    "name": "CAN-Baiyun International Airport, Guangzhou-CAN"
+  },
+  {
+    "code": "KWL",
+    "name": "KWL-Guilin Airport, Guilin-KWL"
+  },
+  {
+    "code": "KWE",
+    "name": "KWE-Guiyang Airport, Guiyang-KWE"
+  },
+  {
+    "code": "HAK",
+    "name": "HAK-Haikou Meilan International Airport, Haikou-HAK"
+  },
+  {
+    "code": "HGH",
+    "name": "HGH-Hangzhou Airport, Hangzhou-HGH"
+  },
+  {
+    "code": "HRB",
+    "name": "HRB-Harbin Airport, Harbin-HRB"
+  },
+  {
+    "code": "HFE",
+    "name": "HFE-Hefei Airport, Hefei-HFE"
+  },
+  {
+    "code": "HET",
+    "name": "HET-Hohhot Baita International Airport, Hohhot-HET"
+  },
+  {
+    "code": "TNA",
+    "name": "TNA-Jinan Airport, Jinan-TNA"
+  },
+  {
+    "code": "JHG",
+    "name": "JHG-Gasa Airport, Jinghong-JHG"
+  },
+  {
+    "code": "JJN",
+    "name": "JJN-Quanzhou Airport, Jinjiang-JJN"
+  },
+  {
+    "code": "KMG",
+    "name": "KMG-Kunming Airport, Kunming-KMG"
+  },
+  {
+    "code": "LHW",
+    "name": "LHW-Lanzhou Airport, Lanzhou-LHW"
+  },
+  {
+    "code": "ZGC",
+    "name": "ZGC-Zhongchuan Airport, Lanzhou-ZGC"
+  },
+  {
+    "code": "LXA",
+    "name": "LXA-Lhasa Gonggar Airport, Lhasa-LXA"
+  },
+  {
+    "code": "LJG",
+    "name": "LJG-Lijiang Airport, Lijiang City-LJG"
+  },
+  {
+    "code": "LYA",
+    "name": "LYA-Luoyang Beijiao Airport, Luoyang-LYA"
+  },
+  {
+    "code": "MFM",
+    "name": "MFM-Macau International Airport, Macau-MFM"
+  },
+  {
+    "code": "MXZ",
+    "name": "MXZ-Meixian Airport, Meixian-MXZ"
+  },
+  {
+    "code": "KHN",
+    "name": "KHN-Nanchang Airport, Nanchang-KHN"
+  },
+  {
+    "code": "NKG",
+    "name": "NKG-Nanking Nanjing Airport, Nanjing-NKG"
+  },
+  {
+    "code": "NNG",
+    "name": "NNG-Nanning Airport, Nanning-NNG"
+  },
+  {
+    "code": "NTG",
+    "name": "NTG-Nantong Airport, Nantong-NTG"
+  },
+  {
+    "code": "NGB",
+    "name": "NGB-Ningbo Airport, Ningbo-NGB"
+  },
+  {
+    "code": "TAO",
+    "name": "TAO-Qingdao Airport, Qingdao-TAO"
+  },
+  {
+    "code": "SHP",
+    "name": "SHP-Qinhuangdao Shanhaiguan Airport, Qinhuangdao-SHP"
+  },
+  {
+    "code": "SYX",
+    "name": "SYX-Sanya Airport, Sanya-SYX"
+  },
+  {
+    "code": "SHA",
+    "name": "SHA-Hongqiao International Airport, Shanghai-SHA"
+  },
+  {
+    "code": "PVG",
+    "name": "PVG-Pudong International Airport, Shanghai-SHA"
+  },
+  {
+    "code": "SHA",
+    "name": "SHA-All Airports, Shanghai-SHA"
+  },
+  {
+    "code": "SWA",
+    "name": "SWA-Shantou Airport, Shantou-SWA"
+  },
+  {
+    "code": "SHE",
+    "name": "SHE-Shenyang Airport, Shenyang-SHE"
+  },
+  {
+    "code": "SZX",
+    "name": "SZX-Shenzhen Airport, Shenzhen-SZX"
+  },
+  {
+    "code": "SJW",
+    "name": "SJW-Shijiazhuang Zhengding International Airport, Shijiazhuang-SJW"
+  },
+  {
+    "code": "TYN",
+    "name": "TYN-Taiyuan Airport, Taiyuan-TYN"
+  },
+  {
+    "code": "TSN",
+    "name": "TSN-Tianjin Binhai International Airport, Tianjin Binhai-TSN"
+  },
+  {
+    "code": "TXN",
+    "name": "TXN-Tunxi Airport, Tunxi-TXN"
+  },
+  {
+    "code": "URC",
+    "name": "URC-Urumqi Airport, Urumqi-URC"
+  },
+  {
+    "code": "WEH",
+    "name": "WEH-Weihai Dashuibo Airport, Weihai-WEH"
+  },
+  {
+    "code": "WNZ",
+    "name": "WNZ-Wenzhou Airport, Wenzhou-WNZ"
+  },
+  {
+    "code": "WUH",
+    "name": "WUH-Wuhan Airport, Wuhan-WUH"
+  },
+  {
+    "code": "WUX",
+    "name": "WUX-Wuxi Airport, Wuxi-WUX"
+  },
+  {
+    "code": "XIY",
+    "name": "XIY-Xianyang Airport, Xi An-SIA"
+  },
+  {
+    "code": "XMN",
+    "name": "XMN-Xiamen International Airport, Xiamen-XMN"
+  },
+  {
+    "code": "XNN",
+    "name": "XNN-Xining Caojiabao Airport, Xining-XNN"
+  },
+  {
+    "code": "XUZ",
+    "name": "XUZ-Xuzhou Airport, Xuzhou-XUZ"
+  },
+  {
+    "code": "YNZ",
+    "name": "YNZ-Yancheng Airport, Yancheng-YNZ"
+  },
+  {
+    "code": "YNT",
+    "name": "YNT-Laishan Airport, Yantai-YNT"
+  },
+  {
+    "code": "YBP",
+    "name": "YBP-Yibin Airport, Yibin-YBP"
+  },
+  {
+    "code": "YIH",
+    "name": "YIH-Yichang Airport, Yichang-YIH"
+  },
+  {
+    "code": "INC",
+    "name": "INC-Yinchuan Airport, Yinchuan-INC"
+  },
+  {
+    "code": "CGO",
+    "name": "CGO-Zhengzhou Airport, Zhengzhou-CGO"
+  },
+  {
+    "code": "CCK",
+    "name": "CCK-Cocos Islands Airport, Cocos Islands-CCK"
+  },
+  {
+    "code": "AXM",
+    "name": "AXM-El Eden Airport, Armenia-AXM"
+  },
+  {
+    "code": "BAQ",
+    "name": "BAQ-E Cortissoz Airport, Barranquilla-BAQ"
+  },
+  {
+    "code": "BOG",
+    "name": "BOG-Eldorado Airport, Bogota-BOG"
+  },
+  {
+    "code": "BGA",
+    "name": "BGA-Palo Negro Airport, Bucaramanga-BGA"
+  },
+  {
+    "code": "CLO",
+    "name": "CLO-Alfonso Bonilla Aragon Airport, Cali-CLO"
+  },
+  {
+    "code": "CTG",
+    "name": "CTG-Rafael Nunez Airport, Cartagena-CTG"
+  },
+  {
+    "code": "CUC",
+    "name": "CUC-Camilo Dazo Airport, Cucuta-CUC"
+  },
+  {
+    "code": "MZL",
+    "name": "MZL-La Nubia Airport, Manizales-MZL"
+  },
+  {
+    "code": "MDE",
+    "name": "MDE-Jose Maria Cordova International Airport, Medellin-MDE"
+  },
+  {
+    "code": "EOH",
+    "name": "EOH-Olaya Herrera Airport, Medellín-MDE"
+  },
+  {
+    "code": "PEI",
+    "name": "PEI-Matecana Airport, Pereira-PEI"
+  },
+  {
+    "code": "ADZ",
+    "name": "ADZ-San Andres Island Airport, San Andres Island-ADZ"
+  },
+  {
+    "code": "SMR",
+    "name": "SMR-Simon Bolivar International Airport, Santa Marta-SMR"
+  },
+  {
+    "code": "HAH",
+    "name": "HAH-Prince Said Ibrahim International Airport, Moroni-YVA"
+  },
+  {
+    "code": "YVA",
+    "name": "YVA-Iconi Airport, Moroni-YVA"
+  },
+  {
+    "code": "BZV",
+    "name": "BZV-Maya Maya Airport, Brazzaville-BZV"
+  },
+  {
+    "code": "FBM",
+    "name": "FBM-Lubumbashi International Airport, Lubumbashi-FBM"
+  },
+  {
+    "code": "PNR",
+    "name": "PNR-Pointe Noire Airport, Pointe Noire-PNR"
+  },
+  {
+    "code": "RAR",
+    "name": "RAR-Rarotonga Airport, Rarotonga-RAR"
+  },
+  {
+    "code": "LIR",
+    "name": "LIR-Liberia Airport, Liberia-LIR"
+  },
+  {
+    "code": "SJO",
+    "name": "SJO-Juan Santamaria International Airport, San Jose-SJO"
+  },
+  {
+    "code": "ABJ",
+    "name": "ABJ-Houphouet Boigny Airport, Abidjan-ABJ"
+  },
+  {
+    "code": "DBV",
+    "name": "DBV-Dubrovnik Airport, Dubrovnik-DBV"
+  },
+  {
+    "code": "PUY",
+    "name": "PUY-Pula Airport, Pula-PUY"
+  },
+  {
+    "code": "RJK",
+    "name": "RJK-Rijeka Airport, Rijeka-RJK"
+  },
+  {
+    "code": "SPU",
+    "name": "SPU-Split Airport, Split-SPU"
+  },
+  {
+    "code": "ZAD",
+    "name": "ZAD-Zadar Airport, Zadar-ZAD"
+  },
+  {
+    "code": "ZAG",
+    "name": "ZAG-Pleso Zagreb Airport, Zagreb-ZAG"
+  },
+  {
+    "code": "CCC",
+    "name": "CCC-Cayo Coco Airport, Cayo Coco-CCC"
+  },
+  {
+    "code": "CYO",
+    "name": "CYO-Cayo Largo Del Sur Airport, Cayo Largo Del Sur-CYO"
+  },
+  {
+    "code": "GAO",
+    "name": "GAO-Los Canos Airport, Guantanamo-GAO"
+  },
+  {
+    "code": "NBW",
+    "name": "NBW-Leeward Point Field, Guantanamo-GAO"
+  },
+  {
+    "code": "HAV",
+    "name": "HAV-Jose Marti International Airport, Havana-HAV"
+  },
+  {
+    "code": "HOG",
+    "name": "HOG-Frank Pias Airport, Holguin-HOG"
+  },
+  {
+    "code": "GER",
+    "name": "GER-Rafael Cabrera Airport, Nueva Gerona-GER"
+  },
+  {
+    "code": "SNU",
+    "name": "SNU-Santa Clara Airport, Santa Clara-SNU"
+  },
+  {
+    "code": "SCU",
+    "name": "SCU-Antonio Maceo Airport, Santiago-SCU"
+  },
+  {
+    "code": "VRA",
+    "name": "VRA-Juan Gualberto Gomez Airport, Varadero-VRA"
+  },
+  {
+    "code": "CUR",
+    "name": "CUR-Curacao International Airport, Willemstad-CUR"
+  },
+  {
+    "code": "ECN",
+    "name": "ECN-Ercan Airport, Ercan-ECN"
+  },
+  {
+    "code": "LCA",
+    "name": "LCA-Larnaca International Airport, Larnaca-LCA"
+  },
+  {
+    "code": "NIC",
+    "name": "NIC-Nicosia Airport, Nicosia-NIC"
+  },
+  {
+    "code": "PFO",
+    "name": "PFO-Paphos International Airport, Paphos-PFO"
+  },
+  {
+    "code": "BRQ",
+    "name": "BRQ-Turnay Airport, Brno-BRQ"
+  },
+  {
+    "code": "KLV",
+    "name": "KLV-Karlovy Vary Airport, Karlovy Vary-KLV"
+  },
+  {
+    "code": "OSR",
+    "name": "OSR-Leos Janacek Airport, Ostrava-OSR"
+  },
+  {
+    "code": "PRG",
+    "name": "PRG-Ruzyne Airport, Prague-PRG"
+  },
+  {
+    "code": "FIH",
+    "name": "FIH-Ndjili Airport, Kinshasa-FIH"
+  },
+  {
+    "code": "AAL",
+    "name": "AAL-Aalborg Airport, Aalborg-AAL"
+  },
+  {
+    "code": "AAR",
+    "name": "AAR-Aarhus Airport, Aarhus-AAR"
+  },
+  {
+    "code": "BLL",
+    "name": "BLL-Billund Airport, Billund-BLL"
+  },
+  {
+    "code": "RNN",
+    "name": "RNN-Ronne Airport, Bornholm-RNN"
+  },
+  {
+    "code": "CPH",
+    "name": "CPH-Copenhagen Airport, Copenhagen-CPH"
+  },
+  {
+    "code": "EBJ",
+    "name": "EBJ-Esbjerg Airport, Esbjerg-EBJ"
+  },
+  {
+    "code": "KRP",
+    "name": "KRP-Karup Airport, Karup-KRP"
+  },
+  {
+    "code": "ODE",
+    "name": "ODE-Odense Airport, Odense-ODE"
+  },
+  {
+    "code": "SGD",
+    "name": "SGD-Sonderborg Airport, Sonderborg-SGD"
+  },
+  {
+    "code": "JIB",
+    "name": "JIB-Ambouli Airport, Djibouti-JIB"
+  },
+  {
+    "code": "CIW",
+    "name": "CIW-Canouan Airport, Canouan Island-CIW"
+  },
+  {
+    "code": "DOM",
+    "name": "DOM-Melville Hall Airport, Dominica-DOM"
+  },
+  {
+    "code": "DCF",
+    "name": "DCF-Canefield Airport, Dominica-DOM"
+  },
+  {
+    "code": "DOM",
+    "name": "DOM-All Airports, Dominica-DOM"
+  },
+  {
+    "code": "MNI",
+    "name": "MNI-Geralds Airport, Montserrat-MNI"
+  },
+  {
+    "code": "MQS",
+    "name": "MQS-Mustique Airport, Mustique Island-MQS"
+  },
+  {
+    "code": "POP",
+    "name": "POP-La Union Airport, Puerto Plata-POP"
+  },
+  {
+    "code": "PUJ",
+    "name": "PUJ-Punta Cana Airport, Punta Cana-PUJ"
+  },
+  {
+    "code": "AZS",
+    "name": "AZS-Samana International Airport, Samana-AZS"
+  },
+  {
+    "code": "STI",
+    "name": "STI-Cibao International Airport, Santiago-STI"
+  },
+  {
+    "code": "HEX",
+    "name": "HEX-Herrera Airport, Santo Domingo-SDQ"
+  },
+  {
+    "code": "GYE",
+    "name": "GYE-Jose Joaquin De Olmedo Airport, Guayaquil-GYE"
+  },
+  {
+    "code": "UIO",
+    "name": "UIO-Mariscal Airport, Quito-UIO"
+  },
+  {
+    "code": "ALY",
+    "name": "ALY-El Nouzha Airport, Alexandria-ALY"
+  },
+  {
+    "code": "HBE",
+    "name": "HBE-Borg El Arab Airport, Alexandria-ALY"
+  },
+  {
+    "code": "ALY",
+    "name": "ALY-All Airports, Alexandria-ALY"
+  },
+  {
+    "code": "CAI",
+    "name": "CAI-Cairo International Airport, Cairo-CAI"
+  },
+  {
+    "code": "HRG",
+    "name": "HRG-Hurghada Airport, Hurghada-HRG"
+  },
+  {
+    "code": "LXR",
+    "name": "LXR-Luxor Airport, Luxor-LXR"
+  },
+  {
+    "code": "RMF",
+    "name": "RMF-Marsa Alam Airport, Marsa Alam-RMF"
+  },
+  {
+    "code": "SSH",
+    "name": "SSH-Sharm El Sheikh International Airport, Sharm El Sheikh-SSH"
+  },
+  {
+    "code": "SAL",
+    "name": "SAL-Comalapa International Airport, San Salvador-SAL"
+  },
+  {
+    "code": "SSG",
+    "name": "SSG-Malabo International Airport, Malabo-SSG"
+  },
+  {
+    "code": "ASM",
+    "name": "ASM-Asmara International Airport, Asmara-ASM"
+  },
+  {
+    "code": "TLL",
+    "name": "TLL-Lennart Merri Airport, Tallinn-TLL"
+  },
+  {
+    "code": "ADD",
+    "name": "ADD-Bole Airport, Addis Ababa-ADD"
+  },
+  {
+    "code": "BJR",
+    "name": "BJR-Bahar Dar Airport, Bahar Dar-BJR"
+  },
+  {
+    "code": "DIR",
+    "name": "DIR-Aba Tenna D Yilma Airport, Dire Dawa-DIR"
+  },
+  {
+    "code": "MPN",
+    "name": "MPN-Mt Pleasant Airport, Mount Pleasant-MPN"
+  },
+  {
+    "code": "NAN",
+    "name": "NAN-Nadi International Airport, Nadi-NAN"
+  },
+  {
+    "code": "SVU",
+    "name": "SVU-Savusavu Airport, Savusavu-SVU"
+  },
+  {
+    "code": "SUV",
+    "name": "SUV-Nausori Airport, Suva-SUV"
+  },
+  {
+    "code": "TVU",
+    "name": "TVU-Matei Airport, Taveuni-TVU"
+  },
+  {
+    "code": "HEL",
+    "name": "HEL-Helsinki Vantaa Airport, Helsinki-HEL"
+  },
+  {
+    "code": "IVL",
+    "name": "IVL-Ivalo Airport, Ivalo-IVL"
+  },
+  {
+    "code": "JOE",
+    "name": "JOE-Joensuu Airport, Joensuu-JOE"
+  },
+  {
+    "code": "KAJ",
+    "name": "KAJ-Kajaani Airport, Kajaani-KAJ"
+  },
+  {
+    "code": "KEM",
+    "name": "KEM-Kemi Tornio Airport, Kemi Tornio-KEM"
+  },
+  {
+    "code": "KOK",
+    "name": "KOK-Kruunupyy Kokkola Airport, Kokkola Pietarsaa-KOK"
+  },
+  {
+    "code": "KUO",
+    "name": "KUO-Kuopio Airport, Kuopio-KUO"
+  },
+  {
+    "code": "KAO",
+    "name": "KAO-Kuusamo Airport, Kuusamo-KAO"
+  },
+  {
+    "code": "LPP",
+    "name": "LPP-Lappeenranta Airport, Lappeenranta-LPP"
+  },
+  {
+    "code": "MHQ",
+    "name": "MHQ-Mariehamn Airport, Mariehamn-MHQ"
+  },
+  {
+    "code": "MIK",
+    "name": "MIK-Mikkeli Airport, Mikkeli-MIK"
+  },
+  {
+    "code": "POR",
+    "name": "POR-Pori Airport, Pori-POR"
+  },
+  {
+    "code": "SVL",
+    "name": "SVL-Savonlinna Airport, Savonlinna-SVL"
+  },
+  {
+    "code": "TMP",
+    "name": "TMP-Tampere Pirkkala Airport, Tampere-TMP"
+  },
+  {
+    "code": "TKU",
+    "name": "TKU-Turku Airport, Turku-TKU"
+  },
+  {
+    "code": "VAA",
+    "name": "VAA-Vaasa Airport, Vaasa-VAA"
+  },
+  {
+    "code": "VRK",
+    "name": "VRK-Varkaus Airport, Varkaus-VRK"
+  },
+  {
+    "code": "AJA",
+    "name": "AJA-Ajaccio Napoleon Bonaparte Airport, Ajaccio-AJA"
+  },
+  {
+    "code": "ANG",
+    "name": "ANG-Cognac International Airport, Angouleme-ANG"
+  },
+  {
+    "code": "NCY",
+    "name": "NCY-Annecy Meythet Airport, Annecy-NCY"
+  },
+  {
+    "code": "AUR",
+    "name": "AUR-Aurillac Tronquieres Airport, Aurillac-AUR"
+  },
+  {
+    "code": "AVN",
+    "name": "AVN-Avignon Caumont Airport, Avignon-AVN"
+  },
+  {
+    "code": "BIA",
+    "name": "BIA-Poretta Airport, Bastia-BIA"
+  },
+  {
+    "code": "EGC",
+    "name": "EGC-Roumaniere Airport, Bergerac-EGC"
+  },
+  {
+    "code": "BZR",
+    "name": "BZR-Beziers Cap dAgde Airport, Beziers-BZR"
+  },
+  {
+    "code": "BIQ",
+    "name": "BIQ-Bayonne Anglet Airport, Biarritz-BIQ"
+  },
+  {
+    "code": "BOD",
+    "name": "BOD-Merignac Airport, Bordeaux-BOD"
+  },
+  {
+    "code": "BES",
+    "name": "BES-Bretagne Guipavas Airport, Brest-BES"
+  },
+  {
+    "code": "BVE",
+    "name": "BVE-Laroche Airport, Brive La Gaillarde-BVE"
+  },
+  {
+    "code": "CFR",
+    "name": "CFR-Carpiquet Airport, Caen-CFR"
+  },
+  {
+    "code": "CLY",
+    "name": "CLY-Saint Catherine Airport, Calvi-CLY"
+  },
+  {
+    "code": "TCI",
+    "name": "TCI-Tenerife All Airports, Tenerife-TCI"
+  }
+]

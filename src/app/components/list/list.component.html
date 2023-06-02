@@ -1,0 +1,1204 @@
+
+<app-loader *ngIf="showLoader"></app-loader>
+
+<section class="bg-image-listing-top" *ngIf="listdata">
+  <div class="container">
+    <div class="row">
+      <!-- {{myForm.value | json}} -->
+      <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <div class="listing-trip_box">
+          <!-- <div class="radio-trip">
+            
+              <button [ngClass]="{'active':myForm.value.tripchoice== 'Round Trip'}">
+                Round Trip
+              </button>
+              <button [ngClass]="{'active':myForm.value.tripchoice== 'One Way'}">
+                One way
+              </button>
+            
+          </div> -->
+          <div class="radio-trip" formGroupName="tripselect">
+            <ul class="listSelect-trip">
+              <li>
+                <button
+                  type="button"
+                  for="s-option"
+                  value="Round Trip"
+                  (click)="tripchange($event.target.value)"
+                  [ngClass]="{
+                    active: myForm.value.tripchoice == 'Round Trip'
+                  }"
+                >
+                  Round Trip
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  for="t-option"
+                  value="One way"
+                  (click)="tripchange2($event.target.value)"
+                  [ngClass]="{
+                    activeadd: myForm.value.tripchoice == 'One Way'
+                  }"
+                >
+                  One way
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- {{myForm.value | json}} -->
+          <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 p-0">
+            <div class="form-group">
+              <label class="frm_llbs"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="29.638"
+                  height="22.146"
+                  viewBox="0 0 29.638 22.146"
+                >
+                  <g
+                    id="Group_25"
+                    data-name="Group 25"
+                    transform="translate(-530.821 -1534.01)"
+                  >
+                    <g
+                      id="PLANE_FLYING_UP_1"
+                      data-name="PLANE FLYING UP 1"
+                      transform="translate(530.821 1534.01)"
+                    >
+                      <path
+                        id="plane"
+                        d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z"
+                        transform="translate(-530.821 -1534.01)"
+                        fill="#00292b"
+                      ></path>
+                    </g>
+
+                    <path
+                      id="ground"
+                      d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z"
+                      transform="translate(-11.617 -212.249)"
+                      fill="#00292b"
+                    ></path>
+                  </g>
+                </svg>
+              </label>
+              <!-- {{myForm.value.departfrom}}
+<input type="text" [value]="myForm.value.departfrom"> -->
+              <input
+                type="text"
+                placeholder="Departing from?"
+                aria-label="Number"
+                matInput
+                formControlName="departfrom"
+                (keyup)="filterData($event.target.value)"
+                [matAutocomplete]="auto"
+              />
+              <mat-autocomplete #auto="matAutocomplete">
+                <mat-option
+                  *ngFor="let items of filteredData"
+                  [value]="items.name"
+                >
+                  {{ items.name }}
+                </mat-option>
+              </mat-autocomplete>
+            </div>
+          </div>
+
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16.754"
+              height="16.904"
+              viewBox="0 0 16.754 16.904"
+              (click)="switch()"
+            >
+              <g
+                id="Group_26"
+                data-name="Group 26"
+                transform="translate(-619.007 -394.552)"
+              >
+                <g
+                  id="Group_3"
+                  data-name="Group 3"
+                  transform="translate(620.268 395.13)"
+                >
+                  <path
+                    id="Path_41"
+                    data-name="Path 41"
+                    d="M561.241,353l5.428,3.705-5.428,3.54"
+                    transform="translate(-552.438 -353)"
+                    fill="#fff"
+                    stroke="#545454"
+                    stroke-width="1.4"
+                  ></path>
+
+                  <path
+                    id="Path_42"
+                    data-name="Path 42"
+                    d="M563.273,358.02H549.041"
+                    transform="translate(-549.041 -354.398)"
+                    fill="#fff"
+                    stroke="#545454"
+                    stroke-width="1.4"
+                  ></path>
+                </g>
+
+                <g
+                  id="Group_4"
+                  data-name="Group 4"
+                  transform="translate(620.268 403.625)"
+                >
+                  <path
+                    id="Path_41-2"
+                    data-name="Path 41"
+                    d="M566.669,353l-5.428,3.705,5.428,3.54"
+                    transform="translate(-561.241 -353)"
+                    fill="#fff"
+                    stroke="#545454"
+                    stroke-width="1.4"
+                  ></path>
+
+                  <path
+                    id="Path_42-2"
+                    data-name="Path 42"
+                    d="M549.041,358.02h14.232"
+                    transform="translate(-549.041 -354.398)"
+                    fill="#fff"
+                    stroke="#545454"
+                    stroke-width="1.4"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </span>
+
+          <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 p-0">
+            <div class="form-group">
+              <label class="frm_llbs"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34.635"
+                  height="32.387"
+                  viewBox="0 0 34.635 32.387"
+                >
+                  <g
+                    id="Group_27"
+                    data-name="Group 27"
+                    transform="translate(-654.412 -381.66)"
+                  >
+                    <g
+                      id="PLANE_FLYING_UP_1"
+                      data-name="PLANE FLYING UP 1"
+                      transform="matrix(0.799, 0.602, -0.602, 0.799, 665.377, 381.66)"
+                    >
+                      <path
+                        id="plane"
+                        d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z"
+                        transform="translate(-530.821 -1534.01)"
+                        fill="#00292b"
+                      ></path>
+                    </g>
+
+                    <path
+                      id="ground"
+                      d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z"
+                      transform="translate(121.473 -1358.515)"
+                      fill="#00292b"
+                    ></path>
+                  </g>
+                </svg>
+              </label>
+
+              <input
+                type="text"
+                placeholder="Where to?"
+                aria-label="Number"
+                matInput
+                formControlName="whereto"
+                (keyup)="filterDataw($event.target.value)"
+                [matAutocomplete]="auto1"
+              />
+              <mat-autocomplete #auto1="matAutocomplete">
+                <mat-option
+                  *ngFor="let items of filteredData2"
+                  [value]="items.name"
+                >
+                  {{ items.name }}
+                </mat-option>
+              </mat-autocomplete>
+            </div>
+            <span class="error" *ngIf="matchvv"
+              >Depart and Where to can't be same.</span
+            >
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 p-0">
+            <div class="form-group">
+              <label class="frm_llbs">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21.47"
+                  height="22"
+                  viewBox="0 0 21.47 22"
+                >
+                  <path
+                    id="schedule-calendar"
+                    d="M19.458,22H2.012A2.02,2.02,0,0,1,0,19.988V4.037A2.02,2.02,0,0,1,2.012,2.025H3.869V4.5a2.211,2.211,0,0,0,.836,1.721,2.6,2.6,0,0,0,3.278,0A2.211,2.211,0,0,0,8.819,4.5V2.025h3.749V4.5A2.211,2.211,0,0,0,13.4,6.222a2.6,2.6,0,0,0,3.278,0A2.211,2.211,0,0,0,17.519,4.5V2.025h1.939A2.023,2.023,0,0,1,21.47,4.037v15.95A2.018,2.018,0,0,1,19.458,22ZM14.964,10.164h2.882a.371.371,0,0,1,.369.358v2.4a.371.371,0,0,1-.369.358H14.964a.369.369,0,0,1-.358-.358v-2.39a.367.367,0,0,1,.358-.358Zm-5.641,0h2.884a.369.369,0,0,1,.358.358v2.4a.371.371,0,0,1-.358.358H9.322a.369.369,0,0,1-.358-.358v-2.39a.369.369,0,0,1,.358-.358Zm-5.7,0H6.506a.369.369,0,0,1,.358.358v2.4a.371.371,0,0,1-.358.358H3.622a.369.369,0,0,1-.367-.358v-2.39a.367.367,0,0,1,.367-.358Zm11.342,5.1h2.882a.371.371,0,0,1,.369.358v2.4a.369.369,0,0,1-.369.367H14.964a.369.369,0,0,1-.358-.367v-2.39a.369.369,0,0,1,.358-.358Zm-5.641,0h2.884a.369.369,0,0,1,.358.358v2.4a.369.369,0,0,1-.358.367H9.322a.369.369,0,0,1-.358-.367v-2.39a.371.371,0,0,1,.358-.358Zm-5.7,0H6.506a.369.369,0,0,1,.358.358v2.4a.369.369,0,0,1-.358.367H3.622a.369.369,0,0,1-.367-.367v-2.39a.369.369,0,0,1,.367-.358ZM14.072.8a.893.893,0,0,1,.967-.8.9.9,0,0,1,.972.8V4.5a.9.9,0,0,1-.972.8.9.9,0,0,1-.97-.8V.8Zm-8.7,0A.9.9,0,0,1,6.345,0a.9.9,0,0,1,.97.8V4.5a.9.9,0,0,1-.97.8.9.9,0,0,1-.974-.8ZM.645,7.853v11.92a1.588,1.588,0,0,0,1.583,1.583H19.236a1.588,1.588,0,0,0,1.584-1.583V7.853Z"
+                    fill="#00292b"
+                  ></path>
+                </svg>
+              </label>
+
+              <!-- <mat-form-field floatLabel="never">
+                <input
+                  matInput
+                  [matDatepicker]="picker1"
+                  [min]="minDate"
+                  (click)="picker1.open()"
+                  (dateChange)="openEndPicker()"
+                  formControlName="rounddate"
+                />
+                <mat-datepicker
+                  #picker1
+                  (opened)="updatePlaceholderText()"
+                ></mat-datepicker>
+              </mat-form-field> -->
+
+              <mat-form-field floatLabel="never">
+                <input
+                  formControlName="rounddate"
+                  matInput
+                  [min]="minDate"
+                  [matDatepicker]="picker1"
+                  (click)="picker1.open()"
+                  (dateChange)="openEndPicker()"
+                  formControlName="rounddate"
+                  style="padding-top: 4px;"
+                />
+                <mat-datepicker #picker1></mat-datepicker>
+              </mat-form-field>
+
+
+            </div>
+          </div>
+
+          <span>- </span>
+
+          <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 p-0">
+            <div class="form-group">
+              <label class="frm_llbs">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21.47"
+                  height="22"
+                  viewBox="0 0 21.47 22"
+                >
+                  <path
+                    id="schedule-calendar"
+                    d="M19.458,22H2.012A2.02,2.02,0,0,1,0,19.988V4.037A2.02,2.02,0,0,1,2.012,2.025H3.869V4.5a2.211,2.211,0,0,0,.836,1.721,2.6,2.6,0,0,0,3.278,0A2.211,2.211,0,0,0,8.819,4.5V2.025h3.749V4.5A2.211,2.211,0,0,0,13.4,6.222a2.6,2.6,0,0,0,3.278,0A2.211,2.211,0,0,0,17.519,4.5V2.025h1.939A2.023,2.023,0,0,1,21.47,4.037v15.95A2.018,2.018,0,0,1,19.458,22ZM14.964,10.164h2.882a.371.371,0,0,1,.369.358v2.4a.371.371,0,0,1-.369.358H14.964a.369.369,0,0,1-.358-.358v-2.39a.367.367,0,0,1,.358-.358Zm-5.641,0h2.884a.369.369,0,0,1,.358.358v2.4a.371.371,0,0,1-.358.358H9.322a.369.369,0,0,1-.358-.358v-2.39a.369.369,0,0,1,.358-.358Zm-5.7,0H6.506a.369.369,0,0,1,.358.358v2.4a.371.371,0,0,1-.358.358H3.622a.369.369,0,0,1-.367-.358v-2.39a.367.367,0,0,1,.367-.358Zm11.342,5.1h2.882a.371.371,0,0,1,.369.358v2.4a.369.369,0,0,1-.369.367H14.964a.369.369,0,0,1-.358-.367v-2.39a.369.369,0,0,1,.358-.358Zm-5.641,0h2.884a.369.369,0,0,1,.358.358v2.4a.369.369,0,0,1-.358.367H9.322a.369.369,0,0,1-.358-.367v-2.39a.371.371,0,0,1,.358-.358Zm-5.7,0H6.506a.369.369,0,0,1,.358.358v2.4a.369.369,0,0,1-.358.367H3.622a.369.369,0,0,1-.367-.367v-2.39a.369.369,0,0,1,.367-.358ZM14.072.8a.893.893,0,0,1,.967-.8.9.9,0,0,1,.972.8V4.5a.9.9,0,0,1-.972.8.9.9,0,0,1-.97-.8V.8Zm-8.7,0A.9.9,0,0,1,6.345,0a.9.9,0,0,1,.97.8V4.5a.9.9,0,0,1-.97.8.9.9,0,0,1-.974-.8ZM.645,7.853v11.92a1.588,1.588,0,0,0,1.583,1.583H19.236a1.588,1.588,0,0,0,1.584-1.583V7.853Z"
+                    fill="#00292b"
+                  ></path>
+                </svg>
+              </label>
+              <!-- <mat-form-field>
+                <input
+                  matInput
+                  [disabled]="
+                    this.myForm.get('tripchoice').value === 'One Way'
+                  "
+                  [matDatepicker]="picker2"
+                  placeholder="Return"
+                  formControlName="onedate"
+                  (click)="picker2.open()"
+                />
+                <mat-datepicker #picker2></mat-datepicker>
+              </mat-form-field> -->
+
+              <mat-form-field floatLabel="never">
+
+                <!-- <input
+                  matInput
+                  [disabled]="this.myForm.get('tripchoice').value === 'One Way'"
+                  [matDatepicker]="picker2"
+                  [min]="minDate1"
+                  formControlName="onedate"
+                  (click)="picker2.open()"
+                />
+                <mat-datepicker
+                  #picker2
+                  (opened)="updatePlaceholderText2()"
+                ></mat-datepicker> -->
+
+                  <input
+                    matInput
+                    [min]="minDate1"
+                    [disabled]="this.myForm.get('tripchoice').value === 'One Way'"
+                    [matDatepicker]="picker2"
+                    (click)="picker2.open()"
+                    formControlName="onedate"
+                    style="padding-top: 4px;"
+                  />
+                  <mat-datepicker #picker2></mat-datepicker>
+
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 p-0">
+            <div class="form-group">
+              <div ngDropdown class="select" formGroupName="travelerclass">
+                <button
+                  type="button"
+                  ngDropdownControl
+                  class="selectBtn"
+                  data-type="firstOption"
+                  style="font-size: 12px;"
+                >
+                  {{ ttotal ? ttotal : "1" }} Traveler,
+                  {{ travelclass }}
+                </button>
+                <div
+                  ngDropdownContent
+                  dropdownClass="slide-fade"
+                  class="dropdown"
+                >
+                  <div>
+                    <div class="innr_pnl_v2 selectDropdown">
+                      <div class="add-travellers" data-type="">
+                        <div class="add-traveler pe-5">
+                          <p>Adults</p>
+
+                          <span>(12+ Years)</span>
+                        </div>
+
+                        <div class="quantity">
+                          <button class="quantity__minus" (click)="adultsub()">
+                            -
+                          </button>
+
+                          <input
+                            name="adults"
+                            type="text"
+                            class="quantity__input"
+                            formControlName="adults"
+                            minlength="4"
+                            maxlength="8"
+                          />
+
+                          <button class="quantity__plus" (click)="adultadd()">
+                            +
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="add-travellers" data-type="">
+                        <div class="add-traveler pe-5">
+                          <p>Children</p>
+
+                          <span>(2 -11 yrs)</span>
+                        </div>
+
+                        <div class="quantity">
+                          <button class="quantity__minus" (click)="childsub()">
+                            -
+                          </button>
+
+                          <input
+                            name="child"
+                            type="text"
+                            class="quantity__input"
+                            formControlName="child"
+                            minlength="4"
+                            maxlength="8"
+                          />
+
+                          <button class="quantity__plus" (click)="childadd()">
+                            +
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="add-travellers" data-type="">
+                        <div class="add-traveler pe-5">
+                          <p>Infants</p>
+
+                          <span>(Below 2 yrs)</span>
+                        </div>
+
+                        <div class="quantity">
+                          <button class="quantity__minus" (click)="infantsub()">
+                            -
+                          </button>
+
+                          <input
+                            name="infant"
+                            type="text"
+                            class="quantity__input"
+                            formControlName="infant"
+                            minlength="4"
+                            maxlength="8"
+                          />
+
+                          <button class="quantity__plus" (click)="infantadd()">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                      <span class="error" *ngIf="validationadd == 1"
+                        >Can't add Traveler more than 9</span
+                      >
+
+                      <div class="divider_nw"></div>
+                      <div class="class-list">
+                        <label
+                          id="lbEconomy"
+                          class="cont_flnw"
+                          (click)="classbook('economy')"
+                          [ngClass]="{
+                            actives: ecocheck
+                          }"
+                        >
+                          Economy
+                          <input
+                            type="radio"
+                            value="Economy"
+                            name="tripclass"
+                            formControlName="tripclass"
+                          />
+                          <span id="spanEconomy" class="chk_flnw"></span>
+                        </label>
+                        <label
+                          id="lbBusiness"
+                          class="cont_flnw"
+                          (click)="classbook('business')"
+                          [ngClass]="{
+                            actives: buscheck
+                          }"
+                        >
+                          Business Class
+                          <input
+                            formControlName="tripclass"
+                            type="radio"
+                            value="Business Class"
+                            name="tripclass"
+                          />
+                          <span id="spanBusiness" class="chk_flnw"></span>
+                        </label>
+                        <label
+                          id="lbFirst"
+                          class="cont_flnw optFrst"
+                          (click)="classbook('first')"
+                          [ngClass]="{
+                            actives: fircheck
+                          }"
+                        >
+                          First Class
+                          <input
+                            type="radio"
+                            formControlName="tripclass"
+                            value="First Class"
+                            name="tripclass"
+                          />
+                          <span id="spanFirst" class="chk_flnw"></span>
+                        </label>
+                        <label
+                          id="lbpEconomy"
+                          class="cont_flnw"
+                          (click)="classbook('premium')"
+                          [ngClass]="{
+                            actives: precheck
+                          }"
+                        >
+                          Premium Economy
+                          <input
+                            formControlName="tripclass"
+                            type="radio"
+                            value="Premium Economy"
+                            name="tripclass"
+                          />
+                          <span id="spanpEconomy" class="chk_flnw"></span>
+                        </label>
+                      </div>
+                      <div class="clr"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-1 col-md-2 col-xs-12 p-0 ml-auto" (click)="loading('true')">
+            <button type="submit" name="submitForm" class="mainsearch">
+              Modify
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- {{apidata}} -->
+
+<section class="margin-section section-bg2">
+  <div class="container">
+    <div class="row text-center">
+
+      <!---------------------------------------      FILTER START     ------------------------------------>
+
+      <!-------------------------------------     LOADING FILTER START      ------------------------------>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 d-none d-lg-block" *ngIf="loadingi">
+       <div class="left-filters">
+          <img class="loadingfi" src="../../../assets/images/LOGO-FOR-ANIMATION-v2.gif" alt="LOGO">
+        </div>
+      </div>
+
+      <!----------------------------------     LOADING FILTER END     ------------------------------------>
+
+      <!-----------------------------------     REAL FILTER START     ------------------------------------>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 d-none d-lg-block" *ngIf="!loadingi">
+        <div class="left-filter">
+          <form action="">
+            <h4>Stop</h4>
+
+            <ul>
+              <li style="display: flex;">
+                <input
+                  type="checkbox"
+                  id="nonstop1"
+                  name="onestop1"
+                  value="nstop"
+                  (change)="nontab($event)"
+                  #checkboxRef
+                />
+
+                <label for="nonstop1" class="labl">Non Stop</label>
+              </li>
+
+              <li style="display: flex;">
+                <input
+                  type="checkbox"
+                  id="onestop1"
+                  name="onestop1"
+                  value="ostop"
+                  (change)="onetab($event)"
+                  #checkboxRef
+                />
+
+                <label for="onestop1" class="labl"> One Stop</label>
+              </li>
+
+              <li style="display: flex;">
+                <input
+                  type="checkbox"
+                  id="two-stop"
+                  name="two-stop"
+                  value="tstop"
+                  (change)="twotab($event)"
+                  #checkboxRef
+                />
+
+                <label for="two-stop" class="labl">Two Stop</label>
+              </li>
+            </ul>
+          </form>
+
+          <fieldset class="filter-price">
+            <h4>Price</h4>
+
+            <div class="price-wrap custom-slider">
+              <ngx-slider
+                [(value)]="value1"
+                [(highValue)]="highValue1"
+                [options]="options1"
+                (click)="pricesl(value1,highValue1)"
+                class="slide"
+              ></ngx-slider>
+            </div>
+          </fieldset>
+
+          <fieldset class="filter-price">
+            <h4>Time</h4>
+
+            <p class="departure-txt">Departure</p>
+
+            <div class="price-wrap custom-slider">
+              <ngx-slider
+                [(value)]="value2"
+                [(highValue)]="highValue2"
+                [options]="options2"
+                (click)="departl(value2,highValue2)"
+              ></ngx-slider>
+            </div>
+
+            <p class="departure-txt" style="margin-top: 20px;">Return</p>
+
+            <div class="price-wrap custom-slider">
+              <ngx-slider
+                [(value)]="value3"
+                [(highValue)]="highValue3"
+                [options]="options3"
+                (click)="returnl(value3,highValue3)"
+              ></ngx-slider>
+            </div>
+          </fieldset>
+
+          <!-- <fieldset class="filter-price">
+            <h4>Return</h4>
+
+            <div class="price-wrap custom-slider">
+              <ngx-slider
+                [(value)]="value3"
+                [(highValue)]="highValue3"
+                [options]="options3"
+                (click)="returnl(value3,highValue3)"
+              ></ngx-slider>
+            </div>
+          </fieldset> -->
+
+            <h4 style="margin-top: 40px;">Airports</h4>
+            <p class="departure-txt">Departure</p>
+
+            <ul>
+              <li *ngFor="let data of adistinctData; let i = index" style="display: flex;" >
+                <input
+                  type="checkbox"
+                  id="return{{i}}"
+                  name="return{{i}}"
+                  value="{{data}}"
+                  (change)="departli($event, data)"
+                  [(ngModel)]="depItems[i]"
+                />
+
+                <label for="return{{i}}" class="labl">{{data}}</label>
+              </li>
+            </ul>
+
+            <p class="departure-txt" style="margin-top: 20px;">Return</p>
+
+            <ul>
+              <li *ngFor="let data of rdistinctData; let i = index" style="display: flex;">
+                <input
+                  type="checkbox"
+                  id="vehicle{{i}}"
+                  name="vehicle{{i}}"
+                  value="{{data}}"
+                  (change)="returnli($event, data)"
+                  [(ngModel)]="retItems[i]"
+                />
+
+                <label for="vehicle{{i}}" class="labl">{{data}}</label>
+              </li>
+            </ul>
+
+          <form action="" class="my-4">
+            <h4  style="margin-top: 40px;">Airlines</h4>
+
+            <ul>
+              <li *ngFor="let data of ardistinctData; let i = index" style="display: flex;">
+                <input
+                  type="checkbox"
+                  id="airline{{i}}"
+                  name="airline{{i}}"
+                  value="{{data}}"
+                  (change)="airlineli($event, data)"
+                  [(ngModel)]="airItems[i]"
+                />
+
+                <label for="airline{{i}}" class="labl">{{data}}</label>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+
+      <!------------------------------------     LOADING FILTER END     ---------------------------------->
+
+      <!---------------------------------------      FILTER END     -------------------------------------->
+
+      <!-----------------------------------      TOP FILTER START     -------------------------------------->
+
+      <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+        <div class="showall-fares d-none d-lg-flex" *ngIf="loadingi">
+          <div class="fares-slides">
+            <img class="loadingi" src="../../../assets/images/LOGO-FOR-ANIMATION-v2.gif" alt="LOGO">
+          </div>
+        </div>
+
+        <div class="showall-fares d-none d-lg-flex" *ngIf="!loadingi">
+          <div class="fares__aside">
+            <div class="fares-box-lg text-left-fares">Show all fares &gt;</div>
+
+            <div class="text-left-fares">Non Stop</div>
+
+            <div class="text-left-fares">1+ stops</div>
+          </div>
+
+          <div class="fares-slide">
+            <!-- siemaTwo -->
+
+            <div class="siema-container-fares">
+              <div
+                class="siemaTwo"
+                style="overflow: hidden; direction: ltr; cursor: -webkit-grab"
+              >
+                <div
+                  style="
+                    width: 1176.67px;
+                    transition: all 200ms ease-out 0s;
+                    transform: translate3d(0px, 0px, 0px);
+                  "
+                >
+                  <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-1.png" />
+                            </span>
+
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-2.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-3.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-4.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+
+                          <div class="listing-icon"><p>-</p></div>
+
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-3.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-1.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+
+                          <div class="listing-icon"><p>-</p></div>
+
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-2.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-2.png" />
+                            </span>
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                      <div class="w-list">
+                        <div class="showfares-slider">
+                          <div class="listing-icon">
+                            <span>
+                              <img src="assets/images/listing-2.png"
+                            /></span>
+                            <p>United Airlines</p>
+                          </div>
+                          <div class="listing-icon"><p>-</p></div>
+                          <div class="listing-icon"><p>$824.21</p></div>
+                        </div>
+                      </div>
+                    </ng-template>
+                  </owl-carousel-o>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- {{apidata.name}} -->
+        <div class="row">
+          <div class="tab-listing mt-5">
+            <ul class="booking tabs hide-scrollbar" *ngIf="loadingi">
+              <li>
+              <img class="loadingc" src="../../../assets/images/sprucefly-logo-animation.gif" alt="LOGO">
+              </li>
+
+              <li>
+              <img class="loadingc" src="../../../assets/images/sprucefly-logo-animation.gif" alt="LOGO">
+              </li>
+            </ul>
+            <ul class="booking tabs hide-scrollbar" *ngIf="!loadingi">
+              <li
+                [ngClass]="{ active: tab1 }"
+                rel="tab1"
+                (click)="tabchange('tab1')"
+              >
+                Cheapest
+                <p>${{cheapprice}}</p>
+              </li>
+
+              <li
+                rel="tab4"
+                [ngClass]="{ active: tab2 }"
+                class="tab_last"
+                (click)="tabchange('tab2')"
+              >
+                Shortest Flight
+                <p>{{shorttime}}</p>
+              </li>
+            </ul>
+            <div class="tab_container" *ngIf="loadingi">
+              <div id="tab1" class="tab_content" style="display: block">
+                <div class="box-listings">
+                  <img class="loadingl" src="../../../assets/images/LOGO-FOR-ANIMATION-v2.gif" alt="LOGO">
+                </div>  
+              </div>
+            </div>
+            
+            <div
+              class="tab_container"
+              *ngFor="let data of listdata; let i = index" 
+            >
+              <div id="tab1" class="tab_content" style="display: block" *ngIf="!loadingi">
+                <div class="box-listing">
+                  <div class="col-lg-9">
+                    <div class="depart_return_time">
+                      <h4>Departure</h4>                           
+                      <div class="depart_day">
+                        {{
+                          listdata[i].FlightSegmentDetails.OutBoundSegment[0]
+                            .DepartureDate
+                        }}
+                      </div>
+
+                      <!-- <div class="depart_date">Jan 1</div> -->
+                    </div>
+
+                    <div class="depart-section">
+                      <div class="s-time">
+                        <div class="departure-icon">
+                          <img src="assets/images/ua.jpg" />
+
+                          <p>United</p>
+                        </div>
+
+                        <div class="departure-s-time">
+                          <h5>
+                            {{
+                              listdata[i].FlightSegmentDetails
+                                .OutBoundSegment[0].DepartureTime
+                            }}
+                          </h5>
+
+                          <p>
+                            {{
+                              listdata[i].FlightSegmentDetails
+                                .OutBoundSegment[0].OriginCity
+                            }}
+                          </p>
+                        </div>
+
+                        <div class="departure-s-time">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="22.192"
+                            height="21.013"
+                            viewBox="0 0 22.192 21.013"
+                          >
+                            <path
+                              id="Path_3926"
+                              data-name="Path 3926"
+                              d="M5755-622.965h1.667l1.726,2.277h6.147l-2.831-8.88h2.179l5.563,8.88h5.854a1.669,1.669,0,0,1,1.887,1.789c0,.976-.943,1.5-1.887,1.5h-5.854l-5.563,8.847h-2.179l2.831-8.847h-6.147l-1.726,2.244H5755l1.146-3.9Z"
+                              transform="translate(-5755 629.568)"
+                              fill="#6b6b6b"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+
+                      <div class="hours">
+                        <p>{{ listdata[i].TotalOutBoundFlightDuration }}</p>
+
+                        <div class="border-bottom-listing">
+                          <span></span>
+                        </div>
+
+                        <p>
+                          {{
+                            listdata[i].FlightSegmentDetails.OutBoundSegment[0]
+                              .NoOfStops
+                          }}
+                          Stop
+                        </p>
+                      </div>
+
+                      <div class="s-time">
+                        <div class="departure-s-time d-time">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="13.232"
+                            height="19.065"
+                            viewBox="0 0 13.232 19.065"
+                          >
+                            <path
+                              id="Path_3880"
+                              data-name="Path 3880"
+                              d="M67.147,0a6.624,6.624,0,0,0-6.616,6.616c0,3.512,6,11.716,6.258,12.063l.239.325a.148.148,0,0,0,.239,0l.238-.325c.256-.347,6.258-8.552,6.258-12.063A6.624,6.624,0,0,0,67.147,0Zm0,4.246a2.37,2.37,0,1,1-2.37,2.37A2.372,2.372,0,0,1,67.147,4.246Z"
+                              transform="translate(-60.531)"
+                              fill="#6b6b6b"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <div class="departure-s-time d-time">
+                          <h5>
+                            {{
+                              listdata[i].FlightSegmentDetails
+                                .OutBoundSegment[1].ArrivalTime
+                            }}
+                          </h5>
+
+                          <p>
+                            {{
+                              listdata[i].FlightSegmentDetails
+                                .OutBoundSegment[1].DestinationCity
+                            }}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="depart_return_time rtn-border">
+                      <h4>Return</h4>
+
+                      <div class="depart_day">
+                        {{
+                          listdata[i].FlightSegmentDetails.InBoundSegment[0]
+                            .DepartureDate
+                        }}
+                      </div>
+
+                      <!-- <div class="depart_date">Nov 1</div> -->
+                    </div>
+
+                    <div class="depart-section">
+                      <div class="s-time">
+                        <div class="departure-icon">
+                          <img src="assets/images/ua.jpg" />
+                          <p>United</p>
+                        </div>
+
+                        <div class="departure-s-time">
+                          <h5>
+                            {{
+                              listdata[i].FlightSegmentDetails.InBoundSegment[0]
+                                .DepartureTime
+                            }}
+                          </h5>
+
+                          <p>
+                            {{
+                              listdata[i].FlightSegmentDetails.InBoundSegment[0]
+                                .OriginCity
+                            }}
+                          </p>
+                        </div>
+
+                        <div class="departure-s-time">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="22.192"
+                            height="21.013"
+                            viewBox="0 0 22.192 21.013"
+                          >
+                            <path
+                              id="Path_3926"
+                              data-name="Path 3926"
+                              d="M5755-622.965h1.667l1.726,2.277h6.147l-2.831-8.88h2.179l5.563,8.88h5.854a1.669,1.669,0,0,1,1.887,1.789c0,.976-.943,1.5-1.887,1.5h-5.854l-5.563,8.847h-2.179l2.831-8.847h-6.147l-1.726,2.244H5755l1.146-3.9Z"
+                              transform="translate(-5755 629.568)"
+                              fill="#6b6b6b"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+
+                      <div class="hours">
+                        <p>{{ listdata[i].TotalInBoundFlightDuration }}</p>
+
+                        <div class="border-bottom-listing">
+                          <span></span>
+                        </div>
+
+                        <p>
+                          {{
+                            listdata[i].FlightSegmentDetails.InBoundSegment[0]
+                              .NoOfStops
+                          }}
+                          Stop
+                        </p>
+                      </div>
+
+                      <div class="s-time">
+                        <div class="departure-s-time d-time">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="13.232"
+                            height="19.065"
+                            viewBox="0 0 13.232 19.065"
+                          >
+                            <path
+                              id="Path_3880"
+                              data-name="Path 3880"
+                              d="M67.147,0a6.624,6.624,0,0,0-6.616,6.616c0,3.512,6,11.716,6.258,12.063l.239.325a.148.148,0,0,0,.239,0l.238-.325c.256-.347,6.258-8.552,6.258-12.063A6.624,6.624,0,0,0,67.147,0Zm0,4.246a2.37,2.37,0,1,1-2.37,2.37A2.372,2.372,0,0,1,67.147,4.246Z"
+                              transform="translate(-60.531)"
+                              fill="#6b6b6b"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <div class="departure-s-time d-time">
+                          <h5>
+                            {{
+                              listdata[i].FlightSegmentDetails.InBoundSegment[1]
+                                .ArrivalTime
+                            }}
+                          </h5>
+
+                          <p>
+                            {{
+                              listdata[i].FlightSegmentDetails.InBoundSegment[1]
+                                .DestinationCity
+                            }}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 p-0">
+                    <div class="price-round">
+                      <p class="trip-price">
+                        <span>$ {{ listdata[i].TotalFare }}</span>
+                      </p>
+
+                      <p>Round trip</p>
+
+                      <div
+                        class="book-now-btn flight-detail-click"
+                        (click)="openDialog(listdata[i])"
+                      >
+                        Book Now
+                      </div>
+
+                      <div
+                        class="flight-detail flight-detail-click"
+                        (click)="openDialog(listdata[i])"
+                      >
+                        Flight Details
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="11.5"
+                          height="6.556"
+                          viewBox="0 0 11.5 6.556"
+                        >
+                          <path
+                            id="Path_3930"
+                            data-name="Path 3930"
+                            d="M5.751,103.7a.8.8,0,0,1-.569-.236L.237,98.515a.805.805,0,0,1,1.139-1.139l4.375,4.376,4.375-4.375a.805.805,0,1,1,1.139,1.139L6.32,103.46A.8.8,0,0,1,5.751,103.7Z"
+                            transform="translate(-0.001 -97.141)"
+                            fill="#6b6b6b"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <div *ngIf="listdata.length == 0" style="font-size: 30px;"> Ther is no flights for this filter</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <ng-template #popup>
+  <app-pop-up></app-pop-up>
+</ng-template> -->

@@ -1,0 +1,303 @@
+<section class="itinerary-section pt-4">
+  <div class="container">
+    <div class="row" style="justify-content: space-between">
+      <div class="itinerary-sec-left itinerary-details-top">
+        <mat-tab-group [selectedIndex]="selectedTabIndex" >
+          <!-- [disabled]="itenarychh" -->
+          <mat-tab label="Itinerary Details" [ngClass]="{
+            disb: itenarychh
+          }" [disabled]="itenarychh">
+            <app-itinerary-details [datadt]="datadt" (changevalue)="addItem($event)"></app-itinerary-details>
+          </mat-tab>
+          <!-- [disabled]="traveleradd" -->
+          <mat-tab label="Traveler Details" [ngClass]="{
+            disb: traveleradd
+          }" [disabled]="traveleradd">
+            <app-traveler-details [travelertt]="totaltraveler" (travelerch)="addItem($event)" (updateform)="updateItem($event)" ></app-traveler-details>
+          </mat-tab>
+          <!-- [disabled]="paymentch" -->
+          <mat-tab label="Payment Details" [ngClass]="{
+            disb: paymentch
+          }" [disabled]="paymentch">
+            <app-payment-details [datadt]="datadt" [updatetr]="updatetravelers" (paymentch)="addItem($event)"></app-payment-details>
+          </mat-tab>
+         
+          
+        </mat-tab-group>
+        
+        <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home"
+              type="button"
+              role="tab"
+              aria-controls="home"
+              [attr.aria-selected]="value ? 'false' : 'true'"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  id="check-mark"
+                  d="M12.978,6.145a.7.7,0,0,1,0,.994L8.261,11.856a.7.7,0,0,1-.994,0L5.022,9.611a.7.7,0,0,1,.994-.994l1.748,1.748,4.22-4.22a.7.7,0,0,1,.994,0ZM18,9A9,9,0,1,1,9,0,9,9,0,0,1,18,9ZM16.594,9A7.594,7.594,0,1,0,9,16.594,7.59,7.59,0,0,0,16.594,9Zm0,0"
+                  transform="translate(0 0)"
+                  fill="#0fa848"
+                ></path>
+              </svg>
+              Itinerary Details
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile"
+              type="button"
+              role="tab"
+              aria-controls="profile"
+              [attr.aria-selected]="value ? 'false' : 'true'"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20.076"
+                height="20.076"
+                viewBox="0 0 20.076 20.076"
+              >
+                <g
+                  id="Group_8132"
+                  data-name="Group 8132"
+                  transform="translate(-1025.5 -158.962)"
+                >
+                  <g id="Group_8131" data-name="Group 8131">
+                    <g
+                      id="Path_46504"
+                      data-name="Path 46504"
+                      transform="translate(1025.5 158.962)"
+                      fill="#fff"
+                    >
+                      <path
+                        d="M 10.03822326660156 19.57644271850586 C 4.778833389282227 19.57644271850586 0.5000032782554626 15.2976131439209 0.5000032782554626 10.03822326660156 C 0.5000032782554626 4.778833389282227 4.778833389282227 0.5000032782554626 10.03822326660156 0.5000032782554626 C 15.2976131439209 0.5000032782554626 19.57644271850586 4.778833389282227 19.57644271850586 10.03822326660156 C 19.57644271850586 15.2976131439209 15.2976131439209 19.57644271850586 10.03822326660156 19.57644271850586 Z"
+                        stroke="none"
+                      ></path>
+
+                      <path
+                        d="M 10.03822326660156 1.000003814697266 C 5.054533004760742 1.000003814697266 1.000003814697266 5.054533004760742 1.000003814697266 10.03822326660156 C 1.000003814697266 15.02191352844238 5.054533004760742 19.07644271850586 10.03822326660156 19.07644271850586 C 15.02191352844238 19.07644271850586 19.07644271850586 15.02191352844238 19.07644271850586 10.03822326660156 C 19.07644271850586 5.054533004760742 15.02191352844238 1.000003814697266 10.03822326660156 1.000003814697266 M 10.03822326660156 3.814697265625e-06 C 15.58218383789062 3.814697265625e-06 20.07644271850586 4.494263648986816 20.07644271850586 10.03822326660156 C 20.07644271850586 15.58218383789062 15.58218383789062 20.07644271850586 10.03822326660156 20.07644271850586 C 4.494263648986816 20.07644271850586 3.814697265625e-06 15.58218383789062 3.814697265625e-06 10.03822326660156 C 3.814697265625e-06 4.494263648986816 4.494263648986816 3.814697265625e-06 10.03822326660156 3.814697265625e-06 Z"
+                        stroke="none"
+                        fill="#878787"
+                      ></path>
+                    </g>
+
+                    <g id="Validate" transform="translate(1031.146 165.863)">
+                      <g id="Group_33" data-name="Group 33">
+                        <path
+                          id="Path_24"
+                          data-name="Path 24"
+                          d="M104.063,149.769l-4.484,4.66a.982.982,0,0,1-1.427,0l-2.286-2.375a1.077,1.077,0,0,1-.026-1.484.98.98,0,0,1,1.427-.027l.026.027,1.567,1.636,3.77-3.918a.982.982,0,0,1,1.427.027,1.081,1.081,0,0,1,0,1.457Z"
+                          transform="translate(-95.557 -147.993)"
+                          fill="#878787"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              Traveler Details
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact"
+              type="button"
+              role="tab"
+              aria-controls="contact"
+              [attr.aria-selected]="value ? 'true' : 'false'"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20.076"
+                height="20.076"
+                viewBox="0 0 20.076 20.076"
+              >
+                <g
+                  id="Group_8132"
+                  data-name="Group 8132"
+                  transform="translate(-1025.5 -158.962)"
+                >
+                  <g id="Group_8131" data-name="Group 8131">
+                    <g
+                      id="Path_46504"
+                      data-name="Path 46504"
+                      transform="translate(1025.5 158.962)"
+                      fill="#fff"
+                    >
+                      <path
+                        d="M 10.03822326660156 19.57644271850586 C 4.778833389282227 19.57644271850586 0.5000032782554626 15.2976131439209 0.5000032782554626 10.03822326660156 C 0.5000032782554626 4.778833389282227 4.778833389282227 0.5000032782554626 10.03822326660156 0.5000032782554626 C 15.2976131439209 0.5000032782554626 19.57644271850586 4.778833389282227 19.57644271850586 10.03822326660156 C 19.57644271850586 15.2976131439209 15.2976131439209 19.57644271850586 10.03822326660156 19.57644271850586 Z"
+                        stroke="none"
+                      ></path>
+
+                      <path
+                        d="M 10.03822326660156 1.000003814697266 C 5.054533004760742 1.000003814697266 1.000003814697266 5.054533004760742 1.000003814697266 10.03822326660156 C 1.000003814697266 15.02191352844238 5.054533004760742 19.07644271850586 10.03822326660156 19.07644271850586 C 15.02191352844238 19.07644271850586 19.07644271850586 15.02191352844238 19.07644271850586 10.03822326660156 C 19.07644271850586 5.054533004760742 15.02191352844238 1.000003814697266 10.03822326660156 1.000003814697266 M 10.03822326660156 3.814697265625e-06 C 15.58218383789062 3.814697265625e-06 20.07644271850586 4.494263648986816 20.07644271850586 10.03822326660156 C 20.07644271850586 15.58218383789062 15.58218383789062 20.07644271850586 10.03822326660156 20.07644271850586 C 4.494263648986816 20.07644271850586 3.814697265625e-06 15.58218383789062 3.814697265625e-06 10.03822326660156 C 3.814697265625e-06 4.494263648986816 4.494263648986816 3.814697265625e-06 10.03822326660156 3.814697265625e-06 Z"
+                        stroke="none"
+                        fill="#878787"
+                      ></path>
+                    </g>
+
+                    <g id="Validate" transform="translate(1031.146 165.863)">
+                      <g id="Group_33" data-name="Group 33">
+                        <path
+                          id="Path_24"
+                          data-name="Path 24"
+                          d="M104.063,149.769l-4.484,4.66a.982.982,0,0,1-1.427,0l-2.286-2.375a1.077,1.077,0,0,1-.026-1.484.98.98,0,0,1,1.427-.027l.026.027,1.567,1.636,3.77-3.918a.982.982,0,0,1,1.427.027,1.081,1.081,0,0,1,0,1.457Z"
+                          transform="translate(-95.557 -147.993)"
+                          fill="#878787"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              Payment Details
+            </button>
+          </li>
+        </ul> -->
+        <!-- <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <app-itinerary-details (bookTitleCreated)="itenary($event)"></app-itinerary-details>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
+            <app-traveler-details [travelertt]="totaltraveler" (bookTitleCreated)="travel($event)"></app-traveler-details>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+          >
+            <app-payment-details></app-payment-details>
+          </div>
+        </div> -->
+      </div>
+      <div class="itinerary-sec-right">
+        <div class="accordion travelers-price-details" id="accordionExample">
+          <h5>Price Details</h5>
+
+          <div class="accordion-item">
+            <h2
+              class="accordion-header spruce-fare"
+              id="headingOne"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              <button class="accordion-button" type="button">{{adult}} Adult</button>
+
+              <div class="p-details">$ {{adult * 405}}</div>
+            </h2>
+
+            <div
+              id="collapseOne"
+              class="accordion-collapse spruce collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>{{adult}} x Taxes and Fees<span>$ {{adult * 370.10}}</span></p>
+
+                <!-- <p>1 x Taxes and Fees<span>$ 380.10</span></p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2
+              class="accordion-header spruce-fare"
+              id="headingTwo"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <button class="accordion-button collapsed" type="button">
+                {{child}} Child
+              </button>
+
+              <div class="p-details">$ {{child * 260}}</div>
+            </h2>
+
+            <div
+              id="collapseTwo"
+              class="accordion-collapse spruce collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>{{child}} x Taxes and Fees<span>$ {{child * 209.10}}</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2
+              class="accordion-header spruce-fare"
+              id="headingThree"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <button class="accordion-button collapsed" type="button">
+                {{infant}} Infant lap
+              </button>
+
+              <div class="p-details">$ {{infant * 105}}</div>
+            </h2>
+
+            <div
+              id="collapseThree"
+              class="accordion-collapse spruce collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>{{infant}} x Taxes and Fees<span>$ {{ infant * 34.10}}</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="total-val">
+            <h5>Total</h5>
+
+            <p>$ {{totalamount - 100}}</p>
+          </div>
+
+          <div class="total-val">
+            <h5>You Save $ 100</h5>
+
+            <p>$ {{totalamount}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

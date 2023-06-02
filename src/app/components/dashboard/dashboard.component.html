@@ -1,0 +1,1467 @@
+<section id="hero" class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <h2 data-aos="fade-up" class="aos-init aos-animate capitalize">
+          <!-- The right destination for you &amp; your family -->
+          {{ 'the right destination for you &amp; your family'[0].toUpperCase() + 'the right destination for you &amp; your family'.substr(1) }}
+        </h2>
+
+        <blockquote
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="aos-init aos-animate"
+        >
+          <p>Discover Amazing Places At Exclusive Deals</p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="" class="booking-section">
+  <div class="container">
+    <div class="row">
+      <ul class="booking tabs">
+        <li class="active tab_last" rel="tab1">Flight</li>
+      </ul>
+
+      <div class="tab_container px-5">
+        <div id="tab1" class="tab_content" style="display: block">
+          <div class="row form-box">
+            <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+              <div class="row trip_box">
+                <!--                                      TRIP DROPDOWN                                      -->
+                <div class="traveler-dtls">
+                  <div class="select">
+                    <div class="" data-type="firstOption">
+                      <mat-form-field appearance="fill">
+                        <mat-select
+                          [(value)]="this.hideone"
+                          disableOptionCentering
+                          formControlName="tripchoice"
+                          panelClass="myPanelClass"
+                        >
+                          <mat-option value="Round Trip">Round Trip</mat-option>
+                          <mat-option value="One Way">One Way</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                    </div>
+                  </div>
+
+                  <!--                               //    TRIP DROPDOWN       //                                -->
+
+                  <!--                                 TRAVELERS DROPDOWN                                     -->
+
+                  <div ngDropdown class="select" formGroupName="travelerclass">
+                    <button
+                      type="button"
+                      ngDropdownControl
+                      class="selectBtn"
+                      data-type="firstOption"
+                    >
+                      {{ ttotal ? ttotal : "1" }} Traveler,
+                      {{ travelclass ? travelclass : "Economy" }}
+                    </button>
+                    <div ngDropdownContent dropdownClass="slide-fade">
+                      <div>
+                        <div class="innr_pnl_v2 selectDropdown">
+                          <div class="add-travellers" data-type="">
+                            <div class="add-traveler pe-5">
+                              <p>Adults</p>
+
+                              <span>(12+ Years)</span>
+                            </div>
+
+                            <div class="quantity">
+                              <button
+                                class="quantity__minus"
+                                (click)="adultsub()"
+                              >
+                                -
+                              </button>
+
+                              <input
+                                name="adults"
+                                type="text"
+                                class="quantity__input"
+                                formControlName="adults"
+                                minlength="4"
+                                maxlength="8"
+                              />
+
+                              <button
+                                class="quantity__plus"
+                                (click)="adultadd()"
+                              >
+                                +
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="add-travellers" data-type="">
+                            <div class="add-traveler pe-5">
+                              <p>Children</p>
+
+                              <span>(2 -11 yrs)</span>
+                            </div>
+
+                            <div class="quantity">
+                              <button
+                                class="quantity__minus"
+                                (click)="childsub()"
+                              >
+                                -
+                              </button>
+
+                              <input
+                                name="child"
+                                type="text"
+                                class="quantity__input"
+                                formControlName="child"
+                                minlength="4"
+                                maxlength="8"
+                              />
+
+                              <button
+                                class="quantity__plus"
+                                (click)="childadd()"
+                              >
+                                +
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="add-travellers" data-type="">
+                            <div class="add-traveler pe-5">
+                              <p>Infants</p>
+
+                              <span>(Below 2 yrs)</span>
+                            </div>
+
+                            <div class="quantity">
+                              <button
+                                class="quantity__minus"
+                                (click)="infantsub()"
+                              >
+                                -
+                              </button>
+
+                              <input
+                                name="infant"
+                                type="text"
+                                class="quantity__input"
+                                formControlName="infant"
+                                minlength="4"
+                                maxlength="8"
+                              />
+
+                              <button
+                                class="quantity__plus"
+                                (click)="infantadd()"
+                              >
+                                +
+                              </button>
+                            </div>
+                          </div>
+                          <span class="error" *ngIf="validationadd == 1">Can't add Traveler more than 9</span>
+
+                          <div class="divider_nw"></div>
+                          <div class="class-list">
+                            <label id="lbEconomy" class="cont_flnw" (click)="classbook('economy')" [ngClass]="{
+                              actives: ecocheck
+                            }">
+                              Economy
+                              <input
+                                type="radio"
+                                value="Economy"
+                                name="tripclass"
+                                formControlName="tripclass"
+                              />
+                              <span id="spanEconomy" class="chk_flnw"></span>
+                            </label>
+                            <label id="lbBusiness" class="cont_flnw" (click)="classbook('business')" [ngClass]="{
+                              actives: buscheck
+                            }">
+                              Business Class
+                              <input
+                                formControlName="tripclass"
+                                type="radio"
+                                value="Business Class"
+                                name="tripclass"
+                              />
+                              <span id="spanBusiness" class="chk_flnw"></span>
+                            </label>
+                            <label id="lbFirst" class="cont_flnw optFrst" (click)="classbook('first')" [ngClass]="{
+                              actives: fircheck
+                            }">
+                              First Class
+                              <input
+                                type="radio"
+                                formControlName="tripclass"
+                                value="First Class"
+                                name="tripclass"
+                              />
+                              <span id="spanFirst" class="chk_flnw"></span>
+                            </label>
+                            <label id="lbpEconomy" class="cont_flnw" (click)="classbook('premium')" [ngClass]="{
+                              actives: precheck
+                            }">
+                              Premium Economy
+                              <input
+                                formControlName="tripclass"
+                                type="radio"
+                                value="Premium Economy"
+                                name="tripclass"
+                              />
+                              <span id="spanpEconomy" class="chk_flnw"></span>
+                            </label>
+                          </div>
+                          <div class="clr"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="validation-name">
+                  <label class="frm_llbs">
+                    <svg
+                      id="flight_1_"
+                      data-name="flight (1)"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24.352 20.871"
+                    >
+                      <path
+                        id="XMLID_1124_"
+                        d="M23.4,26.87a.87.87,0,0,1-.87.87H6.87a.87.87,0,0,1,0-1.74H22.526A.87.87,0,0,1,23.4,26.87Z"
+                        transform="translate(-2.521 -6.869)"
+                        fill="#3686ff"
+                      ></path>
+
+                      <path
+                        id="XMLID_1126_"
+                        d="M25.842,6.874l0-.007A3.77,3.77,0,0,0,20.776,5.48L17.184,7.488,11.665,4.453a3.633,3.633,0,0,0-3.672.1l-2.1,1.317a.87.87,0,0,0-.154,1.353L10.008,11.5,8.129,12.55,5.962,11.1A.869.869,0,0,0,5,11.1l-2.609,1.74a.871.871,0,0,0-.187,1.28l2.474,2.968a4.759,4.759,0,0,0,5.574,1.293l13.877-6.2A3.75,3.75,0,0,0,25.842,6.874ZM23.418,10.6,9.539,16.8a3.012,3.012,0,0,1-3.529-.818L4.157,13.755l1.322-.881,2.127,1.418a.873.873,0,0,0,.907.036l3.348-1.871a.871.871,0,0,0,.19-1.374L7.737,6.768l1.178-.737a1.9,1.9,0,0,1,1.912-.054l5.52,3.036a1.73,1.73,0,0,0,1.686-.006L21.622,7a2.019,2.019,0,0,1,2.713.746l0,.005a2.007,2.007,0,0,1-.921,2.849Z"
+                        transform="translate(-2 -4.004)"
+                        fill="#3686ff"
+                      ></path>
+                    </svg>
+                  </label>
+
+                  <input
+                    type="text"
+                    placeholder="Departing from?"
+                    #input1
+                    aria-label="Number"
+                    matInput
+                    formControlName="departfrom"
+                    (keyup)="filterData($event.target.value, input1)"
+                    [matAutocomplete]="auto"
+                  />
+                  <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option
+                      *ngFor="let items of filteredData"
+                      [value]="items.name"
+                    >
+                      {{ items.name }}
+                    </mat-option>
+                  </mat-autocomplete>
+                </div>
+                <span class="error" *ngIf="myForm.get('departfrom').invalid && myForm.get('departfrom').touched">Departing from? is required.</span>
+              </div>
+                
+
+                <div class="form-group" *ngIf="filteredData2">
+                  <div class="validation-name">
+                  <label class="frm_llbs"
+                    ><svg
+                      id="flight_2_"
+                      data-name="flight (2)"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 21.494 21.762"
+                    >
+                      <path
+                        id="Path_3948"
+                        data-name="Path 3948"
+                        d="M22.74,26.837a.837.837,0,0,1-.837.837H6.837a.837.837,0,1,1,0-1.674H21.9A.837.837,0,0,1,22.74,26.837Z"
+                        transform="translate(-3.581 -5.912)"
+                        fill="#3686ff"
+                      ></path>
+
+                      <path
+                        id="XMLID_1297_"
+                        d="M21.987,11.885l-3.811-1.077-1.69-5.82a3.5,3.5,0,0,0-2.569-2.429l-2.329-.537a.837.837,0,0,0-1.024.816V8.654L8.571,8.089,8.078,5.632a.837.837,0,0,0-.656-.656l-2.96-.592a.838.838,0,0,0-1,.745l-.336,3.7A4.578,4.578,0,0,0,6.042,13.5L19.7,18.73a3.611,3.611,0,0,0,4.784-2.449l0-.008A3.629,3.629,0,0,0,21.987,11.885Zm.88,3.965v.006A1.932,1.932,0,0,1,20.3,17.167L6.64,11.94A2.9,2.9,0,0,1,4.8,8.982l.252-2.775,1.5.3.482,2.412a.84.84,0,0,0,.593.641l3.551,1a.837.837,0,0,0,1.065-.805V3.889l1.3.3a1.824,1.824,0,0,1,1.338,1.265l1.69,5.821a1.668,1.668,0,0,0,1.152,1.143L21.529,13.5A1.942,1.942,0,0,1,22.866,15.85Z"
+                        transform="translate(-3.11 -2)"
+                        fill="#3686ff"
+                      ></path>
+                    </svg>
+                  </label>
+
+                  <!-- <input
+                    type="text"
+                    placeholder="Where to?"
+                    aria-label="Number"
+                    matInput
+                    formControlName="whereto"
+                    (keyup)="filterDataw($event.target.value)"
+                    [matAutocomplete]="auto"
+                  />
+                  <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option
+                      *ngFor="let items of filteredData2"
+                      [value]="items.name"
+                    >
+                      {{ items.name }}
+                    </mat-option>
+                  </mat-autocomplete> -->
+
+                  <input
+                    id="secondInput"
+                    type="text"
+                    placeholder="Where to?"
+                    aria-label="Number"
+                    matInput
+                    #input2
+                    formControlName="whereto"
+                    (keyup)="filterDataw($event.target.value)"
+                    [matAutocomplete]="auto1"
+                  />
+                  <mat-autocomplete #auto1="matAutocomplete">
+                    <mat-option
+                      *ngFor="let items of filteredData2"
+                      [value]="items.name"
+                    >
+                      {{ items.name }}
+                    </mat-option>
+                  </mat-autocomplete>
+                </div>
+
+                  <span class="error" *ngIf="matchvv">Depart and Where to can't be same.</span>
+
+                </div>
+
+                <div class="form-group depart-return">
+                  <mat-form-field appearance="fill" class="my-mat-form-field depart">
+                    <label _ngcontent-rwx-c134="" class="frm_llbs"><svg xmlns="http://www.w3.org/2000/svg" width="16.698" height="16.679" viewBox="0 0 16.698 16.679">
+                      <path id="calendar" d="M15.7,3.531H14.635V2.891a.641.641,0,0,0-1.281,0v.641H7.8V2.891a.641.641,0,0,0-1.281,0v.641H5.45a2.89,2.89,0,0,0-3.2,3.2v8.97a2.89,2.89,0,0,0,3.2,3.2H15.7a2.89,2.89,0,0,0,3.2-3.2V6.735a2.89,2.89,0,0,0-3.2-3.2ZM5.45,4.813H6.518v.641a.641.641,0,0,0,1.281,0V4.813h5.553v.641a.641.641,0,0,0,1.281,0V4.813H15.7c1.347,0,1.922.575,1.922,1.922v.641H3.528V6.735C3.528,5.388,4.1,4.813,5.45,4.813ZM15.7,17.628H5.45c-1.347,0-1.922-.575-1.922-1.922V8.657h14.1v7.048C17.625,17.053,17.05,17.628,15.7,17.628ZM8.031,11.434a.854.854,0,1,1-.863-.854h.009A.854.854,0,0,1,8.031,11.434Zm3.417,0a.854.854,0,1,1-.863-.854h.009A.854.854,0,0,1,11.448,11.434Zm3.417,0A.854.854,0,1,1,14,10.58h.009A.854.854,0,0,1,14.865,11.434ZM8.031,14.851A.854.854,0,1,1,7.168,14h.009A.854.854,0,0,1,8.031,14.851Zm3.417,0A.854.854,0,1,1,10.585,14h.009A.854.854,0,0,1,11.448,14.851Zm3.417,0A.854.854,0,1,1,14,14h.009A.854.854,0,0,1,14.865,14.851Z" transform="translate(-2.227 -2.25)" fill="#3686ff"></path>
+                    </svg></label>
+                    <input
+                      id="thirdInput"
+                      matInput
+                      [matDatepicker]="picker1"
+                      [min]="minDate"
+                      (click)="picker1.open()"
+                      (dateChange)="openEndPicker($event)"
+                      placeholder="Depart*"
+                      formControlName="rounddate"
+                    />
+                    <mat-datepicker #picker1></mat-datepicker>
+                  </mat-form-field>
+                </div>
+
+                <div class="form-group depart-return">
+                  <div>
+                  <mat-form-field appearance="fill" class="depart my-mat-form-field depart">
+                    <label _ngcontent-rwx-c134="" class="frm_llbs">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16.698" height="16.679" viewBox="0 0 16.698 16.679">
+                       <path id="calendar" d="M15.7,3.531H14.635V2.891a.641.641,0,0,0-1.281,0v.641H7.8V2.891a.641.641,0,0,0-1.281,0v.641H5.45a2.89,2.89,0,0,0-3.2,3.2v8.97a2.89,2.89,0,0,0,3.2,3.2H15.7a2.89,2.89,0,0,0,3.2-3.2V6.735a2.89,2.89,0,0,0-3.2-3.2ZM5.45,4.813H6.518v.641a.641.641,0,0,0,1.281,0V4.813h5.553v.641a.641.641,0,0,0,1.281,0V4.813H15.7c1.347,0,1.922.575,1.922,1.922v.641H3.528V6.735C3.528,5.388,4.1,4.813,5.45,4.813ZM15.7,17.628H5.45c-1.347,0-1.922-.575-1.922-1.922V8.657h14.1v7.048C17.625,17.053,17.05,17.628,15.7,17.628ZM8.031,11.434a.854.854,0,1,1-.863-.854h.009A.854.854,0,0,1,8.031,11.434Zm3.417,0a.854.854,0,1,1-.863-.854h.009A.854.854,0,0,1,11.448,11.434Zm3.417,0A.854.854,0,1,1,14,10.58h.009A.854.854,0,0,1,14.865,11.434ZM8.031,14.851A.854.854,0,1,1,7.168,14h.009A.854.854,0,0,1,8.031,14.851Zm3.417,0A.854.854,0,1,1,10.585,14h.009A.854.854,0,0,1,11.448,14.851Zm3.417,0A.854.854,0,1,1,14,14h.009A.854.854,0,0,1,14.865,14.851Z" transform="translate(-2.227 -2.25)" fill="#3686ff"></path>
+                      </svg>
+                    </label>
+                    <input
+                    matInput
+                    [disabled]="this.myForm.get('tripchoice').value === 'One Way'"
+                    [matDatepicker]="picker2"
+                    (click)="picker2.open()"
+                    placeholder="Return*"
+                    [min]="minDate1"
+                    formControlName="onedate"
+                  />
+                  <mat-datepicker #picker2></mat-datepicker>
+                  </mat-form-field>
+                 </div>
+                </div>
+
+                <button type="submit" [disabled]="!myForm.valid" name="submit" [ngClass]="{
+                  disabled: !myForm.valid
+                }" class="mainsearch">
+                  Search
+                </button>
+                <!-- <button (click)="sendEmail()">Send Email</button> -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- .tab_container -->
+    </div>
+  </div>
+</section>
+
+<section class="margin-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="why-book">
+          <div class="deal-txt">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="49.526"
+              height="49.526"
+              viewBox="0 0 49.526 49.526"
+            >
+              <g id="XMLID_158_" opacity="0.78">
+                <path
+                  id="XMLID_341_"
+                  d="M44.551,14.624h-.158V4.125A4.13,4.13,0,0,0,40.268,0H29.922A4.13,4.13,0,0,0,25.8,4.125v10.5h-.228A4.98,4.98,0,0,0,20.594,19.6v8.744H18.8V26.456a2.663,2.663,0,0,0-2.66-2.66H10.4a2.663,2.663,0,0,0-2.66,2.66v1.886H4.4a4.406,4.406,0,0,0-4.4,4.4V45.125a4.406,4.406,0,0,0,4.4,4.4H22.135a4.384,4.384,0,0,0,3.024-1.208A2.92,2.92,0,0,0,30.444,46.6v-1h9.232v1a2.921,2.921,0,1,0,5.843,0V45.511a4.983,4.983,0,0,0,4.008-4.88V19.6A4.98,4.98,0,0,0,44.551,14.624ZM29.922,1.935H40.268a2.193,2.193,0,0,1,2.191,2.191v.663H27.731V4.125a2.193,2.193,0,0,1,2.191-2.191ZM27.731,6.723H42.459v7.9H27.731ZM9.673,30.277h7.19V47.591H9.673Zm0-3.821a.726.726,0,0,1,.725-.725h5.739a.726.726,0,0,1,.725.725v1.886H9.673ZM1.935,45.125V32.743a2.47,2.47,0,0,1,1.935-2.408v17.2A2.47,2.47,0,0,1,1.935,45.125ZM5.8,47.591V30.277H7.738V47.591Zm12.994,0V30.277h1.935V47.591Zm3.869-.058v-17.2A2.47,2.47,0,0,1,24.6,32.743V45.125A2.47,2.47,0,0,1,22.667,47.533Zm5.843-.928a.987.987,0,0,1-1.973,0v-1h1.973Zm15.075,0a.987.987,0,1,1-1.973,0v-1h1.973Zm4.007-5.974a3.044,3.044,0,0,1-3.04,3.04H26.536V32.743a4.407,4.407,0,0,0-4.008-4.383V19.6a3.044,3.044,0,0,1,3.04-3.04H44.551a3.044,3.044,0,0,1,3.04,3.04Z"
+                  transform="translate(0 0)"
+                  fill="#3686ff"
+                ></path>
+
+                <path
+                  id="XMLID_393_"
+                  d="M315.041,285.967a3.3,3.3,0,0,0-4.672,0,3.3,3.3,0,1,0-4.672,4.672l4.149,4.149a.739.739,0,0,0,1.045,0l4.149-4.149A3.3,3.3,0,0,0,315.041,285.967Z"
+                  transform="translate(-275.253 -257.432)"
+                  fill="#3686ff"
+                ></path>
+
+                <path
+                  id="XMLID_397_"
+                  d="M77.23,65.207a1.7,1.7,0,0,0,2.4,0l4.092-4.092a4.226,4.226,0,0,0-5.292-6.531,4.226,4.226,0,0,0-5.291,6.531Zm-2.724-8.7a2.29,2.29,0,0,1,3.239,0,.967.967,0,0,0,1.368,0,2.291,2.291,0,0,1,3.239,3.239l-3.923,3.923-3.923-3.923a2.29,2.29,0,0,1,0-3.239Z"
+                  transform="translate(-64.945 -48.688)"
+                  fill="#3686ff"
+                ></path>
+
+                <path
+                  id="XMLID_398_"
+                  d="M276.685,216.731h16.4v2.251h-16.4Z"
+                  transform="translate(-249.921 -195.767)"
+                  fill="#3686ff"
+                ></path>
+              </g>
+            </svg>
+          </div>
+
+          <div class="deal-txt">
+            <h6>Easy Booking</h6>
+
+            <p>
+              Within a few taps, you’d be able to perform seamless bookings.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="why-book">
+          <div class="deal-txt">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="49.688"
+              height="49.688"
+              viewBox="0 0 49.688 49.688"
+            >
+              <g
+                id="location_1_"
+                data-name="location (1)"
+                transform="translate(0 0)"
+                opacity="0.78"
+              >
+                <path
+                  id="Path_7"
+                  data-name="Path 7"
+                  d="M49.641,48.7,42.363,29.529a.728.728,0,0,0-.323-.376l-7.753-4.368L36.55,21.2a13.83,13.83,0,1,0-23.411,0L15.4,24.786,7.65,29.154a.728.728,0,0,0-.323.376L.048,48.7a.728.728,0,0,0,1.038.893L12.786,43l11.7,6.592a.728.728,0,0,0,.715,0L36.9,43,48.6,49.6a.728.728,0,0,0,1.038-.893ZM25.572,37.725a2.177,2.177,0,0,0,1.118-.894l6.233-9.883L36.08,41.8l-10.507,5.92Zm-11.2-17.3a12.373,12.373,0,1,1,20.948,0c-.1.154-9.688,15.363-9.855,15.625l0,.007a.727.727,0,0,1-1.232,0c-.1-.154-9.707-15.393-9.854-15.627l0-.005ZM8.594,30.292l6.785-3.822L14.2,32.031a.728.728,0,1,0,1.424.3l1.145-5.386L23,36.832a2.186,2.186,0,0,0,1.119.892v9.992L13.609,41.8l1.406-6.615a.728.728,0,1,0-1.424-.3L12.143,41.7,2.122,47.341ZM37.546,41.7,34.311,26.47,41.1,30.292l6.472,17.048Z"
+                  transform="translate(0 -0.001)"
+                  fill="#3686ff"
+                ></path>
+
+                <path
+                  id="Path_8"
+                  data-name="Path 8"
+                  d="M189.514,68.006a8.006,8.006,0,1,0-8.006,8.006A8.016,8.016,0,0,0,189.514,68.006Zm-14.557,0a6.551,6.551,0,1,1,6.551,6.551A6.558,6.558,0,0,1,174.957,68.006Z"
+                  transform="translate(-156.663 -54.177)"
+                  fill="#3686ff"
+                ></path>
+
+                <path
+                  id="Path_9"
+                  data-name="Path 9"
+                  d="M213.691,95.1a5.1,5.1,0,1,0-5.1,5.095A5.1,5.1,0,0,0,213.691,95.1Zm-8.734,0a3.639,3.639,0,1,1,3.639,3.639A3.643,3.643,0,0,1,204.957,95.1Z"
+                  transform="translate(-183.752 -81.266)"
+                  fill="#3686ff"
+                ></path>
+              </g>
+            </svg>
+          </div>
+
+          <div class="deal-txt">
+            <h6>Exciting Deals</h6>
+
+            <p>
+              Stay tuned to come across regular deals that you just cannot
+              resist!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="why-book">
+          <div class="deal-txt">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="45.523"
+              height="49.595"
+              viewBox="0 0 45.523 49.595"
+            >
+              <g id="budget" transform="translate(0.05 0.056)" opacity="0.78">
+                <path
+                  id="_x31_6"
+                  d="M34.558,14.864a.778.778,0,0,1-1.556,0V2.262a2.292,2.292,0,0,1,.668-1.6h.011a2.226,2.226,0,0,1,1.6-.668H53.166a.771.771,0,0,1,.767.778.762.762,0,0,1-.767.767H35.282a.721.721,0,0,0-.515.219.7.7,0,0,0-.208.5v12.6ZM66.152,9.845a.773.773,0,0,1,1.545,0V47.2a2.282,2.282,0,0,1-2.269,2.279H35.282a2.271,2.271,0,0,1-1.6-.668h-.011V48.8A2.271,2.271,0,0,1,33,47.2v-.866a.778.778,0,0,1,1.556,0V47.2a.709.709,0,0,0,.208.515.72.72,0,0,0,.515.219H65.43a.748.748,0,0,0,.723-.734V9.845Z"
+                  transform="translate(-22.274 0.007)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_5"
+                  d="M7.838,43.7H23.016a2.588,2.588,0,0,1,2.575,2.586V68.448a2.588,2.588,0,0,1-2.575,2.586H7.838a2.6,2.6,0,0,1-2.586-2.586V46.29A2.591,2.591,0,0,1,7.838,43.7ZM23.016,45.26H7.838A1.038,1.038,0,0,0,6.8,46.29V68.448a1.04,1.04,0,0,0,1.041,1.041H23.016a1.039,1.039,0,0,0,1.03-1.041V46.29A1.029,1.029,0,0,0,23.016,45.26Z"
+                  transform="translate(-5.252 -26.806)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_4"
+                  d="M15.867,52.661H27.045a.772.772,0,0,1,.778.767v4.493a.772.772,0,0,1-.778.767H15.867a.772.772,0,0,1-.778-.767V53.428A.771.771,0,0,1,15.867,52.661Zm10.411,1.545H16.645v2.937h9.633Z"
+                  transform="translate(-11.286 -32.3)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_3"
+                  d="M15.867,72.815h4.022a.762.762,0,0,1,.767.767v3.945a.762.762,0,0,1-.767.767H15.867a.771.771,0,0,1-.778-.767V73.582A.771.771,0,0,1,15.867,72.815Zm3.244,1.546H16.645V76.75H19.11Z"
+                  transform="translate(-11.286 -44.662)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_2"
+                  d="M34.4,72.815h4.011a.772.772,0,0,1,.778.767v3.945a.771.771,0,0,1-.778.767H34.4a.771.771,0,0,1-.778-.767V73.582A.772.772,0,0,1,34.4,72.815Zm3.244,1.546H35.172V76.75h2.477Z"
+                  transform="translate(-22.657 -44.662)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_1"
+                  d="M15.867,91.439h4.022a.762.762,0,0,1,.767.767v3.945a.762.762,0,0,1-.767.767H15.867a.772.772,0,0,1-.778-.767V92.206A.771.771,0,0,1,15.867,91.439Zm3.244,1.545H16.645v2.389H19.11Z"
+                  transform="translate(-11.286 -56.087)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_0"
+                  d="M34.4,91.439h4.011a.772.772,0,0,1,.778.767v3.945a.772.772,0,0,1-.778.767H34.4a.772.772,0,0,1-.778-.767V92.206A.772.772,0,0,1,34.4,91.439Zm3.244,1.545H35.172v2.389h2.477Z"
+                  transform="translate(-22.657 -56.087)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x39_"
+                  d="M83.544,75.809a.763.763,0,0,1,1.063-.219.775.775,0,0,1,.208,1.074L76.783,88.685a.766.766,0,0,1-1.271-.855Z"
+                  transform="translate(-48.268 -46.287)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x38_"
+                  d="M71.356,77.011a2.806,2.806,0,0,1,2.794,2.795v.23a2.8,2.8,0,0,1-5.6,0v-.23A2.8,2.8,0,0,1,71.356,77.011Zm0,1.545a1.258,1.258,0,0,0-1.26,1.249v.23a1.255,1.255,0,0,0,2.509,0v-.23A1.249,1.249,0,0,0,71.356,78.556Z"
+                  transform="translate(-44.079 -47.236)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x37_"
+                  d="M95.268,93.934a2.818,2.818,0,0,1,2.806,2.806v.23a2.8,2.8,0,0,1-5.6,0v-.23A2.816,2.816,0,0,1,95.268,93.934Zm0,1.556a1.249,1.249,0,0,0-1.249,1.249v.23a1.255,1.255,0,0,0,2.509,0v-.23A1.258,1.258,0,0,0,95.268,95.49Z"
+                  transform="translate(-58.754 -57.617)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x36_"
+                  d="M75.423,43.755l.274,3.781a.8.8,0,0,1-.307.668L73.44,49.87a.766.766,0,0,1-1.085-.088.429.429,0,0,1-.109-.165l-1.469-2.882a.777.777,0,0,1,.23-.964l3.156-2.564c.822-.657,1.249.2,1.26.548ZM74.13,47.262l-.142-1.918-1.545,1.249.745,1.469Z"
+                  transform="translate(-45.397 -26.353)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x35_"
+                  d="M62.958,37.632,61.04,37.5l-.811.943,1.469.745Zm-2.2-1.7,3.781.263c.219.011,1.249.406.548,1.26l-2.553,3.156a.779.779,0,0,1-.975.23l-2.882-1.468a.662.662,0,0,1-.164-.1.781.781,0,0,1-.088-1.1l1.666-1.951a.772.772,0,0,1,.668-.3Z"
+                  transform="translate(-37.754 -22.037)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x34_"
+                  d="M81.491.351c1.436-.493,2.816-.526,3.682.34.844.833.789,2.236.3,3.682-.373,1.118-1.83,3.89-2.795,4.559L67.935,20.865a2.135,2.135,0,0,1-2.915-2.981L76.965,3.135A13,13,0,0,1,81.491.351Zm.5,1.458a11.5,11.5,0,0,0-3.879,2.356L66.225,18.849c-.153.2.022.471.164.614s.395.307.592.2L81.7,7.737A11.334,11.334,0,0,0,84.01,3.88c.318-.931.416-1.753.066-2.1S82.9,1.5,81.995,1.809Z"
+                  transform="translate(-41.667 0)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x33_"
+                  d="M58.2,6.726l10.992,3.408a.783.783,0,0,1,.515.965.979.979,0,0,1-.164.3L66.1,15.57a.765.765,0,0,1-1.008.153L55.134,9.334a.767.767,0,0,1-.241-1.063.874.874,0,0,1,.3-.274l.055-.022,2.323-1.205a.808.808,0,0,1,.636-.044Zm9.446,4.548L57.995,8.282l-.91.471,8.263,5.3Z"
+                  transform="translate(-35.628 -4.095)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x32_"
+                  d="M96.713,37.809l-2.981-9.644-2.794,2.291,5.3,8.273ZM94.861,26.62l3.408,10.992a.806.806,0,0,1-.033.636L97,40.625a.74.74,0,0,1-1.337.055l-6.388-9.962a.764.764,0,0,1,.164-1.008l4.175-3.441a.768.768,0,0,1,1.249.35Z"
+                  transform="translate(-56.714 -15.99)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+
+                <path
+                  id="_x31_"
+                  d="M105.609,9.785a.778.778,0,0,1-.515-.964.767.767,0,0,1,.954-.515,2.667,2.667,0,0,1,.406.165,1.979,1.979,0,0,1,.373.241,2.328,2.328,0,0,1,.559.68.774.774,0,0,1-.318,1.041.764.764,0,0,1-1.041-.318c-.022-.033-.044-.066-.077-.109l-.1-.1a.567.567,0,0,0-.109-.066A.678.678,0,0,0,105.609,9.785Z"
+                  transform="translate(-66.476 -5.072)"
+                  fill="#3686ff"
+                  stroke="#fff"
+                  stroke-width="0.1"
+                ></path>
+              </g>
+            </svg>
+          </div>
+
+          <div class="deal-txt">
+            <h6>Best Price</h6>
+
+            <p>Find prices better than all other websites.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="why-book">
+          <div class="deal-txt">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="51.546"
+              height="51.272"
+              viewBox="0 0 51.546 51.272"
+            >
+              <g id="destination" transform="translate(0.3 0.3)" opacity="0.78">
+                <g
+                  id="Group_10"
+                  data-name="Group 10"
+                  transform="translate(0 0)"
+                >
+                  <path
+                    id="Path_10"
+                    data-name="Path 10"
+                    d="M67.545,66.732a4.717,4.717,0,1,0-4.717,4.717A4.723,4.723,0,0,0,67.545,66.732Zm-4.717,1.736a1.735,1.735,0,1,1,1.735-1.736A1.737,1.737,0,0,1,62.827,68.468Z"
+                    transform="translate(-52.266 -55.915)"
+                    fill="#3686ff"
+                    stroke="#fff"
+                    stroke-width="0.6"
+                  ></path>
+
+                  <path
+                    id="Path_11"
+                    data-name="Path 11"
+                    d="M50.944,26.129a1.491,1.491,0,0,0-.936-1.324L34.16,18.466a1.491,1.491,0,0,0-2.045,1.384V41.716a5.284,5.284,0,0,0-3.65,3.909H7.378a2.883,2.883,0,1,1,0-5.766H20.868a5.563,5.563,0,1,0,0-11.126H13.19L19.6,18.009a11.722,11.722,0,0,0,1.662-6.015A10.633,10.633,0,0,0,0,11.994v.038a11.727,11.727,0,0,0,1.62,5.946l7.656,13a1.5,1.5,0,0,0,1.28.734H20.868a2.581,2.581,0,1,1,0,5.162H7.378a5.865,5.865,0,1,0,0,11.729H28.672a5.266,5.266,0,1,0,6.426-6.89V34.98l15.019-7.455a1.491,1.491,0,0,0,.827-1.4ZM4.19,16.465a8.744,8.744,0,0,1-1.208-4.433v-.038a7.651,7.651,0,1,1,15.3,0,8.74,8.74,0,0,1-1.239,4.485L10.571,27.3Zm31.7,30.3A2.284,2.284,0,1,1,33.6,44.482h.01A2.287,2.287,0,0,1,35.89,46.766ZM35.1,31.651v-9.6l10.708,4.283Z"
+                    transform="translate(0 -1.361)"
+                    fill="#3686ff"
+                    stroke="#fff"
+                    stroke-width="0.6"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+
+          <div class="deal-txt">
+            <h6>24*7 Support</h6>
+            <p>
+              Our team is available to assist you 24*7*365, so why go anywhere
+              else?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="explore-destination">
+  <div class="container siema-container">
+    <div class="spricufly-title">
+      <h3>Explore Top Destinations</h3>
+
+      <p>Great Opportunities To Travel | Take A Holiday | Enjoy Yourself</p>
+    </div>
+
+    <div
+      class="siemaOne policy-product"
+      style="overflow: hidden; direction: ltr; cursor: -webkit-grab"
+    >
+
+
+      <owl-carousel-o [options]="customOptions">
+   
+        <ng-container *ngFor="let slide of slides">
+          <ng-template carouselSlide [id]="slide.id">
+            <!-- <img [src]="slide.img" > -->
+            
+              <div class="slide-destination">
+              <img [src]="slide.img" > 
+
+              <div class="destination-txt">
+
+                  <h4>{{slide.title}}</h4>
+
+                  <p>{{slide.subtitle}}</p>
+
+              
+
+          </div></div>
+          </ng-template>
+        </ng-container>
+           
+        </owl-carousel-o>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="popular-air popular">
+  <div class="container">
+    <div class="siema-container">
+      <div class="spricufly-title">
+        <h3>Popular Airlines Deals</h3>
+      </div>
+
+      <owl-carousel-o [options]="popularAirline">
+          <ng-template carouselSlide>
+            <div class="slide-ww">
+
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                  <div class="deal">
+
+                      <div class="deal-icon">
+
+                          <img src="assets/images/ua.jpg" alt="">
+
+                          <p>United Airlines</p>
+
+                      </div>
+
+                      <div class="deal-txt">
+
+                          <h6>July 22 - July 24</h6>
+
+                          <p>SFO <span>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                      <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                          <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                              <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                              </path>
+
+                                          </g>
+
+                                          <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                      </g>
+
+                                  </svg>
+
+                              </span>DXB</p>
+
+
+
+                      </div>
+
+                      <div class="cta-btn" (click)="getUrl()">
+
+                          <a>Book now</a>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                  <div class="deal">
+
+                      <div class="deal-icon">
+
+                          <img src="assets/images/cl.png" alt="">
+
+                          <p>Lufthansa Airlines</p>
+
+                      </div>
+
+                      <div class="deal-txt">
+
+                          <h6>July 22 - July 24</h6>
+
+                          <p>SFO <span>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                      <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                          <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                              <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                              </path>
+
+                                          </g>
+
+                                          <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                      </g>
+
+                                  </svg>
+
+                              </span>DXB</p>
+
+
+
+                      </div>
+
+                      <div class="cta-btn">
+
+                          <a href="">Book now</a>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                  <div class="deal">
+
+                      <div class="deal-icon">
+
+                          <img src="assets/images/tg.png" alt="">
+
+                          <p>Thai Airlines</p>
+
+                      </div>
+
+                      <div class="deal-txt">
+
+                          <h6>July 22 - July 24</h6>
+
+                          <p>SFO <span>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                      <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                          <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                              <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                              </path>
+
+                                          </g>
+
+                                          <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                      </g>
+
+                                  </svg>
+
+                              </span>DXB</p>
+
+
+
+                      </div>
+
+                      <div class="cta-btn">
+
+                          <a href="">Book now</a>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          </ng-template> 
+          <ng-template carouselSlide>
+            
+            <div class="slide-ww">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                <div class="deal">
+
+                    <div class="deal-icon">
+
+                        <img src="assets/images/ac.png" alt="">
+
+                        <p>Air Canada</p>
+
+                    </div>
+
+                    <div class="deal-txt">
+
+                        <h6>July 22 - July 24</h6>
+
+                        <p>SFO <span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                    <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                        <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                            <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                            </path>
+
+                                        </g>
+
+                                        <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                    </g>
+
+                                </svg>
+
+                            </span>DXB</p>
+
+
+
+                    </div>
+
+                    <div class="cta-btn">
+
+                        <a href="">Book now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                <div class="deal">
+
+                    <div class="deal-icon">
+
+                        <img src="assets/images/am.png" alt="">
+
+                        <p>Lufthansa Airlines</p>
+
+                    </div>
+
+                    <div class="deal-txt">
+
+                        <h6>July 22 - July 24</h6>
+
+                        <p>SFO <span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                    <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                        <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                            <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                            </path>
+
+                                        </g>
+
+                                        <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                    </g>
+
+                                </svg>
+
+                            </span>DXB</p>
+
+
+
+                    </div>
+
+                    <div class="cta-btn">
+
+                        <a href="">Book now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                <div class="deal">
+
+                    <div class="deal-icon">
+
+                        <img src="assets/images/ek.png" alt="">
+
+                        <p>Thai Airlines</p>
+
+                    </div>
+
+                    <div class="deal-txt">
+
+                        <h6>July 22 - July 24</h6>
+
+                        <p>SFO <span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                    <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                        <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                            <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                            </path>
+
+                                        </g>
+
+                                        <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                    </g>
+
+                                </svg>
+
+                            </span>DXB</p>
+
+
+
+                    </div>
+
+                    <div class="cta-btn">
+
+                        <a href="">Book now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div></ng-template> 
+          <ng-template carouselSlide>
+            
+              <div class="slide-ww">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                <div class="deal">
+
+                    <div class="deal-icon">
+
+                        <img src="assets/images/ua.jpg" alt="">
+
+                        <p>United Airlines</p>
+
+                    </div>
+
+                    <div class="deal-txt">
+
+                        <h6>July 22 - July 24</h6>
+
+                        <p>SFO <span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                    <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                        <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                            <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                            </path>
+
+                                        </g>
+
+                                        <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                    </g>
+
+                                </svg>
+
+                            </span>DXB</p>
+
+
+
+                    </div>
+
+                    <div class="cta-btn">
+
+                        <a href="">Book now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                <div class="deal">
+
+                    <div class="deal-icon">
+
+                        <img src="assets/images/ua.jpg" alt="">
+
+                        <p>United Airlines</p>
+
+                    </div>
+
+                    <div class="deal-txt">
+
+                        <h6>July 22 - July 24</h6>
+
+                        <p>SFO <span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                    <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                        <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                            <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                            </path>
+
+                                        </g>
+
+                                        <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                    </g>
+
+                                </svg>
+
+                            </span>DXB</p>
+
+
+
+                    </div>
+
+                    <div class="cta-btn">
+
+                        <a href="">Book now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                <div class="deal">
+
+                    <div class="deal-icon">
+
+                        <img src="assets/images/ua.jpg" alt="">
+
+                        <p>United Airlines</p>
+
+                    </div>
+
+                    <div class="deal-txt">
+
+                        <h6>July 22 - July 24</h6>
+
+                        <p>SFO <span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                    <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                        <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                            <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                            </path>
+
+                                        </g>
+
+                                        <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                    </g>
+
+                                </svg>
+
+                            </span>DXB</p>
+
+                    </div>
+
+                    <div class="cta-btn">
+
+                        <a href="">Book now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+      </ng-template>
+          <ng-template carouselSlide>
+            <div class="slide-ww">
+
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                  <div class="deal">
+
+                      <div class="deal-icon">
+
+                          <img src="assets/images/ua.jpg" alt="">
+
+                          <p>United Airlines</p>
+
+                      </div>
+
+                      <div class="deal-txt">
+
+                          <h6>July 22 - July 24</h6>
+
+                          <p>SFO <span>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                      <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                          <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                              <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                              </path>
+
+                                          </g>
+
+                                          <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                      </g>
+
+                                  </svg>
+
+                              </span>DXB</p>
+
+
+
+                      </div>
+
+                      <div class="cta-btn">
+
+                          <a href="">Book now</a>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                  <div class="deal">
+
+                      <div class="deal-icon">
+
+                          <img src="assets/images/ua.jpg" alt="">
+
+                          <p>United Airlines</p>
+
+                      </div>
+
+                      <div class="deal-txt">
+
+                          <h6>July 22 - July 24</h6>
+
+                          <p>SFO <span>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                      <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                          <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                              <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                              </path>
+
+                                          </g>
+
+                                          <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                      </g>
+
+                                  </svg>
+
+                              </span>DXB</p>
+
+
+
+                      </div>
+
+                      <div class="cta-btn">
+
+                          <a href="">Book now</a>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                  <div class="deal">
+
+                      <div class="deal-icon">
+
+                          <img src="assets/images/ua.jpg" alt="">
+
+                          <p>United Airlines</p>
+
+                      </div>
+
+                      <div class="deal-txt">
+
+                          <h6>July 22 - July 24</h6>
+
+                          <p>SFO <span>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="29.638" height="22.146" viewBox="0 0 29.638 22.146">
+
+                                      <g id="Group_25" data-name="Group 25" transform="translate(-530.821 -1534.01)">
+
+                                          <g id="PLANE_FLYING_UP_1" data-name="PLANE FLYING UP 1" transform="translate(530.821 1534.01)">
+
+                                              <path id="plane" d="M558.166,1536.682a3.934,3.934,0,0,0-2.475.235l-6.062,2.826a.806.806,0,0,0-.151-.1l-11.071-5.481a1.481,1.481,0,0,0-1.291-.015l-1.743.813a1.489,1.489,0,0,0-.455,2.371l6.047,6.45-3.553,1.657-3.691-1.776a1.483,1.483,0,0,0-1.275-.008l-.766.357a1.489,1.489,0,0,0-.834,1.073,1.47,1.47,0,0,0,.11.9,1.524,1.524,0,0,0,.193.309c.027.034.055.067.084.1l1,.974,4.433,4.644a.877.877,0,0,0,.95.137L558.3,1542.5a3.938,3.938,0,0,0,1.771-1.745,2.676,2.676,0,0,0-1.9-4.077Zm-.55,4.362-12.71,5.927-7.437,3.468-4.953-5.036.56-.261,4.327,2.082,6.26-2.919-7.455-7.952,1.538-.717,11.829,5.912,6.8-3.17c.775-.361,2.076-.181,2.4.506S558.39,1540.683,557.615,1541.044Z" transform="translate(-530.821 -1534.01)" fill="#00292b">
+
+                                              </path>
+
+                                          </g>
+
+                                          <path id="ground" d="M566.069,1766.652H544.357a.88.88,0,0,0,0,1.753h21.712a.88.88,0,0,0,0-1.753Z" transform="translate(-11.617 -212.249)" fill="#00292b"></path>
+
+                                      </g>
+
+                                  </svg>
+
+                              </span>DXB</p>
+
+
+
+                      </div>
+
+                      <div class="cta-btn">
+
+                          <a href="">Book now</a>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+          </ng-template> 
+          
+        </owl-carousel-o>
+
+
+    </div>
+  </div>
+</section>
+
+<section class="about-sec">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+        <div class="deal-txt">
+          <div class="heading">
+            <span>About</span>
+
+            <h3>Sprucefare</h3>
+          </div>
+
+          <p>
+            An authorized travel agency with headquarters in the USA, Sprucefare collaborates with 
+            all respectable and significant domestic and international airlines. We specialize in 
+            finding the best airline bargains for our clients, making air travel incredibly reasonable
+             for them.Our team includes some highly qualified professional travel experts who help to 
+             shape the business dynamics. They have assisted us in making connections and negotiating 
+             with all the main domestic and foreign airlines, luxury hotels, rental car agencies, and 
+             tour operators
+          </p>
+
+          <div class="cta-btntop">
+            <a routerLink="/about">Know More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+        <div class="why-book">
+          <img src="assets/images/about-img.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,123 @@
+.booking_confirm .booking-sidebar {
+    width: 70%;
+}
+.itinerary-sec-right {
+    width: 24%;
+    margin-bottom: 40px;
+}
+
+
+.booking_confirm {
+    background: #F2F2F2;
+  }
+  .booking_confirm .itinerary-sec-left {
+    margin: 5px 0;
+  }
+  .booking_confirm .itinerary-sec-left .pop-up-content-wrap {
+    font-size: 18px;
+  }
+  .booking_confirm .flight-details {
+    display: flex;
+  }
+  .booking_confirm .flight-details .depart {
+    width: 100%;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 10px 0 8px 0;
+  }
+  .booking_confirm .flight-details .depart p {
+    font-weight: 500;
+    color: #393939;
+  }
+  .booking_confirm .flight-details table {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .booking_confirm .flight-details table td {
+    background: #fafafa;
+    border-bottom: 10px solid #fff;
+    line-height: 35px;
+  }
+  .booking_confirm .flight-details table td:first-child {
+    padding-left: 15px;
+  }
+  .booking_confirm .flight-details table th {
+    color: #8A8A8A;
+    padding-bottom: 15px;
+    font-weight: 300;
+  }
+  .booking_confirm .booking-sidebar {
+    width: 70%;
+  }
+  .booking_confirm .booking-sidebar .itinerary-sec-left {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .booking_confirm .flight-booking_tc h4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .booking_confirm .flight-booking_tc p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  .booking_confirm .flight-booking_tc p:nth-child(2) {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  .booking_confirm .flight-booking_tc a {
+    color: #3686FF;
+    font-weight: 400;
+  }
+  .booking_confirm p.booking-id {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .accordion.travelers-price-details .accordion-item {
+    border: none;
+}
+
+.accordion-header.spruce-fare {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.accordion-header {
+    margin-bottom: 0;
+}
+
+.accordion.travelers-price-details .accordion-item {
+    border: none;
+}
+
+.accordion-header.spruce-fare {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+.collapse:not(.show) {
+    display: none;
+}
+
+.accordion.travelers-price-details .accordion-body p {
+    font-size: 12px;
+    line-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.flight-left-side {
+    margin-top: 40px;
+}

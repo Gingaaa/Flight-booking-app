@@ -1,0 +1,132 @@
+
+.capitalize {
+  text-transform: capitalize;
+  line-height: 45px;
+}
+.page-wrapper .page-body-wrapper .page-sidebar {
+  width: unset;
+  position: fixed;
+  background: #ffffff;
+  top: 0;
+  height: calc(100vh);
+  z-index: 9;
+  transition: 0.3s;
+}
+.remdec {
+  text-decoration: none;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex  {
+    // border: none;
+    background-color: white;
+    border-bottom-style: hidden;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    width: 130px;
+}
+::ng-deep .mat-form-field-underline {
+    display: none;
+}
+:host ::ng-deep .mat-select-arrow {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+::ng-deep .myPanelClass{
+  margin-top: 25px !important; 
+  margin-bottom: 25px !important; 
+}
+
+
+//    TRAVELERS DROPDOWN 
+
+.dropdown-menu {
+  position: relative;
+}
+
+.dropdown-option {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: lightgray;
+}
+
+.dropdown-option:not(:last-child) {
+  border-bottom: none;
+}
+
+blockquote {
+   border-left: 0px solid #e8ebf2;
+  padding: 0;
+}
+.deal-txt h6{
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.deal-txt p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+// ::ng-deep .mat-form-field-label::placeholder{
+//   color: red;
+// }
+
+// ::ng-deep .mat-form-field-placeholder {
+//   color: red;
+//   font-size: 30px;
+// }
+
+// .my-mat-form-field .mat-form-field-label {
+//   color: red;
+// }
+// .mat-focused .placeholder {
+//   color: #00D318;
+// }
+
+
+.error{
+  color: red;
+  }
+.validation-name{
+  position: relative;
+}
+.actives{
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+// .mainsearch:disabled{
+//  background-color: red;
+// }
+.disabled{
+  background-color: grey;
+}
+
+
+.spricufly-title h3 {
+  font-size: 40px;
+}
+
+.spricufly-title p{
+  font-size: 16px;
+  color:black;
+  letter-spacing:0;
+}
+
+.popular-air .siema-container .spricufly-title h3 {
+  font-size: 30px;
+}
