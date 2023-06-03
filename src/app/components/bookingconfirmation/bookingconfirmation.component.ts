@@ -1,7 +1,7 @@
 import { Component, OnInit, ElementRef, ViewChild  } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
+// import jsPDF from 'jspdf';
 import { Router, NavigationEnd } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 declare var require: any;
@@ -65,11 +65,11 @@ export class BookingconfirmationComponent implements OnInit {
         const height = canvas.height*pageWidht/canvas.height
         // console.log(imageData)
         // initialize the pdf
-        const pdf=new jsPDF("p", "mm", "a4")
+        // const pdf=new jsPDF("p", "mm", "a4")
         // add the image into pdf
         // pdf.addImage(imageData,'PNG', 0, 0,)
-        pdf.addImage(imageData,'PNG',0,0,pageWidht,height);
-        pdf.save('invoice.pdf')
+        // pdf.addImage(imageData,'PNG',0,0,pageWidht,height);
+        // pdf.save('invoice.pdf')
       })
     }
 
